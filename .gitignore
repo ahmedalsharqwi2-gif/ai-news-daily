@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+.voice_cache/
+.work/
+state/api_budget.sqlite3*
+output/
