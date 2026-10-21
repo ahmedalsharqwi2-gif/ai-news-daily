@@ -42,7 +42,7 @@ jobs:
         PY'
     - name: Install and preserve the tested photographic renderer
       run: "git clone --no-checkout https://github.com/ahmedalsharqwi2-gif/science-discovery-shorts.git /tmp/ai-photo-source\n\
-        git -C /tmp/ai-photo-source checkout 0b9c1739bc20f417351150128ef3bea7af4dc7e7\nfor item in news/images.py news/photo_render.py\
+        git -C /tmp/ai-photo-source checkout ea01d351cb7126c4b6f04b3c8206a92b45f75651\nfor item in news/images.py news/photo_render.py\
         \ news/produce.py tests/test_images.py news/editor.py tests/test_punchline.py README.md; do\n  cp \"/tmp/ai-photo-source/$item\"\
         \ \"$item\"\ndone\npython -m pip install requests beautifulsoup4 Pillow numpy\npython -m compileall -q news voice_provider\n\
         python -m unittest discover -s tests -v\ngit config user.name 'github-actions[bot]'\ngit config user.email '41898282+github-actions[bot]@users.noreply.github.com'\n\
@@ -74,7 +74,9 @@ jobs:
 
           output/timing.json'
         key: ai-news-photo-checkpoint-${{ github.run_id }}-${{ github.run_attempt }}
-        restore-keys: ai-news-photo-checkpoint-${{ github.run_id }}-
+        restore-keys: |
+          ai-news-photo-checkpoint-${{ github.run_id }}-
+          ai-news-photo-checkpoint-
     - name: Verify Cloudflare image generation before editorial production
       run: "python - <<'PY'\nimport os,hashlib\nfrom pathlib import Path\nimport requests\nfrom news.images import decoded_image,MODEL\n\
         p=Path('output/cloudflare-connection.jpg');p.parent.mkdir(exist_ok=True)\nif not p.exists():\n    account=os.environ['CLOUDFLARE_ACCOUNT_ID'].strip()\n\
