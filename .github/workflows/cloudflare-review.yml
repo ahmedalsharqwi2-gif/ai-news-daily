@@ -42,11 +42,11 @@ jobs:
         PY'
     - name: Install and preserve the tested photographic renderer
       run: "git clone --no-checkout https://github.com/ahmedalsharqwi2-gif/science-discovery-shorts.git /tmp/ai-photo-source\n\
-        git -C /tmp/ai-photo-source checkout e1c7188c0c00023ded7a70bfbb0aa11c199f9299\nfor item in news/images.py news/photo_render.py\
+        git -C /tmp/ai-photo-source checkout 933280fd26929eba42e7efce4c11723c5516649d\nfor item in news/images.py news/photo_render.py\
         \ news/produce.py tests/test_images.py news/editor.py tests/test_punchline.py README.md; do\n  cp \"/tmp/ai-photo-source/$item\"\
         \ \"$item\"\ndone\npython -m pip install requests beautifulsoup4 Pillow numpy\npython -m compileall -q news voice_provider\n\
         python -m unittest discover -s tests -v\ngit config user.name 'github-actions[bot]'\ngit config user.email '41898282+github-actions[bot]@users.noreply.github.com'\n\
-        git add news/images.py news/photo_render.py news/produce.py tests/test_images.py README.md\nif ! git diff --cached\
+        git add news/images.py news/photo_render.py news/produce.py tests/test_images.py news/editor.py tests/test_punchline.py README.md\nif ! git diff --cached\
         \ --quiet; then\n  git commit -m 'Generate Cloudflare scene photographs and animate them with Charon narration'\n\
         \  git push origin HEAD:main\nfi"
     - uses: actions/cache/restore@v4
