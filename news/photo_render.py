@@ -1,11 +1,13 @@
 """Photographic scenes with timed motion, labels and measured speech captions."""
 import math
 from PIL import Image,ImageDraw,ImageOps,ImageFilter
+from film_factory.motion import events,draw as semantic_motion
 from news.render import Renderer,W,H,txt,para,CYAN,GOLD,INK,MUTED,BG
 
 class PhotoRenderer(Renderer):
     def __init__(self,plan,timing,images):
         super().__init__(plan,timing)
+        self.motion_events=events(timing["words"],"news")
         if len(images)!=len(timing['scenes']):raise ValueError('Every scene needs its generated image')
         self.photos=[]
         for path in images:
@@ -25,6 +27,7 @@ class PhotoRenderer(Renderer):
         zoom=1.015+.055*(smooth if index%2==0 else 1-smooth)
         cw,ch=W/zoom,H/zoom;cx=594+32*math.sin(index+smooth*1.5);cy=1056+26*math.cos(index+smooth)
         im=self.photos[index].crop((round(cx-cw/2),round(cy-ch/2),round(cx+cw/2),round(cy+ch/2))).resize((W,H),Image.Resampling.BICUBIC).convert('RGBA')
+        semantic_motion(im,t,self.motion_events,CYAN)
         im.alpha_composite(self.shade)
         d=ImageDraw.Draw(im);d.rounded_rectangle((58,86,1022,214),radius=28,fill=(4,15,29,220),outline=(65,223,233,110),width=2)
         txt(im,'على السريع',(445,149),50);txt(im,'ai',(770,149),50,CYAN)

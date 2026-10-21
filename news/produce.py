@@ -6,7 +6,9 @@ from news.editor import prepare
 from news.render import align
 from news.images import prepare_images
 from news.photo_render import PhotoRenderer
-from news.delivery import mix_audio,verify_tail
+from film_factory.delivery import mix_audio,verify_tail
+from film_factory.sound import build
+from film_factory.topics import mark_produced
 
 def soundtrack(duration,scenes):
     rate=48000;t=np.arange(math.ceil(duration*rate))/rate
@@ -30,8 +32,8 @@ def soundtrack(duration,scenes):
 def main():
     Path('output').mkdir(exist_ok=True);Path('state').mkdir(exist_ok=True)
     plan=prepare()
-    if plan is None:print('No fresh verified source; no invented news video.',flush=True);return
-    plan['series']='ai على السريع'
+    if plan is None:raise RuntimeError('No fresh verified source; no invented or stale news video')
+    plan.update(series='ai على السريع',profile='news',documented=True,fiction=False)
     if not plan['title'].startswith('ai على السريع'):
         plan['title']='ai على السريع | '+plan['title']
     images=prepare_images(plan)
@@ -39,21 +41,23 @@ def main():
     timing_path=Path('output/timing.json')
     digest=hashlib.sha256(plan['narration'].encode()).hexdigest()
     timing=json.loads(timing_path.read_text()) if timing_path.exists() else None
-    if not timing or timing.get('narration_sha256')!=digest:
-        timing=align(plan,voice)
+    voice_digest=hashlib.sha256(Path(voice).read_bytes()).hexdigest()
+    if not timing or timing.get('narration_sha256')!=digest or timing.get('audio_sha256')!=voice_digest:
+        timing=align(plan,voice);timing['audio_sha256']=voice_digest;timing_path.write_text(json.dumps(timing,ensure_ascii=False,indent=2))
     duration=timing['duration']
     if not 45<=duration<=120:raise ValueError(f'Daily news narration must be 45–120 seconds, got {duration:.1f}')
     PhotoRenderer(plan,timing,images).encode('output/visuals.mp4')
-    soundtrack(duration,timing['scenes'])
+    build(duration,timing['scenes'],'news',timing['words'])
     normalized=mix_audio(voice,'output/music.wav','output/effects.wav',duration,'output/mix.wav')
     final=Path('output/ai-news-daily.mp4')
     subprocess.run(['ffmpeg','-v','error','-y','-i','output/visuals.mp4','-i','output/mix.wav','-map','0:v','-map','1:a','-c:v','copy','-c:a','aac','-b:a','192k','-t',str(duration),'-movflags','+faststart',str(final)],check=True)
     audit=verify_tail(final,normalized,duration)
     subprocess.run(['ffmpeg','-v','error','-i',str(final),'-f','null','-'],check=True)
-    (Path('output')/'verification.json').write_text(json.dumps({'video':str(final),'width':1080,'height':1920,'fps':30,'voice':'Charon','script_model':plan.get('script_model'),'source_url':plan['source']['url'],'source_published':plan['source']['published'],'audio':audit,'automatically_published':False,'visual_provider':'Cloudflare Workers AI','generated_image_count':len(images),'editorial_review':plan['editorial_review']},ensure_ascii=False,indent=2))
+    (Path('output')/'verification.json').write_text(json.dumps({'video':str(final),'width':1080,'height':1920,'fps':30,'voice':'Charon','script_model':plan.get('script_model'),'source_url':plan['source']['url'],'source_published':plan['source']['published'],'audio':audit,'automatically_published':False,'audio_channels':2,'documented':True,'fiction':False,'motion_revision':'spoken-semantics-v2','visual_provider':'Cloudflare Workers AI','generated_image_count':len(images),'editorial_review':plan['editorial_review']},ensure_ascii=False,indent=2))
     safe={**plan,'source':{k:v for k,v in plan['source'].items() if k not in ('article','summary')}}
     (Path('output')/'plan.json').write_text(json.dumps(safe,ensure_ascii=False,indent=2))
     history=Path('state/news_history.json');h=json.loads(history.read_text()) if history.exists() else {'urls':[]}
     h['urls']=list(dict.fromkeys(h['urls']+[plan['source']['url']]))[-500:];history.write_text(json.dumps(h,indent=2))
+    mark_produced(plan)
     print('Verified complete Charon AI news video ready for review.',flush=True)
 if __name__=='__main__':main()
