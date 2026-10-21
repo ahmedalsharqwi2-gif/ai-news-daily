@@ -1,12 +1,33 @@
 {
   "slots": {
     "immediate approved-photo-v3-news": {
-      "confirmed": false,
-      "receipts": {},
+      "confirmed": true,
+      "receipts": {
+        "youtube": {
+          "id": "6ad946e52e57bc1cdf520211",
+          "due_at": "2026-10-21T23:14:37Z",
+          "run_id": "39691819531",
+          "accepted_at": "2026-10-21T23:12:37.852947+00:00"
+        },
+        "facebook": {
+          "id": "6ad946e6b5ae3ccc5eb7cc0e",
+          "due_at": "2026-10-21T23:14:37Z",
+          "run_id": "39691819531",
+          "accepted_at": "2026-10-21T23:12:38.473150+00:00"
+        },
+        "instagram": {
+          "id": "6ad946e6d0598dd30cfad513",
+          "due_at": "2026-10-21T23:14:37Z",
+          "run_id": "39691819531",
+          "accepted_at": "2026-10-21T23:12:38.920365+00:00"
+        }
+      },
       "required_services": [
         "facebook",
+        "instagram",
         "youtube"
-      ]
+      ],
+      "confirmed_at": "2026-10-21T23:12:38.920910+00:00"
     }
   }
 }
