@@ -42,10 +42,10 @@ jobs:
         PY'
     - name: Install and preserve the tested photographic renderer
       run: "git clone --no-checkout https://github.com/ahmedalsharqwi2-gif/science-discovery-shorts.git /tmp/ai-photo-source\n\
-        git -C /tmp/ai-photo-source checkout 1d06029042b3ab5deb9ceb29795b6a4938797b25\nfor item in news/images.py news/photo_render.py\
-        \ news/produce.py tests/test_images.py README.md; do\n  cp \"/tmp/ai-photo-source/$item\" \"$item\"\ndone\npython\
-        \ -m pip install requests beautifulsoup4 Pillow numpy\npython -m compileall -q news voice_provider\npython -m unittest\
-        \ discover -s tests -v\ngit config user.name 'github-actions[bot]'\ngit config user.email '41898282+github-actions[bot]@users.noreply.github.com'\n\
+        git -C /tmp/ai-photo-source checkout e1c7188c0c00023ded7a70bfbb0aa11c199f9299\nfor item in news/images.py news/photo_render.py\
+        \ news/produce.py tests/test_images.py news/editor.py tests/test_punchline.py README.md; do\n  cp \"/tmp/ai-photo-source/$item\"\
+        \ \"$item\"\ndone\npython -m pip install requests beautifulsoup4 Pillow numpy\npython -m compileall -q news voice_provider\n\
+        python -m unittest discover -s tests -v\ngit config user.name 'github-actions[bot]'\ngit config user.email '41898282+github-actions[bot]@users.noreply.github.com'\n\
         git add news/images.py news/photo_render.py news/produce.py tests/test_images.py README.md\nif ! git diff --cached\
         \ --quiet; then\n  git commit -m 'Generate Cloudflare scene photographs and animate them with Charon narration'\n\
         \  git push origin HEAD:main\nfi"
@@ -75,6 +75,15 @@ jobs:
           output/timing.json'
         key: ai-news-photo-checkpoint-${{ github.run_id }}-${{ github.run_attempt }}
         restore-keys: ai-news-photo-checkpoint-${{ github.run_id }}-
+    - name: Verify Cloudflare image generation before editorial production
+      run: "python - <<'PY'\nimport os,hashlib\nfrom pathlib import Path\nimport requests\nfrom news.images import decoded_image,MODEL\n\
+        p=Path('output/cloudflare-connection.jpg');p.parent.mkdir(exist_ok=True)\nif not p.exists():\n    account=os.environ['CLOUDFLARE_ACCOUNT_ID'].strip()\n\
+        \    token=os.environ['CLOUDFLARE_API_TOKEN'].strip()\n    response=requests.post(f'https://api.cloudflare.com/client/v4/accounts/{account}/ai/run/{MODEL}',headers={'Authorization':'Bearer\
+        \ '+token},json={'prompt':'Photorealistic editorial illustration of a modern AI research laboratory, real computer\
+        \ workstation and silicon processor on a table, amber practical light and cool teal monitors, realistic materials,\
+        \ natural depth of field, strong center subject for vertical crop, no text, no logos, no charts, no cartoon.','steps':8},timeout=120)\n\
+        \    decoded_image(response).save(p,quality=95)\nprint('Cloudflare actual image generated; sha256='+hashlib.sha256(p.read_bytes()).hexdigest())\n\
+        PY"
     - name: Generate source-specific photographs through Cloudflare
       run: 'python - <<''PY''
 
@@ -105,7 +114,9 @@ jobs:
 
           output/editorial-review.json
 
-          output/status.json'
+          output/status.json
+
+          output/cloudflare-connection.jpg'
         retention-days: 14
         if-no-files-found: warn
     - name: Install narration alignment and video dependencies
