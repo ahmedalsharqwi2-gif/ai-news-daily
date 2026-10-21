@@ -1,0 +1,12 @@
+{
+  "slots": {
+    "immediate approved-photo-v3-news": {
+      "confirmed": false,
+      "receipts": {},
+      "required_services": [
+        "facebook",
+        "youtube"
+      ]
+    }
+  }
+}
