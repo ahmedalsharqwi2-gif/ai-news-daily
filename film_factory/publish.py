@@ -28,7 +28,7 @@ def channels(profile):
   for row in rows:
    available.append({'name':row.get('displayName') or row.get('name'),'service':row['service']})
    names=[norm(row.get('displayName','')),norm(row.get('name',''))];brand=norm(BRANDS[profile])
-   if not any(brand and brand in name for name in names):continue
+   if not any((brand and brand in name) or (profile=='news' and name=='aisare3news') for name in names):continue
    service=row['service'].lower()
    if service in found:raise ValueError('More than one matching brand channel for '+service+'; configure explicit ID')
    if row.get('isQueuePaused'):raise ValueError('Matching Buffer queue is paused; unpause it before publication')
