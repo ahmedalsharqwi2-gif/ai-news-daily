@@ -12,14 +12,14 @@ RSS رسمي حديث خلال 72 ساعة ← مقال رسمي غير مستخ
 
 1. هذا هو مستودع القناة المستقل: ai-news-daily.
 2. أضف Secret باسم `GEMINI_API_KEY` من مشروع Google الذي تريد تخصيص حصته لهذه القناة. اختياريًا افصل الكتابة والصوت باستخدام `GEMINI_TEXT_API_KEY` و`GEMINI_TTS_API_KEY`.
-3. شغّل **Daily Egyptian AI News** يدويًا. يظهر الفيديو ضمن Artifacts مع المصدر والتحقق.
-4. بعد مراجعة العينة، فعّل Repository Variable: `AI_NEWS_DAILY_ENABLED=true` لتشغيل الإنتاج يوميًا 09:15 UTC. لا تنشر هذه الخطوة على السوشيال.
+3. شغّل **ai على السريع** يدويًا. يظهر الفيديو ضمن Artifacts مع المصدر والتحقق.
+4. بعد مراجعة العينة، فعّل Repository Variable: `AI_NEWS_DAILY_ENABLED=true` لتشغيل الإنتاج يوميًا 13:10 بتوقيت القاهرة. لا تنشر هذه الخطوة على السوشيال.
 
 لكل حلقة عادةً طلبا كتابة وطلب صوت كامل؛ حد الأمان 12 كتابة وطلبا صوت للتشغيل، و40 كتابة و6 صوت لليوم. الحصة الحقيقية تتبع مشروع Google، وليست مستقلة لكل مفتاح. القناة الرابعة لو شاركت مشروعًا قائمًا ستشارك حصته. لا تتضمن الحزمة مفاتيح ولا تتطلب الاشتراك بخدمة مدفوعة. تحتاج التأكد من Free tier للمشروع كما في الحسابات المعروضة.
 
 ## تشغيل محلي
 
-Python 3.11+ وFFmpeg و`python -m pip install -r requirements.txt` ثم `python -m news.produce` بعد ضبط المفتاح في البيئة. الخطوط Noto مرفقة بترخيصها. الموسيقى والمؤثرات مولدة محليًا ولا تطلب API صور أو فيديو. التلخيص البصري يشرح المعلومات ولا يختلق نتائج Benchmark.
+Python 3.11+ وFFmpeg و`python -m pip install -r requirements.txt` ثم `python -m news.produce` بعد ضبط المفتاح في البيئة. الخطوط Noto مرفقة بترخيصها. الصور يولدها Cloudflare FLUX بأوصاف Gemini، والموسيقى والمؤثرات مولدة محليًا. التلخيص البصري يشرح المعلومات ولا يختلق نتائج Benchmark.
 
 ## إعادة المحاولة
 
@@ -32,4 +32,4 @@ Gemini يكتب سكريبت ميمز مصري جديد من مصدر رسمي،
 عينة الفرع تستخدم مصدر الخبر السابق فقط لإعادة تقييم الأسلوب؛ لا تستخدم سكريبت العينة السابق. الجدول يبدأ الإنتاج 13:10 بتوقيت القاهرة؛ النشر يحتاج ربط قنوات المستودع الرابع وتأكيده منفصلًا.
 
 ## Cloudflare image setup
-Add GitHub Actions secrets CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID for the planned image integration. The transferred renderer currently uses native motion graphics; image generation is not wired yet.
+Add GitHub Actions secrets CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID for the planned image integration. Each scene now uses a Cloudflare FLUX image, camera motion and speech-timed overlays. Images are illustrative, not documentary evidence.
