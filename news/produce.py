@@ -53,6 +53,8 @@ def main():
     normalized=mix_audio(voice,'output/music.wav','output/effects.wav',duration,'output/mix.wav')
     final=Path('output/ai-news-daily.mp4')
     subprocess.run(['ffmpeg','-v','error','-y','-i','output/visuals.mp4','-i','output/mix.wav','-map','0:v','-map','1:a','-c:v','copy','-c:a','aac','-b:a','192k','-t',str(duration),'-movflags','+faststart',str(final)],check=True)
+    from visual_quality_gate import audit as audit_visual
+    visual_report=audit_visual(final)
     audit=verify_tail(final,normalized,duration)
     subprocess.run(['ffmpeg','-v','error','-i',str(final),'-f','null','-'],check=True)
     (Path('output')/'verification.json').write_text(json.dumps({'video':str(final),'width':1080,'height':1920,'fps':30,'voice':'Charon','script_model':plan.get('script_model'),'source_url':plan['source']['url'],'source_published':plan['source']['published'],'audio':audit,'automatically_published':False,'audio_channels':2,'documented':True,'fiction':False,'motion_revision':'spoken-semantics-v2','visual_provider':'Cloudflare Workers AI','generated_image_count':len(images),'editorial_review':plan['editorial_review']},ensure_ascii=False,indent=2))
