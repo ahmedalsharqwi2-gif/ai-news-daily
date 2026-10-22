@@ -1,3 +1,4 @@
+from film_factory.motion_kit_timeline import save as save_motion_timeline
 import json, math, wave, subprocess, os, hashlib
 from pathlib import Path
 import numpy as np
@@ -46,6 +47,7 @@ def main():
         timing=align(plan,voice);timing['audio_sha256']=voice_digest;timing_path.write_text(json.dumps(timing,ensure_ascii=False,indent=2))
     duration=timing['duration']
     if not 45<=duration<=120:raise ValueError(f'Daily news narration must be 45–120 seconds, got {duration:.1f}')
+    save_motion_timeline(timing, 'news')
     PhotoRenderer(plan,timing,images).encode('output/visuals.mp4')
     build(duration,timing['scenes'],'news',timing['words'])
     normalized=mix_audio(voice,'output/music.wav','output/effects.wav',duration,'output/mix.wav')
