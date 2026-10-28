@@ -1,0 +1,103 @@
+{
+  "title": "Gemini 4 Carbon: Our next frontier model",
+  "canonical_subject": "Gemini 4 Carbon",
+  "suitable": true,
+  "facts": [
+    "Gemini 4 Carbon is introduced as a frontier model by Google DeepMind.",
+    "It provides cybersecurity defense capabilities, vulnerability detection, validation, and remediation.",
+    "Pricing is set at two dollars per million input tokens and ten dollars per million output tokens."
+  ],
+  "milestones": [
+    "2026-10-28"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "label": "الشريحة الأولى",
+      "narration": "أعلنت شركة جوجل ديب مايند عن نموذجها الجديد جيميني فور كاربون المصمم للمهام الطويلة.",
+      "labels": [
+        "chip hero",
+        "Google DeepMind"
+      ]
+    },
+    {
+      "id": "scene_2",
+      "label": "الشريحة الثانية",
+      "narration": "يتدفق تدفق المعلومات والبيانات لمعالجة المهام البرمجية المعقدة والمهام الهندسية طويلة الأمد بكفاءة عالية.",
+      "labels": [
+        "information flow",
+        "coding tasks"
+      ]
+    },
+    {
+      "id": "scene_3",
+      "label": "الشريحة الثالثة",
+      "narration": "يعمل النموذج ضمن شبكة متقدمة تعزز قدرات الأمن السيبراني واكتشاف الثغرات البرمجية الخطيرة بدقة.",
+      "labels": [
+        "model/network",
+        "cybersecurity"
+      ]
+    },
+    {
+      "id": "scene_4",
+      "label": "الشريحة الرابعة",
+      "narration": "تتم مقارنة المفاهيم الداعمة وأداء النموذج مع الإصدارات السابقة لتحقيق نتائج أفضل في البرمجة.",
+      "labels": [
+        "comparison",
+        "benchmarks"
+      ]
+    },
+    {
+      "id": "scene_5",
+      "label": "الشريحة الخامسة",
+      "narration": "يبدأ نشر النموذج تدريجيا للمدافعين السيبرانيين والشركاء الموثوقين عبر برنامج فايرويند للاختبار والتطوير.",
+      "labels": [
+        "deployment/network",
+        "cyber defenders"
+      ]
+    },
+    {
+      "id": "scene_6",
+      "label": "الشريحة السادسة",
+      "narration": "تتم معالجة المدخلات والمخرجات بأسعار محددة تشمل خصومات على رموز الإدخال المخزنة مؤقتا لتوفير التكاليف.",
+      "labels": [
+        "processing flow",
+        "tokens"
+      ]
+    },
+    {
+      "id": "scene_7",
+      "label": "الشريحة السابعة",
+      "narration": "تتطلب القيود الحالية اختبارات إضافية ومراجعة دقيقة لضمان السلامة وتقليل الهلوسة والمخاطر المحتملة.",
+      "labels": [
+        "limitations",
+        "safety"
+      ]
+    },
+    {
+      "id": "scene_8",
+      "label": "الشريحة الثامنة",
+      "narration": "في الختام يسعى النموذج لتقديم قفزات نوعية في الهندسة والأمن مع الحفاظ على موثوقية عالية.",
+      "labels": [
+        "conclusion",
+        "software engineering"
+      ]
+    }
+  ],
+  "profile": "news",
+  "series": "ai على السريع",
+  "visual_family": "compute",
+  "variant": "chip",
+  "topic_key": "3e32bae570ff21ee",
+  "source": {
+    "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+    "publisher": "Google DeepMind"
+  },
+  "fiction": false,
+  "documented": true,
+  "editorial_review": {
+    "supported": true,
+    "novel": true,
+    "issues": []
+  }
+}
