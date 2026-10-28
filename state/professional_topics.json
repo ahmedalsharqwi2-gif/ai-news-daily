@@ -5,11 +5,11 @@
       "slot": "review-40786180689",
       "topic_key": "3e32bae570ff21ee",
       "canonical_subject": "Gemini 4 Carbon",
-      "title": "جيميني فور كاربون: إيه الجديد؟",
+      "title": "جيميني فور كاربون: إيه الجديد فعلاً؟",
       "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
       "status": "reserved",
       "story": {
-        "title": "جيميني فور كاربون: إيه الجديد؟",
+        "title": "جيميني فور كاربون: إيه الجديد فعلاً؟",
         "canonical_subject": "Gemini 4 Carbon",
         "suitable": true,
         "facts": [
@@ -22,52 +22,68 @@
         ],
         "scenes": [
           {
-            "id": "scene_1",
+            "id": "scene-1",
             "label": "جيميني فور كاربون",
-            "narration": "أعلنت شركة جوجل ديب مايند عن نموذجها الجديد جيميني فور كاربون المصمم للمهام الطويلة.",
-            "labels": []
+            "visual_mode": "chip",
+            "narration": "جوجل ديب مايند أعلنت عن جيميني فور كاربون. الجديد هنا تركيز على مهام هندسية وبرمجية طويلة، مش مجرد رد سريع.",
+            "labels": [],
+            "evidence_quote": "Mail Copy link Today, we’re announcing the next frontier model: Gemini 4 Carbon, our strongest"
           },
           {
-            "id": "scene_2",
-            "label": "مهام برمجية أطول",
-            "narration": "يتدفق تدفق المعلومات والبيانات لمعالجة المهام البرمجية المعقدة والمهام الهندسية طويلة الأمد بكفاءة عالية.",
-            "labels": []
+            "id": "scene-2",
+            "label": "مهمة بتاخد وقت",
+            "visual_mode": "flow",
+            "narration": "الفكرة إن النموذج يتعامل مع شغل محتاج خطوات كتير. الرسم ده توضيحي لتدفق المهمة، مش تصوير لبنية النموذج السرية.",
+            "labels": [],
+            "evidence_quote": "much harder, long-horizon engineering problems, Carbon is built for sustained agentic workflows. Internally, our teams"
           },
           {
-            "id": "scene_3",
+            "id": "scene-3",
             "label": "الأمن السيبراني",
-            "narration": "يعمل النموذج ضمن شبكة متقدمة تعزز قدرات الأمن السيبراني واكتشاف الثغرات البرمجية الخطيرة بدقة.",
-            "labels": []
+            "visual_mode": "network",
+            "narration": "الإعلان بيتكلم كمان عن الأمن السيبراني واكتشاف الثغرات. بس اللي بيقوله المطور لازم نفرّقه عن تقييم مستقل للقدرات.",
+            "labels": [],
+            "evidence_quote": "lead in SEC-bench Pro (88.2%) for finding vulnerabilities, ExploitGym (54.8%) for exploitation, and CWE-bench (71.0%)"
           },
           {
-            "id": "scene_4",
-            "label": "مقارنة بالإصدارات السابقة",
-            "narration": "تتم مقارنة المفاهيم الداعمة وأداء النموذج مع الإصدارات السابقة لتحقيق نتائج أفضل في البرمجة.",
-            "labels": []
+            "id": "scene-4",
+            "label": "مقارنة مش دعاية",
+            "visual_mode": "comparison",
+            "narration": "لو هنقارن بالإصدارات السابقة، لازم نبص لشروط الاختبار. شكل المجسم هنا شرح للفكرة، مش رسم لنتائج أو نسب جديدة.",
+            "labels": [],
+            "evidence_quote": "v5.0 of Artificial Analysis Intelligence Index at 59. It shows significant gains across coding and"
           },
           {
-            "id": "scene_5",
-            "label": "طرح تدريجي للشركاء",
-            "narration": "يبدأ نشر النموذج تدريجيا للمدافعين السيبرانيين والشركاء الموثوقين عبر برنامج فايرويند للاختبار والتطوير.",
-            "labels": []
+            "id": "scene-5",
+            "label": "طرح بشكل تدريجي",
+            "visual_mode": "deployment",
+            "narration": "الوصول للنموذج بيبدأ تدريجي مع شركاء ومدافعين سيبرانيين. عشان كده، الإعلان عنه مش معناه إن كل الناس تقدر تستخدمه فوراً.",
+            "labels": [],
+            "evidence_quote": "pre-release model testing. Starting this week, we will make Carbon available to a subset of"
           },
           {
-            "id": "scene_6",
-            "label": "تكلفة الرموز",
-            "narration": "تتم معالجة المدخلات والمخرجات بأسعار محددة تشمل خصومات على رموز الإدخال المخزنة مؤقتا لتوفير التكاليف.",
-            "labels": []
+            "id": "scene-6",
+            "label": "التكلفة والاستخدام",
+            "visual_mode": "flow",
+            "narration": "المصدر بيعرض تفاصيل لتكلفة الاستخدام. بس قبل ما تبني عليه مشروع، راجع التسعير الحالي وشروط الوصول بنفسك.",
+            "labels": [],
+            "evidence_quote": "will launch at the same introductory price 1 as Argon at $2 per million input"
           },
           {
-            "id": "scene_7",
-            "label": "المراجعة والمخاطر",
-            "narration": "تتطلب القيود الحالية اختبارات إضافية ومراجعة دقيقة لضمان السلامة وتقليل الهلوسة والمخاطر المحتملة.",
-            "labels": []
+            "id": "scene-7",
+            "label": "حدود محتاجة مراجعة",
+            "visual_mode": "limits",
+            "narration": "زي أي نموذج قوي، موضوع السلامة والمخاطر محتاج مراجعة. القدرة المعلنة مش ضمان إن كل نتيجة هتطلع صحيحة.",
+            "labels": [],
+            "evidence_quote": "model training, real-time misuse defenses, prompt-injection resilience, and chain-of-thought monitoring. In particular, we made significant"
           },
           {
-            "id": "scene_8",
-            "label": "تطوير بإجراءات سلامة",
-            "narration": "في الختام يسعى النموذج لتقديم قفزات نوعية في الهندسة والأمن مع الحفاظ على موثوقية عالية.",
-            "labels": []
+            "id": "scene-8",
+            "label": "إيه اللي نتابعه؟",
+            "visual_mode": "chip",
+            "narration": "اللي يستاهل المتابعة هو التجارب الفعلية بعد الإتاحة. هل المهام الطويلة هتتحسن في شغلك؟ ده سؤال نحكم عليه بالتجربة.",
+            "labels": [],
+            "evidence_quote": ". We’re continuing to gather feedback and iterate on guardrails before making Carbon available to"
           }
         ],
         "profile": "news",
@@ -86,7 +102,7 @@
           "novel": true,
           "issues": []
         },
-        "heading_revision": "Arabic topic-specific headings; original factual narration retained"
+        "revision": "source-checked narration and topic-specific authored visual modes"
       },
       "reserved_at": "2026-10-28T23:17:19.024730+00:00"
     }
