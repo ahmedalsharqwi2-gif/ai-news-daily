@@ -1,0 +1,14 @@
+{
+  "removed_workflows": [
+    "daily-ai-news.yml",
+    "php2shell-meme-review.yml",
+    "publish-ready.yml",
+    "reference-quality-probe.yml"
+  ],
+  "retired_direct_entrypoints": [
+    "scripts/refresh_approved_sample.py",
+    "scripts/publish_youtube_direct.py",
+    "film_factory/publish.py"
+  ],
+  "profile": "news"
+}
