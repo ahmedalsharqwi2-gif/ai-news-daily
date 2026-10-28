@@ -1,0 +1,17 @@
+{
+  "provider": "Gemini TTS",
+  "model": "gemini-3.8-flash-tts",
+  "voice": "Charon",
+  "style": "Egyptian Arabic ar-EG, native conversational Cairo accent. Charon, warm low male voice, lively natural Egyptian tech storyteller with dry comic timing. Clear articulation, short natural pauses around punchlines, no forced laughter. Read every word exactly, say all numbers naturally, finish the final sentence completely. No music, no singing, no sound effects, no spoken stage directions.",
+  "text": "أعلنت شركة جوجل ديب مايند عن نموذجها الجديد جيميني فور كاربون المصمم للمهام الطويلة. يتدفق تدفق المعلومات والبيانات لمعالجة المهام البرمجية المعقدة والمهام الهندسية طويلة الأمد بكفاءة عالية. يعمل النموذج ضمن شبكة متقدمة تعزز قدرات الأمن السيبراني واكتشاف الثغرات البرمجية الخطيرة بدقة. تتم مقارنة المفاهيم الداعمة وأداء النموذج مع الإصدارات السابقة لتحقيق نتائج أفضل في البرمجة. يبدأ نشر النموذج تدريجيا للمدافعين السيبرانيين والشركاء الموثوقين عبر برنامج فايرويند للاختبار والتطوير. تتم معالجة المدخلات والمخرجات بأسعار محددة تشمل خصومات على رموز الإدخال المخزنة مؤقتا لتوفير التكاليف. تتطلب القيود الحالية اختبارات إضافية ومراجعة دقيقة لضمان السلامة وتقليل الهلوسة والمخاطر المحتملة. في الختام يسعى النموذج لتقديم قفزات نوعية في الهندسة والأمن مع الحفاظ على موثوقية عالية.",
+  "interaction_id": "v1_Chdnb0xpYXVPTUZjem96N0lQdkpXeHlBZxIXZ29MaWF1T01GY3pvejdJUHZKV3h5QWc",
+  "duration": 64.16,
+  "sample_rate": 24000,
+  "channels": 1,
+  "sha256": "44b804e52c7f06e11c86dc8f9abbda752a773ac2bcc16090f7ba4ddbe8562e3f",
+  "newly_synthesized": true,
+  "original_video_audio_used": false,
+  "fallback_used": false,
+  "cache_hit": false,
+  "output_sha256": "44b804e52c7f06e11c86dc8f9abbda752a773ac2bcc16090f7ba4ddbe8562e3f"
+}
