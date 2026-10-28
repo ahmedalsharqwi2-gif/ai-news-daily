@@ -21,7 +21,7 @@
       "env": {
         "GITHUB_TOKEN": "${{ github.token }}",
         "REVIEW_PROFILE": "news",
-        "REVIEW_WORKFLOW": "professional-news-recovery.yml"
+        "REVIEW_WORKFLOW": "professional-corrected-review.yml"
       },
       "steps": [
         {
@@ -40,3 +40,4 @@
     }
   }
 }
+
