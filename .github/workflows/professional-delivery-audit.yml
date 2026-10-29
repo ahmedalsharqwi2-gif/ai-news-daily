@@ -1,5 +1,5 @@
 {
-  "name": "Read-only final delivery audit — news",
+  "name": "Confirm missing news Instagram live link without creating more posts",
   "on": {
     "push": {
       "branches": [
@@ -16,7 +16,7 @@
   "jobs": {
     "audit": {
       "runs-on": "ubuntu-24.04",
-      "timeout-minutes": 5,
+      "timeout-minutes": 8,
       "env": {
         "BUFFER_API_KEY": "${{ secrets.BUFFER_API_KEY }}"
       },
