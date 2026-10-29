@@ -1,0 +1,17 @@
+{
+  "provider": "Gemini TTS",
+  "model": "gemini-3.8-flash-tts",
+  "voice": "Charon",
+  "style": "Egyptian Arabic ar-EG, native conversational Cairo accent. Charon, warm low male voice, lively natural Egyptian tech storyteller with dry comic timing. Clear articulation, short natural pauses around punchlines, no forced laughter. Read every word exactly, say all numbers naturally, finish the final sentence completely. No music, no singing, no sound effects, no spoken stage directions.",
+  "text": "أطلقت هاجين فايز حزمتين جديدتين لتوسيع الذكاء الاصطناعي على أجهزة أبل، وهما أني سبوتش ريكوغنايزر وأني ديسيشن موديل، لنقل التعرف على الصوت واتخاذ القرارات لبيئة سويفت المحلية. بيتيح محرك أني سبوتش اختيار محركات التعرف على الكلام زي باراكيت من إنفيديا أو كيو ون ثري من أليبابا، مع دعم تشغيل النماذج محلياً على كور إم إل. الناس اللي بتسأل عن تحديد مين تكلم ومتى، الحزمة بتضيف ميزة فصل المتحدثين باستخدام نموذج ستريمنڬ سورتفورمر، عشان تتبع لحد أربعة أشخاص بيتڤلموا في نڤس الوقت. حسب القياسات على جهاز ماك استوديو، باراكيت بينجز ساعة تسجيل في ثوانٍ معدودة، بينما كيو ون ثري أبطأ وبيلزمو رامات أكتر بكتير لتنفيذ نڤس المهمة. أما أني ديسيشن موديل فبيقدم طريقة جديدة للإجابة على الأسئلة بنعم أو لا، أو الاختيار من متعدد، من ںير توليد نصوص طويلة مالهاش لازمة. تطبيق إيموجي ماجنت بيوضح قدرة النماذج دي، حيث بيصنف مأات الإيموجي مباشرة علڭ جهازك بناءً على كتابتك، بدون أي قواعد كلمات مفتاحية مسبقة. النماذج دي بتتطلب إصدارات حديثة من نظام التشغيل وأجهزة أبل سيليڤون، وبعض الترندات المحلية زي كليف فلاش بتلزم مساحة تخزين مش قليلة على الماڤ. في النهاية، الحزمتين دول بيفتحوا باب واسع للمطورين لبناء تطبيقات صوتية وقرارات ذكية تعمل بالكامل علڭ أجهزة أبل وبدون الاعتماد الكامل على السحابة.",
+  "interaction_id": "v1_ChdzMkRqYW9MM0RJRGd5dE1QbDZETnVRSRIXczJEamFvTDNESURneXRNUGw2RE51UUk",
+  "duration": 79.72,
+  "sample_rate": 24000,
+  "channels": 1,
+  "sha256": "d2cd896577be316ba5a2c8828cb63715d2ac414e501a5cfe2a82f44fc98fe096",
+  "newly_synthesized": true,
+  "original_video_audio_used": false,
+  "fallback_used": false,
+  "cache_hit": false,
+  "output_sha256": "d2cd896577be316ba5a2c8828cb63715d2ac414e501a5cfe2a82f44fc98fe096"
+}

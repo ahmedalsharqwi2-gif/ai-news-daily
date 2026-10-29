@@ -1,0 +1,119 @@
+{
+  "title": "أنى سبوتش وأنى ديسيشن: نماذج مفتوحة للصوت والقرارات على أجهزة أبل",
+  "canonical_subject": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+  "suitable": true,
+  "facts": [
+    "Hugging Face announced AnySpeechRecognizer and AnyDecisionModel for Apple platforms.",
+    "AnySpeechRecognizer mirrors Apple's SpeechAnalyzer API with engines like NVIDIA Parakeet and Alibaba Qwen3-ASR.",
+    "AnyDecisionModel handles typed decisions, multiple choice, and rating scale answers using local backends like MLX."
+  ],
+  "milestones": [
+    "macOS 26 and iOS 26",
+    "AnyLanguageModel 1.x",
+    "AnySpeechRecognizer and AnyDecisionModel"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "label": "إطلاق النماذج",
+      "narration": "أطلقت هاجين فايز حزمتين جديدتين لتوسيع الذكاء الاصطناعي على أجهزة أبل، وهما أني سبوتش ريكوغنايزر وأني ديسيشن موديل، لنقل التعرف على الصوت واتخاذ القرارات لبيئة سويفت المحلية.",
+      "labels": [
+        "إطلاق النماذج"
+      ],
+      "visual_mode": "chip",
+      "evidence_excerpt_id": 8,
+      "punchline": "مين يشتري موديل متجنس؟",
+      "reaction": "smug"
+    },
+    {
+      "id": "scene_2",
+      "label": "محركات الصوت",
+      "narration": "بيتيح محرك أني سبوتش اختيار محركات التعرف على الكلام زي باراكيت من إنفيديا أو كيو ون ثري من أليبابا، مع دعم تشغيل النماذج محلياً على كور إم إل.",
+      "labels": [
+        "محركات الصوت"
+      ],
+      "visual_mode": "flow",
+      "evidence_excerpt_id": 10,
+      "punchline": "",
+      "reaction": "none"
+    },
+    {
+      "id": "scene_3",
+      "label": "تتبع المتحدثين",
+      "narration": "الناس اللي بتسأل عن تحديد مين تكلم ومتى، الحزمة بتضيف ميزة فصل المتحدثين باستخدام نموذج ستريمنڬ سورتفورمر، عشان تتبع لحد أربعة أشخاص بيتڤلموا في نڤس الوقت.",
+      "labels": [
+        "تحديد مين تكلم ومتى"
+      ],
+      "visual_mode": "network",
+      "evidence_excerpt_id": 53,
+      "punchline": "مين اللي قطع علي؟",
+      "reaction": "shock"
+    },
+    {
+      "id": "scene_4",
+      "label": "مقارنة الأداء",
+      "narration": "حسب القياسات على جهاز ماك استوديو، باراكيت بينجز ساعة تسجيل في ثوانٍ معدودة، بينما كيو ون ثري أبطأ وبيلزمو رامات أكتر بكتير لتنفيذ نڤس المهمة.",
+      "labels": [
+        "مقارنة الأداء"
+      ],
+      "visual_mode": "comparison",
+      "evidence_excerpt_id": 61,
+      "punchline": "دي سرعة ولا إيجار؟",
+      "reaction": "suspicious"
+    },
+    {
+      "id": "scene_5",
+      "label": "اتخاذ القرارات",
+      "narration": "أما أني ديسيشن موديل فبيقدم طريقة جديدة للإجابة على الأسئلة بنعم أو لا، أو الاختيار من متعدد، من ںير توليد نصوص طويلة مالهاش لازمة.",
+      "labels": [
+        "اتخاذ القرارات"
+      ],
+      "visual_mode": "deployment",
+      "evidence_excerpt_id": 11,
+      "punchline": "",
+      "reaction": "none"
+    },
+    {
+      "id": "scene_6",
+      "label": "تطبيق إيموجي ماجنت",
+      "narration": "تطبيق إيموجي ماجنت بيوضح قدرة النماذج دي، حيث بيصنف مأات الإيموجي مباشرة علڭ جهازك بناءً على كتابتك، بدون أي قواعد كلمات مفتاحية مسبقة.",
+      "labels": [
+        "تطبيق إيموجي ماجنت"
+      ],
+      "visual_mode": "flow",
+      "evidence_excerpt_id": 93,
+      "punchline": "شغال بالحب ولا إيه؟",
+      "reaction": "loading"
+    },
+    {
+      "id": "scene_7",
+      "label": "القيود والمتطلبات",
+      "narration": "النماذج دي بتتطلب إصدارات حديثة من نظام التشغيل وأجهزة أبل سيليڤون، وبعض الترندات المحلية زي كليف فلاش بتلزم مساحة تخزين مش قليلة على الماڤ.",
+      "labels": [
+        "القيود والمتطلبات"
+      ],
+      "visual_mode": "limits",
+      "evidence_excerpt_id": 108,
+      "punchline": "",
+      "reaction": "none"
+    },
+    {
+      "id": "scene_8",
+      "label": "الخلاصة التقنية",
+      "narration": "في النهاية، الحزمتين دول بيفتحوا باب واسع للمطورين لبناء تطبيقات صوتية وقرارات ذكية تعمل بالكامل علڭ أجهزة أبل وبدون الاعتماد الكامل على السحابة.",
+      "labels": [
+        "الخلاصة التقنية"
+      ],
+      "visual_mode": "network",
+      "evidence_excerpt_id": 144,
+      "punchline": "كله محلي في محلي",
+      "reaction": "smug"
+    }
+  ],
+  "hashtags": [
+    "AnySpeechRecognizer",
+    "AnyDecisionModel",
+    "HuggingFace",
+    "Apple"
+  ]
+}

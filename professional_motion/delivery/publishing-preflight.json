@@ -1,0 +1,47 @@
+{
+  "buffer": {
+    "youtube": "6ad3ef9d778b240e2f3fa5b9",
+    "facebook": "6ad3ef2c778b240e2f3fa387"
+  },
+  "direct_youtube": false,
+  "problems": [],
+  "credential_presence": {
+    "BUFFER_API_KEY": true,
+    "YT_CLIENT_ID": false,
+    "YT_CLIENT_SECRET": false,
+    "YT_REFRESH_TOKEN": false,
+    "YT_REFRESH_TOKEN_FALLBACK": false
+  },
+  "available_channels": [
+    {
+      "name": " AI على السريع ",
+      "service": "youtube",
+      "id": "6ad3ef9d778b240e2f3fa5b9",
+      "paused": false
+    },
+    {
+      "name": "AI على السريع",
+      "service": "facebook",
+      "id": "6ad3ef2c778b240e2f3fa387",
+      "paused": false
+    },
+    {
+      "name": "aisare3_news",
+      "service": "instagram",
+      "id": "6ad3eeea778b240e2f3fa23b",
+      "paused": false
+    }
+  ],
+  "matched_channels": [
+    {
+      "name": " AI على السريع ",
+      "service": "youtube",
+      "id": "6ad3ef9d778b240e2f3fa5b9"
+    },
+    {
+      "name": "AI على السريع",
+      "service": "facebook",
+      "id": "6ad3ef2c778b240e2f3fa387"
+    }
+  ]
+}
