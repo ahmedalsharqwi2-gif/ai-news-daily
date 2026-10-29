@@ -16,12 +16,14 @@ def revise(story):
  additions={
   0:('يعني التليفون يدخل اجتماع العيلة ويفهم مين قال إيه، وإحنا لسه بنقول يا جماعة واحد واحد.','يا جماعة واحد واحد','loading'),
   2:('أربعة بيتكلموا فوق بعض؟ ده مش اختبار ذكاء اصطناعي، ده جروب العيلة لما حد يسأل مين جاب آخر حتة كنافة.','مين جاب آخر حتة كنافة','shock'),
-  4:('نعم أو لا من غير محاضرة؟ ابعتوا النموذج ده لأي حد بنسأله سؤال بسيط ويرد علينا برسالة صوتية عشر دقايق.','رسالة صوتية عشر دقايق','suspicious'),
+  4:('نعم أو لا من غير محاضرة؟ ابعتوا النموذج ده لأي حد بنسأله سؤال بسيط ويرد علينا برسالة صوتية عشر دقايق.','برسالة صوتية عشر دقايق','suspicious'),
   6:('بس خليك صاحي لمساحة التخزين؛ قبل ما تفرح بالذكاء الجديد، ممكن الماك يطلب منك تمسح فولدر اسمه نسخة نهائية بجد.','نسخة نهائية بجد','loading')}
  for index,(line,phrase,reaction) in additions.items():
   scene=s['scenes'][index];scene['narration']+=' '+line;scene['punchline']=phrase;scene['reaction']=reaction
  s['title']='الماك بقى يسمع ويفرّق الأصوات.. إيه حكاية النماذج الجديدة؟'
  s['post_edit_review']={'reviewer':'Codex editorial review','scope':'Correct Arabic spelling and unclear transliteration; add explicitly satirical narrator commentary to the already source-reviewed reserved episode. No new source performance claims.','source_factual_review_preserved':True,'voice_must_be_regenerated':True,'silent_padding':False}
+ from .news_policy import validate_memes
+ validate_memes(s)
  return s
 
 def main():
