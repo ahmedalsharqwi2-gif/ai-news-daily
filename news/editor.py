@@ -7,8 +7,8 @@ from urllib.parse import urlparse
 import requests
 from bs4 import BeautifulSoup
 from api_budget import reserve
-FEEDS=[('Google','https://blog.google/technology/ai/rss/'),('NVIDIA','https://blogs.nvidia.com/feed/'),('Hugging Face','https://huggingface.co/blog/feed.xml'),('Google DeepMind','https://deepmind.google/blog/rss.xml')]
-ALLOWED={'blog.google','blogs.nvidia.com','huggingface.co','deepmind.google'}
+FEEDS=[('Google','https://blog.google/technology/ai/rss/'),('NVIDIA','https://blogs.nvidia.com/feed/'),('Hugging Face','https://huggingface.co/blog/feed.xml'),('Google DeepMind','https://deepmind.google/blog/rss.xml'),('OpenAI','https://openai.com/news/rss.xml')]
+ALLOWED={'blog.google','blogs.nvidia.com','huggingface.co','deepmind.google','openai.com'}
 UA={'User-Agent':'AI-News-Daily/1.0 (official-source editorial reader)'}
 
 def canonical(url):
@@ -43,10 +43,10 @@ def candidates(now=None):
                 if link in seen or not now-timedelta(hours=72)<=published<=now+timedelta(minutes=5):continue
                 title=text(value('title','{http://www.w3.org/2005/Atom}title'))
                 summary=text(value('description','{http://www.w3.org/2005/Atom}summary','{http://www.w3.org/2005/Atom}content'))
-                if not re.search(r'AI|artificial intelligence|model|agent|Gemini|LLM|DeepSeek|GPU',title+' '+summary,re.I):continue
+                if not re.search(r'\bAI\b|artificial intelligence|model|agent|Gemini|LLM|DeepSeek|GPU',title+' '+summary,re.I):continue
                 rows.append({'title':title,'url':link,'publisher':publisher,'published':published.isoformat(),'summary':summary[:2500]})
         except Exception as exc:errors.append({'publisher':publisher,'error':type(exc).__name__})
-    rows=sorted({r['url']:r for r in rows}.values(),key=lambda r:r['published'],reverse=True)[:6]
+    rows=sorted({r['url']:r for r in rows}.values(),key=lambda r:r['published'],reverse=True)[:18]
     Path('output').mkdir(exist_ok=True)
     Path('output/feed-status.json').write_text(json.dumps({'candidates':len(rows),'feed_errors':errors,'checked_at':now.isoformat()},ensure_ascii=False,indent=2))
     return rows

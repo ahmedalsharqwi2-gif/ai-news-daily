@@ -47,12 +47,13 @@ def _synthesize(text,c,key):
         except (urllib.error.URLError,TimeoutError):
             raise RuntimeError('Gemini TTS connection failed; task retained for retry without changing voice') from None
 
-def generate(text,output_path):
+def generate(text,output_path,performance=None):
     text=' '.join(str(text).split())
     if not text: raise ValueError('Narration is empty')
     output=Path(output_path).resolve()
     if output.suffix.lower() not in ('.wav','.mp3'): raise ValueError('Narration output must be WAV or MP3')
     c=config()
+    if performance:c={**c,'style':str(performance)}
     key=(os.getenv('GEMINI_TTS_API_KEY') or os.getenv('GEMINI_API_KEY') or '').strip()
     if not key: raise RuntimeError('GEMINI_TTS_API_KEY or GEMINI_API_KEY is required. No replacement voice will be used.')
     cache=Path(os.getenv('VOICE_CACHE_DIR','.voice_cache'));cache.mkdir(parents=True,exist_ok=True)
