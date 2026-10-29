@@ -111,11 +111,11 @@
       "slot": "review-40897156479",
       "topic_key": "6394645bd5105adc",
       "canonical_subject": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
-      "title": "أنى سبوتش وأنى ديسيشن: نماذج مفتوحة للصوت والقرارات على أجهزة أبل",
+      "title": "الماك بقى يسمع ويفرّق الأصوات.. إيه حكاية النماذج الجديدة؟",
       "url": "https://huggingface.co/blog/anydecisionmodel",
       "status": "reserved",
       "story": {
-        "title": "أنى سبوتش وأنى ديسيشن: نماذج مفتوحة للصوت والقرارات على أجهزة أبل",
+        "title": "الماك بقى يسمع ويفرّق الأصوات.. إيه حكاية النماذج الجديدة؟",
         "canonical_subject": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
         "suitable": true,
         "facts": [
@@ -132,12 +132,12 @@
           {
             "id": "scene_1",
             "label": "إطلاق النماذج",
-            "narration": "أطلقت هاجين فايز حزمتين جديدتين لتوسيع الذكاء الاصطناعي على أجهزة أبل، وهما أني سبوتش ريكوغنايزر وأني ديسيشن موديل، لنقل التعرف على الصوت واتخاذ القرارات لبيئة سويفت المحلية.",
+            "narration": "أطلقت هاجينج فيس حزمتين جديدتين لتوسيع الذكاء الاصطناعي على أجهزة أبل، وهما أني سبوتش ريكوغنايزر وأني ديسيشن موديل، لنقل التعرف على الصوت واتخاذ القرارات لبيئة سويفت المحلية. يعني التليفون يدخل اجتماع العيلة ويفهم مين قال إيه، وإحنا لسه بنقول يا جماعة واحد واحد.",
             "labels": [],
             "visual_mode": "chip",
             "evidence_excerpt_id": 8,
-            "punchline": "",
-            "reaction": "none",
+            "punchline": "يا جماعة واحد واحد",
+            "reaction": "loading",
             "evidence_quote": "speech and decisions: familiar Swift APIs with a choice of model. Today we're announcing two"
           },
           {
@@ -154,20 +154,20 @@
           {
             "id": "scene_3",
             "label": "تتبع المتحدثين",
-            "narration": "الناس اللي بتسأل عن تحديد مين تكلم ومتى، الحزمة بتضيف ميزة فصل المتحدثين باستخدام نموذج ستريمنڬ سورتفورمر، عشان تتبع لحد أربعة أشخاص بيتڤلموا في نڤس الوقت.",
+            "narration": "الناس اللي بتسأل عن تحديد مين تكلم ومتى، الحزمة بتضيف ميزة فصل المتحدثين باستخدام نموذج ستريمنج سورتفورمر، عشان تتبع لحد أربعة أشخاص بيتكلموا في نفس الوقت. أربعة بيتكلموا فوق بعض؟ ده مش اختبار ذكاء اصطناعي، ده جروب العيلة لما حد يسأل مين جاب آخر حتة كنافة.",
             "labels": [
               "تحديد مين تكلم ومتى"
             ],
             "visual_mode": "network",
             "evidence_excerpt_id": 53,
-            "punchline": "",
-            "reaction": "none",
+            "punchline": "مين جاب آخر حتة كنافة",
+            "reaction": "shock",
             "evidence_quote": "the same timeline: The diarizer tracks up to four speakers, even when they talk over"
           },
           {
             "id": "scene_4",
             "label": "مقارنة الأداء",
-            "narration": "حسب القياسات على جهاز ماك استوديو، باراكيت بينجز ساعة تسجيل في ثوانٍ معدودة، بينما كيو ون ثري أبطأ وبيلزمو رامات أكتر بكتير لتنفيذ نڤس المهمة.",
+            "narration": "حسب القياسات على جهاز ماك استوديو، باراكيت بينجز ساعة تسجيل في ثوانٍ معدودة، بينما كيو ون ثري أبطأ وبيلزمو رامات أكتر بكتير لتنفيذ نفس المهمة.",
             "labels": [],
             "visual_mode": "comparison",
             "evidence_excerpt_id": 61,
@@ -178,18 +178,18 @@
           {
             "id": "scene_5",
             "label": "اتخاذ القرارات",
-            "narration": "أما أني ديسيشن موديل فبيقدم طريقة جديدة للإجابة على الأسئلة بنعم أو لا، أو الاختيار من متعدد، من ںير توليد نصوص طويلة مالهاش لازمة.",
+            "narration": "أما أني ديسيشن موديل فبيقدم طريقة جديدة للإجابة على الأسئلة بنعم أو لا، أو الاختيار من متعدد، من غير توليد نصوص طويلة مالهاش لازمة. نعم أو لا من غير محاضرة؟ ابعتوا النموذج ده لأي حد بنسأله سؤال بسيط ويرد علينا برسالة صوتية عشر دقايق.",
             "labels": [],
             "visual_mode": "deployment",
             "evidence_excerpt_id": 11,
-            "punchline": "",
-            "reaction": "none",
+            "punchline": "رسالة صوتية عشر دقايق",
+            "reaction": "suspicious",
             "evidence_quote": "who speaks when. AnyDecisionModel answers yes-or-no, multiple-choice, and rating-scale questions with typed results and probabilities."
           },
           {
             "id": "scene_6",
             "label": "تطبيق إيموجي ماجنت",
-            "narration": "تطبيق إيموجي ماجنت بيوضح قدرة النماذج دي، حيث بيصنف مأات الإيموجي مباشرة علڭ جهازك بناءً على كتابتك، بدون أي قواعد كلمات مفتاحية مسبقة.",
+            "narration": "تطبيق إيموجي ماجنت بيوضح قدرة النماذج دي، حيث بيصنف مئات الإيموجي مباشرة على جهازك بناءً على كتابتك، بدون أي قواعد كلمات مفتاحية مسبقة.",
             "labels": [
               "تطبيق إيموجي ماجنت"
             ],
@@ -202,18 +202,18 @@
           {
             "id": "scene_7",
             "label": "القيود والمتطلبات",
-            "narration": "النماذج دي بتتطلب إصدارات حديثة من نظام التشغيل وأجهزة أبل سيليڤون، وبعض الترندات المحلية زي كليف فلاش بتلزم مساحة تخزين مش قليلة على الماڤ.",
+            "narration": "التشغيل المحلي ليه متطلبات للنظام والجهاز ومساحة التخزين. يعني قبل التجربة، المطور لازم يراجع إصدار النظام وحجم النموذج المناسب لجهازه، مش يفترض إن أي جهاز هيشغّل أي نموذج بنفس الأداء. بس خليك صاحي لمساحة التخزين؛ قبل ما تفرح بالذكاء الجديد، ممكن الماك يطلب منك تمسح فولدر اسمه نسخة نهائية بجد.",
             "labels": [],
             "visual_mode": "limits",
             "evidence_excerpt_id": 108,
-            "punchline": "",
-            "reaction": "none",
+            "punchline": "نسخة نهائية بجد",
+            "reaction": "loading",
             "evidence_quote": "The 4-bit model is a 6.2 GB download, and its model card recommends a Mac"
           },
           {
             "id": "scene_8",
             "label": "الخلاصة التقنية",
-            "narration": "في النهاية، الحزمتين دول بيفتحوا باب واسع للمطورين لبناء تطبيقات صوتية وقرارات ذكية تعمل بالكامل علڭ أجهزة أبل وبدون الاعتماد الكامل على السحابة.",
+            "narration": "في النهاية، الحزمتين دول بيفتحوا باب واسع للمطورين لبناء تطبيقات صوتية وقرارات ذكية تعمل بالكامل على أجهزة أبل وبدون الاعتماد الكامل على السحابة.",
             "labels": [],
             "visual_mode": "network",
             "evidence_excerpt_id": 144,
@@ -258,7 +258,15 @@
           "issues": [],
           "model": "gemini-3.5-flash-lite"
         },
-        "writer_model": "gemini-3.5-flash-lite"
+        "writer_model": "gemini-3.5-flash-lite",
+        "post_edit_review": {
+          "reviewer": "Codex editorial review",
+          "scope": "Correct Arabic spelling and unclear transliteration; add explicitly satirical narrator commentary to the already source-reviewed reserved episode. No new source performance claims.",
+          "source_factual_review_preserved": true,
+          "voice_must_be_regenerated": true,
+          "silent_padding": false,
+          "source_story_sha256": "1496152b7d4334cfa961a48547859ad71d34b86230432eeaf41410afa1b6d7eb"
+        }
       },
       "reserved_at": "2026-10-29T15:05:20.218121+00:00"
     }
