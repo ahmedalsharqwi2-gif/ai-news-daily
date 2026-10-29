@@ -41,6 +41,11 @@ def verified_mapping(profile,rows):
                     service,identifier=value.split(':',1);explicit[service.lower()]=identifier
                 elif value:legacy.append(value)
     selected={};confirmed=confirmed_bindings(profile)
+    # Explicitly confirmed additions must not disappear behind an older two-service secret.
+    for service,identifier in confirmed.items():
+        if service in explicit and explicit[service]!=identifier:
+            raise ValueError('Configured destination conflicts with user-confirmed channel')
+        explicit.setdefault(service,identifier)
     def accept(row,service=None):
         actual=row.get('service','').lower()
         if actual not in services or (service and actual!=service) or row.get('isQueuePaused') or not (confirmed.get(actual)==row['id'] or any(norm(BRANDS[profile]) in norm(row.get(k,'')) for k in ('name','displayName'))):

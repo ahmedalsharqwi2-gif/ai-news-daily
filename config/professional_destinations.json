@@ -1,0 +1,10 @@
+{
+  "profile": "news",
+  "existing_bindings_confirmed_by_user": true,
+  "buffer_channel_ids": {
+    "youtube": "6ad3ef9d778b240e2f3fa5b9",
+    "facebook": "6ad3ef2c778b240e2f3fa387",
+    "instagram": "6ad3eeea778b240e2f3fa23b"
+  },
+  "reason": "User requested missing news film on the existing connected aisare3_news Instagram; preserve existing YouTube and Facebook destinations."
+}

@@ -70,7 +70,7 @@ class DailyProfessionalTests(unittest.TestCase):
  def test_a_valid_id_for_an_unrelated_brand_is_rejected(self):
   from professional_motion.publisher import verified_mapping
   rows=[{'id':'a','service':'facebook','name':'اسرار الكون'}]
-  with patch.dict(os.environ,{'BUFFER_CHANNEL_IDS':'a'},clear=True):
+  with patch('professional_motion.publisher.confirmed_bindings',return_value={}),patch.dict(os.environ,{'BUFFER_CHANNEL_IDS':'a'},clear=True):
    with self.assertRaisesRegex(ValueError,'brand'):verified_mapping('news',rows)
  def test_explicit_channel_service_must_match_provider(self):
   from professional_motion.publisher import verified_mapping
@@ -106,6 +106,17 @@ class EvidenceAndTimingTests(unittest.TestCase):
   self.assertTrue(all(x['start']<=x['end'] for x in t['caption_groups']))
 
 class ConfirmedDestinationTests(unittest.TestCase):
+ def test_confirmed_instagram_is_added_to_existing_two_service_configuration(self):
+  from professional_motion.publisher import verified_mapping
+  bindings={'youtube':'yt','facebook':'fb','instagram':'ig'}
+  rows=[{'id':identifier,'service':service,'name':'aisare3_news' if service=='instagram' else 'AI على السريع'} for service,identifier in bindings.items()]
+  with patch('professional_motion.publisher.confirmed_bindings',return_value=bindings),patch.dict(os.environ,{'BUFFER_CHANNEL_IDS':'youtube:yt,facebook:fb'},clear=True):
+   self.assertEqual(verified_mapping('news',rows),bindings)
+ def test_conflicting_explicit_channel_cannot_replace_confirmed_instagram(self):
+  from professional_motion.publisher import verified_mapping
+  with patch('professional_motion.publisher.confirmed_bindings',return_value={'instagram':'ig'}),patch.dict(os.environ,{'BUFFER_INSTAGRAM_CHANNEL_ID':'different'},clear=True):
+   with self.assertRaisesRegex(ValueError,'conflicts'):verified_mapping('news',[])
+
  def test_user_confirmed_id_can_keep_its_existing_display_name(self):
   from professional_motion.publisher import verified_mapping
   rows=[{'id':'confirmed-yt','service':'youtube','name':'Existing display name'}]

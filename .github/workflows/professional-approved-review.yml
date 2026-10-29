@@ -1,5 +1,5 @@
 {
-  "name": "Publish explicitly approved completed news film",
+  "name": "Complete approved news publication on missing Instagram without duplicating existing posts",
   "on": {
     "push": {
       "branches": [
