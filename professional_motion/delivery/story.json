@@ -1,0 +1,96 @@
+{
+  "title": "جيميني فور كاربون: إيه الجديد فعلاً؟",
+  "canonical_subject": "Gemini 4 Carbon",
+  "suitable": true,
+  "facts": [
+    "Gemini 4 Carbon is introduced as a frontier model by Google DeepMind.",
+    "It provides cybersecurity defense capabilities, vulnerability detection, validation, and remediation.",
+    "Pricing is set at two dollars per million input tokens and ten dollars per million output tokens."
+  ],
+  "milestones": [
+    "2026-10-28"
+  ],
+  "scenes": [
+    {
+      "id": "scene-1",
+      "label": "جيميني فور كاربون",
+      "visual_mode": "chip",
+      "narration": "جوجل ديب مايند أعلنت عن جيميني فور كاربون. الجديد هنا تركيز على مهام هندسية وبرمجية طويلة، مش مجرد رد سريع.",
+      "labels": [],
+      "evidence_quote": "Mail Copy link Today, we’re announcing the next frontier model: Gemini 4 Carbon, our strongest"
+    },
+    {
+      "id": "scene-2",
+      "label": "مهمة بتاخد وقت",
+      "visual_mode": "flow",
+      "narration": "الفكرة إن النموذج يتعامل مع شغل محتاج خطوات كتير. الرسم ده توضيحي لتدفق المهمة، مش تصوير لبنية النموذج السرية.",
+      "labels": [],
+      "evidence_quote": "much harder, long-horizon engineering problems, Carbon is built for sustained agentic workflows. Internally, our teams"
+    },
+    {
+      "id": "scene-3",
+      "label": "الأمن السيبراني",
+      "visual_mode": "network",
+      "narration": "الإعلان بيتكلم كمان عن الأمن السيبراني واكتشاف الثغرات. بس اللي بيقوله المطور لازم نفرّقه عن تقييم مستقل للقدرات.",
+      "labels": [],
+      "evidence_quote": "lead in SEC-bench Pro (88.2%) for finding vulnerabilities, ExploitGym (54.8%) for exploitation, and CWE-bench (71.0%)"
+    },
+    {
+      "id": "scene-4",
+      "label": "مقارنة مش دعاية",
+      "visual_mode": "comparison",
+      "narration": "لو هنقارن بالإصدارات السابقة، لازم نبص لشروط الاختبار. شكل المجسم هنا شرح للفكرة، مش رسم لنتائج أو نسب جديدة.",
+      "labels": [],
+      "evidence_quote": "v5.0 of Artificial Analysis Intelligence Index at 59. It shows significant gains across coding and"
+    },
+    {
+      "id": "scene-5",
+      "label": "طرح بشكل تدريجي",
+      "visual_mode": "deployment",
+      "narration": "الوصول للنموذج بيبدأ تدريجي مع شركاء ومدافعين سيبرانيين. عشان كده، الإعلان عنه مش معناه إن كل الناس تقدر تستخدمه فوراً.",
+      "labels": [],
+      "evidence_quote": "pre-release model testing. Starting this week, we will make Carbon available to a subset of"
+    },
+    {
+      "id": "scene-6",
+      "label": "التكلفة والاستخدام",
+      "visual_mode": "flow",
+      "narration": "المصدر بيعرض تفاصيل لتكلفة الاستخدام. بس قبل ما تبني عليه مشروع، راجع التسعير الحالي وشروط الوصول بنفسك.",
+      "labels": [],
+      "evidence_quote": "will launch at the same introductory price 1 as Argon at $2 per million input"
+    },
+    {
+      "id": "scene-7",
+      "label": "حدود محتاجة مراجعة",
+      "visual_mode": "limits",
+      "narration": "زي أي نموذج قوي، موضوع السلامة والمخاطر محتاج مراجعة. القدرة المعلنة مش ضمان إن كل نتيجة هتطلع صحيحة.",
+      "labels": [],
+      "evidence_quote": "model training, real-time misuse defenses, prompt-injection resilience, and chain-of-thought monitoring. In particular, we made significant"
+    },
+    {
+      "id": "scene-8",
+      "label": "إيه اللي نتابعه؟",
+      "visual_mode": "chip",
+      "narration": "اللي يستاهل المتابعة هو التجارب الفعلية بعد الإتاحة. هل المهام الطويلة هتتحسن في شغلك؟ ده سؤال نحكم عليه بالتجربة.",
+      "labels": [],
+      "evidence_quote": ". We’re continuing to gather feedback and iterate on guardrails before making Carbon available to"
+    }
+  ],
+  "profile": "news",
+  "series": "ai على السريع",
+  "visual_family": "compute",
+  "variant": "chip",
+  "topic_key": "3e32bae570ff21ee",
+  "source": {
+    "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+    "publisher": "Google DeepMind"
+  },
+  "fiction": false,
+  "documented": true,
+  "editorial_review": {
+    "supported": true,
+    "novel": true,
+    "issues": []
+  },
+  "revision": "source-checked narration and topic-specific authored visual modes"
+}

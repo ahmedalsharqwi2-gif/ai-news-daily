@@ -1,0 +1,17 @@
+{
+  "provider": "Gemini TTS",
+  "model": "gemini-3.8-flash-tts",
+  "voice": "Charon",
+  "style": "Egyptian Arabic ar-EG, native conversational Cairo accent. Charon, warm low male voice, lively natural Egyptian tech storyteller with dry comic timing. Clear articulation, short natural pauses around punchlines, no forced laughter. Read every word exactly, say all numbers naturally, finish the final sentence completely. No music, no singing, no sound effects, no spoken stage directions.",
+  "text": "جوجل ديب مايند أعلنت عن جيميني فور كاربون. الجديد هنا تركيز على مهام هندسية وبرمجية طويلة، مش مجرد رد سريع. الفكرة إن النموذج يتعامل مع شغل محتاج خطوات كتير. الرسم ده توضيحي لتدفق المهمة، مش تصوير لبنية النموذج السرية. الإعلان بيتكلم كمان عن الأمن السيبراني واكتشاف الثغرات. بس اللي بيقوله المطور لازم نفرّقه عن تقييم مستقل للقدرات. لو هنقارن بالإصدارات السابقة، لازم نبص لشروط الاختبار. شكل المجسم هنا شرح للفكرة، مش رسم لنتائج أو نسب جديدة. الوصول للنموذج بيبدأ تدريجي مع شركاء ومدافعين سيبرانيين. عشان كده، الإعلان عنه مش معناه إن كل الناس تقدر تستخدمه فوراً. المصدر بيعرض تفاصيل لتكلفة الاستخدام. بس قبل ما تبني عليه مشروع، راجع التسعير الحالي وشروط الوصول بنفسك. زي أي نموذج قوي، موضوع السلامة والمخاطر محتاج مراجعة. القدرة المعلنة مش ضمان إن كل نتيجة هتطلع صحيحة. اللي يستاهل المتابعة هو التجارب الفعلية بعد الإتاحة. هل المهام الطويلة هتتحسن في شغلك؟ ده سؤال نحكم عليه بالتجربة.",
+  "interaction_id": "v1_ChdoSXppYXBuekdLbXBxdHNQM2MtUzRBMBIXaEl6aWFwbnpHS21wcXRzUDNjLVM0QTA",
+  "duration": 69.56,
+  "sample_rate": 24000,
+  "channels": 1,
+  "sha256": "35157593434dd1041e0cfc2c3d0877d98aa72085d9ecde168df60625860c3756",
+  "newly_synthesized": true,
+  "original_video_audio_used": false,
+  "fallback_used": false,
+  "cache_hit": false,
+  "output_sha256": "35157593434dd1041e0cfc2c3d0877d98aa72085d9ecde168df60625860c3756"
+}
