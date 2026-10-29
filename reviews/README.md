@@ -1,5 +1,7 @@
-# أحدث فيديو فعلي — news
+# Latest published film
 
-[مشاهدة / تحميل 720p](https://github.com/ahmedalsharqwi2-gif/ai-news-daily/raw/refs/heads/codex/professional-video-40790914800/review-720p.mp4) · [تحميل النسخة الأصلية 1080p](https://github.com/ahmedalsharqwi2-gif/ai-news-daily/raw/refs/heads/codex/professional-video-40790914800/review-1080p.mp4)
+[Published on YouTube](https://www.youtube.com/shorts/nAF8zYGkjUk) — 109.80 seconds, original Charon narration.
 
-إنتاج المستودع نفسه بصوت Charon أصلي وموسيقى مؤلفة ورسومات ثلاثية الأبعاد. الجدولة اليومية الساعة الخامسة مساءً بتوقيت القاهرة، وتظل مغلقة حتى مراجعة عينات القنوات الجديدة واعتمادها.
+Daily preparation: 09:00 Africa/Cairo in GitHub Actions. Publication: 17:00 Cairo through Buffer. No phone or chat session is required. Actual acceptance and publication receipts remain in durable state and isolated review evidence branches. Source or production failures stop incomplete/duplicate films.
+
+See latest.json for immutable downloads and sample checksums, and PROFESSIONAL_DAILY.md for production policy.

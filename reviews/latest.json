@@ -1,11 +1,21 @@
 {
   "profile": "news",
-  "run_id": "40790914800",
-  "duration": 69.56,
-  "sha256": "5ebb0a698e73f1287559fdb9c6e16e36db4c3930e41a9ab81b422fb69c922be9",
-  "review_approved_by_user": false,
+  "run_id": "40931341987",
+  "duration": 109.8,
+  "sha256": "f2972eb2eccc93e6f40420fc692a3013c3e9088e29c9519c7c97421bd4711056",
+  "review_approved_by_user": true,
+  "publication_status": "sent",
+  "youtube_url": "https://www.youtube.com/shorts/nAF8zYGkjUk",
+  "daily_schedule": {
+    "timezone": "Africa/Cairo",
+    "production": "09:00",
+    "publication": "17:00",
+    "executor": "GitHub Actions",
+    "delivery": "Buffer",
+    "enabled": true
+  },
   "downloads": {
-    "720p": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/raw/refs/heads/codex/professional-video-40790914800/review-720p.mp4",
-    "1080p": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/raw/refs/heads/codex/professional-video-40790914800/review-1080p.mp4"
+    "720p": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/raw/refs/heads/codex/professional-video-40931341987/review-720p.mp4",
+    "1080p": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/raw/refs/heads/codex/professional-video-40931341987/review-1080p.mp4"
   }
 }
