@@ -59,12 +59,26 @@
       "confirmed_at": "2026-10-23T15:07:07.250564+00:00"
     },
     "immediate approved-news-40931341987": {
-      "confirmed": false,
-      "receipts": {},
+      "confirmed": true,
+      "receipts": {
+        "youtube": {
+          "id": "6ae39fbf1026f5c4e0bf51f3",
+          "due_at": "2026-10-29T19:36:23Z",
+          "run_id": "40940983488",
+          "accepted_at": "2026-10-29T19:34:23.892977+00:00"
+        },
+        "facebook": {
+          "id": "6ae39fc0be6b4bd5b62dafa2",
+          "due_at": "2026-10-29T19:36:23Z",
+          "run_id": "40940983488",
+          "accepted_at": "2026-10-29T19:34:24.632075+00:00"
+        }
+      },
       "required_services": [
         "facebook",
         "youtube"
-      ]
+      ],
+      "confirmed_at": "2026-10-29T19:34:24.632993+00:00"
     }
   }
 }
