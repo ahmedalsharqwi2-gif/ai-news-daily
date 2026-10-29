@@ -1,0 +1,120 @@
+{
+  "title": "أوبن إيه آي وسيرفس نوات توسعان الشراكة",
+  "canonical_subject": "OpenAI and ServiceNow partnership expansion",
+  "suitable": true,
+  "facts": [
+    "OpenAI and ServiceNow are expanding their partnership to integrate OpenAI models and agents into ServiceNow workflows.",
+    "The collaboration brings ChatGPT and Codex integration into ServiceNow products for development, security, and enterprise use.",
+    "A new ServiceNow integration allows business context and workflow actions directly inside ChatGPT.",
+    "New capabilities span application development, cybersecurity, and voice-powered control tower experiences."
+  ],
+  "milestones": [
+    "January 2026",
+    "October 28, 2026",
+    "2027"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "label": "توسيع الشراكة",
+      "narration": "أوبن إيه آي وسيرفس نوات بيكبروا الشراكة اللي بينهم عشان يدخلوا نماذج الذكاء الاصطناعي جوه كل العمليات والأنظمة.",
+      "labels": [
+        "توسيع الشراكة"
+      ],
+      "visual_mode": "chip",
+      "evidence_excerpt_id": 2,
+      "punchline": "مين هيلحق يراجع وراهم؟",
+      "reaction": "shock"
+    },
+    {
+      "id": "scene_2",
+      "label": "سياق العمل",
+      "narration": "التكامل الجديد بيجيب سياق الشغل الحقيقي جوه شات جي بي تي عشان الفريق يقدر يحل المشاكل من نفس المكان.",
+      "labels": [
+        "سياق العمل"
+      ],
+      "visual_mode": "flow",
+      "evidence_excerpt_id": 7,
+      "punchline": "تفتح شات تلاقي الشغل فاتك",
+      "reaction": "smug"
+    },
+    {
+      "id": "scene_3",
+      "label": "بناء التطبيقات",
+      "narration": "تطوير التطبيقات بقى أسهل بكتير مع أدوات كودكس وستوديو سيرفس نوات اللي بتساعد المهندسين في بناء البرمجيات بسرعة.",
+      "labels": [
+        "بناء التطبيقات"
+      ],
+      "visual_mode": "network",
+      "evidence_excerpt_id": 31,
+      "punchline": "",
+      "reaction": "none"
+    },
+    {
+      "id": "scene_4",
+      "label": "الأمن السيبراني",
+      "narration": "الحل الأمني المشترك بيجمع قدرات أوبن إيه آي السيبرانية مع بيانات سيرفس نوات عشان يقبضوا على الثغرات بدري.",
+      "labels": [
+        "الأمن السيبراني"
+      ],
+      "visual_mode": "comparison",
+      "evidence_excerpt_id": 34,
+      "punchline": "الثغرة تظهر والذكاء يكشفها",
+      "reaction": "suspicious"
+    },
+    {
+      "id": "scene_5",
+      "label": "التحكم الصوتي",
+      "narration": "خاصية الصوت الجديدة هتخلي أي موظف يوصف حالة الاستخدام بصوتة عشان النظام يملا البيانات لوحده من غير تعب.",
+      "labels": [
+        "التحكم الصوتي"
+      ],
+      "visual_mode": "deployment",
+      "evidence_excerpt_id": 36,
+      "punchline": "تتكلم كلمتين تلاقي السيستم خلص",
+      "reaction": "loading"
+    },
+    {
+      "id": "scene_6",
+      "label": "تعميم الأدوات",
+      "narration": "سيرفس نوات ناو ناويين يدوا وصول لكل الموظفين لبرنامج شات جي بي مش بس مهندسين الأكواد والبرمجة.",
+      "labels": [
+        "تعميم الأدوات"
+      ],
+      "visual_mode": "flow",
+      "evidence_excerpt_id": 38,
+      "punchline": "",
+      "reaction": "none"
+    },
+    {
+      "id": "scene_7",
+      "label": "صلاحيات الوصول",
+      "narration": "القواعد والأذونات الموجودة في النظام بتضمن إن كل شخص يقدر يعمل الإجراءات المسموح بيها لمنظمته وبس.",
+      "labels": [
+        "صلاحيات الوصول"
+      ],
+      "visual_mode": "limits",
+      "evidence_excerpt_id": 12,
+      "punchline": "",
+      "reaction": "none"
+    },
+    {
+      "id": "scene_8",
+      "label": "مواعيد الإطلاق",
+      "narration": "المكونات الجديدة والإضافات هتبدأ تنزل تدريجياً للعملاء من نهايات السنة دي ولحد عام ألفين وسبعة القادم.",
+      "labels": [
+        "مواعيد الإطلاق"
+      ],
+      "visual_mode": "network",
+      "evidence_excerpt_id": 44,
+      "punchline": "",
+      "reaction": "none"
+    }
+  ],
+  "hashtags": [
+    "OpenAI",
+    "ServiceNow",
+    "ChatGPT",
+    "Codex"
+  ]
+}

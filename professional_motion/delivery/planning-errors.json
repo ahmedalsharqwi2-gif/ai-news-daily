@@ -1,0 +1,17 @@
+[
+  {
+    "topic_key": "6394645bd5105adc",
+    "error_class": "ValueError",
+    "validation": "Vary scenes naturally between 24 and 50 spoken words while keeping the whole film length"
+  },
+  {
+    "topic_key": "7281347817fe3ba2",
+    "error_class": "ValueError",
+    "validation": "Vary scenes naturally between 24 and 50 spoken words while keeping the whole film length"
+  },
+  {
+    "topic_key": "a395c7da350b5086",
+    "error_class": "ValueError",
+    "validation": "Vary scenes naturally between 24 and 50 spoken words while keeping the whole film length"
+  }
+]
