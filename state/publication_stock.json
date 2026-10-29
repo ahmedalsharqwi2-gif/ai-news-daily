@@ -57,6 +57,14 @@
         "youtube"
       ],
       "confirmed_at": "2026-10-23T15:07:07.250564+00:00"
+    },
+    "immediate approved-news-40931341987": {
+      "confirmed": false,
+      "receipts": {},
+      "required_services": [
+        "facebook",
+        "youtube"
+      ]
     }
   }
 }

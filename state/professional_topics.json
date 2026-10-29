@@ -269,7 +269,13 @@
         }
       },
       "reserved_at": "2026-10-29T15:05:20.218121+00:00",
-      "video_sha256": "f2972eb2eccc93e6f40420fc692a3013c3e9088e29c9519c7c97421bd4711056"
+      "video_sha256": "f2972eb2eccc93e6f40420fc692a3013c3e9088e29c9519c7c97421bd4711056",
+      "one_off_publication": {
+        "status": "submitting",
+        "approved_video_sha256": "f2972eb2eccc93e6f40420fc692a3013c3e9088e29c9519c7c97421bd4711056",
+        "media_id": "approved-news-40931341987",
+        "title": "ai على السريع | الماك بقى يسمع ويفرّق الأصوات.. إيه حكاية النماذج الجديدة؟"
+      }
     }
   ]
 }
