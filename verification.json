@@ -1,0 +1,151 @@
+{
+  "file": "professional-review.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 69.56,
+  "voice": "original Gemini Charon",
+  "asr_model": "medium+small",
+  "independent_asr_word_coverage": 0.8533333333333334,
+  "visual_gate": {
+    "passed": true,
+    "duration": 69.566667,
+    "resolution": [
+      1080,
+      1920
+    ],
+    "method": "within-scene diagram-region pixel changes",
+    "scenes": [
+      {
+        "scene": 1,
+        "diagram_spatial_std": [
+          39.244674809889425,
+          40.50529303493306,
+          42.59060450024716
+        ],
+        "changed_pixel_ratios": [
+          0.17782526115859448,
+          0.17164055080721746
+        ],
+        "passed": true
+      },
+      {
+        "scene": 2,
+        "diagram_spatial_std": [
+          34.79478443993214,
+          39.36091923655214,
+          37.884925732139436
+        ],
+        "changed_pixel_ratios": [
+          0.2785375118708452,
+          0.2872388414055081
+        ],
+        "passed": true
+      },
+      {
+        "scene": 3,
+        "diagram_spatial_std": [
+          37.52390062327147,
+          37.62659232445439,
+          37.73452117624014
+        ],
+        "changed_pixel_ratios": [
+          0.06925451092117758,
+          0.05034425451092118
+        ],
+        "passed": true
+      },
+      {
+        "scene": 4,
+        "diagram_spatial_std": [
+          28.833709408036352,
+          28.792587812846506,
+          28.836805732636922
+        ],
+        "changed_pixel_ratios": [
+          0.043862773029439694,
+          0.03270417853751187
+        ],
+        "passed": true
+      },
+      {
+        "scene": 5,
+        "diagram_spatial_std": [
+          19.582330523402334,
+          19.552592625931933,
+          19.58547464031678
+        ],
+        "changed_pixel_ratios": [
+          0.021604938271604937,
+          0.030223171889838557
+        ],
+        "passed": true
+      },
+      {
+        "scene": 6,
+        "diagram_spatial_std": [
+          36.02396497905152,
+          36.04243473506083,
+          36.143301176708725
+        ],
+        "changed_pixel_ratios": [
+          0.09647435897435898,
+          0.10531813865147198
+        ],
+        "passed": true
+      },
+      {
+        "scene": 7,
+        "diagram_spatial_std": [
+          28.76340915967637,
+          28.79788876493182,
+          28.862936054320095
+        ],
+        "changed_pixel_ratios": [
+          0.014791073124406457,
+          0.017830009496676163
+        ],
+        "passed": true
+      },
+      {
+        "scene": 8,
+        "diagram_spatial_std": [
+          38.9859384008106,
+          39.895168490890065,
+          41.09767627454375
+        ],
+        "changed_pixel_ratios": [
+          0.14034900284900284,
+          0.14715099715099716
+        ],
+        "passed": true
+      }
+    ],
+    "note": "Technical blank/freeze detection only; not a judgement of artistic or factual quality."
+  },
+  "audio_tail": {
+    "audio_seconds": 69.56,
+    "video_seconds": 69.56,
+    "difference_seconds": 0.0,
+    "last_speech_window_correlation": 0.9638760685920715,
+    "audio_tail_checked": true,
+    "silence_padding_used_to_hide_lost_speech": false
+  },
+  "music": "Original composed score",
+  "music_bpm": 120,
+  "source": {
+    "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+    "publisher": "Google DeepMind"
+  },
+  "topic_key": "3e32bae570ff21ee",
+  "profile": "news",
+  "editorial_review": {
+    "supported": true,
+    "novel": true,
+    "issues": []
+  },
+  "render": "Three.js procedural geometry, physical lighting, custom skin shader, layered optical bloom",
+  "reference_audio_reused": false,
+  "automatically_published": false,
+  "status": "Technical checks passed; artistic judgement requires viewing the complete film."
+}
