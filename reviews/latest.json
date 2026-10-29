@@ -1,0 +1,11 @@
+{
+  "profile": "news",
+  "run_id": "40790914800",
+  "duration": 69.56,
+  "sha256": "5ebb0a698e73f1287559fdb9c6e16e36db4c3930e41a9ab81b422fb69c922be9",
+  "review_approved_by_user": false,
+  "downloads": {
+    "720p": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/raw/refs/heads/codex/professional-video-40790914800/review-720p.mp4",
+    "1080p": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/raw/refs/heads/codex/professional-video-40790914800/review-1080p.mp4"
+  }
+}
