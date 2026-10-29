@@ -1,0 +1,38 @@
+[
+  {
+    "key": "3e32bae570ff21ee",
+    "title": "Gemini 4 Carbon: Our next frontier model",
+    "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+    "family": "compute",
+    "variant": "chip",
+    "published": "2026-10-28T17:00:58+00:00",
+    "already_reserved": true
+  },
+  {
+    "key": "e960e8891f7d7ad8",
+    "title": "Genie 4: A new generation of world simulation",
+    "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+    "family": "compute",
+    "variant": "chip",
+    "published": "2026-10-27T16:01:38+00:00",
+    "already_reserved": false
+  },
+  {
+    "key": "7281347817fe3ba2",
+    "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+    "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
+    "family": "compute",
+    "variant": "chip",
+    "published": "2026-10-28T15:00:46+00:00",
+    "already_reserved": false
+  },
+  {
+    "key": "a395c7da350b5086",
+    "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+    "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+    "family": "compute",
+    "variant": "chip",
+    "published": "2026-10-28T13:15:00+00:00",
+    "already_reserved": false
+  }
+]

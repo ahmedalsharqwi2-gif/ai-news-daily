@@ -1,0 +1,17 @@
+[
+  {
+    "topic_key": "e960e8891f7d7ad8",
+    "error_class": "ValueError",
+    "validation": "Source does not contain sufficient evidence"
+  },
+  {
+    "topic_key": "7281347817fe3ba2",
+    "error_class": "ValueError",
+    "validation": "At least two hashtags must refer to specific subjects actually discussed in this film"
+  },
+  {
+    "topic_key": "a395c7da350b5086",
+    "error_class": "ValueError",
+    "validation": "Each scene needs 32–44 spoken words for the requested complete story length"
+  }
+]
