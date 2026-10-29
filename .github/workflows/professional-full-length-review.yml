@@ -1,5 +1,5 @@
 {
-  "name": "Caption-safe full-length film with advisory style review — ai-news-daily",
+  "name": "Complete the same sourced news review with audible memes and full-length narration",
   "on": {
     "push": {
       "branches": [
@@ -69,7 +69,7 @@
         {
           "name": "Check review approval and Cairo civil-time guard",
           "id": "decision",
-          "run": "python -m professional_motion.cli decision news --mode \"${{ inputs.mode || 'review' }}\""
+          "run": "python -m professional_motion.cli decision news --mode \"${{ inputs.mode || 'review' }}\"\necho \"slot=review-40897156479\" >> \"$GITHUB_OUTPUT\""
         },
         {
           "name": "Install narration and alignment dependencies",
@@ -86,10 +86,10 @@
           }
         },
         {
-          "name": "Author a different full-length story, source claims, title and topical hashtags",
+          "name": "Revise the same reserved news story without another writing-provider request",
           "id": "prepare",
           "if": "steps.decision.outputs.run == 'true'",
-          "run": "python -m professional_motion.prepare_review prepare news --slot \"${{ steps.decision.outputs.slot }}\""
+          "run": "python -m professional_motion.revise_news_review"
         },
         {
           "name": "Persist the reserved plot before any synthesis",
