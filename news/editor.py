@@ -13,52 +13,139 @@ UA={'User-Agent':'AI-News-Daily/1.0 (official-source editorial reader)'}
 
 def canonical(url):
     p=urlparse(url)
-    if p.scheme!='https' or p.hostname not in ALLOWED or p.username or p.password:raise ValueError('Non-official news source')
-    if p.hostname=='huggingface.co':
+    host=p.hostname or ''
+    if host.startswith('www.') and host[4:] in ALLOWED:host=host[4:]
+    if p.scheme!='https' or host not in ALLOWED or p.username or p.password or p.port not in (None,443):raise ValueError('Non-official news source')
+    if host=='huggingface.co':
         parts=[x for x in p.path.split('/') if x]
         if not parts or parts[0]!='blog' or (len(parts)>2 and parts[1] not in {'allenai','huggingface','deepseek-ai','nvidia','google'}):
             raise ValueError('Unverified community author; require an official editorial or known organization blog')
-    return p._replace(query='',fragment='').geturl()
+    return p._replace(netloc=host,path=p.path.rstrip('/'),query='',fragment='').geturl()
 def date(raw):
+    raw=str(raw or '').strip()
+    if not raw:raise ValueError('Missing news publication date')
     try:d=parsedate_to_datetime(raw)
     except (ValueError,TypeError):d=datetime.fromisoformat(raw.replace('Z','+00:00'))
-    return d.replace(tzinfo=d.tzinfo or timezone.utc).astimezone(timezone.utc)
+    if d.tzinfo is None:raise ValueError('News publication date has no timezone')
+    return d.astimezone(timezone.utc)
 def text(html):return ' '.join(BeautifulSoup(html,'html.parser').get_text(' ',strip=True).split())
+
+def _entry_value(item,*tags):
+    for tag in tags:
+        el=item.find(tag)
+        if el is not None:return ''.join(el.itertext()).strip()
+    return ''
+
+def _entry_link(item):
+    link=_entry_value(item,'link')
+    if link:return link
+    # Atom's first link may be a feed/self link rather than the dated article.
+    for el in item.findall('{http://www.w3.org/2005/Atom}link'):
+        if el.attrib.get('rel','alternate')=='alternate' and el.attrib.get('type','text/html') in ('text/html','application/xhtml+xml'):
+            return el.attrib.get('href','')
+    return ''
 def candidates(now=None):
-    now=now or datetime.now(timezone.utc);rows=[];errors=[]
+    now=now or datetime.now(timezone.utc);rows=[];errors=[];invalid_items=0
     seen=set(json.loads(Path('state/news_history.json').read_text()).get('urls',[])) if Path('state/news_history.json').exists() else set()
     for publisher,url in FEEDS:
         try:
             r=requests.get(url,headers=UA,timeout=25);r.raise_for_status();root=ET.fromstring(r.content)
             entries=root.findall('.//item') or root.findall('.//{http://www.w3.org/2005/Atom}entry')
             for item in entries[:12]:
-                def value(*tags):
-                    for tag in tags:
-                        el=item.find(tag)
-                        if el is not None:return el.text or el.attrib.get('href','')
-                    return ''
-                try:link=canonical(value('link','{http://www.w3.org/2005/Atom}link'))
-                except ValueError:continue
-                published=date(value('pubDate','{http://www.w3.org/2005/Atom}published','{http://www.w3.org/2005/Atom}updated'))
+                try:
+                    link=canonical(_entry_link(item))
+                    published=date(_entry_value(item,'pubDate','{http://www.w3.org/2005/Atom}published','{http://www.w3.org/2005/Atom}updated'))
+                except (ValueError,TypeError,OverflowError):
+                    invalid_items+=1;continue
                 if link in seen or not now-timedelta(hours=72)<=published<=now+timedelta(minutes=5):continue
-                title=text(value('title','{http://www.w3.org/2005/Atom}title'))
-                summary=text(value('description','{http://www.w3.org/2005/Atom}summary','{http://www.w3.org/2005/Atom}content'))
+                title=text(_entry_value(item,'title','{http://www.w3.org/2005/Atom}title'))
+                summary=text(_entry_value(item,'description','{http://purl.org/rss/1.0/modules/content/}encoded','{http://www.w3.org/2005/Atom}summary','{http://www.w3.org/2005/Atom}content'))
                 if not re.search(r'\bAI\b|artificial intelligence|model|agent|Gemini|LLM|DeepSeek|GPU',title+' '+summary,re.I):continue
                 rows.append({'title':title,'url':link,'publisher':publisher,'published':published.isoformat(),'summary':summary[:2500]})
         except Exception as exc:errors.append({'publisher':publisher,'error':type(exc).__name__})
     rows=sorted({r['url']:r for r in rows}.values(),key=lambda r:r['published'],reverse=True)[:18]
     Path('output').mkdir(exist_ok=True)
-    Path('output/feed-status.json').write_text(json.dumps({'candidates':len(rows),'feed_errors':errors,'checked_at':now.isoformat()},ensure_ascii=False,indent=2))
+    Path('output/feed-status.json').write_text(json.dumps({'candidates':len(rows),'feed_errors':errors,'invalid_items':invalid_items,'checked_at':now.isoformat()},ensure_ascii=False,indent=2))
     return rows
 
+
+def _rich_text(value):
+    """Read documented text/rich-text fields, without running page JavaScript."""
+    if isinstance(value,str):return text(value)
+    if isinstance(value,list):return ' '.join(filter(None,(_rich_text(v) for v in value)))
+    if not isinstance(value,dict):return ''
+    # Sanity portable text and Contentful/Lexical rich-text nodes.
+    if isinstance(value.get('text'),str):return value['text']
+    if value.get('nodeType')=='text' and isinstance(value.get('value'),str):return value['value']
+    for key in ('children','content','blocks','root'):
+        if key in value:return _rich_text(value[key])
+    return ''
+
+
+def extract_article_html(html):
+    """Extract an article from its public HTML or embedded article payload.
+
+    JSON-LD articleBody and embedded rich text are the publisher's content on
+    the same successful page. They are not a fallback around denied requests,
+    summaries, search snippets or a second invented source.
+    """
+    soup=BeautifulSoup(html,'html.parser');structured=[]
+    ignored={'related','relatedarticles','relatedposts','recommendations','recommended','navigation','footer','header','menu'}
+    def collect(value,article_context=False,depth=0):
+        if depth>30:return
+        if isinstance(value,list):
+            for child in value:collect(child,article_context,depth+1)
+        elif isinstance(value,dict):
+            kind=value.get('@type',[])
+            kinds={kind} if isinstance(kind,str) else set(kind) if isinstance(kind,list) else set()
+            labelled_type=str(value.get('_type') or value.get('__typename') or value.get('type') or '').lower()
+            has_titled_body=bool(value.get('headline') or value.get('title')) and any(k in value for k in ('body','articleBody','bodyText','richText'))
+            context=article_context or has_titled_body or labelled_type in {'article','post','blogpost','newsarticle','articlepage'} or bool(kinds & {'Article','NewsArticle','BlogPosting','ReportageNewsArticle'})
+            if isinstance(value.get('articleBody'),str):
+                structured.append(('articleBody',_rich_text(value['articleBody'])))
+            for key,child in value.items():
+                lowered=key.lower().replace('_','').replace('-','')
+                if lowered in ignored:continue
+                child_context=context or lowered in {'article','post','blogpost','newsarticle','story','document'}
+                if child_context and lowered in {'body','bodytext','richtext','content','blocks','textcontent'}:
+                    candidate=_rich_text(child)
+                    if candidate:structured.append(('embedded_article',candidate))
+                collect(child,child_context,depth+1)
+    for script in soup.select('script[type="application/ld+json"],script#__NEXT_DATA__,script[type="application/json"]'):
+        raw=script.string or script.get_text()
+        if not raw or len(raw)>2_000_000:continue
+        try:collect(json.loads(raw))
+        except (ValueError,TypeError):continue
+    for node in soup(['script','style','nav','header','footer','aside']):node.decompose()
+    for node in soup.find_all(['div','section']):
+        if node.attrs is None:continue
+        classes=' '.join(node.get('class',[])).lower()
+        if re.search(r'related|recommend',classes):node.decompose()
+    body=soup.find('article') or soup.find('main')
+    is_article=soup.find('meta',attrs={'property':'og:type','content':'article'}) is not None
+    visible_allowed=body is not None or is_article
+    body=body or soup
+    tags={'p','h1','h2','h3','li','blockquote'};paragraphs=[]
+    for node in body.find_all(list(tags)):
+        if any(parent is not body and parent.name in tags for parent in node.parents):continue
+        value=node.get_text(' ',strip=True)
+        if value and (not paragraphs or value!=paragraphs[-1]):paragraphs.append(value)
+    visible=' '.join(paragraphs)
+    if not visible:visible=' '.join(body.stripped_strings)
+    candidates=([('html_article',visible)] if visible_allowed else [])+structured
+    # Prefer an explicit complete Article body; otherwise use the largest
+    # coherent article representation, never a related-story list.
+    complete=[c for c in candidates if len(c[1])>=800]
+    if not complete:raise ValueError('Official article does not contain sufficient full-text evidence')
+    explicit=[c for c in complete if c[0]=='articleBody']
+    method,result=max(explicit or complete,key=lambda c:len(c[1]))
+    return {'article':' '.join(result.split())[:20000],'extraction_method':method}
+
 def article(row):
-    r=requests.get(canonical(row['url']),headers=UA,timeout=30);r.raise_for_status();canonical(r.url)
-    soup=BeautifulSoup(r.text,'html.parser')
-    for node in soup(['script','style','nav','header','footer']):node.decompose()
-    body=soup.find('article') or soup.find('main') or soup
-    paragraphs=[p.get_text(' ',strip=True) for p in body.find_all(['p','h1','h2','li'])]
-    paragraphs=[p for p in paragraphs if not re.search(r'ECG|atrial|medical|healthcare|pharma|clinical|cardio|drug|doctor|disease|patient|medicine',p,re.I)]
-    return {**row,'article':' '.join(paragraphs)[:11000]}
+    identity=canonical(row['url']);r=requests.get(identity,headers=UA,timeout=30)
+    r.raise_for_status()  # Never extract embedded content from an access denial.
+    if canonical(r.url)!=identity:raise ValueError('Official article redirected away from its dated story URL')
+    return {**row,**extract_article_html(r.text)}
 
 SCENE_SCHEMA={'type':'OBJECT','properties':{'title':{'type':'STRING'},'kind':{'type':'STRING','enum':['network','chip','cards','comparison','timeline']},'labels':{'type':'ARRAY','items':{'type':'STRING'},'minItems':1,'maxItems':3},'narration':{'type':'STRING','description':'A complete Egyptian Arabic spoken paragraph of 28 to 34 space-separated words, never fewer than 25. Include the punchline verbatim. Count words before returning.'},'punchline':{'type':'STRING'},'reaction':{'type':'STRING','enum':['shock','suspicious','loading','smug']}},'required':['title','kind','labels','narration','punchline','reaction']}
 PLAN_SCHEMA={'type':'OBJECT','properties':{'title':{'type':'STRING'},'scenes':{'type':'ARRAY','items':SCENE_SCHEMA,'minItems':6,'maxItems':6},'claims':{'type':'ARRAY','items':{'type':'OBJECT','properties':{'claim':{'type':'STRING'},'evidence':{'type':'STRING'}},'required':['claim','evidence']},'minItems':1,'maxItems':3}},'required':['title','scenes','claims']}
