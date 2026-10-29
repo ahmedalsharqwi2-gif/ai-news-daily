@@ -1,0 +1,18 @@
+[
+  {
+    "service": "youtube",
+    "id": "6ae39fbf1026f5c4e0bf51f3",
+    "status": "scheduled",
+    "dueAt": "2026-10-29T19:36:23.000Z",
+    "sentAt": null,
+    "externalLink": null
+  },
+  {
+    "service": "facebook",
+    "id": "6ae39fc0be6b4bd5b62dafa2",
+    "status": "scheduled",
+    "dueAt": "2026-10-29T19:36:23.000Z",
+    "sentAt": null,
+    "externalLink": null
+  }
+]
