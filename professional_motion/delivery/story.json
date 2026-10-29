@@ -1,0 +1,154 @@
+{
+  "title": "الماك بقى يسمع ويفرّق الأصوات.. إيه حكاية النماذج الجديدة؟",
+  "canonical_subject": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+  "suitable": true,
+  "facts": [
+    "Hugging Face announced AnySpeechRecognizer and AnyDecisionModel for Apple platforms.",
+    "AnySpeechRecognizer mirrors Apple's SpeechAnalyzer API with engines like NVIDIA Parakeet and Alibaba Qwen3-ASR.",
+    "AnyDecisionModel handles typed decisions, multiple choice, and rating scale answers using local backends like MLX."
+  ],
+  "milestones": [
+    "macOS 26 and iOS 26",
+    "AnyLanguageModel 1.x",
+    "AnySpeechRecognizer and AnyDecisionModel"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "label": "إطلاق النماذج",
+      "narration": "أطلقت هاجينج فيس حزمتين جديدتين لتوسيع الذكاء الاصطناعي على أجهزة أبل، وهما أني سبوتش ريكوغنايزر وأني ديسيشن موديل، لنقل التعرف على الصوت واتخاذ القرارات لبيئة سويفت المحلية. يعني التليفون يدخل اجتماع العيلة ويفهم مين قال إيه، وإحنا لسه بنقول يا جماعة واحد واحد.",
+      "labels": [],
+      "visual_mode": "chip",
+      "evidence_excerpt_id": 8,
+      "punchline": "يا جماعة واحد واحد.",
+      "reaction": "loading",
+      "evidence_quote": "speech and decisions: familiar Swift APIs with a choice of model. Today we're announcing two"
+    },
+    {
+      "id": "scene_2",
+      "label": "محركات الصوت",
+      "narration": "بيتيح محرك أني سبوتش اختيار محركات التعرف على الكلام زي باراكيت من إنفيديا أو كيو ون ثري من أليبابا، مع دعم تشغيل النماذج محلياً على كور إم إل.",
+      "labels": [],
+      "visual_mode": "flow",
+      "evidence_excerpt_id": 10,
+      "punchline": "",
+      "reaction": "none",
+      "evidence_quote": "Parakeet and Alibaba's Qwen3-ASR running locally on Core ML, and adds speaker diarization to track"
+    },
+    {
+      "id": "scene_3",
+      "label": "تتبع المتحدثين",
+      "narration": "الناس اللي بتسأل عن تحديد مين تكلم ومتى، الحزمة بتضيف ميزة فصل المتحدثين باستخدام نموذج ستريمنج سورتفورمر، عشان تتبع لحد أربعة أشخاص بيتكلموا في نفس الوقت. أربعة بيتكلموا فوق بعض؟ ده مش اختبار ذكاء اصطناعي، ده جروب العيلة لما حد يسأل مين جاب آخر حتة كنافة.",
+      "labels": [
+        "تحديد مين تكلم ومتى"
+      ],
+      "visual_mode": "network",
+      "evidence_excerpt_id": 53,
+      "punchline": "مين جاب آخر حتة كنافة.",
+      "reaction": "shock",
+      "evidence_quote": "the same timeline: The diarizer tracks up to four speakers, even when they talk over"
+    },
+    {
+      "id": "scene_4",
+      "label": "مقارنة الأداء",
+      "narration": "حسب القياسات على جهاز ماك استوديو، باراكيت بينجز ساعة تسجيل في ثوانٍ معدودة، بينما كيو ون ثري أبطأ وبيلزمو رامات أكتر بكتير لتنفيذ نفس المهمة.",
+      "labels": [],
+      "visual_mode": "comparison",
+      "evidence_excerpt_id": 61,
+      "punchline": "",
+      "reaction": "none",
+      "evidence_quote": "Parakeet transcribes an hour of audio in about 20 to 40 seconds from a file,"
+    },
+    {
+      "id": "scene_5",
+      "label": "اتخاذ القرارات",
+      "narration": "أما أني ديسيشن موديل فبيقدم طريقة جديدة للإجابة على الأسئلة بنعم أو لا، أو الاختيار من متعدد، من غير توليد نصوص طويلة مالهاش لازمة. نعم أو لا من غير محاضرة؟ ابعتوا النموذج ده لأي حد بنسأله سؤال بسيط ويرد علينا برسالة صوتية عشر دقايق.",
+      "labels": [],
+      "visual_mode": "deployment",
+      "evidence_excerpt_id": 11,
+      "punchline": "برسالة صوتية عشر دقايق.",
+      "reaction": "suspicious",
+      "evidence_quote": "who speaks when. AnyDecisionModel answers yes-or-no, multiple-choice, and rating-scale questions with typed results and probabilities."
+    },
+    {
+      "id": "scene_6",
+      "label": "تطبيق إيموجي ماجنت",
+      "narration": "تطبيق إيموجي ماجنت بيوضح قدرة النماذج دي، حيث بيصنف مئات الإيموجي مباشرة على جهازك بناءً على كتابتك، بدون أي قواعد كلمات مفتاحية مسبقة.",
+      "labels": [
+        "تطبيق إيموجي ماجنت"
+      ],
+      "visual_mode": "flow",
+      "evidence_excerpt_id": 93,
+      "punchline": "",
+      "reaction": "none",
+      "evidence_quote": "time. When you pause typing, it asks the model one yes-or-no question for each emoji,"
+    },
+    {
+      "id": "scene_7",
+      "label": "القيود والمتطلبات",
+      "narration": "التشغيل المحلي ليه متطلبات للنظام والجهاز ومساحة التخزين. يعني قبل التجربة، المطور لازم يراجع إصدار النظام وحجم النموذج المناسب لجهازه، مش يفترض إن أي جهاز هيشغّل أي نموذج بنفس الأداء. بس خليك صاحي لمساحة التخزين؛ قبل ما تفرح بالذكاء الجديد، ممكن الماك يطلب منك تمسح فولدر اسمه نسخة نهائية بجد.",
+      "labels": [],
+      "visual_mode": "limits",
+      "evidence_excerpt_id": 108,
+      "punchline": "نسخة نهائية بجد.",
+      "reaction": "loading",
+      "evidence_quote": "The 4-bit model is a 6.2 GB download, and its model card recommends a Mac"
+    },
+    {
+      "id": "scene_8",
+      "label": "الخلاصة التقنية",
+      "narration": "في النهاية، الحزمتين دول بيفتحوا باب واسع للمطورين لبناء تطبيقات صوتية وقرارات ذكية تعمل بالكامل على أجهزة أبل وبدون الاعتماد الكامل على السحابة.",
+      "labels": [],
+      "visual_mode": "network",
+      "evidence_excerpt_id": 144,
+      "punchline": "",
+      "reaction": "none",
+      "evidence_quote": "your apps and tell us what works and what doesn't. Issues and pull requests are"
+    }
+  ],
+  "hashtags": [
+    "AnySpeechRecognizer",
+    "AnyDecisionModel",
+    "HuggingFace",
+    "Apple"
+  ],
+  "editorial_warnings": [
+    "Vary scenes naturally between 24 and 50 spoken words while keeping the whole film length",
+    "Write 260–330 spoken words for a natural film between 90 and 180 seconds",
+    "An optional meme phrase absent from the narration was omitted",
+    "Editorial suggestion: add more distinct topic-specific Egyptian punchlines"
+  ],
+  "profile": "news",
+  "series": "ai على السريع",
+  "visual_family": "compute",
+  "variant": "chip",
+  "topic_key": "6394645bd5105adc",
+  "source": {
+    "url": "https://huggingface.co/blog/anydecisionmodel",
+    "publisher": "Hugging Face",
+    "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+    "published": "2026-10-29T00:00:00+00:00"
+  },
+  "fiction": false,
+  "documented": true,
+  "news_selection": {
+    "importance": 4,
+    "reason": "Hugging Face introduced new open models for speech and decisions, expanding open-source capabilities on Apple platforms."
+  },
+  "meme_commentary": true,
+  "editorial_review": {
+    "supported": true,
+    "novel": true,
+    "issues": [],
+    "model": "gemini-3.5-flash-lite"
+  },
+  "writer_model": "gemini-3.5-flash-lite",
+  "post_edit_review": {
+    "reviewer": "Codex editorial review",
+    "scope": "Correct Arabic spelling and unclear transliteration; add explicitly satirical narrator commentary to the already source-reviewed reserved episode. No new source performance claims.",
+    "source_factual_review_preserved": true,
+    "voice_must_be_regenerated": true,
+    "silent_padding": false,
+    "source_story_sha256": "1496152b7d4334cfa961a48547859ad71d34b86230432eeaf41410afa1b6d7eb"
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "service": "youtube",
+    "id": "6ae39fbf1026f5c4e0bf51f3",
+    "status": "sent",
+    "dueAt": "2026-10-29T19:36:23.000Z",
+    "sentAt": "2026-10-29T19:36:32.186Z",
+    "externalLink": "https://www.youtube.com/shorts/nAF8zYGkjUk"
+  },
+  {
+    "service": "facebook",
+    "id": "6ae39fc0be6b4bd5b62dafa2",
+    "status": "sent",
+    "dueAt": "2026-10-29T19:36:23.000Z",
+    "sentAt": "2026-10-29T19:36:37.621Z",
+    "externalLink": "https://www.facebook.com/reel/1654304389410006/"
+  },
+  {
+    "service": "instagram",
+    "id": "6ae3a6a08828b976bca594d0",
+    "status": "scheduled",
+    "dueAt": "2026-10-29T20:05:44.000Z",
+    "sentAt": null,
+    "externalLink": null
+  }
+]
