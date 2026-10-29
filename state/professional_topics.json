@@ -7,7 +7,7 @@
       "canonical_subject": "Gemini 4 Carbon",
       "title": "جيميني فور كاربون: إيه الجديد فعلاً؟",
       "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-      "status": "reserved",
+      "status": "rendered",
       "story": {
         "title": "جيميني فور كاربون: إيه الجديد فعلاً؟",
         "canonical_subject": "Gemini 4 Carbon",
@@ -104,7 +104,8 @@
         },
         "revision": "source-checked narration and topic-specific authored visual modes"
       },
-      "reserved_at": "2026-10-28T23:17:19.024730+00:00"
+      "reserved_at": "2026-10-28T23:17:19.024730+00:00",
+      "video_sha256": "5ebb0a698e73f1287559fdb9c6e16e36db4c3930e41a9ab81b422fb69c922be9"
     }
   ]
 }
