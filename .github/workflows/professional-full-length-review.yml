@@ -1,5 +1,5 @@
 {
-  "name": "Complete the same sourced news review with audible memes and full-length narration",
+  "name": "Render verified original 109-second news voice with measured multilingual captions",
   "on": {
     "push": {
       "branches": [
@@ -86,10 +86,10 @@
           }
         },
         {
-          "name": "Revise the same reserved news story without another writing-provider request",
+          "name": "Restore exact original full voice and repair multilingual measured anchors",
           "id": "prepare",
           "if": "steps.decision.outputs.run == 'true'",
-          "run": "python -m professional_motion.revise_news_review"
+          "run": "python -m professional_motion.resume_verified_news"
         },
         {
           "name": "Persist the reserved plot before any synthesis",
@@ -108,10 +108,10 @@
           "run": "python -m professional_motion.resume_voice"
         },
         {
-          "name": "Generate the complete original voice and measure speech/reveal timing",
+          "name": "Verify existing original voice without another synthesis request",
           "id": "voice",
           "if": "steps.prepare.outcome == 'success'",
-          "run": "python -m professional_motion.voice_job"
+          "run": "python -m professional_motion.resume_verified_news --verify-only"
         },
         {
           "name": "Record the exact source revision used for narration",
