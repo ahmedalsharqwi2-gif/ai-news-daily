@@ -113,7 +113,7 @@
       "canonical_subject": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
       "title": "الماك بقى يسمع ويفرّق الأصوات.. إيه حكاية النماذج الجديدة؟",
       "url": "https://huggingface.co/blog/anydecisionmodel",
-      "status": "reserved",
+      "status": "rendered",
       "story": {
         "title": "الماك بقى يسمع ويفرّق الأصوات.. إيه حكاية النماذج الجديدة؟",
         "canonical_subject": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
@@ -269,7 +269,7 @@
         }
       },
       "reserved_at": "2026-10-29T15:05:20.218121+00:00",
-      "video_sha256": "7a3e9b3485a56bc1f28dc645c5d40dec7eaec0607ccf14cfcb756c25359394de"
+      "video_sha256": "f2972eb2eccc93e6f40420fc692a3013c3e9088e29c9519c7c97421bd4711056"
     }
   ]
 }
