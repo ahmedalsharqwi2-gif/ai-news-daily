@@ -96,7 +96,9 @@ def candidates(profile):
     if profile=='news':
         from news.editor import candidates as fresh
         from .news_policy import choose
-        return [dict(r,key=hashlib.sha256(canonical(r['url']).encode()).hexdigest()[:16],family='compute',variant='chip') for r in choose(fresh(),ask)]
+        raw=fresh();(ROOT/'delivery').mkdir(exist_ok=True)
+        (ROOT/'delivery/news-source-dates.json').write_text(json.dumps([{k:r.get(k) for k in ['title','url','publisher','published']} for r in raw],ensure_ascii=False,indent=2))
+        return [dict(r,key=hashlib.sha256(canonical(r['url']).encode()).hexdigest()[:16],family='compute',variant='chip') for r in choose(raw,ask)]
     rows=json.loads((ROOT/'catalog.json').read_text())[profile]
     # Feeds replenish supported subject families. The editor must reject topics
     # that cannot be explained by the concrete geometry in this family.
@@ -186,7 +188,9 @@ def prepare(profile,slot):
     def problem(row,error):
         problem_rows.append({'topic_key':row.get('key'),'error_class':type(error).__name__,'validation':str(error)[:260] if isinstance(error,(ValueError,KeyError)) else 'Source request failed'})
         (delivery/'planning-errors.json').write_text(json.dumps(problem_rows,ensure_ascii=False,indent=2))
-    for row in candidates(profile):
+    candidate_rows=candidates(profile)
+    (delivery/'candidate-status.json').write_text(json.dumps([{**{k:r.get(k) for k in ['key','title','url','family','variant','published']},'already_reserved':r['key'] in seen_keys or bool(r.get('url') and canonical(r['url']) in seen_urls)} for r in candidate_rows],ensure_ascii=False,indent=2))
+    for row in candidate_rows:
         if row.get('kind')=='original_fiction':
             if row['key'] in seen_keys:continue
             try:
