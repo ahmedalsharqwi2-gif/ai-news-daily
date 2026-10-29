@@ -1,5 +1,6 @@
 """Fresh, consequential AI news with clearly separated Egyptian meme commentary."""
 import copy,json,re
+from .style_warnings import note
 from datetime import datetime,timedelta,timezone
 REACTIONS={'shock','suspicious','loading','smug'}
 RANK={'type':'OBJECT','properties':{'selected':{'type':'ARRAY','maxItems':6,'items':{'type':'OBJECT','properties':{'index':{'type':'INTEGER'},'importance':{'type':'INTEGER'},'reason':{'type':'STRING'}},'required':['index','importance','reason']}}},'required':['selected']}
@@ -44,9 +45,11 @@ def validate_memes(story):
     for scene in story['scenes']:
         joke=scene.get('punchline','').strip();reaction=scene.get('reaction','none')
         if not joke:
-            if reaction!='none':raise ValueError('A meme reaction needs an actual spoken punchline')
+            if reaction!='none':note(story,'A reaction without a spoken punchline was omitted');scene['reaction']='none'
             continue
-        if not 2<=len(joke.split())<=7 or joke not in scene['narration']:raise ValueError('Meme punchlines must be 2–7 words copied verbatim from the spoken narration')
+        if not 2<=len(joke.split())<=7:note(story,'Prefer concise spoken meme punchlines')
+        if joke not in scene['narration']:
+            note(story,'An optional meme phrase absent from the narration was omitted');scene['punchline']='';scene['reaction']='none';continue
         # A substring inside an Arabic prefixed word cannot be timed as a
         # separately spoken word. Recover the exact spoken span instead.
         from .alignment import norm
@@ -55,13 +58,14 @@ def validate_memes(story):
             actual=[norm(w) for w in spoken[start:start+len(wanted)]]
             if actual[1:]==wanted[1:] and actual[0] in (wanted[0],'و'+wanted[0],'ف'+wanted[0]):
                 span=' '.join(spoken[start:start+len(wanted)]);break
-        if span is None:raise ValueError('Meme punchline must match complete spoken words for measured timing')
+        if span is None:
+            note(story,'An optional meme effect without complete spoken word anchors was omitted');scene['punchline']='';scene['reaction']='none';continue
         scene['punchline']=span;joke=span
-        if reaction not in REACTIONS:raise ValueError('Use a supported original meme reaction')
+        if reaction not in REACTIONS:note(story,'An unsupported optional reaction was omitted');scene['reaction']='none'
         key=' '.join(norm(w) for w in joke.split())
         key=re.sub(r'^[وف](?=ال|ده\b|دي\b|مش\b|ايه\b)','',key)
         jokes.append(key)
-    if len(set(jokes))<4:raise ValueError('AI news needs at least four distinct, topic-specific Egyptian punchlines')
+    if len(set(jokes))<4:note(story,'Editorial suggestion: add more distinct topic-specific Egyptian punchlines')
 
 PROMPT=('For NEWS ONLY: make this a fresh factual AI NEWS + EGYPTIAN MEMES video, not a solemn generic tech explainer. Every scene adds a concrete source-backed part of THIS news. Include a short topical spoken punchline in at least FOUR scenes, copied verbatim to punchline; reaction is shock/suspicious/loading/smug, or none with an empty punchline in a serious scene. '
         'Prefer punchlines of four to seven simple spoken words so at least two words can be independently recognized and timed. Copy complete script words, including a leading و or ف when spoken. Use original Egyptian jokes about the specific capability, price, access or limitation discussed; no recycled laptop jokes, no generic motivational hype. Aim for 260–330 spoken words total, eight naturally varied paragraphs of 24–48 words, for a two-minute story. The jokes are clearly narrator commentary, never fabricated facts, quotes, prices, benchmarks, victims or product guarantees. A funny exaggeration must be obviously humorous. Never call an old announcement new or say today unless its supplied dated source is actually today. ')

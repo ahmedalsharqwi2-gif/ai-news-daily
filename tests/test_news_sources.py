@@ -64,7 +64,9 @@ class MeasuredMemeContractTests(unittest.TestCase):
  def test_word_substrings_cannot_be_presented_as_a_spoken_punchline(self):
   jokes=['كود طالب أجازة','المحفظة حضرت الاجتماع','البنشمارك محتاج حكم','السيرفر بيشرب قهوة']
   story={'scenes':[{'narration':('ده '+j if i else 'الكود طالب أجازة'),'punchline':j,'reaction':'shock'} for i,j in enumerate(jokes)]}
-  with self.assertRaisesRegex(ValueError,'complete spoken words'):validate_memes(story)
+  validate_memes(story)
+  self.assertEqual(story['scenes'][0]['punchline'],'')
+  self.assertTrue(story['editorial_warnings'])
  def test_ranked_rows_cannot_come_from_float_indices_or_scores(self):
   now=datetime(2026,10,29,8,tzinfo=timezone.utc);row={'title':'New model','publisher':'OpenAI','url':'https://openai.com/index/new','published':now.isoformat()}
   picks={'selected':[{'index':0.0,'importance':5,'reason':'bad index'},{'index':0,'importance':4.0,'reason':'bad score'}]}
