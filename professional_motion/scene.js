@@ -220,7 +220,7 @@ function drawMeme(t,index){
  const age=t-measured.meme_beat,span=Math.min(2.6,Math.max(1.6,(measured.meme_end??measured.meme_beat+1)-measured.meme_beat+.55));
  if(age<0||age>span)return;
  const enter=1-Math.pow(1-clamp(age/.18),3),exit=clamp((span-age)/.18),gain=enter*exit;
- ctx.save();ctx.globalAlpha=gain;ctx.translate(860,1205+(1-enter)*70);ctx.rotate(Math.sin(age*15)*.045*Math.exp(-age*4));ctx.scale(.8+.2*enter,.8+.2*enter);
+ ctx.save();ctx.globalAlpha=gain;ctx.translate(800,1000+(1-enter)*70);ctx.rotate(Math.sin(age*15)*.045*Math.exp(-age*4));ctx.scale(.8+.2*enter,.8+.2*enter);
  const face=ctx.createRadialGradient(-25,-35,8,0,0,100);face.addColorStop(0,'#ffe392');face.addColorStop(1,'#ec9c3c');
  ctx.shadowColor='rgba(0,0,0,.45)';ctx.shadowBlur=22;ctx.fillStyle=face;ctx.beginPath();ctx.arc(0,0,86,0,Math.PI*2);ctx.fill();ctx.shadowBlur=0;
  ctx.strokeStyle='#241c21';ctx.fillStyle='#241c21';ctx.lineWidth=8;ctx.lineCap='round';
@@ -237,9 +237,9 @@ function drawMeme(t,index){
   if(reaction==='loading')for(let i=0;i<5;i++){ctx.fillStyle=`rgba(255,245,195,${.3+.7*(.5+.5*Math.sin(age*8+i))})`;ctx.beginPath();ctx.arc(-38+i*19,-112,5,0,Math.PI*2);ctx.fill();}
  }
  ctx.restore();
- ctx.save();ctx.globalAlpha=gain;ctx.fillStyle='#efbd65';ctx.beginPath();ctx.roundRect(72,1150,818,116,24);ctx.fill();
+ ctx.save();ctx.globalAlpha=gain;ctx.fillStyle='#efbd65';ctx.beginPath();ctx.roundRect(72,1130,818,116,24);ctx.fill();
  let size=42;ctx.font=`${size}px Noto`;while(ctx.measureText(s.punchline).width>754&&size>28){size-=2;ctx.font=`${size}px Noto`;}
- type(s.punchline,481,1215,size,'#181727','center');ctx.restore();
+ type(s.punchline,481,1195,size,'#181727','center');ctx.restore();
 }
 
 function drawChannelText(t,index,local,p){
