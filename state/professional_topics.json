@@ -136,7 +136,7 @@
             "labels": [],
             "visual_mode": "chip",
             "evidence_excerpt_id": 8,
-            "punchline": "يا جماعة واحد واحد",
+            "punchline": "يا جماعة واحد واحد.",
             "reaction": "loading",
             "evidence_quote": "speech and decisions: familiar Swift APIs with a choice of model. Today we're announcing two"
           },
@@ -160,7 +160,7 @@
             ],
             "visual_mode": "network",
             "evidence_excerpt_id": 53,
-            "punchline": "مين جاب آخر حتة كنافة",
+            "punchline": "مين جاب آخر حتة كنافة.",
             "reaction": "shock",
             "evidence_quote": "the same timeline: The diarizer tracks up to four speakers, even when they talk over"
           },
@@ -182,7 +182,7 @@
             "labels": [],
             "visual_mode": "deployment",
             "evidence_excerpt_id": 11,
-            "punchline": "رسالة صوتية عشر دقايق",
+            "punchline": "برسالة صوتية عشر دقايق.",
             "reaction": "suspicious",
             "evidence_quote": "who speaks when. AnyDecisionModel answers yes-or-no, multiple-choice, and rating-scale questions with typed results and probabilities."
           },
@@ -206,7 +206,7 @@
             "labels": [],
             "visual_mode": "limits",
             "evidence_excerpt_id": 108,
-            "punchline": "نسخة نهائية بجد",
+            "punchline": "نسخة نهائية بجد.",
             "reaction": "loading",
             "evidence_quote": "The 4-bit model is a 6.2 GB download, and its model card recommends a Mac"
           },
