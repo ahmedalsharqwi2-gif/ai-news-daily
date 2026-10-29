@@ -76,6 +76,7 @@
       },
       "required_services": [
         "facebook",
+        "instagram",
         "youtube"
       ],
       "confirmed_at": "2026-10-29T19:34:24.632993+00:00"
