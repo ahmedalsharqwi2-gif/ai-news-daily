@@ -182,7 +182,10 @@ def prepare(profile,slot):
     previous=[{'title':r.get('title',''),'subject':r.get('canonical_subject',r.get('topic_key','')),'plot_signature':r.get('plot_signature','')} for r in old][-600:]
     # The approved octopus film is already produced, and cannot be a daily repeat.
     if profile=='science':seen_keys.add('octopus-colour-change')
-    errors=[]
+    errors=[];problem_rows=[]
+    def problem(row,error):
+        problem_rows.append({'topic_key':row.get('key'),'error_class':type(error).__name__,'validation':str(error)[:260] if isinstance(error,(ValueError,KeyError)) else 'Source request failed'})
+        (delivery/'planning-errors.json').write_text(json.dumps(problem_rows,ensure_ascii=False,indent=2))
     for row in candidates(profile):
         if row.get('kind')=='original_fiction':
             if row['key'] in seen_keys:continue
@@ -193,7 +196,7 @@ def prepare(profile,slot):
                 data['episodes'].append({'slot':slot,'topic_key':row['key'],'canonical_subject':story['canonical_subject'],'title':story['title'],'plot_signature':story['plot_signature'],'fiction':True,'status':'reserved','story':story,'reserved_at':datetime.now(timezone.utc).isoformat()})
                 save(data);(delivery/'story.json').write_text(json.dumps(story,ensure_ascii=False,indent=2));return story
             except (ValueError,KeyError) as error:
-                errors.append(type(error).__name__)
+                errors.append(type(error).__name__);problem(row,error)
                 if len(errors)>=4:break
                 continue
         if row['key'] in seen_keys or canonical(row['url']) in {u.rstrip('/') for u in seen_urls}:continue
@@ -218,6 +221,7 @@ def prepare(profile,slot):
                 from .news_policy import schema as news_schema,PROMPT as NEWS_PROMPT
                 schema=news_schema(SCHEMA);prompt=NEWS_PROMPT+prompt
             draft=ask(prompt,schema)
+            (delivery/'last-draft.json').write_text(json.dumps(draft,ensure_ascii=False,indent=2))
             try:
                 story=validate(draft,profile,row);attach_evidence(story,text)
             except ValueError as error:
@@ -231,7 +235,8 @@ def prepare(profile,slot):
             story['editorial_review']=review
             record={'slot':slot,'topic_key':row['key'],'canonical_subject':story['canonical_subject'],'title':story['title'],'url':row['url'],'status':'reserved','story':story,'reserved_at':datetime.now(timezone.utc).isoformat()}
             data['episodes'].append(record);save(data);(delivery/'story.json').write_text(json.dumps(story,ensure_ascii=False,indent=2));return story
-        except (ValueError,requests.RequestException,KeyError) as e:errors.append(type(e).__name__)
+        except (ValueError,requests.RequestException,KeyError) as e:
+            errors.append(type(e).__name__);problem(row,e)
         if len(errors)>=4:break
     raise RuntimeError('No unused, evidence-backed topic fits the supported scene families; refusing a repeated or invented video')
 
