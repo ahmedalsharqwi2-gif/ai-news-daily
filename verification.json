@@ -1,0 +1,182 @@
+{
+  "file": "professional-review.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 109.8,
+  "story_sha256": "31698650a71c3bda8b935e0ca12d38071d937712045571dd1c01511951d18053",
+  "voice": "original Gemini Charon",
+  "asr_model": "medium+small+large-v3",
+  "independent_asr_word_coverage": 0.9078014184397163,
+  "exact_token_coverage": 0.8333333333333334,
+  "speech_matching_method": "Known-name and Egyptian-pronunciation normalized measured anchors; supplied-script phrase captions; no active-word precision claim",
+  "known_name_normalization_applied": true,
+  "visual_gate": {
+    "passed": true,
+    "duration": 109.8,
+    "resolution": [
+      1080,
+      1920
+    ],
+    "method": "within-scene diagram-region pixel changes",
+    "scenes": [
+      {
+        "scene": 1,
+        "diagram_spatial_std": [
+          43.916990312123765,
+          47.022228930799,
+          43.276444032894375
+        ],
+        "changed_pixel_ratios": [
+          0.14312678062678064,
+          0.11981244064577398
+        ],
+        "passed": true
+      },
+      {
+        "scene": 2,
+        "diagram_spatial_std": [
+          35.14064252699734,
+          39.80924235296704,
+          37.6161628143724
+        ],
+        "changed_pixel_ratios": [
+          0.2879985754985755,
+          0.27647198480531815
+        ],
+        "passed": true
+      },
+      {
+        "scene": 3,
+        "diagram_spatial_std": [
+          37.99783187403684,
+          38.94448095128192,
+          38.22294645335426
+        ],
+        "changed_pixel_ratios": [
+          0.1068613485280152,
+          0.04285375118708452
+        ],
+        "passed": true
+      },
+      {
+        "scene": 4,
+        "diagram_spatial_std": [
+          32.15667488999057,
+          32.05678215295505,
+          32.177324267158795
+        ],
+        "changed_pixel_ratios": [
+          0.015467711301044634,
+          0.017497625830959165
+        ],
+        "passed": true
+      },
+      {
+        "scene": 5,
+        "diagram_spatial_std": [
+          19.003734775048652,
+          18.90086309238064,
+          18.989579121436226
+        ],
+        "changed_pixel_ratios": [
+          0.011312915479582146,
+          0.035814339981006645
+        ],
+        "passed": true
+      },
+      {
+        "scene": 6,
+        "diagram_spatial_std": [
+          37.44771347437656,
+          37.55267928419886,
+          37.79441610614488
+        ],
+        "changed_pixel_ratios": [
+          0.13732193732193732,
+          0.14404083570750237
+        ],
+        "passed": true
+      },
+      {
+        "scene": 7,
+        "diagram_spatial_std": [
+          26.99819923247707,
+          28.417061911103332,
+          28.350916363944343
+        ],
+        "changed_pixel_ratios": [
+          0.034283000949667616,
+          0.03698955365622032
+        ],
+        "passed": true
+      },
+      {
+        "scene": 8,
+        "diagram_spatial_std": [
+          34.99377060777307,
+          34.968034295575876,
+          35.36594031157997
+        ],
+        "changed_pixel_ratios": [
+          0.06416191832858499,
+          0.09328110161443495
+        ],
+        "passed": true
+      }
+    ],
+    "note": "Technical blank/freeze detection only; not a judgement of artistic or factual quality."
+  },
+  "audio_tail": {
+    "audio_seconds": 109.8,
+    "video_seconds": 109.8,
+    "difference_seconds": 0.0,
+    "last_speech_window_correlation": 0.9975106120109558,
+    "audio_tail_checked": true,
+    "silence_padding_used_to_hide_lost_speech": false
+  },
+  "publication_metadata": {
+    "title": "ai على السريع | الماك بقى يسمع ويفرّق الأصوات.. إيه حكاية النماذج الجديدة؟",
+    "caption": "رسوم توضيحية وإعادة تمثيل درامية؛ ليست تسجيلًا للأحداث. القفشات تعليق ساخر، والخبر من المصدر.\nالمصدر: Hugging Face\nhttps://huggingface.co/blog/anydecisionmodel\n#AnySpeechRecognizer #AnyDecisionModel #HuggingFace #Apple",
+    "description": "رسوم توضيحية وإعادة تمثيل درامية؛ ليست تسجيلًا للأحداث. القفشات تعليق ساخر، والخبر من المصدر.\nالمصدر: Hugging Face\nhttps://huggingface.co/blog/anydecisionmodel\n#AnySpeechRecognizer #AnyDecisionModel #HuggingFace #Apple",
+    "tags": [
+      "AnySpeechRecognizer",
+      "AnyDecisionModel",
+      "HuggingFace",
+      "Apple"
+    ],
+    "hashtags": [
+      "#AnySpeechRecognizer",
+      "#AnyDecisionModel",
+      "#HuggingFace",
+      "#Apple"
+    ],
+    "source_url": "https://huggingface.co/blog/anydecisionmodel",
+    "containsSyntheticMedia": true
+  },
+  "duration_policy": {
+    "minimum_exclusive": 90,
+    "maximum_exclusive": 180
+  },
+  "music_target_lufs": -27,
+  "music": "Original composed score",
+  "music_bpm": 120,
+  "source": {
+    "url": "https://huggingface.co/blog/anydecisionmodel",
+    "publisher": "Hugging Face",
+    "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+    "published": "2026-10-29T00:00:00+00:00"
+  },
+  "topic_key": "6394645bd5105adc",
+  "profile": "news",
+  "editorial_review": {
+    "supported": true,
+    "novel": true,
+    "issues": [],
+    "model": "gemini-3.5-flash-lite"
+  },
+  "render": "Three.js procedural geometry, physical lighting, custom skin shader, layered optical bloom",
+  "reference_audio_reused": false,
+  "automatically_published": false,
+  "status": "Technical checks passed; artistic judgement requires viewing the complete film."
+}
