@@ -1,0 +1,11 @@
+{
+  "prior_run": "40845204666",
+  "planning_error_lines": [
+    "2026-10-29T08:53:45.6600072Z Traceback (most recent call last):",
+    "2026-10-29T08:53:45.6615462Z   File \"/home/runner/work/ai-news-daily/ai-news-daily/professional_motion/cli.py\", line 38, in <module>",
+    "2026-10-29T08:53:45.6617396Z   File \"/home/runner/work/ai-news-daily/ai-news-daily/professional_motion/cli.py\", line 32, in main",
+    "2026-10-29T08:53:45.6620047Z   File \"/home/runner/work/ai-news-daily/ai-news-daily/professional_motion/editorial.py\", line 236, in prepare",
+    "2026-10-29T08:53:45.6650875Z ##[error]    raise RuntimeError('No unused, evidence-backed topic fits the supported scene families; refusing a repeated or invented video')",
+    "2026-10-29T08:53:45.6661686Z RuntimeError: No unused, evidence-backed topic fits the supported scene families; refusing a repeated or invented video"
+  ]
+}
