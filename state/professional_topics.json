@@ -303,7 +303,7 @@
       "canonical_subject": "Updated Model Spec for OpenAI",
       "title": "تحديث جديد لدليل السلوك النموذجي من أوبن إيه آي",
       "url": "https://openai.com/index/updated-model-spec",
-      "status": "rendered",
+      "status": "publishing",
       "story": {
         "title": "تحديث جديد لدليل السلوك النموذجي من أوبن إيه آي",
         "canonical_subject": "Updated Model Spec for OpenAI",
@@ -466,7 +466,8 @@
       },
       "reserved_at": "2026-10-30T12:15:08.821362+00:00",
       "revision_reason": "Original narration measured 108.96 seconds and lacked audible memes; source-backed editorial expansion, no padding",
-      "video_sha256": "c023c8543dc8f3eda4fdf3e1f087df3faaee292042b16db190b7c347699b0d22"
+      "video_sha256": "c023c8543dc8f3eda4fdf3e1f087df3faaee292042b16db190b7c347699b0d22",
+      "publication_video_sha256": "c023c8543dc8f3eda4fdf3e1f087df3faaee292042b16db190b7c347699b0d22"
     }
   ]
 }
