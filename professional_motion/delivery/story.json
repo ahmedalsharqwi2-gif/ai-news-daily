@@ -1,0 +1,155 @@
+{
+  "title": "تحديث جديد لدليل السلوك النموذجي من أوبن إيه آي",
+  "canonical_subject": "Updated Model Spec for OpenAI",
+  "suitable": true,
+  "facts": [
+    "OpenAI updated its Model Spec with five core values: faithfulness to human intent, harm minimization, honesty and transparency, human agency, and care.",
+    "The update introduces guidance on context, oversight, and agency while retiring detailed style guidance.",
+    "Models are now referred to as GPT in the Spec instead of the assistant to reflect broader use cases."
+  ],
+  "milestones": [
+    "October 29, 2026",
+    "Model Spec update",
+    "Five core values"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "label": "دليل السلوك",
+      "narration": "شركة أوبن إيه آي نزلت تحديث لدليل السلوك النموذجي عشان النماذج تبطل تمشي ورا الكلام بالحرف وتفهم إحنا عايزين إيه بجد. ده مش مجرد رغي نظري، ده هيكل بيوجه الذكاء الاصطناعي في المواقف الصعبة.",
+      "labels": [
+        "دليل السلوك النموذجي"
+      ],
+      "visual_mode": "chip",
+      "evidence_excerpt_id": 5,
+      "punchline": "",
+      "reaction": "none",
+      "evidence_quote": "Model Spec ⁠ (opens in a new window) , our public description of how we"
+    },
+    {
+      "id": "scene_2",
+      "label": "تدفق القيم",
+      "narration": "التحديث منظم حوالين خمس قيم أساسية بتبدأ بالوفاء بنية الإنسان، تقليل الأضرار، الأمانة والشفافية، تعزيز الوكالة البشرية، وأخيراً الرعاية. دي القواعد اللي بتخلي النموذج يفهم أبعاد قراراته في العالم الحقيقي.",
+      "labels": [
+        "خمس قيم أساسية"
+      ],
+      "visual_mode": "flow",
+      "evidence_excerpt_id": 6,
+      "punchline": "",
+      "reaction": "none",
+      "evidence_quote": "want our models to behave. The update reorganizes its guidance around five underlying values: faithfulness"
+    },
+    {
+      "id": "scene_3",
+      "label": "الشبكة والنية",
+      "narration": "الوفاء بنية الإنسان بقى هو الأساس اللي بيتبني عليه كل حاجة. النموذج مطلوب منه يساعد الناس تفهم العالم وتحقق أهدافها من غير ما يفرض عليها خياراتها أو يوجهها بشكل خفي وهي بتقارن عروض الشغل.",
+      "labels": [
+        "الوفاء بنية الإنسان"
+      ],
+      "visual_mode": "network",
+      "evidence_excerpt_id": 20,
+      "punchline": "",
+      "reaction": "none",
+      "evidence_quote": "the foundation of this approach: understanding and helping people pursue what matters to them. OpenAI"
+    },
+    {
+      "id": "scene_4",
+      "label": "مقارنة القواعد",
+      "narration": "النسخة الجديدة شالت تفاصيل أسلوب الكتابة القديمة وسبتها تتكيف حسب تفضيلات المستخدمين والثقافات. وفي نفس الوقت ثبتت قواعد واضحة زي التعامل مع الأسئلة بحياد بدل ما يقولك اللي انت عايز تسمعه وبس.",
+      "labels": [
+        "تفضيلات المستخدمين"
+      ],
+      "visual_mode": "comparison",
+      "evidence_excerpt_id": 67,
+      "punchline": "",
+      "reaction": "none",
+      "evidence_quote": "Style should adapt to what people prefer—in aggregate, within languages and cultures, and for each"
+    },
+    {
+      "id": "scene_5",
+      "label": "النشر والانتشار",
+      "narration": "مع توسع استخدام النماذج في بيئات مختلفة، الدليل مابقاش يكتب كلمة المساعد، وبقى يفضل استخدام جي بي تي عشان يعبر عن السعة الكبيرة لتطبيقاته وتنوعها في العالم الخارجي.",
+      "labels": [],
+      "visual_mode": "deployment",
+      "evidence_excerpt_id": 72,
+      "punchline": "",
+      "reaction": "none",
+      "evidence_quote": "increasing breadth of our models’ use cases and deployment settings, we now refer to the"
+    },
+    {
+      "id": "scene_6",
+      "label": "معالجة السياق",
+      "narration": "تم إضافة قسم جديد بيشرح إزاي المحادثات والذاكرة والأدلة السياقية لازم تغذي فهم النموذج لنوايا الأفراد. ده بيساعده يربط الكلام ببعضه ويقدم شغل الناس تقدر تعتمد عليه بجد.",
+      "labels": [
+        "الأدلة السياقية"
+      ],
+      "visual_mode": "flow",
+      "evidence_excerpt_id": 59,
+      "punchline": "",
+      "reaction": "none",
+      "evidence_quote": "a new window) , explains how conversations, memories, and other contextual evidence should inform the"
+    },
+    {
+      "id": "scene_7",
+      "label": "الحدود والقيود",
+      "narration": "الشفافية هنا بتعني إن النموذج يكون صادق بخصوص الحاجات اللي عارفها واللي بيجهلها تماماً. ده بيخلي الناس قادرة تقييم الشغل وتفهم طريقة التفكير والحدود اللي محطوطة عشان تحمي المجتمع.",
+      "labels": [],
+      "visual_mode": "limits",
+      "evidence_excerpt_id": 37,
+      "punchline": "",
+      "reaction": "none",
+      "evidence_quote": "for the foreseeable consequences of the model’s actions. Honesty and transparency mean being truthful about"
+    },
+    {
+      "id": "scene_8",
+      "label": "الخلاصة",
+      "narration": "الشركة بتعتبر التحديث ده خطوة أولى ومفتوحة لاستقبال آراء المستخدمين والخبراء عشان تطور الدليل أكتر. النماذج لسه مش مثالية، بس الشغل شغال عشان توصل لأفضل نتيجة ممكنة للجميع.",
+      "labels": [
+        "خطوة أولى"
+      ],
+      "visual_mode": "network",
+      "evidence_excerpt_id": 74,
+      "punchline": "",
+      "reaction": "none",
+      "evidence_quote": "is a first step in making the values and reasoning behind the Spec more explicit"
+    }
+  ],
+  "hashtags": [
+    "Model_Spec",
+    "OpenAI",
+    "الذكاء_الاصطناعي"
+  ],
+  "editorial_warnings": [
+    "Write 260–330 spoken words for a natural film between 90 and 180 seconds",
+    "An optional meme phrase absent from the narration was omitted",
+    "Editorial suggestion: add more distinct topic-specific Egyptian punchlines",
+    "Pacing and word count are within the expected limits."
+  ],
+  "profile": "news",
+  "series": "ai على السريع",
+  "visual_family": "compute",
+  "variant": "chip",
+  "topic_key": "9349f418e7bc7ab4",
+  "source": {
+    "url": "https://openai.com/index/updated-model-spec",
+    "publisher": "OpenAI",
+    "title": "An updated Model Spec for more capable and beneficial AI",
+    "published": "2026-10-29T17:00:00+00:00"
+  },
+  "fiction": false,
+  "documented": true,
+  "news_selection": {
+    "importance": 4,
+    "reason": "OpenAI's updated Model Spec sets new foundational governance and behavioral guidelines for frontier AI models."
+  },
+  "meme_commentary": true,
+  "editorial_review": {
+    "supported": true,
+    "novel": true,
+    "issues": [
+      "Pacing and word count are within the expected limits."
+    ],
+    "model": "gemini-3.5-flash-lite"
+  },
+  "writer_model": "gemini-3.5-flash-lite"
+}

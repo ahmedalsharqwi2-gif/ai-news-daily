@@ -1,0 +1,92 @@
+[
+  {
+    "title": "An updated Model Spec for more capable and beneficial AI",
+    "url": "https://openai.com/index/updated-model-spec",
+    "publisher": "OpenAI",
+    "published": "2026-10-29T17:00:00+00:00"
+  },
+  {
+    "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+    "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents",
+    "publisher": "NVIDIA",
+    "published": "2026-10-29T16:00:35+00:00"
+  },
+  {
+    "title": "How we detect frontier model misalignment",
+    "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+    "publisher": "OpenAI",
+    "published": "2026-10-29T09:00:00+00:00"
+  },
+  {
+    "title": "How Ropes & Gray is developing AI for transactional diligence",
+    "url": "https://openai.com/index/ropes-gray-ai-diligence",
+    "publisher": "OpenAI",
+    "published": "2026-10-29T07:00:00+00:00"
+  },
+  {
+    "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+    "url": "https://huggingface.co/blog/announcing-project-protostar",
+    "publisher": "Hugging Face",
+    "published": "2026-10-29T00:00:00+00:00"
+  },
+  {
+    "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+    "url": "https://huggingface.co/blog/anydecisionmodel",
+    "publisher": "Hugging Face",
+    "published": "2026-10-29T00:00:00+00:00"
+  },
+  {
+    "title": "Gemini 4 Carbon: Our next frontier model",
+    "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+    "publisher": "Google DeepMind",
+    "published": "2026-10-28T17:00:58+00:00"
+  },
+  {
+    "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+    "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games",
+    "publisher": "NVIDIA",
+    "published": "2026-10-28T15:00:46+00:00"
+  },
+  {
+    "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+    "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+    "publisher": "OpenAI",
+    "published": "2026-10-28T13:15:00+00:00"
+  },
+  {
+    "title": "The future of the firm",
+    "url": "https://openai.com/index/the-future-of-the-firm",
+    "publisher": "OpenAI",
+    "published": "2026-10-28T10:00:00+00:00"
+  },
+  {
+    "title": "Legora is building the agentic operating system for legal work",
+    "url": "https://openai.com/index/legora",
+    "publisher": "OpenAI",
+    "published": "2026-10-28T09:30:00+00:00"
+  },
+  {
+    "title": "Can we trust LLMs to judge whether a research idea is novel?",
+    "url": "https://huggingface.co/blog/allenai/novelty-bench",
+    "publisher": "Hugging Face",
+    "published": "2026-10-27T16:12:42+00:00"
+  },
+  {
+    "title": "Genie 4: A new generation of world simulation",
+    "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation",
+    "publisher": "Google DeepMind",
+    "published": "2026-10-27T16:01:38+00:00"
+  },
+  {
+    "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
+    "url": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia",
+    "publisher": "NVIDIA",
+    "published": "2026-10-27T15:00:20+00:00"
+  },
+  {
+    "title": "Retell uses OpenAI models to help power 100M monthly calls",
+    "url": "https://openai.com/index/retell-ai",
+    "publisher": "OpenAI",
+    "published": "2026-10-27T15:00:00+00:00"
+  }
+]
