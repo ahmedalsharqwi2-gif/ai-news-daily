@@ -1,0 +1,9 @@
+{
+  "profile": "news",
+  "enabled": true,
+  "required": false,
+  "image": "./assets/brand/logo.png",
+  "placement": "top-left; 72,42 with 140px square in 1080x1920 output",
+  "original_logo_installed": true,
+  "source": "Exact logo extracted from user-uploaded reference video"
+}
