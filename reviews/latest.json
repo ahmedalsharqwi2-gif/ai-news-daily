@@ -1,21 +1,14 @@
 {
   "profile": "news",
-  "run_id": "40931341987",
-  "duration": 109.8,
-  "sha256": "f2972eb2eccc93e6f40420fc692a3013c3e9088e29c9519c7c97421bd4711056",
-  "review_approved_by_user": true,
-  "publication_status": "sent",
-  "youtube_url": "https://www.youtube.com/shorts/nAF8zYGkjUk",
-  "daily_schedule": {
-    "timezone": "Africa/Cairo",
-    "production": "09:00",
-    "publication": "17:00",
-    "executor": "GitHub Actions",
-    "delivery": "Buffer",
-    "enabled": true
-  },
-  "downloads": {
-    "720p": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/raw/refs/heads/codex/professional-video-40931341987/review-720p.mp4",
-    "1080p": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/raw/refs/heads/codex/professional-video-40931341987/review-1080p.mp4"
-  }
+  "date": "2026-10-30",
+  "production_run": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/actions/runs/41057377563",
+  "duration": 148.366667,
+  "sha256": "c023c8543dc8f3eda4fdf3e1f087df3faaee292042b16db190b7c347699b0d22",
+  "download": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/releases/download/auto-publish-daily-2026-10-30/science-video-daily-2026-10-30.mp4",
+  "publication_status": "scheduled",
+  "publication_local_time": "17:00 Africa/Cairo",
+  "verified_destinations": 3,
+  "actual_provider_audit": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/raw/refs/heads/codex/professional-review-run-41061069091/professional_motion/delivery/daily-publication-audit.json",
+  "branding_applies_to_future_films": true,
+  "original_logo_installed": true
 }
