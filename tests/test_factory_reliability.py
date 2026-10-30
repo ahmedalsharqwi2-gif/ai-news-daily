@@ -43,6 +43,15 @@ class FactoryReliabilityTests(unittest.TestCase):
   actual=[{'text':w,'start':i*.4,'end':i*.4+.2} for i,w in enumerate(words) if i>=5]
   result=measured_timing(story,40,[('test',actual)])
   self.assertGreaterEqual(result['coverage'],.85);self.assertEqual(result['scenes'][0]['start'],0)
+ def test_existing_release_asset_with_other_bytes_is_never_reused(self):
+  from film_factory.buffer import ContentPublisher
+  from unittest.mock import Mock
+  with tempfile.TemporaryDirectory() as td,patch.dict(os.environ,{'GITHUB_TOKEN':'test','GITHUB_REPOSITORY':'owner/repo','PRODUCTION_MEDIA_ID':'same-day'},clear=True):
+   movie=Path(td)/'new.mp4';movie.write_bytes(b'new current film')
+   response=Mock(status_code=200);response.json.return_value={'assets':[{'name':'science-video-same-day.mp4','browser_download_url':'https://example.test/old.mp4','digest':'sha256:'+'0'*64}]}
+   with patch('film_factory.buffer.requests.get',return_value=response),patch('film_factory.buffer.requests.post') as post:
+    with self.assertRaisesRegex(RuntimeError,'checksum'):ContentPublisher()._release_asset_url(movie)
+    post.assert_not_called()
  def test_missing_mp4_cannot_be_marked_rendered(self):
   with patch.object(editorial,'registry',return_value={'episodes':[{'slot':'today','status':'reserved'}]}),patch.object(editorial,'save') as save:
    with self.assertRaises(FileNotFoundError):editorial.rendered('today',Path('/tmp/nonexistent-factory-movie.mp4'))
