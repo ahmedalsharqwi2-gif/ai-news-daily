@@ -1,0 +1,32 @@
+{
+  "profile": "news",
+  "slot": "daily-2026-10-30",
+  "checked_at": "2026-10-30T13:10:50.393371+00:00",
+  "video_sha256": "c023c8543dc8f3eda4fdf3e1f087df3faaee292042b16db190b7c347699b0d22",
+  "due_at": "2026-10-30T15:00:00+00:00",
+  "no_posts_created": true,
+  "verified": true,
+  "posts": {
+    "youtube": {
+      "post_id": "6ae493f1f522e615d3a49b00",
+      "channel_id": "6ad3ef9d778b240e2f3fa5b9",
+      "scheduled_at": "2026-10-30T15:00:00.000Z",
+      "status": "scheduled",
+      "media_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/releases/download/auto-publish-daily-2026-10-30/science-video-daily-2026-10-30.mp4"
+    },
+    "facebook": {
+      "post_id": "6ae493f3e560b6bf642ba4ab",
+      "channel_id": "6ad3ef2c778b240e2f3fa387",
+      "scheduled_at": "2026-10-30T15:00:00.000Z",
+      "status": "scheduled",
+      "media_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/releases/download/auto-publish-daily-2026-10-30/science-video-daily-2026-10-30.mp4"
+    },
+    "instagram": {
+      "post_id": "6ae493f5f522e615d3a49bdd",
+      "channel_id": "6ad3eeea778b240e2f3fa23b",
+      "scheduled_at": "2026-10-30T15:00:00.000Z",
+      "status": "scheduled",
+      "media_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/releases/download/auto-publish-daily-2026-10-30/science-video-daily-2026-10-30.mp4"
+    }
+  }
+}
