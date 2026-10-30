@@ -1,0 +1,187 @@
+{
+  "file": "professional-review.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 148.36,
+  "story_sha256": "d289f1d7dab23898e9fb170965b70fba16a9161af921065592ac843e00ad23b3",
+  "voice": "original Gemini Charon",
+  "asr_model": "medium+small+large-v3",
+  "independent_asr_word_coverage": 0.9171428571428571,
+  "exact_token_coverage": 0.9171428571428571,
+  "speech_matching_method": "Exact-token ensemble anchors; supplied-script phrase captions; no active-word precision claim",
+  "known_name_normalization_applied": false,
+  "visual_gate": {
+    "passed": true,
+    "duration": 148.366667,
+    "resolution": [
+      1080,
+      1920
+    ],
+    "method": "within-scene diagram-region pixel changes",
+    "scenes": [
+      {
+        "scene": 1,
+        "diagram_spatial_std": [
+          45.15944292995134,
+          47.03815236909785,
+          44.92319997715122
+        ],
+        "changed_pixel_ratios": [
+          0.21617996201329534,
+          0.2047602089268756
+        ],
+        "passed": true
+      },
+      {
+        "scene": 2,
+        "diagram_spatial_std": [
+          36.19162565119755,
+          40.29321309088489,
+          38.39141757630029
+        ],
+        "changed_pixel_ratios": [
+          0.2852801519468186,
+          0.2718542260208927
+        ],
+        "passed": true
+      },
+      {
+        "scene": 3,
+        "diagram_spatial_std": [
+          38.03151304975198,
+          39.21054471871523,
+          38.01860321080265
+        ],
+        "changed_pixel_ratios": [
+          0.09621320037986705,
+          0.11038698955365622
+        ],
+        "passed": true
+      },
+      {
+        "scene": 4,
+        "diagram_spatial_std": [
+          28.64691180917493,
+          47.09464406431419,
+          29.852618244986445
+        ],
+        "changed_pixel_ratios": [
+          0.06577635327635328,
+          0.0860636277302944
+        ],
+        "passed": true
+      },
+      {
+        "scene": 5,
+        "diagram_spatial_std": [
+          20.11208397656696,
+          20.095555020933812,
+          20.294705576358407
+        ],
+        "changed_pixel_ratios": [
+          0.0444681861348528,
+          0.05886752136752137
+        ],
+        "passed": true
+      },
+      {
+        "scene": 6,
+        "diagram_spatial_std": [
+          36.72685631621936,
+          36.99040118882665,
+          48.817156474686165
+        ],
+        "changed_pixel_ratios": [
+          0.15339506172839507,
+          0.11336657169990504
+        ],
+        "passed": true
+      },
+      {
+        "scene": 7,
+        "diagram_spatial_std": [
+          26.998481837965794,
+          28.545425851721077,
+          28.187010107015986
+        ],
+        "changed_pixel_ratios": [
+          0.03710826210826211,
+          0.01323599240265907
+        ],
+        "passed": true
+      },
+      {
+        "scene": 8,
+        "diagram_spatial_std": [
+          35.471763335895496,
+          35.833355408235995,
+          35.71975250778039
+        ],
+        "changed_pixel_ratios": [
+          0.1149928774928775,
+          0.03450854700854701
+        ],
+        "passed": true
+      }
+    ],
+    "note": "Technical blank/freeze detection only; not a judgement of artistic or factual quality."
+  },
+  "audio_tail": {
+    "audio_seconds": 148.36,
+    "video_seconds": 148.36,
+    "difference_seconds": 0.0,
+    "last_speech_window_correlation": 0.994827151298523,
+    "audio_tail_checked": true,
+    "silence_padding_used_to_hide_lost_speech": false
+  },
+  "publication_metadata": {
+    "title": "ai على السريع | تحديث جديد لدليل السلوك النموذجي من أوبن إيه آي",
+    "caption": "رسوم توضيحية وإعادة تمثيل درامية؛ ليست تسجيلًا للأحداث. القفشات تعليق ساخر، والخبر من المصدر.\nالمصدر: OpenAI\nhttps://openai.com/index/updated-model-spec\n#Model_Spec #OpenAI #الذكاء_الاصطناعي",
+    "description": "رسوم توضيحية وإعادة تمثيل درامية؛ ليست تسجيلًا للأحداث. القفشات تعليق ساخر، والخبر من المصدر.\nالمصدر: OpenAI\nhttps://openai.com/index/updated-model-spec\n#Model_Spec #OpenAI #الذكاء_الاصطناعي",
+    "tags": [
+      "Model_Spec",
+      "OpenAI",
+      "الذكاء_الاصطناعي"
+    ],
+    "hashtags": [
+      "#Model_Spec",
+      "#OpenAI",
+      "#الذكاء_الاصطناعي"
+    ],
+    "source_url": "https://openai.com/index/updated-model-spec",
+    "containsSyntheticMedia": true
+  },
+  "duration_policy": {
+    "minimum_exclusive": 90,
+    "maximum_exclusive": 180
+  },
+  "music_target_lufs": -27,
+  "music": "Original composed score",
+  "music_bpm": 120,
+  "source": {
+    "url": "https://openai.com/index/updated-model-spec",
+    "publisher": "OpenAI",
+    "title": "An updated Model Spec for more capable and beneficial AI",
+    "published": "2026-10-29T17:00:00+00:00"
+  },
+  "topic_key": "9349f418e7bc7ab4",
+  "profile": "news",
+  "editorial_review": {
+    "supported": true,
+    "novel": true,
+    "issues": [],
+    "review_type": "Codex source and satire review of the same reserved OpenAI announcement",
+    "source_body_sha256": "68ae4b50aece245b2e7df268ca3a5482b3f3d8ac0eae135f4923a34c6c584875",
+    "checks": [
+      "No claim of a newly launched model or measured performance improvement",
+      "Four original audible punchlines are narrator commentary, not company quotes",
+      "Explain all five published values and the job-offer/context examples accurately",
+      "Retain explicit source warning that current models do not fully reflect the Spec"
+    ]
+  },
+  "render": "Three.js procedural geometry, physical lighting, custom skin shader, layered optical bloom",
+  "reference_audio_reused": false,
+  "automatically_published": false,
+  "status": "Technical checks passed; artistic judgement requires viewing the complete film."
+}
