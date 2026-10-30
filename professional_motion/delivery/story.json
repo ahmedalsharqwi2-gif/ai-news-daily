@@ -1,0 +1,161 @@
+{
+  "title": "إزاي المواقع تمنع الذكاء الاصطناعي بكلمة سر واحدة؟",
+  "canonical_subject": "openai-robots-txt-shared-signal",
+  "suitable": true,
+  "facts": [
+    "OpenAI will honor a shared robots.txt signal for AI training preferences.",
+    "The voluntary effort allows publishing preferences to multiple providers at once.",
+    "The change reduces the need to maintain separate rules for every crawler.",
+    "Existing crawler controls will continue to apply and be respected.",
+    "The initiative draws on the Internet Engineering Task Force work."
+  ],
+  "milestones": [
+    "October 30, 2026",
+    "robots.txt",
+    "IETF AI Preferences working group"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "label": "إشارة روبوتس تكس",
+      "narration": "في تاريخ ثلاثين أكتوبر ألفين وستة وعشرين، أعلنت أوبن إيه آي دعم إشارة مشتركة في ملف روبوتس تكس عشان المواقع تحدد تفضيلات التدريب.",
+      "labels": [
+        "إشارة مشتركة"
+      ],
+      "visual_mode": "chip",
+      "evidence_excerpt_id": 2,
+      "punchline": "",
+      "reaction": "none",
+      "evidence_quote": "at once. Today, we’re announcing that OpenAI will honor a common signal ⁠ (opens in"
+    },
+    {
+      "id": "scene_2",
+      "label": "تسهيل الشغل",
+      "narration": "الجهد التطوعي ده بيسهل على الناشرين ومديري المواقع إيصال نفس الاختيار لكذا مزود في وقت واحد بدل الشغل الكتير.",
+      "labels": [
+        "نفس الاختيار"
+      ],
+      "visual_mode": "flow",
+      "evidence_excerpt_id": 4,
+      "punchline": "",
+      "reaction": "none",
+      "evidence_quote": "use of their content for foundational generative AI training. This voluntary effort makes it easier"
+    },
+    {
+      "id": "scene_3",
+      "label": "قواعد الزحف القديمة",
+      "narration": "زمان كان مدير الموقع لازم يحدد كل زاحف لوحده ويعمل قواعد منفصلة لكل مزود ذكاء اصطناعي من غير ما يرتاح.",
+      "labels": [
+        "كل زاحف لوحده"
+      ],
+      "visual_mode": "network",
+      "evidence_excerpt_id": 6,
+      "punchline": "",
+      "reaction": "none",
+      "evidence_quote": "once. Previously, website operators would identify individual crawlers and maintain separate rules for each and"
+    },
+    {
+      "id": "scene_4",
+      "label": "تقليل المجهود",
+      "narration": "وجود إشارة مشتركة عبر مزودين كتير بيقلل المجهود الضخم ده عن أصحاب المواقع اللي بيديروا منصاتهم بنفسهم كل يوم.",
+      "labels": [
+        "إشارة مشتركة"
+      ],
+      "visual_mode": "comparison",
+      "evidence_excerpt_id": 7,
+      "punchline": "",
+      "reaction": "none",
+      "evidence_quote": "every provider. Having a shared signal across multiple providers reduces that work for operators. We"
+    },
+    {
+      "id": "scene_5",
+      "label": "خطة التنفيذ",
+      "narration": "الشركة ناوية تطبق الإشارة دي في الشهور الجاية، وهتنزل تحديث تاني بكل تفاصيل التنفيذ أول ما الأمور توضح.",
+      "labels": [
+        "في الشهور الجاية"
+      ],
+      "visual_mode": "deployment",
+      "evidence_excerpt_id": 8,
+      "punchline": "",
+      "reaction": "none",
+      "evidence_quote": "aim to implement the signal in the coming months, and will share another update with"
+    },
+    {
+      "id": "scene_6",
+      "label": "التحكم الموجود",
+      "narration": "الإشارة الجديدة مش هتلغي أدوات التحكم اللي أصلاً موجودة في ملفات روبوتس تكس، والتحكم القديم هيفضل شغال ومحترم.",
+      "labels": [
+        "أدوات التحكم"
+      ],
+      "visual_mode": "limits",
+      "evidence_excerpt_id": 10,
+      "punchline": "",
+      "reaction": "none",
+      "evidence_quote": "controls we already provide through robots.txt. Our existing crawler controls ⁠ (opens in a new"
+    },
+    {
+      "id": "scene_7",
+      "label": "مجموعة العمل",
+      "narration": "الخطوة دي مستوحاة من الشغل المستمر لمجموعة عمل تفضيلات الذكاء الاصطناعي التابعة لهيئة مهندسي الإنترنت العالمية.",
+      "labels": [
+        "مجموعة عمل"
+      ],
+      "visual_mode": "network",
+      "evidence_excerpt_id": 13,
+      "punchline": "",
+      "reaction": "none",
+      "evidence_quote": "window) of the Internet Engineering Task Force’s (IETF) AI Preferences working group. We’re joining other"
+    },
+    {
+      "id": "scene_8",
+      "label": "خطوة للويب المفتوح",
+      "narration": "المشاركة دي بتقوي دور الشركة في نقاشات المعايير، وبتعتبر خطوة عملية نحو ويب مفتوح وأصحاب مواقع عندهم طرق أوضح.",
+      "labels": [
+        "ويب مفتوح"
+      ],
+      "visual_mode": "flow",
+      "evidence_excerpt_id": 17,
+      "punchline": "",
+      "reaction": "none",
+      "evidence_quote": "and fairness. We believe this is a practical step toward an open web where people"
+    }
+  ],
+  "hashtags": [
+    "OpenAI",
+    "ذكاء_اصطناعي",
+    "إزاي_المواقع_تمنع_الذكاء_الاصطناعي"
+  ],
+  "editorial_warnings": [
+    "Vary scenes naturally between 24 and 50 spoken words while keeping the whole film length",
+    "Write 260–330 spoken words for a natural film between 90 and 180 seconds",
+    "A malformed hashtag was omitted from publication metadata",
+    "Provide three to five distinct relevant topic hashtags",
+    "An optional meme phrase absent from the narration was omitted",
+    "Editorial suggestion: add more distinct topic-specific Egyptian punchlines"
+  ],
+  "profile": "news",
+  "series": "ai على السريع",
+  "visual_family": "compute",
+  "variant": "chip",
+  "topic_key": "84abd1857de5dfd9",
+  "source": {
+    "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+    "publisher": "OpenAI",
+    "title": "Making it easier for websites to express AI training preferences",
+    "published": "2026-10-30T09:30:00+00:00"
+  },
+  "fiction": false,
+  "documented": true,
+  "news_selection": {
+    "importance": 4,
+    "reason": "OpenAI adopts a shared robots.txt signal to respect website training preferences, which is a significant policy and technical update for web operators."
+  },
+  "meme_commentary": true,
+  "editorial_review": {
+    "supported": true,
+    "novel": true,
+    "issues": [],
+    "model": "gemini-3.5-flash-lite"
+  },
+  "writer_model": "gemini-3.5-flash-lite"
+}

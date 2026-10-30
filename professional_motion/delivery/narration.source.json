@@ -1,0 +1,17 @@
+{
+  "provider": "Gemini TTS",
+  "model": "gemini-3.8-flash-tts",
+  "voice": "Charon",
+  "style": "Egyptian Arabic ar-EG, native conversational Cairo accent. Charon, warm low male voice, lively natural Egyptian tech storyteller with dry comic timing. Clear articulation, short natural pauses around punchlines, no forced laughter. Read every word exactly, say all numbers naturally, finish the final sentence completely. No music, no singing, no sound effects, no spoken stage directions.",
+  "text": "في تاريخ ثلاثين أكتوبر ألفين وستة وعشرين، أعلنت أوبن إيه آي دعم إشارة مشتركة في ملف روبوتس تكس عشان المواقع تحدد تفضيلات التدريب. الجهد التطوعي ده بيسهل على الناشرين ومديري المواقع إيصال نفس الاختيار لكذا مزود في وقت واحد بدل الشغل الكتير. زمان كان مدير الموقع لازم يحدد كل زاحف لوحده ويعمل قواعد منفصلة لكل مزود ذكاء اصطناعي من غير ما يرتاح. وجود إشارة مشتركة عبر مزودين كتير بيقلل المجهود الضخم ده عن أصحاب المواقع اللي بيديروا منصاتهم بنفسهم كل يوم. الشركة ناوية تطبق الإشارة دي في الشهور الجاية، وهتنزل تحديث تاني بكل تفاصيل التنفيذ أول ما الأمور توضح. الإشارة الجديدة مش هتلغي أدوات التحكم اللي أصلاً موجودة في ملفات روبوتس تكس، والتحكم القديم هيفضل شغال ومحترم. الخطوة دي مستوحاة من الشغل المستمر لمجموعة عمل تفضيلات الذكاء الاصطناعي التابعة لهيئة مهندسي الإنترنت العالمية. المشاركة دي بتقوي دور الشركة في نقاشات المعايير، وبتعتبر خطوة عملية نحو ويب مفتوح وأصحاب مواقع عندهم طرق أوضح.",
+  "interaction_id": "v1_ChdwUUhsYXVUZENfUzRzT0lQaEs3YnlRURIXcFFIbGF1VGRDX1M0c09JUGhLN2J5UVE",
+  "duration": 62.08,
+  "sample_rate": 24000,
+  "channels": 1,
+  "sha256": "0bd920d400014687c77697845251d6dbdc940ea1e499e8796385ad4b83bd4f6a",
+  "newly_synthesized": true,
+  "original_video_audio_used": false,
+  "fallback_used": false,
+  "cache_hit": false,
+  "output_sha256": "0bd920d400014687c77697845251d6dbdc940ea1e499e8796385ad4b83bd4f6a"
+}
