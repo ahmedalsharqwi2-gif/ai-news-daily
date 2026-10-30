@@ -303,7 +303,7 @@
       "canonical_subject": "Updated Model Spec for OpenAI",
       "title": "تحديث جديد لدليل السلوك النموذجي من أوبن إيه آي",
       "url": "https://openai.com/index/updated-model-spec",
-      "status": "publishing",
+      "status": "scheduled",
       "story": {
         "title": "تحديث جديد لدليل السلوك النموذجي من أوبن إيه آي",
         "canonical_subject": "Updated Model Spec for OpenAI",
@@ -467,7 +467,40 @@
       "reserved_at": "2026-10-30T12:15:08.821362+00:00",
       "revision_reason": "Original narration measured 108.96 seconds and lacked audible memes; source-backed editorial expansion, no padding",
       "video_sha256": "c023c8543dc8f3eda4fdf3e1f087df3faaee292042b16db190b7c347699b0d22",
-      "publication_video_sha256": "c023c8543dc8f3eda4fdf3e1f087df3faaee292042b16db190b7c347699b0d22"
+      "publication_video_sha256": "c023c8543dc8f3eda4fdf3e1f087df3faaee292042b16db190b7c347699b0d22",
+      "due_at": "2026-10-30T15:00:00Z",
+      "receipts": {
+        "instagram": {
+          "id": "6ae493f5f522e615d3a49bdd",
+          "due_at": "2026-10-30T15:00:00Z",
+          "run_id": "41057377563",
+          "accepted_at": "2026-10-30T12:56:21.855986+00:00",
+          "channel_id": "6ad3eeea778b240e2f3fa23b",
+          "scheduled_at": "2026-10-30T15:00:00+00:00",
+          "status": "scheduled",
+          "verified_at": "2026-10-30T12:56:22.389019+00:00"
+        },
+        "youtube": {
+          "id": "6ae493f1f522e615d3a49b00",
+          "due_at": "2026-10-30T15:00:00Z",
+          "run_id": "41057377563",
+          "accepted_at": "2026-10-30T12:56:17.226100+00:00",
+          "channel_id": "6ad3ef9d778b240e2f3fa5b9",
+          "scheduled_at": "2026-10-30T15:00:00+00:00",
+          "status": "scheduled",
+          "verified_at": "2026-10-30T12:56:22.103633+00:00"
+        },
+        "facebook": {
+          "id": "6ae493f3e560b6bf642ba4ab",
+          "due_at": "2026-10-30T15:00:00Z",
+          "run_id": "41057377563",
+          "accepted_at": "2026-10-30T12:56:19.623365+00:00",
+          "channel_id": "6ad3ef2c778b240e2f3fa387",
+          "scheduled_at": "2026-10-30T15:00:00+00:00",
+          "status": "scheduled",
+          "verified_at": "2026-10-30T12:56:22.244174+00:00"
+        }
+      }
     }
   ]
 }
