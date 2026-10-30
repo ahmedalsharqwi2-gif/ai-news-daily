@@ -322,102 +322,102 @@
           {
             "id": "scene_1",
             "label": "دليل السلوك",
-            "narration": "شركة أوبن إيه آي نزلت تحديث لدليل السلوك النموذجي عشان النماذج تبطل تمشي ورا الكلام بالحرف وتفهم إحنا عايزين إيه بجد. ده مش مجرد رغي نظري، ده هيكل بيوجه الذكاء الاصطناعي في المواقف الصعبة.",
+            "narration": "أوبن إيه آي أعلنت تحديث لدليل سلوك نماذجها، اللي بتسميه موديل سبيك. الخبر هنا مش إطلاق موديل جديد، لكن تغيير في المبادئ اللي الشركة عايزة النماذج تتصرف على أساسها. يعني بنراجع طريقة المساعدة واتخاذ القرارات، مش بنعلن قفزة أداء اتقاست في اختبار.",
             "labels": [
               "دليل السلوك النموذجي"
             ],
             "visual_mode": "chip",
-            "evidence_excerpt_id": 5,
-            "punchline": "",
-            "reaction": "none",
-            "evidence_quote": "Model Spec ⁠ (opens in a new window) , our public description of how we"
-          },
-          {
-            "id": "scene_2",
-            "label": "تدفق القيم",
-            "narration": "التحديث منظم حوالين خمس قيم أساسية بتبدأ بالوفاء بنية الإنسان، تقليل الأضرار، الأمانة والشفافية، تعزيز الوكالة البشرية، وأخيراً الرعاية. دي القواعد اللي بتخلي النموذج يفهم أبعاد قراراته في العالم الحقيقي.",
-            "labels": [
-              "خمس قيم أساسية"
-            ],
-            "visual_mode": "flow",
             "evidence_excerpt_id": 6,
             "punchline": "",
             "reaction": "none",
             "evidence_quote": "want our models to behave. The update reorganizes its guidance around five underlying values: faithfulness"
           },
           {
+            "id": "scene_2",
+            "label": "تدفق القيم",
+            "narration": "التحديث بيرتب الدليل حوالين خمس قيم: فهم نية الإنسان، وتقليل الضرر، والصدق والشفافية، ودعم قدرة الناس على الاختيار، ومراعاة ظروفهم. الفكرة إن النموذج يفهم ليه القاعدة موجودة، بدل ما ينفذ كلامك بالحرف ويطلع بنتيجة ملهاش علاقة بالهدف اللي كنت تقصده.",
+            "labels": [
+              "خمس قيم أساسية"
+            ],
+            "visual_mode": "flow",
+            "evidence_excerpt_id": 7,
+            "punchline": "",
+            "reaction": "none",
+            "evidence_quote": "to human intent , harm minimization , honesty and transparency , human agency , and"
+          },
+          {
             "id": "scene_3",
             "label": "الشبكة والنية",
-            "narration": "الوفاء بنية الإنسان بقى هو الأساس اللي بيتبني عليه كل حاجة. النموذج مطلوب منه يساعد الناس تفهم العالم وتحقق أهدافها من غير ما يفرض عليها خياراتها أو يوجهها بشكل خفي وهي بتقارن عروض الشغل.",
+            "narration": "من الأمثلة اللي الشركة ذكرتها مقارنة عروض الشغل. لو كنت قلت قبل كده إن مواعيد الشغل المنتظمة مهمة لك، النموذج ممكن ياخد ده في الاعتبار، بس يوضح افتراضاته ويخليك تصححها. مساعد ذكي آه، مدير لحياتي لأ. القرار يفضل قرارك أنت، مش تفضيل مخفي يفرضه عليك.",
             "labels": [
               "الوفاء بنية الإنسان"
             ],
             "visual_mode": "network",
-            "evidence_excerpt_id": 20,
-            "punchline": "",
-            "reaction": "none",
-            "evidence_quote": "the foundation of this approach: understanding and helping people pursue what matters to them. OpenAI"
+            "evidence_excerpt_id": 32,
+            "punchline": "مساعد ذكي آه، مدير لحياتي لأ.",
+            "reaction": "suspicious",
+            "evidence_quote": "when helping someone compare job offers, the model might draw on priorities they have shared"
           },
           {
             "id": "scene_4",
             "label": "مقارنة القواعد",
-            "narration": "النسخة الجديدة شالت تفاصيل أسلوب الكتابة القديمة وسبتها تتكيف حسب تفضيلات المستخدمين والثقافات. وفي نفس الوقت ثبتت قواعد واضحة زي التعامل مع الأسئلة بحياد بدل ما يقولك اللي انت عايز تسمعه وبس.",
+            "narration": "الدليل كمان بينظم ترتيب التعليمات وحل التعارض بينها. الشركة بتحط حدود، والمطور بيحدد التطبيق داخل الحدود دي، والمستخدم بيوجه الشغل. مش كل رسالة تقول أنا المدير يبقى نديها ختم النسر. دي قفشة على لخبطة التعليمات، أما التحديث نفسه فبيشرح إزاي النموذج يحدد أنهي تعليمات تنطبق.",
             "labels": [
               "تفضيلات المستخدمين"
             ],
             "visual_mode": "comparison",
-            "evidence_excerpt_id": 67,
-            "punchline": "",
-            "reaction": "none",
-            "evidence_quote": "Style should adapt to what people prefer—in aggregate, within languages and cultures, and for each"
+            "evidence_excerpt_id": 57,
+            "punchline": "مش كل رسالة تقول أنا المدير يبقى نديها ختم النسر.",
+            "reaction": "shock",
+            "evidence_quote": "updated chain of command ⁠ (opens in a new window) , which explains which instructions"
           },
           {
             "id": "scene_5",
             "label": "النشر والانتشار",
-            "narration": "مع توسع استخدام النماذج في بيئات مختلفة، الدليل مابقاش يكتب كلمة المساعد، وبقى يفضل استخدام جي بي تي عشان يعبر عن السعة الكبيرة لتطبيقاته وتنوعها في العالم الخارجي.",
+            "narration": "قسم جديد بيركز على فهم السياق بعناية: المحادثات والذاكرة والأدلة المتاحة تساعد النموذج يفهم نواياك وتفضيلاتك. لكن ده مش تصريح إنه يتصرف نيابة عنك من غير حدود. الدليل بيتكلم كمان عن توضيح الآثار الجانبية للشغل، ومراعاة تأثيره على ناس تانية، مع احترام هدفك وتعليماتك.",
             "labels": [],
             "visual_mode": "deployment",
-            "evidence_excerpt_id": 72,
-            "punchline": "",
-            "reaction": "none",
-            "evidence_quote": "increasing breadth of our models’ use cases and deployment settings, we now refer to the"
-          },
-          {
-            "id": "scene_6",
-            "label": "معالجة السياق",
-            "narration": "تم إضافة قسم جديد بيشرح إزاي المحادثات والذاكرة والأدلة السياقية لازم تغذي فهم النموذج لنوايا الأفراد. ده بيساعده يربط الكلام ببعضه ويقدم شغل الناس تقدر تعتمد عليه بجد.",
-            "labels": [
-              "الأدلة السياقية"
-            ],
-            "visual_mode": "flow",
             "evidence_excerpt_id": 59,
             "punchline": "",
             "reaction": "none",
             "evidence_quote": "a new window) , explains how conversations, memories, and other contextual evidence should inform the"
           },
           {
+            "id": "scene_6",
+            "label": "معالجة السياق",
+            "narration": "في المقابل، معظم تعليمات الأسلوب التفصيلية القديمة اتشالت، عشان الأسلوب يتكيف مع اللغة والثقافة وتفضيل كل شخص. لكن الحياد فضل مبدأ أقوى؛ النموذج ما يفترضش رأيك لمجرد إنه فاكر إنك عايز تسمعه. مش كل ما أقول رأيي يقول لي إنت أسطورة. المجاملة مش دليل صحة.",
+            "labels": [
+              "الأدلة السياقية"
+            ],
+            "visual_mode": "flow",
+            "evidence_excerpt_id": 11,
+            "punchline": "مش كل ما أقول رأيي يقول لي إنت أسطورة.",
+            "reaction": "smug",
+            "evidence_quote": "adjusts some behavioral defaults, and retires much of the detailed style guidance. Organizing the Spec"
+          },
+          {
             "id": "scene_7",
             "label": "الحدود والقيود",
-            "narration": "الشفافية هنا بتعني إن النموذج يكون صادق بخصوص الحاجات اللي عارفها واللي بيجهلها تماماً. ده بيخلي الناس قادرة تقييم الشغل وتفهم طريقة التفكير والحدود اللي محطوطة عشان تحمي المجتمع.",
+            "narration": "الصدق هنا يشمل إن النموذج يوضح اللي يعرفه، واللي عمله، والحاجات اللي مش متأكد منها. ده مهم عشان تقدر تقيّم النتيجة بدل ما تتأثر بصوت واثق وخلاص. الثقة مش بالصوت العالي، المهم المعلومة صح. التعليق ده ساخر، ومش وعد إن الأخطاء اختفت من المنتجات.",
             "labels": [],
             "visual_mode": "limits",
-            "evidence_excerpt_id": 37,
-            "punchline": "",
-            "reaction": "none",
-            "evidence_quote": "for the foreseeable consequences of the model’s actions. Honesty and transparency mean being truthful about"
+            "evidence_excerpt_id": 38,
+            "punchline": "الثقة مش بالصوت العالي، المهم المعلومة صح.",
+            "reaction": "loading",
+            "evidence_quote": "what the model knows, does, and is uncertain about so people can understand and evaluate"
           },
           {
             "id": "scene_8",
             "label": "الخلاصة",
-            "narration": "الشركة بتعتبر التحديث ده خطوة أولى ومفتوحة لاستقبال آراء المستخدمين والخبراء عشان تطور الدليل أكتر. النماذج لسه مش مثالية، بس الشغل شغال عشان توصل لأفضل نتيجة ممكنة للجميع.",
+            "narration": "والنقطة الأهم في آخر الإعلان: الشركة بتقول إن نماذجها لسه مش بتعكس الدليل بالكامل. يعني فيه فرق بين السلوك المستهدف والتنفيذ الحالي. هم طالبين ملاحظات على القيم والتوازنات والصياغة، وبيقولوا إن الدليل والنماذج هيفضلوا يتطوروا. نتابع التطبيق الفعلي، وما نعتبرش تحديث الدليل وحده نتيجة مضمونة.",
             "labels": [
               "خطوة أولى"
             ],
             "visual_mode": "network",
-            "evidence_excerpt_id": 74,
+            "evidence_excerpt_id": 16,
             "punchline": "",
             "reaction": "none",
-            "evidence_quote": "is a first step in making the values and reasoning behind the Spec more explicit"
+            "evidence_quote": "commitments were less fully expressed. This update is another step in our work to refine"
           }
         ],
         "hashtags": [
@@ -452,14 +452,20 @@
         "editorial_review": {
           "supported": true,
           "novel": true,
-          "issues": [
-            "Pacing and word count are within the expected limits."
-          ],
-          "model": "gemini-3.5-flash-lite"
+          "issues": [],
+          "review_type": "Codex source and satire review of the same reserved OpenAI announcement",
+          "source_body_sha256": "68ae4b50aece245b2e7df268ca3a5482b3f3d8ac0eae135f4923a34c6c584875",
+          "checks": [
+            "No claim of a newly launched model or measured performance improvement",
+            "Four original audible punchlines are narrator commentary, not company quotes",
+            "Explain all five published values and the job-offer/context examples accurately",
+            "Retain explicit source warning that current models do not fully reflect the Spec"
+          ]
         },
         "writer_model": "gemini-3.5-flash-lite"
       },
-      "reserved_at": "2026-10-30T12:15:08.821362+00:00"
+      "reserved_at": "2026-10-30T12:15:08.821362+00:00",
+      "revision_reason": "Original narration measured 108.96 seconds and lacked audible memes; source-backed editorial expansion, no padding"
     }
   ]
 }
