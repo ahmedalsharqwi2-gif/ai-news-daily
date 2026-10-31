@@ -22,7 +22,7 @@ def choose(rows,ask,now=None):
         try:published=require_fresh(row,now)
         except (ValueError,TypeError):continue
         # Twelve hours of freshness headroom cover 09:00 preparation, 17:00 Cairo publication and processing.
-        if published<now-timedelta(hours=36):continue
+        if published<now-timedelta(hours=48):continue
         if not row.get('url') or row['url'] in urls:continue
         urls.add(row['url'])
         fresh.append(row)
