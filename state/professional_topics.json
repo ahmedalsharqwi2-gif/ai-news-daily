@@ -508,7 +508,7 @@
       "canonical_subject": "openai-robots-txt-shared-signal",
       "title": "إزاي المواقع تمنع الذكاء الاصطناعي بكلمة سر واحدة؟",
       "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-      "status": "reserved",
+      "status": "rendered",
       "story": {
         "title": "إزاي المواقع تمنع الذكاء الاصطناعي بكلمة سر واحدة؟",
         "canonical_subject": "openai-robots-txt-shared-signal",
@@ -670,7 +670,8 @@
         },
         "writer_model": "gemini-3.5-flash-lite"
       },
-      "reserved_at": "2026-10-30T20:44:18.627803+00:00"
+      "reserved_at": "2026-10-30T20:44:18.627803+00:00",
+      "video_sha256": "9662c3317a9b72116aa97aeff3c7ffe22afd07b77b8f77419ed258c5f15c0306"
     }
   ]
 }
