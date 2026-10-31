@@ -1,0 +1,182 @@
+{
+  "file": "professional-review.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 62.08,
+  "story_sha256": "3fbdbdd4242d0cfe84684fc9813d99eabcffb26a2e4cdfc196f4e0ef2489d5fb",
+  "voice": "original Gemini Charon",
+  "asr_model": "medium+small+large-v3",
+  "independent_asr_word_coverage": 0.8618421052631579,
+  "exact_token_coverage": 0.8618421052631579,
+  "speech_matching_method": "Exact-token ensemble anchors; supplied-script phrase captions; no active-word precision claim",
+  "known_name_normalization_applied": false,
+  "visual_gate": {
+    "passed": true,
+    "duration": 62.1,
+    "resolution": [
+      1080,
+      1920
+    ],
+    "method": "within-scene diagram-region pixel changes",
+    "scenes": [
+      {
+        "scene": 1,
+        "diagram_spatial_std": [
+          36.52479178698517,
+          37.353552555822944,
+          38.17742478240683
+        ],
+        "changed_pixel_ratios": [
+          0.14667616334283,
+          0.15264719848053182
+        ],
+        "passed": true
+      },
+      {
+        "scene": 2,
+        "diagram_spatial_std": [
+          30.204685756774744,
+          34.49909250097031,
+          34.498777146185645
+        ],
+        "changed_pixel_ratios": [
+          0.23472222222222222,
+          0.22171177587844254
+        ],
+        "passed": true
+      },
+      {
+        "scene": 3,
+        "diagram_spatial_std": [
+          33.39189579114458,
+          33.440683517650704,
+          33.80961697109752
+        ],
+        "changed_pixel_ratios": [
+          0.07705365622032288,
+          0.09570275403608737
+        ],
+        "passed": true
+      },
+      {
+        "scene": 4,
+        "diagram_spatial_std": [
+          22.11355122257197,
+          21.9501672225893,
+          22.209358423447316
+        ],
+        "changed_pixel_ratios": [
+          0.024786324786324785,
+          0.023741690408357077
+        ],
+        "passed": true
+      },
+      {
+        "scene": 5,
+        "diagram_spatial_std": [
+          10.4041310791542,
+          10.53706319442214,
+          10.397332586876486
+        ],
+        "changed_pixel_ratios": [
+          0.0037393162393162395,
+          0.0006766381766381767
+        ],
+        "passed": true
+      },
+      {
+        "scene": 6,
+        "diagram_spatial_std": [
+          23.44484025218689,
+          23.338903089181812,
+          23.466843616575506
+        ],
+        "changed_pixel_ratios": [
+          0.017948717948717947,
+          0.0193019943019943
+        ],
+        "passed": true
+      },
+      {
+        "scene": 7,
+        "diagram_spatial_std": [
+          30.168154421240768,
+          30.497679835122483,
+          30.427204391512156
+        ],
+        "changed_pixel_ratios": [
+          0.037084520417853754,
+          0.0706908831908832
+        ],
+        "passed": true
+      },
+      {
+        "scene": 8,
+        "diagram_spatial_std": [
+          30.165333997190928,
+          30.28938727370374,
+          30.303702027915122
+        ],
+        "changed_pixel_ratios": [
+          0.03323836657169991,
+          0.03182573599240266
+        ],
+        "passed": true
+      }
+    ],
+    "note": "Technical blank/freeze detection only; not a judgement of artistic or factual quality."
+  },
+  "audio_tail": {
+    "audio_seconds": 62.08,
+    "video_seconds": 62.08,
+    "difference_seconds": 0.0,
+    "last_speech_window_correlation": 0.9958349466323853,
+    "audio_tail_checked": true,
+    "silence_padding_used_to_hide_lost_speech": false
+  },
+  "publication_metadata": {
+    "title": "ai على السريع | إزاي المواقع تمنع الذكاء الاصطناعي بكلمة سر واحدة؟",
+    "caption": "رسوم توضيحية وإعادة تمثيل درامية؛ ليست تسجيلًا للأحداث. القفشات تعليق ساخر، والخبر من المصدر.\nالمصدر: OpenAI\nhttps://openai.com/index/helping-websites-express-ai-training-preferences\n#OpenAI #ذكاء_اصطناعي #إزاي_المواقع_تمنع_الذكاء_الاصطناعي",
+    "description": "رسوم توضيحية وإعادة تمثيل درامية؛ ليست تسجيلًا للأحداث. القفشات تعليق ساخر، والخبر من المصدر.\nالمصدر: OpenAI\nhttps://openai.com/index/helping-websites-express-ai-training-preferences\n#OpenAI #ذكاء_اصطناعي #إزاي_المواقع_تمنع_الذكاء_الاصطناعي",
+    "tags": [
+      "OpenAI",
+      "ذكاء_اصطناعي",
+      "إزاي_المواقع_تمنع_الذكاء_الاصطناعي"
+    ],
+    "hashtags": [
+      "#OpenAI",
+      "#ذكاء_اصطناعي",
+      "#إزاي_المواقع_تمنع_الذكاء_الاصطناعي"
+    ],
+    "source_url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+    "containsSyntheticMedia": true
+  },
+  "duration_policy": {
+    "minimum_exclusive": 90,
+    "maximum_exclusive": 180
+  },
+  "music_target_lufs": -27,
+  "music": "Original composed score",
+  "music_bpm": 120,
+  "source": {
+    "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+    "publisher": "OpenAI",
+    "title": "Making it easier for websites to express AI training preferences",
+    "published": "2026-10-30T09:30:00+00:00"
+  },
+  "topic_key": "84abd1857de5dfd9",
+  "profile": "news",
+  "editorial_review": {
+    "supported": true,
+    "novel": true,
+    "issues": [],
+    "model": "gemini-3.5-flash-lite"
+  },
+  "render": "Three.js geometry and lighting with reference editorial frame; bloom disabled",
+  "visual_style": "reference",
+  "review_watermark": true,
+  "reference_audio_reused": false,
+  "automatically_published": false,
+  "status": "Technical checks passed; artistic judgement requires viewing the complete film."
+}
