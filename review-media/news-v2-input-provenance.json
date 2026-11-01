@@ -1,0 +1,16 @@
+{
+  "profile": "news",
+  "archived_input": true,
+  "source_delivery_commit": "bbaf967f340b0ff2231a99fb61b95dbc9bf9c6a7",
+  "renderer_source_commit": "436d219c39a0f748e1511c9262ba7816104dc2ab",
+  "renderer_files_sha256": {
+    "professional_motion/scene.js": "96e706d0b2192b354eec34b11f683a8a6e92824a5c5c61b1dd86b38f6e312586",
+    "professional_motion/render.mjs": "7a64e853e26f0107220c89d9d3d0ecf0784775c83dbd3c66f09ed494c60401e5",
+    "professional_motion/channels.js": "9cd905d30bc58992836273d44258a6aeaaa4bfe8841faea2156769739a1fcfd6",
+    "professional_motion/studio_v2.js": "3f58acd09e7062610fe5bd98ba7ea90843faf8840e7d3cf037d5a34d3a217be6",
+    "professional_motion/branding.js": "ba1b9469651d440779709e9be829b0666844837411a4e98f619d0999d7417baa",
+    "professional_motion/branding.json": "60bb74c7b7497a0953f4b113c49ef96754896ea3fe62c423e1cd9841b90c6a55"
+  },
+  "new_topic_approved": false,
+  "fresh_news_claim": false
+}

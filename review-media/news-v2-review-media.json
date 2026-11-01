@@ -1,0 +1,37 @@
+{
+  "render_wall_seconds": 1138.6897265911102,
+  "profile": "news",
+  "source_delivery_commit": "bbaf967f340b0ff2231a99fb61b95dbc9bf9c6a7",
+  "archived_regression": true,
+  "fresh_news_claim": false,
+  "voice": "Gemini Charon original archived narration; exact supplied bytes retained",
+  "fresh_topic_verified": false,
+  "publishable": false,
+  "automatically_published": false,
+  "full_sha256": "1e4b69363b25b64f5f0df743c264e8d0c7f6a11a28b20dc0ab938fb6066f7313",
+  "full_duration": 148.366667,
+  "full_bytes": 65203971,
+  "sample_sha256": "bdf3cea8dce2445f9103ed562e23c8ec39187f34cc9e948cbbda8bc3ef614fa1",
+  "sample_duration": 40.1,
+  "sample_full_decode": "PASS",
+  "decoded_3d_region_mean_frame_difference_at2s_vs3s": 8.063039021164021,
+  "audio_levels_dbfs": {
+    "mean_volume": -17.8,
+    "max_volume": -2.9
+  },
+  "music_target_lufs": -29,
+  "narration_target_lufs": -16,
+  "original_logo_installed": true,
+  "visual_inspection": "PASS: actual encoded frames at2s,74.18s,146.36s inspected; originallogo, readableArabiccaptions, reviewwatermark and archivedsource date visible; no caption/logo overlap; measured satirebeat44.7s inspected, explicit joke badge does not overlap subtitles",
+  "listening_review": "No audio listening tool available; original ASR alignment retained and decoded audio measured",
+  "limitation": "Technical full-film regression only; not a new news film or production cutover approval",
+  "archived_source_date": "2026-10-29",
+  "sample_requested_source_interval_seconds": [
+    30,
+    70
+  ],
+  "sample_includes_measured_satire_beats_seconds": [
+    44.26,
+    58.94
+  ]
+}
