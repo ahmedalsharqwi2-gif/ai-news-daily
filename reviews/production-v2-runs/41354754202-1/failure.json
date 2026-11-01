@@ -1,0 +1,44 @@
+{
+  "profile": "news",
+  "repository": "ahmedalsharqwi2-gif/ai-news-daily",
+  "run_id": "41354754202",
+  "run_attempt": "1",
+  "source_commit": "670d2f80966cf87e1817a322087d45fb61efaf4f",
+  "stage": "failure",
+  "requested_stage": "failure",
+  "observed_at": "2026-11-01T22:08:52.721092+00:00",
+  "review_only": true,
+  "automatically_published": false,
+  "cutover_eligible": false,
+  "complete_film_verified": false,
+  "media_url": null,
+  "credential_presence": {
+    "GEMINI_API_KEY": true,
+    "GEMINI_TEXT_API_KEY": true,
+    "GEMINI_TTS_API_KEY": true
+  },
+  "generation_failure": {
+    "slot": "candidate-news-29a6f32a5d124617b1ed7537d26772d5",
+    "profile": "news",
+    "error_class": "ValueError",
+    "reservation_retained": true,
+    "legacy_film_not_used_as_fallback": true,
+    "publishable": false,
+    "failed_phase": "narration_or_alignment",
+    "measured_narration_seconds": 66.24,
+    "timing_present": false
+  },
+  "planning_evidence": {
+    "candidate-status.json": [
+      {
+        "key": "7281347817fe3ba2",
+        "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+        "family": "compute",
+        "variant": "chip",
+        "published": "2026-10-28T15:00:46+00:00",
+        "already_reserved": false
+      }
+    ]
+  },
+  "evidence_error_class": "ValueError"
+}
