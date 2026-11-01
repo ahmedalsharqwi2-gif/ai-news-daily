@@ -1,0 +1,60 @@
+{
+  "profile": "news",
+  "repository": "ahmedalsharqwi2-gif/ai-news-daily",
+  "run_id": "41294261880",
+  "run_attempt": "1",
+  "source_commit": "6fe8b8f8a6a8fb5feef9708594c86f654fca3723",
+  "stage": "success",
+  "read_only": true,
+  "no_provider_calls": true,
+  "no_posts_created": true,
+  "checked_at": "2026-11-01T09:42:20.330007+00:00",
+  "rows": [
+    {
+      "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+      "url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals",
+      "publisher": "NVIDIA",
+      "published": "2026-10-30T15:00:10+00:00",
+      "fresh_48h": true,
+      "already_reserved": false
+    },
+    {
+      "title": "Making it easier for websites to express AI training preferences",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "publisher": "OpenAI",
+      "published": "2026-10-30T09:30:00+00:00",
+      "fresh_48h": false,
+      "already_reserved": true
+    },
+    {
+      "title": "Fair use benefits everyone",
+      "url": "https://openai.com/index/fair-use-benefits-everyone",
+      "publisher": "OpenAI",
+      "published": "2026-10-30T00:00:00+00:00",
+      "fresh_48h": false,
+      "already_reserved": false
+    },
+    {
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "url": "https://openai.com/index/updated-model-spec",
+      "publisher": "OpenAI",
+      "published": "2026-10-29T17:00:00+00:00",
+      "fresh_48h": false,
+      "already_reserved": true
+    },
+    {
+      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents",
+      "publisher": "NVIDIA",
+      "published": "2026-10-29T16:00:35+00:00",
+      "fresh_48h": false,
+      "already_reserved": false
+    }
+  ],
+  "feed_status": {
+    "candidates": 5,
+    "feed_errors": [],
+    "invalid_items": 6,
+    "checked_at": "2026-11-01T09:42:18.953428+00:00"
+  }
+}
