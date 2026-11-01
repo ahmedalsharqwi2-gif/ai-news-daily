@@ -10,7 +10,9 @@ import {once} from 'node:events';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const flag=(key,fallback)=>{let i=process.argv.indexOf(key);return i<0?fallback:process.argv[i+1];};
 const pipeline=flag('--pipeline','legacy');
-if(!['legacy','v2'].includes(pipeline))throw Error('Unknown pipeline');
+if(!['legacy','v2','studio-v2'].includes(pipeline))throw Error('Unknown pipeline');
+const visualReview=process.argv.includes('--visual-review');
+if(visualReview&&(pipeline!=='v2'||!process.argv.includes('--review')))throw Error('Silent visual comparisons require explicit v2 review mode');
 const delivery=path.resolve(flag('--delivery-dir',path.join(root,'professional_motion/delivery')));
 const output=path.resolve(flag('--output-dir',path.join(root,pipeline==='v2'?'.work/news-v2/output':'professional_motion/output')));
 if(output===delivery)throw Error('Delivery and output directories must be separate');
@@ -20,11 +22,16 @@ const storyHash=createHash('sha256').update(storyBytes).digest('hex');
 let timing;try{timing=JSON.parse(await readFile(path.join(delivery,'timing.json'),'utf8'));}catch(e){if(pipeline==='v2')throw Error('V2 requires measured timing.json',{cause:e});}
 if(timing&&timing.story_sha256!==storyHash)throw Error('Story changed after measured voice timing');
 if(pipeline==='v2'){
- const audioHash=createHash('sha256').update(await readFile(path.join(delivery,'narration.wav'))).digest('hex');
- if(audioHash!==timing.audio_sha256)throw Error('Narration changed after measured voice timing');
- if(!Number.isFinite(timing.duration)||timing.duration<120||timing.duration>=180)throw Error('V2 complete film requires 120 <= duration < 180 seconds');
  const story=JSON.parse(storyBytes);
+ const {validateVisualPlan}=await import('./topic_director.js');validateVisualPlan(story);
  if(story.topic_key!==timing.topic_key)throw Error('Timing belongs to a different topic');
+ if(visualReview){
+  if(story.visual_review_only!==true||timing.timing_method!=='synthetic_visual_review_no_speech'||timing.audio_sha256||!Number.isFinite(timing.duration)||timing.duration<24||timing.duration>40)throw Error('Silent visual comparisons require honest synthetic timing,24–40sec, no narration claim');
+ }else{
+  const audioHash=createHash('sha256').update(await readFile(path.join(delivery,'narration.wav'))).digest('hex');
+  if(audioHash!==timing.audio_sha256)throw Error('Narration changed after measured voice timing');
+  if(!Number.isFinite(timing.duration)||timing.duration<120||timing.duration>=180)throw Error('V2 complete film requires 120 <= duration < 180 seconds');
+ }
 }
 
 const mime={'.html':'text/html','.js':'text/javascript','.mjs':'text/javascript','.json':'application/json','.ttf':'font/ttf','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.webp':'image/webp'};
@@ -41,7 +48,7 @@ try{
  await page.goto(`http://127.0.0.1:${server.address().port}/professional_motion/index.html?${query}`);
  await page.waitForFunction(()=>window.ready===true,null,{timeout:60000});
  if(errors.length)throw Error('Renderer page errors');
- const duration=timing?.duration||46.5;const fps=30;
+ const duration=timing?.duration||46.5;const fps=visualReview?24:30;
  const splitting=process.argv.includes('--part'),part=Number(flag('--part',0)),parts=Number(flag('--parts',1));
  if(!Number.isInteger(part)||!Number.isInteger(parts)||parts<1||part<0||part>=parts)throw Error('Invalid frame partition');
  if(splitting&&(process.argv.includes('--from')||process.argv.includes('--to')))throw Error('Choose frame partitions or time intervals');
@@ -50,7 +57,7 @@ try{
  const startFrame=splitting?Math.floor(totalFrames*part/parts):Math.ceil(from*fps),endFrame=splitting?Math.floor(totalFrames*(part+1)/parts):Math.ceil(to*fps);
  if(!Number.isFinite(from)||!Number.isFinite(to)||from<0||to<=from||to>duration+.001)throw Error('Invalid render interval');
  const outputName=path.basename(flag('--output','visuals.mp4'));const partial=startFrame>0||endFrame<totalFrames;
- console.log(JSON.stringify({duration,originalVoice:!!timing,webgl:await page.evaluate(()=>document.querySelector('canvas:not(#text)').getContext('webgl2')?.getParameter(7937))}));
+ console.log(JSON.stringify({duration,originalVoice:!!timing?.audio_sha256,webgl:await page.evaluate(()=>document.querySelector('canvas:not(#text)').getContext('webgl2')?.getParameter(7937))}));
  const stills=process.argv.includes('--stills');
  if(stills){
   for(const [i,t] of [2.7,7,12,18,24,30,36.5,43].entries()){
@@ -69,5 +76,5 @@ try{
   }
   ff.stdin.end();const [code]=await completed;if(code!==0)throw Error('FFmpeg failed');
  }
- await writeFile(path.join(output,stills&&pipeline==='v2'?'stills.json':partial?outputName+'.json':'render.json'),JSON.stringify({render_mode:stills?'stills':'video',duration,from,to,start_frame:startFrame,end_frame:endFrame,total_frames:totalFrames,fps,width:1080,height:1920,originalVoice:!!timing,visual_style:style,pipeline,pipeline_contract:await page.evaluate(()=>window.pipelineStatus),review:process.argv.includes('--review'),story_sha256:storyHash,branding:await page.evaluate(()=>window.brandingStatus),errors},null,2));
+ await writeFile(path.join(output,stills&&pipeline==='v2'?'stills.json':partial?outputName+'.json':'render.json'),JSON.stringify({render_mode:stills?'stills':'video',visual_review_only:visualReview,publishable:false,duration,from,to,start_frame:startFrame,end_frame:endFrame,total_frames:totalFrames,fps,width:1080,height:1920,originalVoice:!!timing?.audio_sha256,visual_style:style,pipeline,pipeline_contract:await page.evaluate(()=>window.pipelineStatus),review:process.argv.includes('--review'),story_sha256:storyHash,branding:await page.evaluate(()=>window.brandingStatus),errors},null,2));
 }finally{await browser.close();server.close();}

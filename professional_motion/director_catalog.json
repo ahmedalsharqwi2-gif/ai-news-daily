@@ -1,0 +1,278 @@
+{
+  "version": 1,
+  "profile": "news",
+  "worlds": {
+    "radio_signal_observatory": {
+      "settings": [
+        "observatory_desert",
+        "receiver_feed",
+        "control_room",
+        "signal_lab"
+      ],
+      "focal_objects": [
+        "radio_dish",
+        "receiver",
+        "wavefront",
+        "waterfall",
+        "rfi_filter",
+        "candidate_cards",
+        "review_console"
+      ],
+      "actions": [
+        "dish_survey",
+        "dish_point",
+        "signal_capture",
+        "frequency_sweep",
+        "rfi_reject",
+        "candidate_sort",
+        "human_review",
+        "followup_track"
+      ],
+      "shots": [
+        "array_establish",
+        "dish_low",
+        "feed_close",
+        "signal_follow",
+        "waterfall_top",
+        "filter_macro",
+        "review_over_shoulder",
+        "followup_wide"
+      ],
+      "description": "A schematic radio observatory and signal-analysis lab: pointing receivers, captured wavefronts, frequency waterfall, RFI rejection, candidate triage and human review. No claimed alien discovery, facility dimensions or exact instrument counts.",
+      "minimum_distinct_settings": 3,
+      "compatible_beats": [
+        {
+          "setting": "observatory_desert",
+          "focal_object": "radio_dish",
+          "action": "dish_survey",
+          "shot": "array_establish"
+        },
+        {
+          "setting": "observatory_desert",
+          "focal_object": "radio_dish",
+          "action": "dish_point",
+          "shot": "dish_low"
+        },
+        {
+          "setting": "receiver_feed",
+          "focal_object": "receiver",
+          "action": "signal_capture",
+          "shot": "feed_close"
+        },
+        {
+          "setting": "signal_lab",
+          "focal_object": "waterfall",
+          "action": "frequency_sweep",
+          "shot": "waterfall_top"
+        },
+        {
+          "setting": "signal_lab",
+          "focal_object": "rfi_filter",
+          "action": "rfi_reject",
+          "shot": "filter_macro"
+        },
+        {
+          "setting": "control_room",
+          "focal_object": "candidate_cards",
+          "action": "candidate_sort",
+          "shot": "review_over_shoulder"
+        },
+        {
+          "setting": "control_room",
+          "focal_object": "review_console",
+          "action": "human_review",
+          "shot": "review_over_shoulder"
+        },
+        {
+          "setting": "observatory_desert",
+          "focal_object": "radio_dish",
+          "action": "followup_track",
+          "shot": "followup_wide"
+        }
+      ],
+      "subject_contract": {
+        "required_source_url_contains": "ai-joins-the-search-for-extraterrestrial-signals"
+      }
+    },
+    "cleanroom_fabrication": {
+      "settings": [
+        "cleanroom",
+        "lithography_bay",
+        "inspection_bench",
+        "packaging_line"
+      ],
+      "focal_objects": [
+        "wafer",
+        "robot_arm",
+        "lithography_mask",
+        "chip_layers",
+        "inspection_probe",
+        "package",
+        "reject_bin",
+        "finished_board"
+      ],
+      "actions": [
+        "wafer_transfer",
+        "mask_exposure",
+        "layer_separation",
+        "probe_scan",
+        "package_close",
+        "reject_route",
+        "board_insert",
+        "robot_pick"
+      ],
+      "shots": [
+        "room_establish",
+        "robot_follow",
+        "mask_macro",
+        "layer_orbit",
+        "probe_top",
+        "package_push",
+        "reject_track",
+        "board_hero"
+      ],
+      "description": "A sterile semiconductor fabrication floor with robots, wafer transport, mask exposure, physical layers, probe, packaging and rejected parts. Not a generic network/chip backdrop.",
+      "minimum_distinct_settings": 3,
+      "compatible_beats": [
+        {
+          "setting": "cleanroom",
+          "focal_object": "wafer",
+          "action": "wafer_transfer",
+          "shot": "room_establish"
+        },
+        {
+          "setting": "cleanroom",
+          "focal_object": "robot_arm",
+          "action": "robot_pick",
+          "shot": "robot_follow"
+        },
+        {
+          "setting": "lithography_bay",
+          "focal_object": "lithography_mask",
+          "action": "mask_exposure",
+          "shot": "mask_macro"
+        },
+        {
+          "setting": "lithography_bay",
+          "focal_object": "chip_layers",
+          "action": "layer_separation",
+          "shot": "layer_orbit"
+        },
+        {
+          "setting": "inspection_bench",
+          "focal_object": "inspection_probe",
+          "action": "probe_scan",
+          "shot": "probe_top"
+        },
+        {
+          "setting": "packaging_line",
+          "focal_object": "package",
+          "action": "package_close",
+          "shot": "package_push"
+        },
+        {
+          "setting": "inspection_bench",
+          "focal_object": "reject_bin",
+          "action": "reject_route",
+          "shot": "reject_track"
+        },
+        {
+          "setting": "packaging_line",
+          "focal_object": "finished_board",
+          "action": "board_insert",
+          "shot": "board_hero"
+        }
+      ]
+    },
+    "egyptian_voice_cafe": {
+      "settings": [
+        "cairo_cafe",
+        "tabletop",
+        "voice_route",
+        "privacy_desk"
+      ],
+      "focal_objects": [
+        "speaker",
+        "phone",
+        "sound_waves",
+        "request_cards",
+        "privacy_shutter",
+        "reference_cards",
+        "receipt",
+        "cup"
+      ],
+      "actions": [
+        "person_speak",
+        "wave_capture",
+        "request_route",
+        "privacy_close",
+        "reference_compare",
+        "receipt_print",
+        "cup_deliver",
+        "answer_return"
+      ],
+      "shots": [
+        "cafe_establish",
+        "phone_over_shoulder",
+        "voice_follow",
+        "route_side",
+        "privacy_macro",
+        "reference_top",
+        "receipt_push",
+        "table_wide"
+      ],
+      "description": "An illustrative Egyptian café interaction: seated speaker, phone capture, spoken wavefronts, routed requests, privacy shutter, supporting documents and returned order. Only sources actually about voice/assistant interaction fit.",
+      "minimum_distinct_settings": 3,
+      "compatible_beats": [
+        {
+          "setting": "cairo_cafe",
+          "focal_object": "speaker",
+          "action": "person_speak",
+          "shot": "cafe_establish"
+        },
+        {
+          "setting": "tabletop",
+          "focal_object": "sound_waves",
+          "action": "wave_capture",
+          "shot": "voice_follow"
+        },
+        {
+          "setting": "voice_route",
+          "focal_object": "request_cards",
+          "action": "request_route",
+          "shot": "route_side"
+        },
+        {
+          "setting": "privacy_desk",
+          "focal_object": "privacy_shutter",
+          "action": "privacy_close",
+          "shot": "privacy_macro"
+        },
+        {
+          "setting": "tabletop",
+          "focal_object": "reference_cards",
+          "action": "reference_compare",
+          "shot": "reference_top"
+        },
+        {
+          "setting": "tabletop",
+          "focal_object": "receipt",
+          "action": "receipt_print",
+          "shot": "receipt_push"
+        },
+        {
+          "setting": "cairo_cafe",
+          "focal_object": "cup",
+          "action": "cup_deliver",
+          "shot": "table_wide"
+        },
+        {
+          "setting": "voice_route",
+          "focal_object": "phone",
+          "action": "answer_return",
+          "shot": "phone_over_shoulder"
+        }
+      ]
+    }
+  }
+}
