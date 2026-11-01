@@ -4,9 +4,9 @@
   "run_id": "41315249777",
   "run_attempt": "1",
   "source_commit": "11bf8febafdec91da9245f76c3db5ad8f3831021",
-  "stage": "started",
-  "requested_stage": "started",
-  "observed_at": "2026-11-01T14:15:16.010044+00:00",
+  "stage": "failure",
+  "requested_stage": "failure",
+  "observed_at": "2026-11-01T14:17:21.951284+00:00",
   "review_only": true,
   "automatically_published": false,
   "cutover_eligible": false,
@@ -16,5 +16,42 @@
     "GEMINI_API_KEY": true,
     "GEMINI_TEXT_API_KEY": true,
     "GEMINI_TTS_API_KEY": true
-  }
+  },
+  "generation_failure": {
+    "slot": "candidate-news-55e6aa44c0d8466da88e7acfff96a21f",
+    "profile": "news",
+    "error_class": "RuntimeError",
+    "reservation_retained": false,
+    "legacy_film_not_used_as_fallback": true,
+    "publishable": false,
+    "failed_phase": "story_or_reservation",
+    "measured_narration_seconds": null,
+    "timing_present": false
+  },
+  "planning_evidence": {
+    "candidate-status.json": [],
+    "news-source-dates.json": [
+      {
+        "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+        "published": "2026-10-30T15:00:10+00:00"
+      },
+      {
+        "title": "Making it easier for websites to express AI training preferences",
+        "published": "2026-10-30T09:30:00+00:00"
+      },
+      {
+        "title": "Fair use benefits everyone",
+        "published": "2026-10-30T00:00:00+00:00"
+      },
+      {
+        "title": "An updated Model Spec for more capable and beneficial AI",
+        "published": "2026-10-29T17:00:00+00:00"
+      },
+      {
+        "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+        "published": "2026-10-29T16:00:35+00:00"
+      }
+    ]
+  },
+  "evidence_error_class": "ValueError"
 }
