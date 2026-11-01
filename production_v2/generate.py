@@ -13,6 +13,7 @@ import json
 import os
 from pathlib import Path
 import shutil
+import sys
 import uuid
 
 from .ledger import Ledger
@@ -33,6 +34,7 @@ def _write(path, data):
 def isolated_editor(editorial, run_dir, repository):
     """Restore cwd, provider budgets/cache environment and mutable editor globals on error."""
     previous_cwd, previous_root, previous_state = Path.cwd(), editorial.ROOT, editorial.STATE
+    previous_sys_path=list(sys.path)
     names = ('API_BUDGET_PATH', 'VOICE_CACHE_DIR', 'FACTORY_DAILY')
     previous_env = {name: os.environ.get(name) for name in names}
     def original_path(name, default):
@@ -45,11 +47,13 @@ def isolated_editor(editorial, run_dir, repository):
         os.environ['FACTORY_DAILY'] = 'false'
         editorial.ROOT = run_dir / 'professional_motion'
         editorial.STATE = run_dir / 'state/professional_topics.json'
+        sys.path.insert(0,str(repository))
         os.chdir(run_dir)
         yield
     finally:
         editorial.ROOT, editorial.STATE = previous_root, previous_state
         os.chdir(previous_cwd)
+        sys.path[:]=previous_sys_path
         for name, value in previous_env.items():
             if value is None:
                 os.environ.pop(name, None)
