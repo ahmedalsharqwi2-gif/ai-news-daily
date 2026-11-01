@@ -1,0 +1,20 @@
+{
+  "profile": "news",
+  "repository": "ahmedalsharqwi2-gif/ai-news-daily",
+  "run_id": "41352853946",
+  "run_attempt": "1",
+  "source_commit": "ee074a2c2208f438ae690b0f1af809f3b8262136",
+  "stage": "started",
+  "requested_stage": "started",
+  "observed_at": "2026-11-01T21:36:15.894412+00:00",
+  "review_only": true,
+  "automatically_published": false,
+  "cutover_eligible": false,
+  "complete_film_verified": false,
+  "media_url": null,
+  "credential_presence": {
+    "GEMINI_API_KEY": false,
+    "GEMINI_TEXT_API_KEY": false,
+    "GEMINI_TTS_API_KEY": false
+  }
+}
