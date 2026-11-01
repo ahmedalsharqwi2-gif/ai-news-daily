@@ -4,17 +4,92 @@
   "run_id": "41352853946",
   "run_attempt": "1",
   "source_commit": "ee074a2c2208f438ae690b0f1af809f3b8262136",
-  "stage": "started",
-  "requested_stage": "started",
-  "observed_at": "2026-11-01T21:36:15.894412+00:00",
+  "stage": "success",
+  "requested_stage": "success",
+  "observed_at": "2026-11-01T21:36:24.044119+00:00",
   "review_only": true,
   "automatically_published": false,
   "cutover_eligible": false,
   "complete_film_verified": false,
   "media_url": null,
-  "credential_presence": {
-    "GEMINI_API_KEY": false,
-    "GEMINI_TEXT_API_KEY": false,
-    "GEMINI_TTS_API_KEY": false
-  }
+  "kind": "buffer_audit",
+  "buffer_audit": {
+    "checked_at": "2026-11-01T21:36:22.035522+00:00",
+    "profile": "news",
+    "read_only": true,
+    "live_access_available": true,
+    "episodes": [
+      {
+        "slot": "daily-2026-10-30",
+        "video_sha256": "c023c8543dc8f3eda4fdf3e1f087df3faaee292042b16db190b7c347699b0d22",
+        "retained_status": "scheduled",
+        "due_at": "2026-10-30T15:00:00Z",
+        "live_verified": false,
+        "posts": {
+          "youtube": {
+            "retained_post_id": "6ae493f1f522e615d3a49b00",
+            "expected_channel_id": "6ad3ef9d778b240e2f3fa5b9",
+            "retained_status": "scheduled",
+            "live_checked": true,
+            "observed_post_id": "6ae493f1f522e615d3a49b00",
+            "channel_id": "6ad3ef9d778b240e2f3fa5b9",
+            "status": "sent",
+            "scheduled_at": "2026-10-30T15:00:00.000Z",
+            "sent_at": "2026-10-30T15:00:55.369Z",
+            "external_link": "https://www.youtube.com/shorts/7isyO6T7gw0",
+            "media_urls": [
+              "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/releases/download/auto-publish-daily-2026-10-30/science-video-daily-2026-10-30.mp4"
+            ],
+            "post_and_channel_match": true,
+            "due_matches": true,
+            "media_matches": null,
+            "verified": false,
+            "problem": "Expected media URL not retained; identity/time observed, media not independently matched"
+          },
+          "facebook": {
+            "retained_post_id": "6ae493f3e560b6bf642ba4ab",
+            "expected_channel_id": "6ad3ef2c778b240e2f3fa387",
+            "retained_status": "scheduled",
+            "live_checked": true,
+            "observed_post_id": "6ae493f3e560b6bf642ba4ab",
+            "channel_id": "6ad3ef2c778b240e2f3fa387",
+            "status": "sent",
+            "scheduled_at": "2026-10-30T15:00:00.000Z",
+            "sent_at": "2026-10-30T15:00:58.879Z",
+            "external_link": "https://www.facebook.com/reel/2158673404725835/",
+            "media_urls": [
+              "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/releases/download/auto-publish-daily-2026-10-30/science-video-daily-2026-10-30.mp4"
+            ],
+            "post_and_channel_match": true,
+            "due_matches": true,
+            "media_matches": null,
+            "verified": false,
+            "problem": "Expected media URL not retained; identity/time observed, media not independently matched"
+          },
+          "instagram": {
+            "retained_post_id": "6ae493f5f522e615d3a49bdd",
+            "expected_channel_id": "6ad3eeea778b240e2f3fa23b",
+            "retained_status": "scheduled",
+            "live_checked": true,
+            "observed_post_id": "6ae493f5f522e615d3a49bdd",
+            "channel_id": "6ad3eeea778b240e2f3fa23b",
+            "status": "sent",
+            "scheduled_at": "2026-10-30T15:00:00.000Z",
+            "sent_at": "2026-10-30T15:02:25.720Z",
+            "external_link": "https://www.instagram.com/reel/DfH2vm1D1cP/",
+            "media_urls": [
+              "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/releases/download/auto-publish-daily-2026-10-30/science-video-daily-2026-10-30.mp4"
+            ],
+            "post_and_channel_match": true,
+            "due_matches": true,
+            "media_matches": null,
+            "verified": false,
+            "problem": "Expected media URL not retained; identity/time observed, media not independently matched"
+          }
+        },
+        "no_posts_created": true
+      }
+    ]
+  },
+  "audit_report_sha256": "6b48c4bfc656f64b46694289f0e2bd964885c0544a4602748b1395cf41f58777"
 }
