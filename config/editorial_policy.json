@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "profile": "news",
+  "editorial_mode": "sourced_procedural",
+  "external_sources_required": true,
+  "news_digest_max_age_hours": 168,
+  "public_title_prefix": "من أخبار الأسبوع:",
+  "preserve_original_source_dates": true,
+  "never_claim_older_items_are_breaking_today": true
+}

@@ -1,6 +1,8 @@
 {
   "profile": "news",
   "review_only": true,
-  "launch": "full-topic-directed-review-2",
-  "no_social_posts": true
+  "launch": "dated-news-final-for-2026-11-02-at-17-cairo",
+  "no_social_posts": true,
+  "production_film": true,
+  "publication_date": "2026-11-02"
 }

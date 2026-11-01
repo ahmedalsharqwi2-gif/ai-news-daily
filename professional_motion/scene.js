@@ -1,3 +1,4 @@
+import {proceduralDirector} from './procedural_story.js';
 import {topicDirector,drawDirectorOverlay} from './topic_director.js';
 import {newsStudio} from './studio_v2.js';
 import {drawReferenceLayout} from './reference_layout.js';
@@ -172,8 +173,8 @@ const pipelineV2=new URLSearchParams(location.search).get('pipeline')==='v2';
 const studio=new URLSearchParams(location.search).get('pipeline')==='studio-v2'?newsStudio(scene,renderer,channel.root):null;
 window.pipelineStatus=studio?.contract||{version:'legacy'};
 const storyResponse=await fetch('./delivery/story.json');if(!storyResponse.ok)throw Error('Missing authored daily story');
-let config=await storyResponse.json();const brandMark=await loadBranding(config.profile);const headerLeft=brandMark?235:75,headerRuleY=brandMark?208:142,headerIndexY=brandMark?255:202;window.brandingStatus={profile:config.profile,logoApplied:!!brandMark};const useOctopus=config.visual_family==='octopus',useHaunted=config.visual_family==='haunted_interior';
-const director=pipelineV2?topicDirector(scene,renderer,config):null;
+let config=await storyResponse.json();const useProcedural=config.visual_plan?.world==='procedural_story';const brandMark=await loadBranding(config.profile);const headerLeft=brandMark?235:75,headerRuleY=brandMark?208:142,headerIndexY=brandMark?255:202;window.brandingStatus={profile:config.profile,logoApplied:!!brandMark};const useOctopus=config.visual_family==='octopus',useHaunted=config.visual_family==='haunted_interior'&&!useProcedural;
+const director=pipelineV2&&!useProcedural?topicDirector(scene,renderer,config):null;
 if(director){window.pipelineStatus=director.contract;scene.fog.density=.012;}
 const haunted=useHaunted?hauntedStage(scene):null;
 if(useHaunted){scene.fog.density=.043;renderer.toneMappingExposure=1.22;scene.traverse(o=>{if(o.isDirectionalLight)o.intensity*=.30;if(o.isHemisphereLight)o.intensity*=.55;});ambient.intensity=1.0;}
@@ -275,13 +276,14 @@ function drawChannelText(t,index,local,p){
  const flash=1-clamp(local/.28);if(index>0&&flash>0){ctx.fillStyle=`rgba(103,228,208,${flash*.12})`;ctx.fillRect(W*(1-flash),230,10+flash*26,1330);}
 }
 
+const procedural=useProcedural&&pipelineV2?proceduralDirector(scene,config):null;
 window.renderAt=(time,duration=D)=>{
  D=duration;const t=Math.max(0,time),u=t/D;
  let index=times.findLastIndex(s=>s<=u);index=Math.max(0,index);
  const sceneStart=times[index]*D,sceneEnd=(times[index+1]??1)*D,local=t-sceneStart,p=clamp(local/(sceneEnd-sceneStart));
  uniforms.clock.value=t;uniforms.morph.value=index===6?(.5-.5*Math.cos(p*Math.PI*2)):0;
  if(useOctopus)poseOctopus(t);
- octopus.visible=useOctopus&&[0,1,6,7].includes(index);macro.visible=useOctopus&&[2,3].includes(index);neural.visible=useOctopus&&index===4;layers.visible=useOctopus&&index===5;reef.visible=useOctopus&&index===6;channel.root.visible=!director&&!useOctopus&&!useHaunted;if(!director&&!useOctopus&&!useHaunted)channel.update(config,index,local,p,t);
+ octopus.visible=useOctopus&&[0,1,6,7].includes(index);macro.visible=useOctopus&&[2,3].includes(index);neural.visible=useOctopus&&index===4;layers.visible=useOctopus&&index===5;reef.visible=useOctopus&&index===6;channel.root.visible=!useProcedural&&!director&&!useOctopus&&!useHaunted;if(!useProcedural&&!director&&!useOctopus&&!useHaunted)channel.update(config,index,local,p,t);
  octopus.scale.setScalar(index===0?.78+.14*ease(p*2):index===6?.85:index===7?.9:.91);
  octopus.position.set(index===0?Math.sin(t*.3)*.08:0,index===0?-.4+.25*ease(p*2):-.25,0);
  octopus.rotation.set(.08*Math.sin(t*.3),index===0?-.45+.5*ease(p):.12*Math.sin(t*.2),index===0?-.18*(1-ease(p)):.035*Math.sin(t*.3));

@@ -57,7 +57,7 @@ def candidates(now=None):
                     published=date(_entry_value(item,'pubDate','{http://www.w3.org/2005/Atom}published','{http://www.w3.org/2005/Atom}updated'))
                 except (ValueError,TypeError,OverflowError):
                     invalid_items+=1;continue
-                if link in seen or not now-timedelta(hours=72)<=published<=now+timedelta(minutes=5):continue
+                if link in seen or not now-timedelta(hours=max(72,int(os.getenv('NEWS_DIGEST_MAX_AGE_HOURS','48'))))<=published<=now+timedelta(minutes=5):continue
                 title=text(_entry_value(item,'title','{http://www.w3.org/2005/Atom}title'))
                 summary=text(_entry_value(item,'description','{http://purl.org/rss/1.0/modules/content/}encoded','{http://www.w3.org/2005/Atom}summary','{http://www.w3.org/2005/Atom}content'))
                 if not re.search(r'\bAI\b|artificial intelligence|model|agent|Gemini|LLM|DeepSeek|GPU',title+' '+summary,re.I):continue

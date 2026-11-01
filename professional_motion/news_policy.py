@@ -1,5 +1,5 @@
 """Fresh, consequential AI news with clearly separated Egyptian meme commentary."""
-import copy,json,re
+import copy,json,re,os
 from .style_warnings import note
 from datetime import datetime,timedelta,timezone
 REACTIONS={'shock','suspicious','loading','smug'}
@@ -10,19 +10,29 @@ def published_at(row):
     if value.tzinfo is None:raise ValueError('News publication date must include a timezone')
     return value.astimezone(timezone.utc)
 
+def max_age_hours():
+    value=int(os.getenv('NEWS_DIGEST_MAX_AGE_HOURS','48'))
+    if not 48<=value<=168:raise ValueError('News digest age must be48 to168 hours')
+    return value
+
 def require_fresh(row,now=None):
     now=now or datetime.now(timezone.utc);published=published_at(row)
     if now.tzinfo is None:raise ValueError('News review clock must include a timezone')
-    if not now-timedelta(hours=48)<=published<=now+timedelta(minutes=5):raise ValueError('AI news must have a verified publication date within the last 48 hours')
+    if not now-timedelta(hours=max_age_hours())<=published<=now+timedelta(minutes=5):raise ValueError('AI news must have a verified publication date within the last 48 hours')
     return published
 
 def choose(rows,ask,now=None):
-    now=now or datetime.now(timezone.utc);fresh=[];urls=set()
+    explicit_clock=now is not None
+    now=now or datetime.now(timezone.utc);fresh=[];urls=set();deadline=now
+    if not explicit_clock and os.getenv('PRODUCTION_PUBLICATION_DATE'):
+        from datetime import date,time
+        from zoneinfo import ZoneInfo
+        deadline=datetime.combine(date.fromisoformat(os.environ['PRODUCTION_PUBLICATION_DATE']),time(17),ZoneInfo('Africa/Cairo')).astimezone(timezone.utc)
     for row in rows:
         try:published=require_fresh(row,now)
         except (ValueError,TypeError):continue
         # Twelve hours of freshness headroom cover 09:00 preparation, 17:00 Cairo publication and processing.
-        if published<now-timedelta(hours=48):continue
+        if published<deadline-timedelta(hours=max_age_hours()):continue
         if not row.get('url') or row['url'] in urls:continue
         urls.add(row['url'])
         fresh.append(row)

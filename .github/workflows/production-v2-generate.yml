@@ -87,8 +87,12 @@
           }
         },
         {
-          "name": "Generate a new reserved source-backed story and full Charon film in isolation",
-          "run": "python -m production_v2.generate --profile news --run-dir \".candidate-v2/run-$CANDIDATE_RUN\" --ledger .candidate-v2/shared.sqlite3 --git-state --then-review"
+          "name": "Produce one dated recent-news final film for tomorrow at 17:00 Cairo",
+          "run": "python -m production_v2.generate --profile news --run-dir \".candidate-v2/run-$CANDIDATE_RUN\" --ledger .candidate-v2/shared.sqlite3 --git-state --then-review --production",
+          "env": {
+            "NEWS_DIGEST_MAX_AGE_HOURS": "168",
+            "PRODUCTION_PUBLICATION_DATE": "2026-11-02"
+          }
         },
         {
           "name": "Retain narration budget and verified voice cache",
