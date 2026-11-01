@@ -1,0 +1,32 @@
+{
+  "profile": "news",
+  "repository": "ahmedalsharqwi2-gif/ai-news-daily",
+  "run_id": "41260396843",
+  "run_attempt": "1",
+  "source_commit": "0403abc515ca8ab3d374f519d85e0d1fc3773b5b",
+  "stage": "failure",
+  "requested_stage": "failure",
+  "observed_at": "2026-11-01T01:18:31.696165+00:00",
+  "review_only": true,
+  "automatically_published": false,
+  "cutover_eligible": false,
+  "complete_film_verified": false,
+  "media_url": null,
+  "credential_presence": {
+    "GEMINI_API_KEY": true,
+    "GEMINI_TEXT_API_KEY": true,
+    "GEMINI_TTS_API_KEY": true
+  },
+  "generation_failure": {
+    "slot": "candidate-news-025ff7124adb4eb8abcaa81d67103a8d",
+    "profile": "news",
+    "error_class": "RuntimeError",
+    "reservation_retained": false,
+    "legacy_film_not_used_as_fallback": true,
+    "publishable": false,
+    "failed_phase": "story_or_reservation",
+    "measured_narration_seconds": null,
+    "timing_present": false
+  },
+  "evidence_error_class": "ValueError"
+}
