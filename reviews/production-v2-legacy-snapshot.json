@@ -1,0 +1,24 @@
+{
+  "profile": "news",
+  "base_commit": "8403d6b5c804bc593fffcbd3e6fc9add75ec2f3f",
+  "files": [
+    {
+      "path": "state/film_topics.json",
+      "sha256": "418861c951c666897001ea307b608d54361b6d4a58b67402ee69f322eed88c38"
+    },
+    {
+      "path": "state/news_history.json",
+      "sha256": "95d12ea3d3ece214f45da985f9205dd058b24e0e7636bbb5b896f58fd671dfc8"
+    },
+    {
+      "path": "state/professional_topics.json",
+      "sha256": "54ef6ac3c1b1827d349cd7d4086d2a12ea712939b687096afffdcc302cce6225"
+    },
+    {
+      "path": "state/publication_stock.json",
+      "sha256": "adbfa772832f04c8950d4c321f4e89086b25459b8cf44522eb8562f82e2484ee"
+    }
+  ],
+  "state_modified": false,
+  "legacy_workflow_semantic_sha256": "7dbfd17a8faeb05b21a34f773610ed73c013a2de957df7d36cceaf58869d0ac1"
+}
