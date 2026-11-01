@@ -1,0 +1,1247 @@
+{
+  "profile": "news",
+  "stage": "success",
+  "kind": "retained_episode_inspection",
+  "target_run": "41354754202",
+  "provider_requests": 0,
+  "posts_created": false,
+  "evidence": {
+    "generation-failure.json": {
+      "slot": "candidate-news-29a6f32a5d124617b1ed7537d26772d5",
+      "profile": "news",
+      "error_class": "ValueError",
+      "reservation_retained": true,
+      "legacy_film_not_used_as_fallback": true,
+      "publishable": false,
+      "failed_phase": "narration_or_alignment",
+      "measured_narration_seconds": 66.24,
+      "timing_present": false
+    },
+    "last-draft.json": {
+      "title": "لابتوبات RTX Spark الجديدة من إنفيديا",
+      "canonical_subject": "NVIDIA RTX Spark Windows Laptops",
+      "suitable": true,
+      "facts": [
+        "إنفيديا أعلنت عن لابتوبات RTX Spark التي تجمع بين معالج بلاكويل الرسومي ومعالج غريس في شريحة واحدة خارقة.",
+        "اللابتوبات تدعم ذاكرة موحدة تصل إلى مئة وثمانية عشر غيغابايت وأداء ذكاء اصطناعي يصل إلى واحد بيتافلوب.",
+        "الأجهزة متوفرة حالياً من شركات مثل أسوس ودل وهوب وленоف وميكروسوفت ومصي.",
+        "التحديثات تشمل نموذج نيموترون ثلاثة ونصف الخاص بالصوت والعروض والألعاب مثل فانتوم بليد زيرو."
+      ],
+      "milestones": [
+        "2026-10-28",
+        "RTX Remix 1.6",
+        "Nemotron 3.5"
+      ],
+      "scenes": [
+        {
+          "id": "scene_1",
+          "label": "قوة الشريحة الخارقة",
+          "narration": "إنفيديا نزلت بلابتوبات آر تي إكس سبارك الجديدة، ودي بتجمع شريحة بلاكويل مع معالج غريس في شريحة واحدة بس. ده إيه الشغل العالي ده يا عم!",
+          "labels": [
+            "شريحة بلاكويل"
+          ],
+          "visual_mode": "chip",
+          "evidence_excerpt_id": 2,
+          "environment": "laboratory",
+          "objects": [
+            {
+              "kind": "chip",
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1.5,
+                1.5,
+                1.5
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "color": "#107c41",
+              "motion": "pulse"
+            },
+            {
+              "kind": "server",
+              "position": [
+                2,
+                0,
+                0
+              ],
+              "scale": [
+                0.8,
+                0.8,
+                0.8
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "color": "#0078d4",
+              "motion": "spin"
+            }
+          ],
+          "camera_start": [
+            0,
+            0,
+            12
+          ],
+          "camera_end": [
+            0,
+            0,
+            10
+          ],
+          "visual_change": "The central chip pulses with bright green light to indicate integrated superchip architecture.",
+          "punchline": "ده إيه الشغل العالي ده يا عم!",
+          "reaction": "smug"
+        },
+        {
+          "id": "scene_2",
+          "label": "تدفق البيانات والمعلومات",
+          "narration": "الجهاز ده بيقدملك ذاكرة موحدة لحد مئة وثمانية وعشرين غيغابايت، يعني أداء مهول يخلي الشغل كأنه على جهاز مكتب. يا حلاوة!",
+          "labels": [
+            "ذاكرة موحدة"
+          ],
+          "visual_mode": "flow",
+          "evidence_excerpt_id": 3,
+          "environment": "workshop",
+          "objects": [
+            {
+              "kind": "server",
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "color": "#00a4ef",
+              "motion": "flow"
+            },
+            {
+              "kind": "chip",
+              "position": [
+                -2,
+                1,
+                0
+              ],
+              "scale": [
+                0.6,
+                0.6,
+                0.6
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "color": "#ff8c00",
+              "motion": "drift"
+            }
+          ],
+          "camera_start": [
+            0,
+            2,
+            14
+          ],
+          "camera_end": [
+            0,
+            -1,
+            11
+          ],
+          "visual_change": "Data streams flow rapidly through server rack nodes representing unified memory bandwidth.",
+          "punchline": "يا حلاوة!",
+          "reaction": "suspicious"
+        },
+        {
+          "id": "scene_3",
+          "label": "النماذج والشبكات الذكية",
+          "narration": "وعندك نموذج نيموترون الجديد للخطابات والترجمة، بيشتغل مباشرة على الجهاز وبيفهم لغات كتيرة جداً بدون تعقيد.",
+          "labels": [
+            "نموذج نيموترون"
+          ],
+          "visual_mode": "network",
+          "evidence_excerpt_id": 12,
+          "environment": "laboratory",
+          "objects": [
+            {
+              "kind": "network",
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1.2,
+                1.2,
+                1.2
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "color": "#ffb900",
+              "motion": "spin"
+            },
+            {
+              "kind": "microphone",
+              "position": [
+                -1,
+                -1,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "color": "#e81123",
+              "motion": "pulse"
+            }
+          ],
+          "camera_start": [
+            -2,
+            1,
+            13
+          ],
+          "camera_end": [
+            2,
+            -1,
+            10
+          ],
+          "visual_change": "Network nodes light up sequentially to show transcription and translation pathways.",
+          "punchline": "",
+          "reaction": "none"
+        },
+        {
+          "id": "scene_4",
+          "label": "مقارنة المفاهيم والقدرات",
+          "narration": "لو قارنا اللابتوبات دي بالكمبيوترات القديمة، هتلاقي لابتوب سبارك بيشغل ألعاب ثقيلة زي فانتوم بليد زيرو بكفاءة عالية جداً. ده انت هتعمل عظمة!",
+          "labels": [
+            "ألعاب ثقيلة"
+          ],
+          "visual_mode": "comparison",
+          "evidence_excerpt_id": 9,
+          "environment": "workshop",
+          "objects": [
+            {
+              "kind": "monitor",
+              "position": [
+                -2,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "rotation": [
+                0,
+                0.5,
+                0
+              ],
+              "color": "#d83b01",
+              "motion": "none"
+            },
+            {
+              "kind": "monitor",
+              "position": [
+                2,
+                0,
+                0
+              ],
+              "scale": [
+                1.2,
+                1.2,
+                1.2
+              ],
+              "rotation": [
+                0,
+                -0.5,
+                0
+              ],
+              "color": "#0078d4",
+              "motion": "spin"
+            }
+          ],
+          "camera_start": [
+            0,
+            0,
+            15
+          ],
+          "camera_end": [
+            0,
+            0,
+            11
+          ],
+          "visual_change": "The second monitor lights up brightly, demonstrating advanced ray tracing and DLSS 4.5 frame rates.",
+          "punchline": "ده انت هتعمل عظمة!",
+          "reaction": "smug"
+        },
+        {
+          "id": "scene_5",
+          "label": "نشر النماذج والشبكات",
+          "narration": "المطورين يقدروا ينشروا النماذج دي محلياً عشان يديروا المهام والوكلاء الذكيين في وقت واحد من غير ما الجهاز يهني.",
+          "labels": [
+            "الوكلاء الذكيين"
+          ],
+          "visual_mode": "deployment",
+          "evidence_excerpt_id": 40,
+          "environment": "laboratory",
+          "objects": [
+            {
+              "kind": "robot",
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "color": "#e81123",
+              "motion": "drift"
+            },
+            {
+              "kind": "box",
+              "position": [
+                2,
+                -1,
+                0
+              ],
+              "scale": [
+                0.8,
+                0.8,
+                0.8
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "color": "#107c41",
+              "motion": "none"
+            }
+          ],
+          "camera_start": [
+            0,
+            1,
+            13
+          ],
+          "camera_end": [
+            0,
+            0,
+            10
+          ],
+          "visual_change": "The robot object moves forward smoothly, symbolizing background agents executing tasks.",
+          "punchline": "",
+          "reaction": "none"
+        },
+        {
+          "id": "scene_6",
+          "label": "تدفق المعالجة والتحكم",
+          "narration": "تطبيق إنفيديا الجديد بيخليك توزع موارد الكارت بين البرامج اللي شغالة قدامك وبين الوكلاء في الخلفية بكل راحة.",
+          "labels": [
+            "تطبيق إنفيديا"
+          ],
+          "visual_mode": "flow",
+          "evidence_excerpt_id": 31,
+          "environment": "workshop",
+          "objects": [
+            {
+              "kind": "gear",
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1.2,
+                1.2,
+                1.2
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "color": "#ff8c00",
+              "motion": "spin"
+            },
+            {
+              "kind": "chip",
+              "position": [
+                -2,
+                0,
+                0
+              ],
+              "scale": [
+                0.9,
+                0.9,
+                0.9
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "color": "#00a4ef",
+              "motion": "pulse"
+            }
+          ],
+          "camera_start": [
+            1,
+            2,
+            12
+          ],
+          "camera_end": [
+            -1,
+            0,
+            10
+          ],
+          "visual_change": "Gears mesh and rotate faster, illustrating dynamic resource allocation in the system.",
+          "punchline": "",
+          "reaction": "none"
+        },
+        {
+          "id": "scene_7",
+          "label": "الحدود والقدرات المحلية",
+          "narration": "رغم إن الأجهزة خفيفة ورفيعة جداً وبوزن ثلاثة رطل بس، إلا إنها بتدعم تعديل الفيديوهات والصور وتوليد الرسوميات المعقدة. يا سيدي ع الأناقة!",
+          "labels": [
+            "أجهزة خفيفة"
+          ],
+          "visual_mode": "limits",
+          "evidence_excerpt_id": 70,
+          "environment": "landscape",
+          "objects": [
+            {
+              "kind": "box",
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                0.2,
+                1.5
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "color": "#5c2d91",
+              "motion": "none"
+            },
+            {
+              "kind": "monitor",
+              "position": [
+                0,
+                1,
+                0
+              ],
+              "scale": [
+                0.8,
+                0.8,
+                0.8
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "color": "#0078d4",
+              "motion": "float"
+            }
+          ],
+          "camera_start": [
+            0,
+            3,
+            14
+          ],
+          "camera_end": [
+            0,
+            1,
+            10
+          ],
+          "visual_change": "The thin box object scales slightly to highlight the fourteen-millimeter slim profile.",
+          "punchline": "يا سيدي ع الأناقة!",
+          "reaction": "shock"
+        },
+        {
+          "id": "scene_8",
+          "label": "الخلاصة والتوافر",
+          "narration": "اللابتوبات دي متوفرة دلوقتي من شركات كبرى زي أسوس ودل ولينوفو بأسعار تبدأ من ألفين وستمائة دولار تقريباً. ادفع بقى وخلص!",
+          "labels": [],
+          "visual_mode": "deployment",
+          "evidence_excerpt_id": 81,
+          "environment": "workshop",
+          "objects": [
+            {
+              "kind": "shield",
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1.2,
+                1.2,
+                1.2
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "color": "#00188f",
+              "motion": "assemble"
+            },
+            {
+              "kind": "chip",
+              "position": [
+                0,
+                -1.5,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "color": "#107c41",
+              "motion": "pulse"
+            }
+          ],
+          "camera_start": [
+            0,
+            0,
+            14
+          ],
+          "camera_end": [
+            0,
+            0,
+            10
+          ],
+          "visual_change": "Shield pieces assemble together, marking the official market launch of RTX Spark laptops.",
+          "punchline": "ادفع بقى وخلص!",
+          "reaction": "loading"
+        }
+      ],
+      "hashtags": [
+        "RTX_Spark",
+        "NVIDIA",
+        "Blackwell",
+        "AI_Laptops"
+      ]
+    },
+    "narration.source.json": {
+      "provider": "Gemini TTS",
+      "model": "gemini-3.8-flash-tts",
+      "voice": "Charon",
+      "style": "Egyptian Arabic ar-EG, native conversational Cairo accent. Charon, warm low male voice, lively natural Egyptian tech storyteller with dry comic timing. Clear articulation, short natural pauses around punchlines, no forced laughter. Read every word exactly, say all numbers naturally, finish the final sentence completely. No music, no singing, no sound effects, no spoken stage directions.",
+      "text": "إنفيديا نزلت بلابتوبات آر تي إكس سبارك الجديدة، ودي بتجمع شريحة بلاكويل مع معالج غريس في شريحة واحدة بس. ده إيه الشغل العالي ده يا عم! الجهاز ده بيقدملك ذاكرة موحدة لحد مئة وثمانية وعشرين غيغابايت، يعني أداء مهول يخلي الشغل كأنه على جهاز مكتب. يا حلاوة! وعندك نموذج نيموترون الجديد للخطابات والترجمة، بيشتغل مباشرة على الجهاز وبيفهم لغات كتيرة جداً بدون تعقيد. لو قارنا اللابتوبات دي بالكمبيوترات القديمة، هتلاقي لابتوب سبارك بيشغل ألعاب ثقيلة زي فانتوم بليد زيرو بكفاءة عالية جداً. ده انت هتعمل عظمة! المطورين يقدروا ينشروا النماذج دي محلياً عشان يديروا المهام والوكلاء الذكيين في وقت واحد من غير ما الجهاز يهني. تطبيق إنفيديا الجديد بيخليك توزع موارد الكارت بين البرامج اللي شغالة قدامك وبين الوكلاء في الخلفية بكل راحة. رغم إن الأجهزة خفيفة ورفيعة جداً وبوزن ثلاثة رطل بس، إلا إنها بتدعم تعديل الفيديوهات والصور وتوليد الرسوميات المعقدة. يا سيدي ع الأناقة! اللابتوبات دي متوفرة دلوقتي من شركات كبرى زي أسوس ودل ولينوفو بأسعار تبدأ من ألفين وستمائة دولار تقريباً. ادفع بقى وخلص!",
+      "interaction_id": "v1_ChdacmZuYXBxSEpaRDUtc0FQbV9la21RNBIXWnJmbmFwcUhKWkQ1LXNBUG1fZWttUTQ",
+      "duration": 66.24,
+      "sample_rate": 24000,
+      "channels": 1,
+      "sha256": "e04ff4fa1a0b147d7f81c5ba25b9ce99e181aefd7b330b32e9a74610d4ab0454",
+      "newly_synthesized": true,
+      "original_video_audio_used": false,
+      "fallback_used": false,
+      "cache_hit": false,
+      "output_sha256": "e04ff4fa1a0b147d7f81c5ba25b9ce99e181aefd7b330b32e9a74610d4ab0454"
+    },
+    "story.json": {
+      "title": "من أخبار الأسبوع: لابتوبات RTX Spark الجديدة من إنفيديا",
+      "canonical_subject": "NVIDIA RTX Spark Windows Laptops",
+      "suitable": true,
+      "facts": [
+        "إنفيديا أعلنت عن لابتوبات RTX Spark التي تجمع بين معالج بلاكويل الرسومي ومعالج غريس في شريحة واحدة خارقة.",
+        "اللابتوبات تدعم ذاكرة موحدة تصل إلى مئة وثمانية عشر غيغابايت وأداء ذكاء اصطناعي يصل إلى واحد بيتافلوب.",
+        "الأجهزة متوفرة حالياً من شركات مثل أسوس ودل وهوب وленоف وميكروسوفت ومصي.",
+        "التحديثات تشمل نموذج نيموترون ثلاثة ونصف الخاص بالصوت والعروض والألعاب مثل فانتوم بليد زيرو."
+      ],
+      "milestones": [
+        "2026-10-28",
+        "RTX Remix 1.6",
+        "Nemotron 3.5"
+      ],
+      "scenes": [
+        {
+          "id": "scene_1",
+          "label": "قوة الشريحة الخارقة",
+          "narration": "إنفيديا نزلت بلابتوبات آر تي إكس سبارك الجديدة، ودي بتجمع شريحة بلاكويل مع معالج غريس في شريحة واحدة بس. ده إيه الشغل العالي ده يا عم!",
+          "labels": [
+            "شريحة بلاكويل"
+          ],
+          "visual_mode": "chip",
+          "evidence_excerpt_id": 2,
+          "environment": "laboratory",
+          "objects": [
+            {
+              "kind": "chip",
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1.5,
+                1.5,
+                1.5
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "color": "#107c41",
+              "motion": "pulse"
+            },
+            {
+              "kind": "server",
+              "position": [
+                2,
+                0,
+                0
+              ],
+              "scale": [
+                0.8,
+                0.8,
+                0.8
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "color": "#0078d4",
+              "motion": "spin"
+            }
+          ],
+          "camera_start": [
+            0,
+            0,
+            12
+          ],
+          "camera_end": [
+            0,
+            0,
+            10
+          ],
+          "visual_change": "The central chip pulses with bright green light to indicate integrated superchip architecture.",
+          "punchline": "ده إيه الشغل العالي ده يا عم!",
+          "reaction": "smug",
+          "evidence_quote": "MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU"
+        },
+        {
+          "id": "scene_2",
+          "label": "تدفق البيانات والمعلومات",
+          "narration": "الجهاز ده بيقدملك ذاكرة موحدة لحد مئة وثمانية وعشرين غيغابايت، يعني أداء مهول يخلي الشغل كأنه على جهاز مكتب. يا حلاوة!",
+          "labels": [
+            "ذاكرة موحدة"
+          ],
+          "visual_mode": "flow",
+          "evidence_excerpt_id": 3,
+          "environment": "workshop",
+          "objects": [
+            {
+              "kind": "server",
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "color": "#00a4ef",
+              "motion": "flow"
+            },
+            {
+              "kind": "chip",
+              "position": [
+                -2,
+                1,
+                0
+              ],
+              "scale": [
+                0.6,
+                0.6,
+                0.6
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "color": "#ff8c00",
+              "motion": "drift"
+            }
+          ],
+          "camera_start": [
+            0,
+            2,
+            14
+          ],
+          "camera_end": [
+            0,
+            -1,
+            11
+          ],
+          "visual_change": "Data streams flow rapidly through server rack nodes representing unified memory bandwidth.",
+          "punchline": "يا حلاوة!",
+          "reaction": "suspicious",
+          "evidence_quote": "in a single superchip with up to 128GB of unified memory and up to 1"
+        },
+        {
+          "id": "scene_3",
+          "label": "النماذج والشبكات الذكية",
+          "narration": "وعندك نموذج نيموترون الجديد للخطابات والترجمة، بيشتغل مباشرة على الجهاز وبيفهم لغات كتيرة جداً بدون تعقيد.",
+          "labels": [
+            "نموذج نيموترون"
+          ],
+          "visual_mode": "network",
+          "evidence_excerpt_id": 12,
+          "environment": "laboratory",
+          "objects": [
+            {
+              "kind": "network",
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1.2,
+                1.2,
+                1.2
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "color": "#ffb900",
+              "motion": "spin"
+            },
+            {
+              "kind": "microphone",
+              "position": [
+                -1,
+                -1,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "color": "#e81123",
+              "motion": "pulse"
+            }
+          ],
+          "camera_start": [
+            -2,
+            1,
+            13
+          ],
+          "camera_end": [
+            2,
+            -1,
+            10
+          ],
+          "visual_change": "Network nodes light up sequentially to show transcription and translation pathways.",
+          "punchline": "",
+          "reaction": "none",
+          "evidence_quote": "Information With NVIDIA Nemotron 3.5 Transcribe Introduced today, NVIDIA Nemotron 3.5 Transcribe is a new,"
+        },
+        {
+          "id": "scene_4",
+          "label": "مقارنة المفاهيم والقدرات",
+          "narration": "لو قارنا اللابتوبات دي بالكمبيوترات القديمة، هتلاقي لابتوب سبارك بيشغل ألعاب ثقيلة زي فانتوم بليد زيرو بكفاءة عالية جداً. ده انت هتعمل عظمة!",
+          "labels": [
+            "ألعاب ثقيلة"
+          ],
+          "visual_mode": "comparison",
+          "evidence_excerpt_id": 9,
+          "environment": "workshop",
+          "objects": [
+            {
+              "kind": "monitor",
+              "position": [
+                -2,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "rotation": [
+                0,
+                0.5,
+                0
+              ],
+              "color": "#d83b01",
+              "motion": "none"
+            },
+            {
+              "kind": "monitor",
+              "position": [
+                2,
+                0,
+                0
+              ],
+              "scale": [
+                1.2,
+                1.2,
+                1.2
+              ],
+              "rotation": [
+                0,
+                -0.5,
+                0
+              ],
+              "color": "#0078d4",
+              "motion": "spin"
+            }
+          ],
+          "camera_start": [
+            0,
+            0,
+            15
+          ],
+          "camera_end": [
+            0,
+            0,
+            11
+          ],
+          "visual_change": "The second monitor lights up brightly, demonstrating advanced ray tracing and DLSS 4.5 frame rates.",
+          "punchline": "ده انت هتعمل عظمة!",
+          "reaction": "smug",
+          "evidence_quote": "GPU resources between foreground apps and background agents. Phantom Blade Zero , S-GAME’s highly-anticipated action"
+        },
+        {
+          "id": "scene_5",
+          "label": "نشر النماذج والشبكات",
+          "narration": "المطورين يقدروا ينشروا النماذج دي محلياً عشان يديروا المهام والوكلاء الذكيين في وقت واحد من غير ما الجهاز يهني.",
+          "labels": [
+            "الوكلاء الذكيين"
+          ],
+          "visual_mode": "deployment",
+          "evidence_excerpt_id": 40,
+          "environment": "laboratory",
+          "objects": [
+            {
+              "kind": "robot",
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "color": "#e81123",
+              "motion": "drift"
+            },
+            {
+              "kind": "box",
+              "position": [
+                2,
+                -1,
+                0
+              ],
+              "scale": [
+                0.8,
+                0.8,
+                0.8
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "color": "#107c41",
+              "motion": "none"
+            }
+          ],
+          "camera_start": [
+            0,
+            1,
+            13
+          ],
+          "camera_end": [
+            0,
+            0,
+            10
+          ],
+          "visual_change": "The robot object moves forward smoothly, symbolizing background agents executing tasks.",
+          "punchline": "",
+          "reaction": "none",
+          "evidence_quote": "base model. These models support local workflows such as agents running in Hermes Agent, Pi"
+        },
+        {
+          "id": "scene_6",
+          "label": "تدفق المعالجة والتحكم",
+          "narration": "تطبيق إنفيديا الجديد بيخليك توزع موارد الكارت بين البرامج اللي شغالة قدامك وبين الوكلاء في الخلفية بكل راحة.",
+          "labels": [
+            "تطبيق إنفيديا"
+          ],
+          "visual_mode": "flow",
+          "evidence_excerpt_id": 31,
+          "environment": "workshop",
+          "objects": [
+            {
+              "kind": "gear",
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1.2,
+                1.2,
+                1.2
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "color": "#ff8c00",
+              "motion": "spin"
+            },
+            {
+              "kind": "chip",
+              "position": [
+                -2,
+                0,
+                0
+              ],
+              "scale": [
+                0.9,
+                0.9,
+                0.9
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "color": "#00a4ef",
+              "motion": "pulse"
+            }
+          ],
+          "camera_start": [
+            1,
+            2,
+            12
+          ],
+          "camera_end": [
+            -1,
+            0,
+            10
+          ],
+          "visual_change": "Gears mesh and rotate faster, illustrating dynamic resource allocation in the system.",
+          "punchline": "",
+          "reaction": "none",
+          "evidence_quote": "to users at that moment. With the new resource management feature in NVIDIA App ,"
+        },
+        {
+          "id": "scene_7",
+          "label": "الحدود والقدرات المحلية",
+          "narration": "رغم إن الأجهزة خفيفة ورفيعة جداً وبوزن ثلاثة رطل بس، إلا إنها بتدعم تعديل الفيديوهات والصور وتوليد الرسوميات المعقدة. يا سيدي ع الأناقة!",
+          "labels": [
+            "أجهزة خفيفة"
+          ],
+          "visual_mode": "limits",
+          "evidence_excerpt_id": 70,
+          "environment": "landscape",
+          "objects": [
+            {
+              "kind": "box",
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                0.2,
+                1.5
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "color": "#5c2d91",
+              "motion": "none"
+            },
+            {
+              "kind": "monitor",
+              "position": [
+                0,
+                1,
+                0
+              ],
+              "scale": [
+                0.8,
+                0.8,
+                0.8
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "color": "#0078d4",
+              "motion": "float"
+            }
+          ],
+          "camera_start": [
+            0,
+            3,
+            14
+          ],
+          "camera_end": [
+            0,
+            1,
+            10
+          ],
+          "visual_change": "The thin box object scales slightly to highlight the fourteen-millimeter slim profile.",
+          "punchline": "يا سيدي ع الأناقة!",
+          "reaction": "shock",
+          "evidence_quote": "and as light as three pounds, with all-day battery life. Such slim designs are possible"
+        },
+        {
+          "id": "scene_8",
+          "label": "الخلاصة والتوافر",
+          "narration": "اللابتوبات دي متوفرة دلوقتي من شركات كبرى زي أسوس ودل ولينوفو بأسعار تبدأ من ألفين وستمائة دولار تقريباً. ادفع بقى وخلص!",
+          "labels": [],
+          "visual_mode": "deployment",
+          "evidence_excerpt_id": 81,
+          "environment": "workshop",
+          "objects": [
+            {
+              "kind": "shield",
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1.2,
+                1.2,
+                1.2
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "color": "#00188f",
+              "motion": "assemble"
+            },
+            {
+              "kind": "chip",
+              "position": [
+                0,
+                -1.5,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "color": "#107c41",
+              "motion": "pulse"
+            }
+          ],
+          "camera_start": [
+            0,
+            0,
+            14
+          ],
+          "camera_end": [
+            0,
+            0,
+            10
+          ],
+          "visual_change": "Shield pieces assemble together, marking the official market launch of RTX Spark laptops.",
+          "punchline": "ادفع بقى وخلص!",
+          "reaction": "loading",
+          "evidence_quote": "available now from ASUS, Dell, HP, Lenovo, Microsoft and MSI, starting at $2,599, with 128GB"
+        }
+      ],
+      "hashtags": [
+        "RTX_Spark",
+        "NVIDIA",
+        "Blackwell",
+        "AI_Laptops"
+      ],
+      "editorial_warnings": [
+        "Vary scenes naturally between 24 and 50 spoken words while keeping the whole film length"
+      ],
+      "profile": "news",
+      "series": "ai على السريع",
+      "visual_family": "compute",
+      "variant": "chip",
+      "topic_key": "7281347817fe3ba2",
+      "source": {
+        "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games",
+        "publisher": "NVIDIA",
+        "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+        "published": "2026-10-28T15:00:46+00:00"
+      },
+      "fiction": false,
+      "documented": true,
+      "news_selection": {
+        "importance": 4,
+        "reason": "NVIDIA introduced RTX Spark Windows laptops combining Blackwell RTX and Grace CPUs, representing an important new hardware development."
+      },
+      "meme_commentary": true,
+      "editorial_review": {
+        "supported": true,
+        "novel": true,
+        "issues": [],
+        "model": "gemini-3.5-flash-lite"
+      },
+      "writer_model": "gemini-3.5-flash-lite",
+      "knowledge_category": "ai_news",
+      "news_digest_kind": "dated_recent_news",
+      "visual_plan": {
+        "version": 1,
+        "world": "procedural_story",
+        "scenes": [
+          {
+            "id": "scene_1",
+            "setting": "laboratory",
+            "focal_object": "chip",
+            "action": "pulse",
+            "shot": "authored_camera",
+            "state_change": "The central chip pulses with bright green light to indicate integrated superchip architecture."
+          },
+          {
+            "id": "scene_2",
+            "setting": "workshop",
+            "focal_object": "server",
+            "action": "flow",
+            "shot": "authored_camera",
+            "state_change": "Data streams flow rapidly through server rack nodes representing unified memory bandwidth."
+          },
+          {
+            "id": "scene_3",
+            "setting": "laboratory",
+            "focal_object": "network",
+            "action": "spin",
+            "shot": "authored_camera",
+            "state_change": "Network nodes light up sequentially to show transcription and translation pathways."
+          },
+          {
+            "id": "scene_4",
+            "setting": "workshop",
+            "focal_object": "monitor",
+            "action": "none",
+            "shot": "authored_camera",
+            "state_change": "The second monitor lights up brightly, demonstrating advanced ray tracing and DLSS 4.5 frame rates."
+          },
+          {
+            "id": "scene_5",
+            "setting": "laboratory",
+            "focal_object": "robot",
+            "action": "drift",
+            "shot": "authored_camera",
+            "state_change": "The robot object moves forward smoothly, symbolizing background agents executing tasks."
+          },
+          {
+            "id": "scene_6",
+            "setting": "workshop",
+            "focal_object": "gear",
+            "action": "spin",
+            "shot": "authored_camera",
+            "state_change": "Gears mesh and rotate faster, illustrating dynamic resource allocation in the system."
+          },
+          {
+            "id": "scene_7",
+            "setting": "landscape",
+            "focal_object": "box",
+            "action": "none",
+            "shot": "authored_camera",
+            "state_change": "The thin box object scales slightly to highlight the fourteen-millimeter slim profile."
+          },
+          {
+            "id": "scene_8",
+            "setting": "workshop",
+            "focal_object": "shield",
+            "action": "assemble",
+            "shot": "authored_camera",
+            "state_change": "Shield pieces assemble together, marking the official market launch of RTX Spark laptops."
+          }
+        ]
+      },
+      "visual_sequence_sha256": "8f6afaf084472713791ffd081d31a5a49b12a5034fa5b8a37ed416412378310a"
+    }
+  }
+}
