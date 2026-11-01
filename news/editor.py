@@ -46,6 +46,13 @@ def _entry_link(item):
     return ''
 def candidates(now=None):
     now=now or datetime.now(timezone.utc);rows=[];errors=[];invalid_items=0
+    manual_path=Path('config/daily_topic_candidates.json')
+    if manual_path.is_file():
+        try:
+            manual=json.loads(manual_path.read_text()).get('rows',[])
+            rows.extend([dict(x) for x in manual if isinstance(x,dict) and x.get('url')])
+        except (OSError,ValueError,TypeError):
+            pass
     seen=set(json.loads(Path('state/news_history.json').read_text()).get('urls',[])) if Path('state/news_history.json').exists() else set()
     for publisher,url in FEEDS:
         try:
