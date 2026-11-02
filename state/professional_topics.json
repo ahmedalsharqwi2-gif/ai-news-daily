@@ -880,7 +880,7 @@
       "requested_due_at": "2026-11-02T15:00:00Z",
       "posts": {
         "facebook": {
-          "phase": "intent",
+          "phase": "uncertain",
           "before": {
             "id": "6ae84dff0f99168e1e3949e9",
             "channelId": "6ad3ef2c778b240e2f3fa387",
