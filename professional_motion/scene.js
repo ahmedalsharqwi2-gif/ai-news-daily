@@ -301,6 +301,7 @@ window.renderAt=(time,duration=D)=>{
  if(useHaunted){const beat=timing?.scenes[index]?.scare_beat;const view=haunted.update(config,index,local,p,t,beat===undefined?-1:t-beat);camera.position.set(...view.position);camera.lookAt(...view.target);}
  if(studio)studio.update(camera,index,p,t);
  if(director)director.update(camera,index,p,t);
+ if(procedural){channel.root.visible=false;const view=procedural.update(index,p,t);camera.position.set(...view.position);camera.lookAt(...view.target);window.pipelineStatus={version:'v2',world:view.world,environment:view.environment,objects:view.objects,actions:view.actions};}
  dust.visible=!useHaunted&&!studio&&!director;shafts.forEach(o=>o.visible=!useHaunted&&!studio&&!director);
  dust.rotation.y=t*.012;dust.position.y=Math.sin(t*.11)*.5;shafts.forEach((m,i)=>m.material.uniforms.opacity.value=.025+.015*(.5+.5*Math.sin(t*.2+i)));
  if(studio||director||new URLSearchParams(location.search).get('style')==='reference')renderer.render(scene,camera);else composer.render();

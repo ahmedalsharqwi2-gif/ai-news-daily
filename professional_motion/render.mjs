@@ -23,7 +23,7 @@ let timing;try{timing=JSON.parse(await readFile(path.join(delivery,'timing.json'
 if(timing&&timing.story_sha256!==storyHash)throw Error('Story changed after measured voice timing');
 if(pipeline==='v2'){
  const story=JSON.parse(storyBytes);
- const {validateVisualPlan}=await import('./topic_director.js');validateVisualPlan(story);
+ if(story.visual_plan?.world!=='procedural_story'){const {validateVisualPlan}=await import('./topic_director.js');validateVisualPlan(story);}
  if(story.topic_key!==timing.topic_key)throw Error('Timing belongs to a different topic');
  if(visualReview){
   if(story.visual_review_only!==true||timing.timing_method!=='synthetic_visual_review_no_speech'||timing.audio_sha256||!Number.isFinite(timing.duration)||timing.duration<24||timing.duration>40)throw Error('Silent visual comparisons require honest synthetic timing,24–40sec, no narration claim');
