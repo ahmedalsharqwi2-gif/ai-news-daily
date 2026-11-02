@@ -880,7 +880,7 @@
       "requested_due_at": "2026-11-02T15:00:00Z",
       "posts": {
         "facebook": {
-          "phase": "uncertain",
+          "phase": "reconciled_no_schedule_change",
           "before": {
             "id": "6ae84dff0f99168e1e3949e9",
             "channelId": "6ad3ef2c778b240e2f3fa387",
@@ -933,7 +933,48 @@
           "status": "scheduled",
           "verified_at": "2026-11-02T08:46:58.083910+00:00"
         }
-      }
+      },
+      "reconciled_attempts": [
+        {
+          "service": "facebook",
+          "prior": {
+            "phase": "uncertain",
+            "before": {
+              "id": "6ae84dff0f99168e1e3949e9",
+              "channelId": "6ad3ef2c778b240e2f3fa387",
+              "status": "scheduled",
+              "dueAt": "2026-11-03T15:00:00.000Z",
+              "text": "ai على السريع | حواسيب آر تي إكس سبارك الجديدة\n\nرسوم توضيحية وإعادة تمثيل درامية؛ ليست تسجيلًا للأحداث. القفشات تعليق ساخر، والخبر من المصدر.\nالمصدر: NVIDIA\nhttps://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games\n#RTX_Spark #NVIDIA #Blackwell #AI_Laptops",
+              "shareMode": "customScheduled",
+              "schedulingType": "automatic",
+              "assets": [
+                {
+                  "source": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/releases/download/auto-publish-daily-2026-11-02/science-video-daily-2026-11-02.mp4"
+                }
+              ]
+            },
+            "old_receipt": {
+              "id": "6ae84dff0f99168e1e3949e9",
+              "channel_id": "6ad3ef2c778b240e2f3fa387"
+            },
+            "requested_due_at": "2026-11-02T15:00:00Z"
+          },
+          "observed": {
+            "id": "6ae84dff0f99168e1e3949e9",
+            "channelId": "6ad3ef2c778b240e2f3fa387",
+            "status": "scheduled",
+            "dueAt": "2026-11-03T15:00:00.000Z",
+            "text": "ai على السريع | حواسيب آر تي إكس سبارك الجديدة\n\nرسوم توضيحية وإعادة تمثيل درامية؛ ليست تسجيلًا للأحداث. القفشات تعليق ساخر، والخبر من المصدر.\nالمصدر: NVIDIA\nhttps://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games\n#RTX_Spark #NVIDIA #Blackwell #AI_Laptops",
+            "shareMode": "customScheduled",
+            "schedulingType": "automatic",
+            "assets": [
+              {
+                "source": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/releases/download/auto-publish-daily-2026-11-02/science-video-daily-2026-11-02.mp4"
+              }
+            ]
+          }
+        }
+      ]
     }
   }
 }
