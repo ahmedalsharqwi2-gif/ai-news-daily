@@ -8,7 +8,7 @@ import requests
 from bs4 import BeautifulSoup
 from api_budget import reserve
 FEEDS=[('Google','https://blog.google/technology/ai/rss/'),('NVIDIA','https://blogs.nvidia.com/feed/'),('Hugging Face','https://huggingface.co/blog/feed.xml'),('Google DeepMind','https://deepmind.google/blog/rss.xml'),('OpenAI','https://openai.com/news/rss.xml')]
-ALLOWED={'blog.google','blogs.nvidia.com','huggingface.co','deepmind.google','openai.com'}
+ALLOWED={'blog.google','blogs.nvidia.com','huggingface.co','deepmind.google','openai.com','investor.nvidia.com'}
 UA={'User-Agent':'AI-News-Daily/1.0 (official-source editorial reader)'}
 
 def canonical(url):
