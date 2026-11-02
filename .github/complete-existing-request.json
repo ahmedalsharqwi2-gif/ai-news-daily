@@ -1,0 +1,10 @@
+{
+  "profile": "news",
+  "source_run": 41432003644,
+  "slot": "requested-2026-11-02-news",
+  "due_at": "2026-11-02T15:00:00Z",
+  "no_new_text_or_tts": true,
+  "original_voice_seconds": 87.24,
+  "measured_normalized_word_coverage": 0.9679144385026738,
+  "normalization": "Explicit numeric-token value equivalences and known product-name spellings; raw ASR retained"
+}
