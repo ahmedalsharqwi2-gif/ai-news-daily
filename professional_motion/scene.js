@@ -1,3 +1,4 @@
+import {createSvgScenes} from './svg_story.js';
 import {loopPhase} from './animation_time.mjs';
 import {proceduralDirector} from './procedural_story.js';
 import {topicDirector,drawDirectorOverlay} from './topic_director.js';
@@ -277,6 +278,7 @@ function drawChannelText(t,index,local,p){
  const flash=1-clamp(local/.28);if(index>0&&flash>0){ctx.fillStyle=`rgba(103,228,208,${flash*.12})`;ctx.fillRect(W*(1-flash),230,10+flash*26,1330);}
 }
 
+const svgScenes=await createSvgScenes(config);
 const procedural=useProcedural&&pipelineV2?proceduralDirector(scene,config):null;
 window.renderAt=(time,duration=D)=>{
  D=duration;const t=Math.max(0,time),u=t/D;
@@ -308,6 +310,7 @@ window.renderAt=(time,duration=D)=>{
  if(director){drawDirectorOverlay(ctx,{story:config,timing,index,time:t,duration:D,logo:!!brandMark});if(config.profile==='news')drawMeme(t,index);}
  else{if(useOctopus)drawText(t,index,local,p);else drawChannelText(t,index,local,p);if(new URLSearchParams(location.search).get('style')==='reference')drawReferenceLayout(ctx,{story:config,timing,index,time:t,local,duration:D,review:new URLSearchParams(location.search).get('review')==='true',logo:!!brandMark});if(studio&&config.profile==='news'&&new URLSearchParams(location.search).get('style')==='reference')drawMeme(t,index);}
  drawBranding(ctx,brandMark);
+ svgScenes.draw(ctx,index,p);
  return {scene:index+1,time:t,duration:D,originalVoice:!!timing};
 };
 window.captureFrame=()=>{endCtx.drawImage(renderer.domElement,0,0);endCtx.drawImage(overlay,0,0);return endCanvas.toDataURL('image/jpeg',.96).split(',')[1];};

@@ -67,7 +67,7 @@ def candidates(now=None):
                 if link in seen or not now-timedelta(hours=max(72,int(os.getenv('NEWS_DIGEST_MAX_AGE_HOURS','48'))))<=published<=now+timedelta(minutes=5):continue
                 title=text(_entry_value(item,'title','{http://www.w3.org/2005/Atom}title'))
                 summary=text(_entry_value(item,'description','{http://purl.org/rss/1.0/modules/content/}encoded','{http://www.w3.org/2005/Atom}summary','{http://www.w3.org/2005/Atom}content'))
-                if not re.search(r'\bAI\b|artificial intelligence|model|agent|Gemini|LLM|DeepSeek|GPU',title+' '+summary,re.I):continue
+                if publisher=='NVIDIA' and not re.search(r'\bAI\b|artificial intelligence|model|agent|Gemini|LLM|DeepSeek|GPU',title+' '+summary,re.I):continue
                 rows.append({'title':title,'url':link,'publisher':publisher,'published':published.isoformat(),'summary':summary[:2500]})
         except Exception as exc:errors.append({'publisher':publisher,'error':type(exc).__name__})
     rows=sorted({r['url']:r for r in rows}.values(),key=lambda r:r['published'],reverse=True)[:18]

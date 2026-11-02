@@ -120,6 +120,15 @@ def candidates(profile):
         from news.editor import candidates as fresh
         from .news_policy import choose
         raw=fresh(); raw = manual + raw
+        used_urls=set()
+        for previous in prior():
+            if not isinstance(previous,dict):continue
+            source=previous.get('source',{})
+            url=previous.get('url') or (source.get('url') if isinstance(source,dict) else None)
+            if url:
+                try:used_urls.add(canonical(url))
+                except ValueError:continue
+        raw=[row for row in raw if canonical(row['url']) not in used_urls]
         (ROOT/'delivery').mkdir(exist_ok=True)
         (ROOT/'delivery/news-source-dates.json').write_text(json.dumps([{k:r.get(k) for k in ['title','url','publisher','published']} for r in raw],ensure_ascii=False,indent=2))
         return [dict(r,key=hashlib.sha256(canonical(r['url']).encode()).hexdigest()[:16],family='compute',variant='chip') for r in choose(raw,lambda p,s:ask(p,s,review=True))]
@@ -225,6 +234,7 @@ def write_sourced(row,profile,previous):
     if profile=='news':
         from .news_policy import schema as news_schema,PROMPT as NEWS_PROMPT
         schema=news_schema(SCHEMA);prompt=NEWS_PROMPT+prompt
+        prompt=prompt.replace('300–350 spoken words','160–210 spoken words').replace('30–50 word paragraphs','18–30 word paragraphs').replace('120–175 seconds','65–105 seconds').replace('longer than 90 seconds','longer than 60 seconds')
     draft=ask(prompt,schema)
     count=sum(len(x.get('narration','').split()) for x in draft.get('scenes',[]))
     if profile!='news' and draft.get('suitable') is True and (count<300 or count>350):
@@ -254,7 +264,7 @@ def prepare(profile,slot):
         if existing['status'] in ('scheduled','published'):raise RuntimeError('This daily slot already has confirmed publication')
         if existing.get('story') and existing.get('needs_narration_revision'):
             if existing.get('narration_revision_attempts',0)>=1:
-                existing.update(needs_narration_revision=False); (delivery/'story.json').write_text(json.dumps(existing['story'],ensure_ascii=False,indent=2)); return existing['story']
+                raise RuntimeError('One same-topic narration revision was already attempted; manual review of retained assets required')
             old=existing['story'];source=old['source']
             row={**source,'key':old['topic_key'],'family':old['visual_family'],'variant':old['variant'],'visual_contract':old.get('visual_contract'),'news_selection':old.get('news_selection',{}),'measured_narration_feedback':existing.get('narration_feedback',{})}
             previous=[{'title':r.get('title',''),'subject':r.get('canonical_subject',r.get('topic_key',''))} for r in data['episodes'] if r is not existing]
