@@ -879,7 +879,7 @@
       "canonical_subject": "mistral-large-4-hugging-face",
       "title": "ميسترال لارج أربعة: صور ونصوص وسياق مليون رمز",
       "url": "https://huggingface.co/blog/mistral-large4",
-      "status": "reserved",
+      "status": "rendered",
       "story": {
         "title": "من أخبار الأسبوع: ميسترال لارج أربعة: صور ونصوص وسياق مليون رمز",
         "canonical_subject": "mistral-large-4-hugging-face",
@@ -1690,7 +1690,8 @@
       },
       "reserved_at": "2026-11-02T10:52:05.240632+00:00",
       "knowledge_category": "ai_news",
-      "requested_due_at": "2026-11-02T15:00:00Z"
+      "requested_due_at": "2026-11-02T15:00:00Z",
+      "video_sha256": "5b37887bb59c45cfad5a8f8bf44244cf4a38b9dd71e162525f1643a0a634c396"
     }
   ],
   "rescheduling_history": {
