@@ -1,0 +1,184 @@
+{
+  "file": "professional-review.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 66.48,
+  "story_sha256": "a126fb4d5352ed5ee4ab01ecca90255fa81e88fe7b14f61b8fd68cdf059c615b",
+  "voice": "original Gemini Charon",
+  "asr_model": "medium",
+  "independent_asr_word_coverage": 0.7077922077922078,
+  "exact_token_coverage": 0.6818181818181818,
+  "speech_matching_method": "Known-name and Egyptian-pronunciation normalized measured anchors; supplied-script phrase captions; no active-word precision claim",
+  "known_name_normalization_applied": true,
+  "visual_gate": {
+    "passed": true,
+    "duration": 66.5,
+    "resolution": [
+      1080,
+      1920
+    ],
+    "method": "within-scene diagram-region pixel changes",
+    "scenes": [
+      {
+        "scene": 1,
+        "diagram_spatial_std": [
+          44.09999027398025,
+          45.00501428024307,
+          46.142347849709715
+        ],
+        "changed_pixel_ratios": [
+          0.18663342830009497,
+          0.15895061728395063
+        ],
+        "passed": true
+      },
+      {
+        "scene": 2,
+        "diagram_spatial_std": [
+          35.19880608788572,
+          39.18463987238501,
+          36.298227429706564
+        ],
+        "changed_pixel_ratios": [
+          0.2850664767331434,
+          0.2657407407407407
+        ],
+        "passed": true
+      },
+      {
+        "scene": 3,
+        "diagram_spatial_std": [
+          39.01529818268916,
+          38.4359294575059,
+          38.49839483956072
+        ],
+        "changed_pixel_ratios": [
+          0.08530389363722697,
+          0.10346628679962014
+        ],
+        "passed": true
+      },
+      {
+        "scene": 4,
+        "diagram_spatial_std": [
+          33.0828271082381,
+          32.89880969903,
+          33.182225228937
+        ],
+        "changed_pixel_ratios": [
+          0.03721509971509972,
+          0.03632478632478633
+        ],
+        "passed": true
+      },
+      {
+        "scene": 5,
+        "diagram_spatial_std": [
+          21.334567579103812,
+          21.25134251250174,
+          21.20112976334544
+        ],
+        "changed_pixel_ratios": [
+          0.010980531813865147,
+          0.01542022792022792
+        ],
+        "passed": true
+      },
+      {
+        "scene": 6,
+        "diagram_spatial_std": [
+          37.37876859819832,
+          36.978756093500024,
+          37.024100984353346
+        ],
+        "changed_pixel_ratios": [
+          0.057205603038936376,
+          0.048622981956315287
+        ],
+        "passed": true
+      },
+      {
+        "scene": 7,
+        "diagram_spatial_std": [
+          32.89881060688505,
+          32.8345945233747,
+          32.90259645354927
+        ],
+        "changed_pixel_ratios": [
+          0.04782763532763533,
+          0.03937559354226021
+        ],
+        "passed": true
+      },
+      {
+        "scene": 8,
+        "diagram_spatial_std": [
+          44.40651714426851,
+          45.48311933884751,
+          46.8269596259493
+        ],
+        "changed_pixel_ratios": [
+          0.15714624881291547,
+          0.16582383665717
+        ],
+        "passed": true
+      }
+    ],
+    "note": "Technical blank/freeze detection only; not a judgement of artistic or factual quality."
+  },
+  "audio_tail": {
+    "audio_seconds": 66.48,
+    "video_seconds": 66.48,
+    "difference_seconds": 0.0,
+    "last_speech_window_correlation": 0.9967907667160034,
+    "audio_tail_checked": true,
+    "silence_padding_used_to_hide_lost_speech": false
+  },
+  "publication_metadata": {
+    "title": "ai على السريع | حواسيب آر تي إكس سبارك الجديدة",
+    "caption": "رسوم توضيحية وإعادة تمثيل درامية؛ ليست تسجيلًا للأحداث. القفشات تعليق ساخر، والخبر من المصدر.\nالمصدر: NVIDIA\nhttps://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games\n#RTX_Spark #NVIDIA #Blackwell #AI_Laptops",
+    "description": "رسوم توضيحية وإعادة تمثيل درامية؛ ليست تسجيلًا للأحداث. القفشات تعليق ساخر، والخبر من المصدر.\nالمصدر: NVIDIA\nhttps://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games\n#RTX_Spark #NVIDIA #Blackwell #AI_Laptops",
+    "tags": [
+      "RTX_Spark",
+      "NVIDIA",
+      "Blackwell",
+      "AI_Laptops"
+    ],
+    "hashtags": [
+      "#RTX_Spark",
+      "#NVIDIA",
+      "#Blackwell",
+      "#AI_Laptops"
+    ],
+    "source_url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games",
+    "containsSyntheticMedia": true
+  },
+  "duration_policy": {
+    "minimum_exclusive": 90,
+    "maximum_exclusive": 180
+  },
+  "music_target_lufs": -27,
+  "music": "Original composed score",
+  "music_bpm": 120,
+  "source": {
+    "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games",
+    "publisher": "NVIDIA",
+    "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+    "published": "2026-10-28T15:00:46+00:00"
+  },
+  "topic_key": "7281347817fe3ba2",
+  "profile": "news",
+  "editorial_review": {
+    "supported": true,
+    "novel": true,
+    "issues": [],
+    "model": "gemini-3.5-flash-lite"
+  },
+  "render": "Three.js procedural geometry, physical lighting, custom skin shader, layered optical bloom",
+  "visual_style": "original",
+  "review_watermark": false,
+  "reference_audio_reused": false,
+  "automatically_published": false,
+  "status": "Technical checks passed; artistic judgement requires viewing the complete film."
+}
