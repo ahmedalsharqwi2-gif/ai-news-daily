@@ -679,7 +679,7 @@
       "canonical_subject": "NVIDIA RTX Spark Laptops and Blackwell AI Updates",
       "title": "حواسيب آر تي إكس سبارك الجديدة",
       "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games",
-      "status": "publishing",
+      "status": "scheduled",
       "story": {
         "title": "حواسيب آر تي إكس سبارك الجديدة",
         "canonical_subject": "NVIDIA RTX Spark Laptops and Blackwell AI Updates",
@@ -838,7 +838,40 @@
       },
       "reserved_at": "2026-11-02T01:19:37.023763+00:00",
       "video_sha256": "d0f630ee425fc8657ea2c4341de7a11ec20acda6b65b5ec3b85e6fa4c1e3adcc",
-      "publication_video_sha256": "d0f630ee425fc8657ea2c4341de7a11ec20acda6b65b5ec3b85e6fa4c1e3adcc"
+      "publication_video_sha256": "d0f630ee425fc8657ea2c4341de7a11ec20acda6b65b5ec3b85e6fa4c1e3adcc",
+      "due_at": "2026-11-03T15:00:00Z",
+      "receipts": {
+        "facebook": {
+          "id": "6ae84dff0f99168e1e3949e9",
+          "due_at": "2026-11-03T15:00:00Z",
+          "run_id": "41414314989",
+          "accepted_at": "2026-11-02T08:46:55.477996+00:00",
+          "channel_id": "6ad3ef2c778b240e2f3fa387",
+          "scheduled_at": "2026-11-03T15:00:00+00:00",
+          "status": "scheduled",
+          "verified_at": "2026-11-02T08:46:57.943466+00:00"
+        },
+        "youtube": {
+          "id": "6ae84dfdc8c477a933a122b6",
+          "due_at": "2026-11-03T15:00:00Z",
+          "run_id": "41414314989",
+          "accepted_at": "2026-11-02T08:46:53.266769+00:00",
+          "channel_id": "6ad3ef9d778b240e2f3fa5b9",
+          "scheduled_at": "2026-11-03T15:00:00+00:00",
+          "status": "scheduled",
+          "verified_at": "2026-11-02T08:46:57.798052+00:00"
+        },
+        "instagram": {
+          "id": "6ae84e010f99168e1e394a21",
+          "due_at": "2026-11-03T15:00:00Z",
+          "run_id": "41414314989",
+          "accepted_at": "2026-11-02T08:46:57.643610+00:00",
+          "channel_id": "6ad3eeea778b240e2f3fa23b",
+          "scheduled_at": "2026-11-03T15:00:00+00:00",
+          "status": "scheduled",
+          "verified_at": "2026-11-02T08:46:58.083910+00:00"
+        }
+      }
     }
   ]
 }
