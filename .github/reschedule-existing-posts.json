@@ -18,5 +18,7 @@
       "id": "6ae84e010f99168e1e394a21",
       "channel_id": "6ad3eeea778b240e2f3fa23b"
     }
-  }
+  },
+  "reconcile_same_id_edit": true,
+  "repair_revision": "explicit-customScheduled-share-mode"
 }
