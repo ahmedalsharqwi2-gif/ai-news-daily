@@ -15,8 +15,8 @@
       "audio_sha256": "221157f510fa89b4c4feaabab6de025d6e9c6bf784d63c8a533a19d7d7d22254",
       "timing_sha256": "dc991179e913dd5ef0fcbc7e1e6bb65fa55a7e19cdb4d073213e622cfdfeed41",
       "coverage": 0.9476190476190476,
-      "video_sha256": "d9367084159fd213f392e174d9314a6007320e17a5c3017652e134f4051ac2b2",
-      "render_run": 41487384118,
+      "video_sha256": "62a2216130784fd2cee140203e76b62cfd14f3fe517baa1db1d8853266705dad",
+      "render_run": 41492135023,
       "source_evidence_file": "professional_motion/output/remotion-validation.json"
     }
   }
