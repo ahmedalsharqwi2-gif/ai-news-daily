@@ -2,7 +2,7 @@
   "version": 1,
   "episodes": {
     "remotion-2026-11-04-news": {
-      "status": "rendered",
+      "status": "publishing",
       "canonical_subject": "google-skilling-africa-launch-2026-11-02",
       "title": "جوجل تطلق منصة لتعلّم الذكاء الاصطناعي في أفريقيا",
       "story_sha256": "c290c6bc016fe24a5b0771eef9db941cd526dc440fc8dd2fbdaf4436e5a0a74d",
@@ -17,7 +17,8 @@
       "coverage": 0.9476190476190476,
       "video_sha256": "62a2216130784fd2cee140203e76b62cfd14f3fe517baa1db1d8853266705dad",
       "render_run": 41492135023,
-      "source_evidence_file": "professional_motion/output/remotion-validation.json"
+      "source_evidence_file": "professional_motion/output/remotion-validation.json",
+      "media_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/releases/download/production-remotion-2026-11-04-news/news-remotion-2026-11-04-news.mp4"
     }
   }
 }
