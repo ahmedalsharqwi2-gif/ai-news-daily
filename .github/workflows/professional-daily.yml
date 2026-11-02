@@ -257,6 +257,7 @@ jobs:
       BUFFER_TIKTOK_CHANNEL_ID: ${{ secrets.BUFFER_TIKTOK_CHANNEL_ID }}
       HORROR_REVIEW_GENRE: ${{ inputs.horror_genre || '' }}
       DURABLE_SUBMISSION_GUARD: 'true'
+      NEWS_DIGEST_MAX_AGE_HOURS: '168'
     steps:
     - uses: actions/checkout@v4
       with:
