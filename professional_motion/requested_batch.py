@@ -58,6 +58,7 @@ def prepare(profile,slot):
         draft=json.loads(draftpath.read_text());used=False
         def use_retained(*args,**kwargs):
             nonlocal used
+            if kwargs.get('review'):return original_ask(*args,**kwargs)
             if used:raise RuntimeError('No repeated writing-provider request allowed during saved-draft recovery')
             used=True;return copy.deepcopy(draft)
         editorial.ask=use_retained

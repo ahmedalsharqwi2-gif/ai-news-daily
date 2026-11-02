@@ -17,8 +17,8 @@ def enabled(profile,root='.'):
     policy=json.loads(path.read_text())
     return policy.get('profile')==profile and (policy.get('external_sources_required') is False or profile=='news' and policy.get('editorial_mode')=='sourced_procedural')
 
-ASSET_ALIASES={'sun':'sphere','earth':'sphere','solar_flare':'sphere','solar_corona':'sphere','magnetic_field':'wave','gps':'phone','power_grid':'circuit','satellite':'satellite_dish','grid':'circuit'}
-MOTION_ALIASES={'radiate':'pulse','emit':'pulse','flicker':'pulse','magnetic':'flow','orbiting':'orbit','explode':'split','collapse':'slam','bounce':'swing','move':'drift'}
+ASSET_ALIASES={'cube':'box','sun':'sphere','earth':'sphere','solar_flare':'sphere','solar_corona':'sphere','magnetic_field':'wave','gps':'phone','power_grid':'circuit','satellite':'satellite_dish','grid':'circuit'}
+MOTION_ALIASES={'stack':'assemble','glow':'pulse','radiate':'pulse','emit':'pulse','flicker':'pulse','magnetic':'flow','orbiting':'orbit','explode':'split','collapse':'slam','bounce':'swing','move':'drift'}
 
 def _normalize_visual_aliases(story, profile='stickman'):
     for scene in story.get('scenes',[]):
