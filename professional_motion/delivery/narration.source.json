@@ -1,0 +1,17 @@
+{
+  "provider": "Gemini TTS",
+  "model": "gemini-3.8-flash-tts",
+  "voice": "Charon",
+  "style": "Egyptian Arabic ar-EG, native conversational Cairo accent. Charon, warm low male voice, lively natural Egyptian tech storyteller with dry comic timing. Clear articulation, short natural pauses around punchlines, no forced laughter. Read every word exactly, say all numbers naturally, finish the final sentence completely. No music, no singing, no sound effects, no spoken stage directions.",
+  "text": "شركة إنفيديا نزلت بحواسيب آر تي إكس سبارك الجديدة اللي بتجمع معالج رسومي ومعالج مركزي في شريحة واحدة خارقة. الشركات الكبرى زي ديل وإتش بي وإم إس آي بدأت توفر الأجهزة دي بذاكرة موحدة لحد مئة وثمانية وعشرين جيجابايت كاملة. المستخدمين يقدروا يشغلوا وكلاء ذكاء اصطناعي بيشتغلوا في الخلفية جنب التطبيقات الأساسية من خلال تطبيق إنفيديا الجديد. نموذج نيموترون ثلاثة ونصف الجديد بينافس بقوة عشان يحول الصوت المكتوب لمعلومات مفيدة وترجمة دقيقة بأربعين لغة مختلفة. تطبيقات ليكويد إيه آي أصبحت متاحة بدعم محلي كامل عشان تساعد المستخدمين في تنظيم المواعيد وقراءة المستندات بسرعة فائقة. ألعاب زي فانتوم بليد زيرو بتنزل بدعم تقنية تتبع الأشعة وتوليد الإطارات الديناميكي عشان تدي أداء سلس ومذهل للغاية. منصة آر تي إكس ريمكس نسخة ستة دخلت عالم ماين كرافت لتطوير رسومات الألعاب الكلاسيكية باستخدام الإضاءة المسارية والذكاء الاصطناعي. الأجهزة دي بقت تقدم للمطورين والمبدعين قدرات محطات العمل الثقيلة في حاسوب محمول خفيف الوزن يمكن حمله في أي مكان بسهولة.",
+  "interaction_id": "v1_ChdLLVhuYXEtcktZTDUtc0FQbWRQeDhBdxIXSy1YbmFxLXJLWUw1LXNBUG1kUHg4QXc",
+  "duration": 61.68,
+  "sample_rate": 24000,
+  "channels": 1,
+  "sha256": "b70255bd111a8c349b52c61a282a8257fa939a3a1322bb3f99e00da141af8c6c",
+  "newly_synthesized": true,
+  "original_video_audio_used": false,
+  "fallback_used": false,
+  "cache_hit": false,
+  "output_sha256": "b70255bd111a8c349b52c61a282a8257fa939a3a1322bb3f99e00da141af8c6c"
+}

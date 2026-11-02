@@ -1,0 +1,12 @@
+[
+  {
+    "topic_key": "e960e8891f7d7ad8",
+    "error_class": "ValueError",
+    "validation": "Official article does not contain sufficient full-text evidence"
+  },
+  {
+    "topic_key": "142f8439c46d329d",
+    "error_class": "ValueError",
+    "validation": "Official article does not contain sufficient full-text evidence"
+  }
+]
