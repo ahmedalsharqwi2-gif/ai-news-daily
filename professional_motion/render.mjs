@@ -30,7 +30,7 @@ if(pipeline==='v2'){
  }else{
   const audioHash=createHash('sha256').update(await readFile(path.join(delivery,'narration.wav'))).digest('hex');
   if(audioHash!==timing.audio_sha256)throw Error('Narration changed after measured voice timing');
-  if(!Number.isFinite(timing.duration)||timing.duration<120||timing.duration>=180)throw Error('V2 complete film requires 120 <= duration < 180 seconds');
+  if(!Number.isFinite(timing.duration)||timing.duration<=(story.profile==='news'?60:90)||timing.duration>=180)throw Error('V2 news requires over60seconds; other channels over90seconds; maximum under180seconds');
  }
 }
 
