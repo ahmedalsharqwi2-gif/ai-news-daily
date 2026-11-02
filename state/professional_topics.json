@@ -983,7 +983,8 @@
       "started_at": "2026-11-02T09:55:08.482543+00:00",
       "phase": "writing",
       "request_id": "owner-new-today-2026-11-02",
-      "due_at": "2026-11-02T15:00:00Z"
+      "due_at": "2026-11-02T15:00:00Z",
+      "retained_draft_source_run": 41427080975
     }
   }
 }
