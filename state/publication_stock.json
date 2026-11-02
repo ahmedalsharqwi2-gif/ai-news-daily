@@ -217,6 +217,12 @@
           "due_at": "2026-11-02T15:00:00Z",
           "run_id": "41433542921",
           "accepted_at": "2026-11-02T11:12:14.852918+00:00"
+        },
+        "facebook": {
+          "id": "6ae87011e364127fe0d6848d",
+          "due_at": "2026-11-02T15:00:00Z",
+          "run_id": "41433542921",
+          "accepted_at": "2026-11-02T11:12:17.126989+00:00"
         }
       },
       "required_services": [
@@ -236,6 +242,12 @@
           "scheduled_at": "2026-11-02T15:00:00Z",
           "status": "submitting",
           "created_at": "2026-11-02T11:12:14.911146+00:00"
+        },
+        "instagram": {
+          "channel_id": "6ad3eeea778b240e2f3fa23b",
+          "scheduled_at": "2026-11-02T15:00:00Z",
+          "status": "submitting",
+          "created_at": "2026-11-02T11:12:17.127776+00:00"
         }
       }
     }
