@@ -43,6 +43,13 @@
           "status": "scheduled",
           "scheduled_at": "2026-11-04T15:00:00.000Z",
           "verified_at": "2026-11-02T18:16:45.955358+00:00"
+        },
+        "instagram": {
+          "phase": "intent",
+          "channel_id": "6ad3eeea778b240e2f3fa23b",
+          "due_at": "2026-11-04T15:00:00Z",
+          "media_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/releases/download/production-remotion-2026-11-04-news/news-remotion-2026-11-04-news.mp4",
+          "created_at": "2026-11-02T18:16:47.737553+00:00"
         }
       }
     }
