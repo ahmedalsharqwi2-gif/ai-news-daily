@@ -1,65 +1,98 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-02",
   "profile": "news",
-  "phase": "prepublish",
-  "checked_at": "2026-11-02T19:04:37.205136+00:00",
-  "run_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/actions/runs/41506455088",
-  "report_path": "reviews/daily_health/2026-11-04/41506455088-1.json",
-  "publication_due_utc": "2026-11-04T15:00:00+00:00",
+  "phase": "postpublish",
+  "checked_at": "2026-11-02T21:55:10.426464+00:00",
+  "run_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/actions/runs/41532586615",
+  "report_path": "reviews/daily_health/2026-11-02/41532586615-1.json",
+  "publication_due_utc": "2026-11-02T15:00:00+00:00",
   "errors": [],
   "passed": true,
   "generation_calls": 0,
   "publication_mutations": 0,
-  "preview": true,
+  "preview": false,
   "scheduler": {
     "observed": false,
-    "reason": "Future date preview; actual9am clock event not due yet"
+    "reason": "Monitoring was activated after this date morning; no historical9am success claimed"
+  },
+  "observed_receipts": {
+    "youtube": [
+      {
+        "id": "6ae8700ee364127fe0d68445",
+        "channelId": "6ad3ef9d778b240e2f3fa5b9",
+        "status": "sent",
+        "dueAt": "2026-11-02T15:00:00.000Z",
+        "sentAt": "2026-11-02T15:02:31.241Z",
+        "externalLink": "https://www.youtube.com/shorts/IJXPv-VNzpA"
+      }
+    ],
+    "facebook": [
+      {
+        "id": "6ae87011e364127fe0d6848d",
+        "channelId": "6ad3ef2c778b240e2f3fa387",
+        "status": "sent",
+        "dueAt": "2026-11-02T15:00:00.000Z",
+        "sentAt": "2026-11-02T15:02:38.087Z",
+        "externalLink": "https://www.facebook.com/reel/1600181744590501/"
+      }
+    ],
+    "instagram": [
+      {
+        "id": "6ae87013e364127fe0d6852d",
+        "channelId": "6ad3eeea778b240e2f3fa23b",
+        "status": "sent",
+        "dueAt": "2026-11-02T15:00:00.000Z",
+        "sentAt": "2026-11-02T15:03:55.078Z",
+        "externalLink": "https://www.instagram.com/reel/DfPlW0jlBEj/"
+      }
+    ]
   },
   "receipts": {
     "youtube": {
-      "id": "6ae8d386c25538a9f8cb7f48",
+      "id": "6ae8700ee364127fe0d68445",
       "channelId": "6ad3ef9d778b240e2f3fa5b9",
-      "status": "scheduled",
-      "dueAt": "2026-11-04T15:00:00.000Z",
-      "sentAt": null,
-      "externalLink": null
+      "status": "sent",
+      "dueAt": "2026-11-02T15:00:00.000Z",
+      "sentAt": "2026-11-02T15:02:31.241Z",
+      "externalLink": "https://www.youtube.com/shorts/IJXPv-VNzpA"
     },
     "facebook": {
-      "id": "6ae8d38ca1cb4345befc70e1",
+      "id": "6ae87011e364127fe0d6848d",
       "channelId": "6ad3ef2c778b240e2f3fa387",
-      "status": "scheduled",
-      "dueAt": "2026-11-04T15:00:00.000Z",
-      "sentAt": null,
-      "externalLink": null
+      "status": "sent",
+      "dueAt": "2026-11-02T15:00:00.000Z",
+      "sentAt": "2026-11-02T15:02:38.087Z",
+      "externalLink": "https://www.facebook.com/reel/1600181744590501/"
     },
     "instagram": {
-      "id": "6ae8d391c1e1a07104366a33",
+      "id": "6ae87013e364127fe0d6852d",
       "channelId": "6ad3eeea778b240e2f3fa23b",
-      "status": "scheduled",
-      "dueAt": "2026-11-04T15:00:00.000Z",
-      "sentAt": null,
-      "externalLink": null
+      "status": "sent",
+      "dueAt": "2026-11-02T15:00:00.000Z",
+      "sentAt": "2026-11-02T15:03:55.078Z",
+      "externalLink": "https://www.instagram.com/reel/DfPlW0jlBEj/"
     }
   },
   "episode": {
-    "slot": "remotion-2026-11-04-news",
-    "title": "جوجل تطلق منصة لتعلّم الذكاء الاصطناعي في أفريقيا",
-    "pipeline": "remotion",
-    "expected_sha256": "62a2216130784fd2cee140203e76b62cfd14f3fe517baa1db1d8853266705dad"
+    "slot": "requested-2026-11-02-news",
+    "title": "ميسترال لارج أربعة: صور ونصوص وسياق مليون رمز",
+    "pipeline": "legacy",
+    "expected_sha256": "5b37887bb59c45cfad5a8f8bf44244cf4a38b9dd71e162525f1643a0a634c396"
   },
   "technical": {
     "passed": true,
-    "sha256": "62a2216130784fd2cee140203e76b62cfd14f3fe517baa1db1d8853266705dad",
+    "sha256": "5b37887bb59c45cfad5a8f8bf44244cf4a38b9dd71e162525f1643a0a634c396",
     "full_decode": true,
-    "duration": 96.466667,
+    "duration": 87.266667,
     "width": 1080,
     "height": 1920,
-    "audio_mean_db": -18.9,
+    "audio_mean_db": -18.2,
     "actual_visual_samples": 12,
     "unique_visual_samples": 12,
-    "checked_at": "2026-11-02T19:04:46.500088+00:00",
+    "checked_at": "2026-11-02T21:55:24.385174+00:00",
     "scope": "Independent technical media check; no claim of human narrative or scientific review",
     "reused_immutable_media_check": false,
     "live_asset_metadata_verified": true
-  }
+  },
+  "media_binding": "Three live sent post IDs match retained original submission receipts; original release SHA independently verified. Platform-transcoded bytes are not claimed identical."
 }
