@@ -880,7 +880,7 @@
       "requested_due_at": "2026-11-02T15:00:00Z",
       "posts": {
         "facebook": {
-          "phase": "intent",
+          "phase": "rejected",
           "before": {
             "id": "6ae84dff0f99168e1e3949e9",
             "channelId": "6ad3ef2c778b240e2f3fa387",
@@ -899,7 +899,8 @@
             "id": "6ae84dff0f99168e1e3949e9",
             "channel_id": "6ad3ef2c778b240e2f3fa387"
           },
-          "requested_due_at": "2026-11-02T15:00:00Z"
+          "requested_due_at": "2026-11-02T15:00:00Z",
+          "provider_message": "Invalid post: Post must have either text or media., Facebook posts require a type (post, story, or reel)."
         }
       },
       "original_episode_receipts": {
