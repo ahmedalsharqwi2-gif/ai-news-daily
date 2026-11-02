@@ -1,0 +1,66 @@
+{
+  "profile": "news",
+  "schedule": {
+    "timezone": "Africa/Cairo",
+    "production": "09:00",
+    "publication": "17:00",
+    "publication_day_offset": 0,
+    "first_scheduled_clock_execution_not_yet_observed": true
+  },
+  "full_film": {
+    "title": "جوجل تطلق منصة لتعلّم الذكاء الاصطناعي في أفريقيا",
+    "slot": "remotion-2026-11-04-news",
+    "duration": 96.466667,
+    "sha256": "62a2216130784fd2cee140203e76b62cfd14f3fe517baa1db1d8853266705dad",
+    "media_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/releases/download/production-remotion-2026-11-04-news/news-remotion-2026-11-04-news.mp4",
+    "render_run": 41492135023,
+    "publication_due": "2026-11-04T15:00:00Z"
+  },
+  "receipts": {
+    "youtube": {
+      "phase": "verified",
+      "channel_id": "6ad3ef9d778b240e2f3fa5b9",
+      "due_at": "2026-11-04T15:00:00Z",
+      "media_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/releases/download/production-remotion-2026-11-04-news/news-remotion-2026-11-04-news.mp4",
+      "created_at": "2026-11-02T18:16:36.449401+00:00",
+      "id": "6ae8d386c25538a9f8cb7f48",
+      "accepted_at": "2026-11-02T18:16:38.675341+00:00",
+      "status": "scheduled",
+      "scheduled_at": "2026-11-04T15:00:00.000Z",
+      "verified_at": "2026-11-02T18:16:40.504219+00:00"
+    },
+    "facebook": {
+      "phase": "verified",
+      "channel_id": "6ad3ef2c778b240e2f3fa387",
+      "due_at": "2026-11-04T15:00:00Z",
+      "media_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/releases/download/production-remotion-2026-11-04-news/news-remotion-2026-11-04-news.mp4",
+      "created_at": "2026-11-02T18:16:42.155104+00:00",
+      "id": "6ae8d38ca1cb4345befc70e1",
+      "accepted_at": "2026-11-02T18:16:44.315497+00:00",
+      "status": "scheduled",
+      "scheduled_at": "2026-11-04T15:00:00.000Z",
+      "verified_at": "2026-11-02T18:16:45.955358+00:00"
+    },
+    "instagram": {
+      "phase": "verified",
+      "channel_id": "6ad3eeea778b240e2f3fa23b",
+      "due_at": "2026-11-04T15:00:00Z",
+      "media_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/releases/download/production-remotion-2026-11-04-news/news-remotion-2026-11-04-news.mp4",
+      "created_at": "2026-11-02T18:16:47.737553+00:00",
+      "id": "6ae8d391c1e1a07104366a33",
+      "accepted_at": "2026-11-02T18:16:49.880944+00:00",
+      "status": "scheduled",
+      "scheduled_at": "2026-11-04T15:00:00.000Z",
+      "verified_at": "2026-11-02T18:16:51.784551+00:00"
+    }
+  },
+  "final_no_duplicate_test": {
+    "run": 41503186042,
+    "url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/actions/runs/41503186042",
+    "status": "success"
+  },
+  "legacy_cron_archived_and_disabled": true,
+  "visible_hashtags_enabled_for_future_production": true,
+  "first_embedded_hashtag_film": false,
+  "review_samples_published": false
+}
