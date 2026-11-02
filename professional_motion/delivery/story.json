@@ -1,0 +1,156 @@
+{
+  "title": "حواسيب آر تي إكس سبارك الجديدة",
+  "canonical_subject": "NVIDIA RTX Spark Laptops and Blackwell AI Updates",
+  "suitable": true,
+  "facts": [
+    "شركة إنفيديا تطلق حواسيب آر تي إكس سبارك بمعالجات بلاكويل وجريس في شريحة واحدة.",
+    "الحواسيب الجديدة تضم ذاكرة موحدة تصل إلى مئة وثمانية وعشرين جيجابايت.",
+    "تحديث التطبيقات يتيح للمستخدمين التحكم في توزيع موارد المعالج بين المهام الخلفية والأمامية.",
+    "إطلاق نموذج نيموترون ثلاثة ونصف ترانسكرايب لمعالجة الصوت والترجمة محليا."
+  ],
+  "milestones": [
+    "إطلاق حواسيب آر تي إكس سبارك",
+    "تحديث منصة آر تي إكس ريمكس نسخة ستة",
+    "إصدار نموذج نيموترون الجديد"
+  ],
+  "scenes": [
+    {
+      "id": "scene_1",
+      "label": "شريحة سوبر شيب",
+      "narration": "شركة إنفيديا نزلت بحواسيب آر تي إكس سبارك الجديدة اللي بتجمع معالج رسومي ومعالج مركزي في شريحة واحدة خارقة.",
+      "labels": [
+        "شريحة واحدة خارقة"
+      ],
+      "visual_mode": "chip",
+      "evidence_excerpt_id": 2,
+      "punchline": "",
+      "reaction": "none",
+      "evidence_quote": "MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU"
+    },
+    {
+      "id": "scene_2",
+      "label": "تدفق البيانات",
+      "narration": "الشركات الكبرى زي ديل وإتش بي وإم إس آي بدأت توفر الأجهزة دي بذاكرة موحدة لحد مئة وثمانية وعشرين جيجابايت كاملة.",
+      "labels": [],
+      "visual_mode": "flow",
+      "evidence_excerpt_id": 3,
+      "punchline": "",
+      "reaction": "none",
+      "evidence_quote": "in a single superchip with up to 128GB of unified memory and up to 1"
+    },
+    {
+      "id": "scene_3",
+      "label": "الشبكة والوكلاء",
+      "narration": "المستخدمين يقدروا يشغلوا وكلاء ذكاء اصطناعي بيشتغلوا في الخلفية جنب التطبيقات الأساسية من خلال تطبيق إنفيديا الجديد.",
+      "labels": [
+        "تطبيق إنفيديا الجديد"
+      ],
+      "visual_mode": "network",
+      "evidence_excerpt_id": 31,
+      "punchline": "",
+      "reaction": "none",
+      "evidence_quote": "to users at that moment. With the new resource management feature in NVIDIA App ,"
+    },
+    {
+      "id": "scene_4",
+      "label": "مقارنة النماذج",
+      "narration": "نموذج نيموترون ثلاثة ونصف الجديد بينافس بقوة عشان يحول الصوت المكتوب لمعلومات مفيدة وترجمة دقيقة بأربعين لغة مختلفة.",
+      "labels": [
+        "ترجمة دقيقة بأربعين لغة"
+      ],
+      "visual_mode": "comparison",
+      "evidence_excerpt_id": 15,
+      "punchline": "",
+      "reaction": "none",
+      "evidence_quote": "all three, plus questions about the audio. It transcribes 40 languages, including seven Indic languages."
+    },
+    {
+      "id": "scene_5",
+      "label": "نشر النماذج",
+      "narration": "تطبيقات ليكويد إيه آي أصبحت متاحة بدعم محلي كامل عشان تساعد المستخدمين في تنظيم المواعيد وقراءة المستندات بسرعة فائقة.",
+      "labels": [
+        "دعم محلي كامل"
+      ],
+      "visual_mode": "deployment",
+      "evidence_excerpt_id": 40,
+      "punchline": "",
+      "reaction": "none",
+      "evidence_quote": "base model. These models support local workflows such as agents running in Hermes Agent, Pi"
+    },
+    {
+      "id": "scene_6",
+      "label": "معالجة الرسومات",
+      "narration": "ألعاب زي فانتوم بليد زيرو بتنزل بدعم تقنية تتبع الأشعة وتوليد الإطارات الديناميكي عشان تدي أداء سلس ومذهل للغاية.",
+      "labels": [
+        "أداء سلس ومذهل"
+      ],
+      "visual_mode": "flow",
+      "evidence_excerpt_id": 50,
+      "punchline": "",
+      "reaction": "none",
+      "evidence_quote": "and realistic shadows on foliage and terrain. The NVIDIA DLSS Dynamic Multi Frame Generation feature"
+    },
+    {
+      "id": "scene_7",
+      "label": "الحدود والقدرات",
+      "narration": "منصة آر تي إكس ريمكس نسخة ستة دخلت عالم ماين كرافت لتطوير رسومات الألعاب الكلاسيكية باستخدام الإضاءة المسارية والذكاء الاصطناعي.",
+      "labels": [
+        "الذكاء الاصطناعي"
+      ],
+      "visual_mode": "limits",
+      "evidence_excerpt_id": 55,
+      "punchline": "",
+      "reaction": "none",
+      "evidence_quote": "Remix to the world’s largest gaming community: Minecraft . Both creators and players can render"
+    },
+    {
+      "id": "scene_8",
+      "label": "الخلاصة",
+      "narration": "الأجهزة دي بقت تقدم للمطورين والمبدعين قدرات محطات العمل الثقيلة في حاسوب محمول خفيف الوزن يمكن حمله في أي مكان بسهولة.",
+      "labels": [
+        "حاسوب محمول خفيف الوزن"
+      ],
+      "visual_mode": "chip",
+      "evidence_excerpt_id": 73,
+      "punchline": "",
+      "reaction": "none",
+      "evidence_quote": "a laptop can take on work that used to call for a desktop workstation, even"
+    }
+  ],
+  "hashtags": [
+    "RTX_Spark",
+    "NVIDIA",
+    "Blackwell",
+    "AI_Laptops"
+  ],
+  "editorial_warnings": [
+    "Vary scenes naturally between 24 and 50 spoken words while keeping the whole film length",
+    "An optional meme phrase absent from the narration was omitted",
+    "Editorial suggestion: add more distinct topic-specific Egyptian punchlines"
+  ],
+  "profile": "news",
+  "series": "ai على السريع",
+  "visual_family": "compute",
+  "variant": "chip",
+  "topic_key": "7281347817fe3ba2",
+  "source": {
+    "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games",
+    "publisher": "NVIDIA",
+    "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+    "published": "2026-10-28T15:00:46+00:00"
+  },
+  "fiction": false,
+  "documented": true,
+  "news_selection": {
+    "importance": 4,
+    "reason": "إطلاق حواسيب Nvidia RTX Spark المحمولة الجديدة المزوّدة بشرائح Blackwell المتقدمة."
+  },
+  "meme_commentary": true,
+  "editorial_review": {
+    "supported": true,
+    "novel": true,
+    "issues": [],
+    "model": "gemini-3.5-flash-lite"
+  },
+  "writer_model": "gemini-3.5-flash-lite"
+}
