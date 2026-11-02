@@ -208,6 +208,15 @@
         }
       },
       "confirmed_at": "2026-11-02T08:46:58.085068+00:00"
+    },
+    "stock 2026-11-02 17 Cairo": {
+      "confirmed": false,
+      "receipts": {},
+      "required_services": [
+        "facebook",
+        "instagram",
+        "youtube"
+      ]
     }
   }
 }
