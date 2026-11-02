@@ -679,7 +679,7 @@
       "canonical_subject": "NVIDIA RTX Spark Laptops and Blackwell AI Updates",
       "title": "حواسيب آر تي إكس سبارك الجديدة",
       "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games",
-      "status": "reserved",
+      "status": "rendered",
       "story": {
         "title": "حواسيب آر تي إكس سبارك الجديدة",
         "canonical_subject": "NVIDIA RTX Spark Laptops and Blackwell AI Updates",
@@ -836,7 +836,8 @@
         },
         "writer_model": "gemini-3.5-flash-lite"
       },
-      "reserved_at": "2026-11-02T01:19:37.023763+00:00"
+      "reserved_at": "2026-11-02T01:19:37.023763+00:00",
+      "video_sha256": "0552035077ae01519c9f974a1768690565f2979728eda43a935f1c5ff1bdf735"
     }
   ]
 }
