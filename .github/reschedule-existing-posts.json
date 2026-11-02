@@ -1,0 +1,22 @@
+{
+  "request_id": "owner-retime-2026-11-02-1700",
+  "repository": "ahmedalsharqwi2-gif/ai-news-daily",
+  "slot": "daily-2026-11-02",
+  "video_sha256": "d0f630ee425fc8657ea2c4341de7a11ec20acda6b65b5ec3b85e6fa4c1e3adcc",
+  "old_due_at": "2026-11-03T15:00:00Z",
+  "new_due_at": "2026-11-02T15:00:00Z",
+  "posts": {
+    "facebook": {
+      "id": "6ae84dff0f99168e1e3949e9",
+      "channel_id": "6ad3ef2c778b240e2f3fa387"
+    },
+    "youtube": {
+      "id": "6ae84dfdc8c477a933a122b6",
+      "channel_id": "6ad3ef9d778b240e2f3fa5b9"
+    },
+    "instagram": {
+      "id": "6ae84e010f99168e1e394a21",
+      "channel_id": "6ad3eeea778b240e2f3fa23b"
+    }
+  }
+}
