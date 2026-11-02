@@ -879,7 +879,7 @@
       "canonical_subject": "mistral-large-4-hugging-face",
       "title": "ميسترال لارج أربعة: صور ونصوص وسياق مليون رمز",
       "url": "https://huggingface.co/blog/mistral-large4",
-      "status": "publishing",
+      "status": "scheduled",
       "story": {
         "title": "من أخبار الأسبوع: ميسترال لارج أربعة: صور ونصوص وسياق مليون رمز",
         "canonical_subject": "mistral-large-4-hugging-face",
@@ -1692,7 +1692,40 @@
       "knowledge_category": "ai_news",
       "requested_due_at": "2026-11-02T15:00:00Z",
       "video_sha256": "5b37887bb59c45cfad5a8f8bf44244cf4a38b9dd71e162525f1643a0a634c396",
-      "publication_video_sha256": "5b37887bb59c45cfad5a8f8bf44244cf4a38b9dd71e162525f1643a0a634c396"
+      "publication_video_sha256": "5b37887bb59c45cfad5a8f8bf44244cf4a38b9dd71e162525f1643a0a634c396",
+      "due_at": "2026-11-02T15:00:00Z",
+      "receipts": {
+        "instagram": {
+          "id": "6ae87013e364127fe0d6852d",
+          "due_at": "2026-11-02T15:00:00Z",
+          "run_id": "41433542921",
+          "accepted_at": "2026-11-02T11:12:19.226561+00:00",
+          "channel_id": "6ad3eeea778b240e2f3fa23b",
+          "scheduled_at": "2026-11-02T15:00:00+00:00",
+          "status": "scheduled",
+          "verified_at": "2026-11-02T11:12:19.701453+00:00"
+        },
+        "youtube": {
+          "id": "6ae8700ee364127fe0d68445",
+          "due_at": "2026-11-02T15:00:00Z",
+          "run_id": "41433542921",
+          "accepted_at": "2026-11-02T11:12:14.852918+00:00",
+          "channel_id": "6ad3ef9d778b240e2f3fa5b9",
+          "scheduled_at": "2026-11-02T15:00:00+00:00",
+          "status": "scheduled",
+          "verified_at": "2026-11-02T11:12:19.378855+00:00"
+        },
+        "facebook": {
+          "id": "6ae87011e364127fe0d6848d",
+          "due_at": "2026-11-02T15:00:00Z",
+          "run_id": "41433542921",
+          "accepted_at": "2026-11-02T11:12:17.126989+00:00",
+          "channel_id": "6ad3ef2c778b240e2f3fa387",
+          "scheduled_at": "2026-11-02T15:00:00+00:00",
+          "status": "scheduled",
+          "verified_at": "2026-11-02T11:12:19.530562+00:00"
+        }
+      }
     }
   ],
   "rescheduling_history": {
