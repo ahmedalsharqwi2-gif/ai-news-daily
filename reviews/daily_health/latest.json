@@ -1,96 +1,102 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "profile": "news",
-  "phase": "postpublish",
-  "checked_at": "2026-11-03T18:53:13.612001+00:00",
-  "run_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/actions/runs/41697947351",
-  "report_path": "reviews/daily_health/2026-11-03/41697947351-1.json",
-  "publication_due_utc": "2026-11-03T15:00:00+00:00",
-  "errors": [
-    "No successful clock-triggered daily run for this date; manual recovery and dry-run tests do not count as the automatic clock"
-  ],
-  "passed": false,
+  "phase": "prepublish",
+  "checked_at": "2026-11-03T19:54:37.668160+00:00",
+  "run_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/actions/runs/41707569840",
+  "report_path": "reviews/daily_health/2026-11-04/41707569840-1.json",
+  "publication_due_utc": "2026-11-04T10:00:00+00:00",
+  "errors": [],
+  "passed": true,
   "generation_calls": 0,
   "publication_mutations": 0,
-  "preview": false,
+  "preview": true,
+  "scheduler": {
+    "observed": false,
+    "reason": "Transition inventory retained; first automatic evening run targets November 5"
+  },
   "observed_receipts": {
     "youtube": [
       {
-        "id": "6ae84dfdc8c477a933a122b6",
+        "id": "6ae8d386c25538a9f8cb7f48",
         "channelId": "6ad3ef9d778b240e2f3fa5b9",
-        "status": "sent",
-        "dueAt": "2026-11-03T15:00:00.000Z",
-        "sentAt": "2026-11-03T15:03:47.947Z",
-        "externalLink": "https://www.youtube.com/shorts/b2HPJ1kEQRs"
+        "status": "scheduled",
+        "dueAt": "2026-11-04T10:00:00.000Z",
+        "sentAt": null,
+        "externalLink": null
       }
     ],
     "facebook": [
       {
-        "id": "6ae84dff0f99168e1e3949e9",
+        "id": "6ae8d38ca1cb4345befc70e1",
         "channelId": "6ad3ef2c778b240e2f3fa387",
-        "status": "sent",
-        "dueAt": "2026-11-03T15:00:00.000Z",
-        "sentAt": "2026-11-03T15:03:59.176Z",
-        "externalLink": "https://www.facebook.com/reel/1147791350919831/"
+        "status": "scheduled",
+        "dueAt": "2026-11-04T10:00:00.000Z",
+        "sentAt": null,
+        "externalLink": null
       }
     ],
     "instagram": [
       {
-        "id": "6ae84e010f99168e1e394a21",
+        "id": "6ae8d391c1e1a07104366a33",
         "channelId": "6ad3eeea778b240e2f3fa23b",
-        "status": "sent",
-        "dueAt": "2026-11-03T15:00:00.000Z",
-        "sentAt": "2026-11-03T15:05:23.656Z",
-        "externalLink": "https://www.instagram.com/reel/DfSKTgjjDey/"
+        "status": "scheduled",
+        "dueAt": "2026-11-04T10:00:00.000Z",
+        "sentAt": null,
+        "externalLink": null
       }
     ]
   },
   "receipts": {
     "youtube": {
-      "id": "6ae84dfdc8c477a933a122b6",
+      "id": "6ae8d386c25538a9f8cb7f48",
       "channelId": "6ad3ef9d778b240e2f3fa5b9",
-      "status": "sent",
-      "dueAt": "2026-11-03T15:00:00.000Z",
-      "sentAt": "2026-11-03T15:03:47.947Z",
-      "externalLink": "https://www.youtube.com/shorts/b2HPJ1kEQRs"
+      "status": "scheduled",
+      "dueAt": "2026-11-04T10:00:00.000Z",
+      "sentAt": null,
+      "externalLink": null
     },
     "facebook": {
-      "id": "6ae84dff0f99168e1e3949e9",
+      "id": "6ae8d38ca1cb4345befc70e1",
       "channelId": "6ad3ef2c778b240e2f3fa387",
-      "status": "sent",
-      "dueAt": "2026-11-03T15:00:00.000Z",
-      "sentAt": "2026-11-03T15:03:59.176Z",
-      "externalLink": "https://www.facebook.com/reel/1147791350919831/"
+      "status": "scheduled",
+      "dueAt": "2026-11-04T10:00:00.000Z",
+      "sentAt": null,
+      "externalLink": null
     },
     "instagram": {
-      "id": "6ae84e010f99168e1e394a21",
+      "id": "6ae8d391c1e1a07104366a33",
       "channelId": "6ad3eeea778b240e2f3fa23b",
-      "status": "sent",
-      "dueAt": "2026-11-03T15:00:00.000Z",
-      "sentAt": "2026-11-03T15:05:23.656Z",
-      "externalLink": "https://www.instagram.com/reel/DfSKTgjjDey/"
+      "status": "scheduled",
+      "dueAt": "2026-11-04T10:00:00.000Z",
+      "sentAt": null,
+      "externalLink": null
     }
   },
   "episode": {
-    "slot": "daily-2026-11-02",
-    "title": "حواسيب آر تي إكس سبارك الجديدة",
-    "pipeline": "legacy",
-    "expected_sha256": "d0f630ee425fc8657ea2c4341de7a11ec20acda6b65b5ec3b85e6fa4c1e3adcc"
+    "slot": "remotion-2026-11-04-news",
+    "title": "جوجل تطلق منصة لتعلّم الذكاء الاصطناعي في أفريقيا",
+    "pipeline": "remotion",
+    "expected_sha256": "62a2216130784fd2cee140203e76b62cfd14f3fe517baa1db1d8853266705dad"
   },
   "technical": {
     "passed": true,
-    "sha256": "d0f630ee425fc8657ea2c4341de7a11ec20acda6b65b5ec3b85e6fa4c1e3adcc",
+    "sha256": "62a2216130784fd2cee140203e76b62cfd14f3fe517baa1db1d8853266705dad",
     "full_decode": true,
-    "duration": 66.5,
+    "duration": 96.466667,
     "width": 1080,
     "height": 1920,
-    "audio_mean_db": -17.6,
+    "audio_mean_db": -18.9,
     "actual_visual_samples": 12,
     "unique_visual_samples": 12,
-    "checked_at": "2026-11-02T23:04:19.576885+00:00",
+    "checked_at": "2026-11-02T19:04:46.500088+00:00",
     "scope": "Independent technical media check; no claim of human narrative or scientific review",
     "reused_immutable_media_check": true,
     "live_asset_metadata_verified": true
   },
-  "media_binding": "Three live sent post IDs match retained original submission receipts; original release SHA independently verified. Platform-transcoded bytes are not claimed identical."
+  "media_binding": "Same live scheduled source URL and independently hashed original",
+  "production_at_cairo": "2026-11-03T19:00:00+02:00",
+  "publication_at_cairo": "2026-11-04T12:00:00+02:00",
+  "hours_until_publication": 14.09,
+  "readiness": "verified"
 }
