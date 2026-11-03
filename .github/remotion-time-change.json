@@ -1,0 +1,14 @@
+{
+  "request_id": "noon-trial-2026-11-04",
+  "repository": "ahmedalsharqwi2-gif/ai-news-daily",
+  "approved_by_owner": true,
+  "slot": "remotion-2026-11-04-news",
+  "source_due_at": "2026-11-04T15:00:00Z",
+  "target_due_at": "2026-11-04T10:00:00Z",
+  "video_sha256": "62a2216130784fd2cee140203e76b62cfd14f3fe517baa1db1d8853266705dad",
+  "post_ids": {
+    "youtube": "6ae8d386c25538a9f8cb7f48",
+    "facebook": "6ae8d38ca1cb4345befc70e1",
+    "instagram": "6ae8d391c1e1a07104366a33"
+  }
+}
