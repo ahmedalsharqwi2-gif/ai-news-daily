@@ -112,7 +112,7 @@
             "verified_at": "2026-11-03T19:53:51.161794+00:00"
           },
           "instagram": {
-            "phase": "acknowledged",
+            "phase": "verified",
             "post_id": "6ae8d391c1e1a07104366a33",
             "before": {
               "id": "6ae8d391c1e1a07104366a33",
@@ -130,7 +130,10 @@
                 "type": "reel",
                 "shouldShareToFeed": true
               }
-            }
+            },
+            "service": "instagram",
+            "due_at": "2026-11-04T10:00:00.000Z",
+            "verified_at": "2026-11-03T19:53:55.875714+00:00"
           }
         }
       }
