@@ -172,7 +172,7 @@
         },
         {
           "name": "Install video probe tools",
-          "run": "sudo apt-get update -qq && sudo apt-get install -y ffmpeg"
+          "run": "if ! command -v ffmpeg >/dev/null || ! command -v ffprobe >/dev/null; then\n  timeout 180 sudo apt-get -o Acquire::Retries=1 -o Acquire::http::Timeout=30 update -qq\n  timeout 180 sudo apt-get -o Acquire::Retries=1 -o Acquire::http::Timeout=30 install -y ffmpeg\nfi\nffmpeg -version\nffprobe -version\n"
         },
         {
           "name": "Exercise rejection of solid red, accept moving valid footage",
