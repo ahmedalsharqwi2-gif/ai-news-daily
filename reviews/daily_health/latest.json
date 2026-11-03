@@ -2,9 +2,9 @@
   "date": "2026-11-03",
   "profile": "news",
   "phase": "prepublish",
-  "checked_at": "2026-11-03T12:37:42.981700+00:00",
-  "run_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/actions/runs/41637257017",
-  "report_path": "reviews/daily_health/2026-11-03/41637257017-1.json",
+  "checked_at": "2026-11-03T13:15:35.134275+00:00",
+  "run_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/actions/runs/41642496485",
+  "report_path": "reviews/daily_health/2026-11-03/41642496485-1.json",
   "publication_due_utc": "2026-11-03T15:00:00+00:00",
   "errors": [
     "No successful clock-triggered daily run for this date; manual recovery and dry-run tests do not count as the automatic clock"
