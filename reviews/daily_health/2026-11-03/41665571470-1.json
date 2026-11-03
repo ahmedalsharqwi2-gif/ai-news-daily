@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-03",
+  "profile": "news",
+  "phase": "postpublish",
+  "checked_at": "2026-11-03T15:36:42.623411+00:00",
+  "run_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/actions/runs/41665571470",
+  "report_path": "reviews/daily_health/2026-11-03/41665571470-1.json",
+  "publication_due_utc": "2026-11-03T15:00:00+00:00",
+  "errors": [
+    "No successful clock-triggered daily run for this date; manual recovery and dry-run tests do not count as the automatic clock"
+  ],
+  "passed": false,
+  "generation_calls": 0,
+  "publication_mutations": 0,
+  "preview": false,
+  "observed_receipts": {
+    "youtube": [
+      {
+        "id": "6ae84dfdc8c477a933a122b6",
+        "channelId": "6ad3ef9d778b240e2f3fa5b9",
+        "status": "sent",
+        "dueAt": "2026-11-03T15:00:00.000Z",
+        "sentAt": "2026-11-03T15:03:47.947Z",
+        "externalLink": "https://www.youtube.com/shorts/b2HPJ1kEQRs"
+      }
+    ],
+    "facebook": [
+      {
+        "id": "6ae84dff0f99168e1e3949e9",
+        "channelId": "6ad3ef2c778b240e2f3fa387",
+        "status": "sent",
+        "dueAt": "2026-11-03T15:00:00.000Z",
+        "sentAt": "2026-11-03T15:03:59.176Z",
+        "externalLink": "https://www.facebook.com/reel/1147791350919831/"
+      }
+    ],
+    "instagram": [
+      {
+        "id": "6ae84e010f99168e1e394a21",
+        "channelId": "6ad3eeea778b240e2f3fa23b",
+        "status": "sent",
+        "dueAt": "2026-11-03T15:00:00.000Z",
+        "sentAt": "2026-11-03T15:05:23.656Z",
+        "externalLink": "https://www.instagram.com/reel/DfSKTgjjDey/"
+      }
+    ]
+  },
+  "receipts": {
+    "youtube": {
+      "id": "6ae84dfdc8c477a933a122b6",
+      "channelId": "6ad3ef9d778b240e2f3fa5b9",
+      "status": "sent",
+      "dueAt": "2026-11-03T15:00:00.000Z",
+      "sentAt": "2026-11-03T15:03:47.947Z",
+      "externalLink": "https://www.youtube.com/shorts/b2HPJ1kEQRs"
+    },
+    "facebook": {
+      "id": "6ae84dff0f99168e1e3949e9",
+      "channelId": "6ad3ef2c778b240e2f3fa387",
+      "status": "sent",
+      "dueAt": "2026-11-03T15:00:00.000Z",
+      "sentAt": "2026-11-03T15:03:59.176Z",
+      "externalLink": "https://www.facebook.com/reel/1147791350919831/"
+    },
+    "instagram": {
+      "id": "6ae84e010f99168e1e394a21",
+      "channelId": "6ad3eeea778b240e2f3fa23b",
+      "status": "sent",
+      "dueAt": "2026-11-03T15:00:00.000Z",
+      "sentAt": "2026-11-03T15:05:23.656Z",
+      "externalLink": "https://www.instagram.com/reel/DfSKTgjjDey/"
+    }
+  },
+  "episode": {
+    "slot": "daily-2026-11-02",
+    "title": "حواسيب آر تي إكس سبارك الجديدة",
+    "pipeline": "legacy",
+    "expected_sha256": "d0f630ee425fc8657ea2c4341de7a11ec20acda6b65b5ec3b85e6fa4c1e3adcc"
+  },
+  "technical": {
+    "passed": true,
+    "sha256": "d0f630ee425fc8657ea2c4341de7a11ec20acda6b65b5ec3b85e6fa4c1e3adcc",
+    "full_decode": true,
+    "duration": 66.5,
+    "width": 1080,
+    "height": 1920,
+    "audio_mean_db": -17.6,
+    "actual_visual_samples": 12,
+    "unique_visual_samples": 12,
+    "checked_at": "2026-11-02T23:04:19.576885+00:00",
+    "scope": "Independent technical media check; no claim of human narrative or scientific review",
+    "reused_immutable_media_check": true,
+    "live_asset_metadata_verified": true
+  },
+  "media_binding": "Three live sent post IDs match retained original submission receipts; original release SHA independently verified. Platform-transcoded bytes are not claimed identical."
+}
