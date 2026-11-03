@@ -70,7 +70,65 @@
       }
     }
   },
-  "complete": false,
+  "after": {
+    "youtube": {
+      "id": "6ae8d386c25538a9f8cb7f48",
+      "channelId": "6ad3ef9d778b240e2f3fa5b9",
+      "status": "scheduled",
+      "dueAt": "2026-11-04T10:00:00.000Z",
+      "text": "جوجل تطلق منصة لتعلّم الذكاء الاصطناعي في أفريقيا\nالمصدر: https://blog.google/intl/en-africa/unlocking-africas-ai-potential-introducing-skilling-africa-with-google/",
+      "assets": [
+        {
+          "source": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/releases/download/production-remotion-2026-11-04-news/news-remotion-2026-11-04-news.mp4"
+        }
+      ],
+      "metadata": {
+        "__typename": "YoutubePostMetadata",
+        "title": "جوجل تطلق منصة لتعلّم الذكاء الاصطناعي في أفريقيا",
+        "category": {
+          "categoryId": "27"
+        },
+        "privacy": "public",
+        "madeForKids": false,
+        "notifySubscribers": false
+      }
+    },
+    "facebook": {
+      "id": "6ae8d38ca1cb4345befc70e1",
+      "channelId": "6ad3ef2c778b240e2f3fa387",
+      "status": "scheduled",
+      "dueAt": "2026-11-04T10:00:00.000Z",
+      "text": "جوجل تطلق منصة لتعلّم الذكاء الاصطناعي في أفريقيا\nالمصدر: https://blog.google/intl/en-africa/unlocking-africas-ai-potential-introducing-skilling-africa-with-google/",
+      "assets": [
+        {
+          "source": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/releases/download/production-remotion-2026-11-04-news/news-remotion-2026-11-04-news.mp4"
+        }
+      ],
+      "metadata": {
+        "__typename": "FacebookPostMetadata",
+        "type": "post"
+      }
+    },
+    "instagram": {
+      "id": "6ae8d391c1e1a07104366a33",
+      "channelId": "6ad3eeea778b240e2f3fa23b",
+      "status": "scheduled",
+      "dueAt": "2026-11-04T10:00:00.000Z",
+      "text": "جوجل تطلق منصة لتعلّم الذكاء الاصطناعي في أفريقيا\nالمصدر: https://blog.google/intl/en-africa/unlocking-africas-ai-potential-introducing-skilling-africa-with-google/",
+      "assets": [
+        {
+          "source": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/releases/download/production-remotion-2026-11-04-news/news-remotion-2026-11-04-news.mp4"
+        }
+      ],
+      "metadata": {
+        "__typename": "InstagramPostMetadata",
+        "type": "reel",
+        "shouldShareToFeed": true
+      }
+    }
+  },
+  "complete": true,
   "generation_calls": 0,
-  "new_posts": 0
+  "new_posts": 0,
+  "verified_at": "2026-11-03T19:53:58.655652+00:00"
 }
