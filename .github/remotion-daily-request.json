@@ -1,1 +1,6 @@
-{"publish_date":"2026-11-04","revision":"final-same-day9-to17-visible-tags-verify-existing-no-repeat-v5","preserve_existing_posts":true}
+{
+  "publish_date": "2026-11-04",
+  "revision": "final-same-day9-to17-visible-tags-verify-existing-no-repeat-v51",
+  "preserve_existing_posts": true,
+  "reason": "Owner-requested catch-up for tomorrow after 19:00; reuse exact verified existing noon posts, generate only if actually missing."
+}
