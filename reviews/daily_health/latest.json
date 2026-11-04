@@ -1,10 +1,10 @@
 {
   "date": "2026-11-04",
   "profile": "news",
-  "phase": "prepublish",
-  "checked_at": "2026-11-04T07:01:59.375625+00:00",
-  "run_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/actions/runs/41789389406",
-  "report_path": "reviews/daily_health/2026-11-04/41789389406-1.json",
+  "phase": "postpublish",
+  "checked_at": "2026-11-04T13:28:31.877868+00:00",
+  "run_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/actions/runs/41838321980",
+  "report_path": "reviews/daily_health/2026-11-04/41838321980-1.json",
   "publication_due_utc": "2026-11-04T10:00:00+00:00",
   "errors": [],
   "passed": true,
@@ -20,30 +20,30 @@
       {
         "id": "6ae8d386c25538a9f8cb7f48",
         "channelId": "6ad3ef9d778b240e2f3fa5b9",
-        "status": "scheduled",
+        "status": "sent",
         "dueAt": "2026-11-04T10:00:00.000Z",
-        "sentAt": null,
-        "externalLink": null
+        "sentAt": "2026-11-04T10:01:46.924Z",
+        "externalLink": "https://www.youtube.com/shorts/Db2BRf0fbrI"
       }
     ],
     "facebook": [
       {
         "id": "6ae8d38ca1cb4345befc70e1",
         "channelId": "6ad3ef2c778b240e2f3fa387",
-        "status": "scheduled",
+        "status": "sent",
         "dueAt": "2026-11-04T10:00:00.000Z",
-        "sentAt": null,
-        "externalLink": null
+        "sentAt": "2026-11-04T10:01:44.364Z",
+        "externalLink": "https://www.facebook.com/reel/1124464126794883/"
       }
     ],
     "instagram": [
       {
         "id": "6ae8d391c1e1a07104366a33",
         "channelId": "6ad3eeea778b240e2f3fa23b",
-        "status": "scheduled",
+        "status": "sent",
         "dueAt": "2026-11-04T10:00:00.000Z",
-        "sentAt": null,
-        "externalLink": null
+        "sentAt": "2026-11-04T10:03:29.559Z",
+        "externalLink": "https://www.instagram.com/reel/DfUMjKhiSaQ/"
       }
     ]
   },
@@ -51,26 +51,26 @@
     "youtube": {
       "id": "6ae8d386c25538a9f8cb7f48",
       "channelId": "6ad3ef9d778b240e2f3fa5b9",
-      "status": "scheduled",
+      "status": "sent",
       "dueAt": "2026-11-04T10:00:00.000Z",
-      "sentAt": null,
-      "externalLink": null
+      "sentAt": "2026-11-04T10:01:46.924Z",
+      "externalLink": "https://www.youtube.com/shorts/Db2BRf0fbrI"
     },
     "facebook": {
       "id": "6ae8d38ca1cb4345befc70e1",
       "channelId": "6ad3ef2c778b240e2f3fa387",
-      "status": "scheduled",
+      "status": "sent",
       "dueAt": "2026-11-04T10:00:00.000Z",
-      "sentAt": null,
-      "externalLink": null
+      "sentAt": "2026-11-04T10:01:44.364Z",
+      "externalLink": "https://www.facebook.com/reel/1124464126794883/"
     },
     "instagram": {
       "id": "6ae8d391c1e1a07104366a33",
       "channelId": "6ad3eeea778b240e2f3fa23b",
-      "status": "scheduled",
+      "status": "sent",
       "dueAt": "2026-11-04T10:00:00.000Z",
-      "sentAt": null,
-      "externalLink": null
+      "sentAt": "2026-11-04T10:03:29.559Z",
+      "externalLink": "https://www.instagram.com/reel/DfUMjKhiSaQ/"
     }
   },
   "episode": {
@@ -94,9 +94,9 @@
     "reused_immutable_media_check": true,
     "live_asset_metadata_verified": true
   },
-  "media_binding": "Same live scheduled source URL and independently hashed original",
+  "media_binding": "Three live sent post IDs match retained original submission receipts; original release SHA independently verified. Platform-transcoded bytes are not claimed identical.",
   "production_at_cairo": "2026-11-03T19:00:00+02:00",
   "publication_at_cairo": "2026-11-04T12:00:00+02:00",
-  "hours_until_publication": 2.97,
+  "hours_until_publication": -3.48,
   "readiness": "verified"
 }
