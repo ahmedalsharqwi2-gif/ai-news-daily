@@ -148,7 +148,7 @@
     "daily-remotion-2026-11-05-news": {
       "profile": "news",
       "due_at": "2026-11-05T10:00:00Z",
-      "status": "voice_requested",
+      "status": "voice_ready",
       "source_run": 41919166545,
       "created_at": "2026-11-04T21:38:03.341333+00:00",
       "source_selection": {
@@ -214,7 +214,11 @@
         "passed": true
       },
       "story_sha256": "6595c40ca241023d990f8be7afc4e9f590ab297512ae4c6bddf61f4dff249dd1",
-      "voice_request_run": 41919166545
+      "voice_request_run": 41919166545,
+      "duration": 83.44,
+      "audio_sha256": "111c50d27ea1d35a4156b44061754e40081ba54e652d31260ade429112a441a1",
+      "timing_sha256": "bc68e227959f5509a6c7b9b193972cf7c9c22b3a0b421f221c3832738146a7e0",
+      "coverage": 0.9502487562189055
     }
   },
   "cutover_evidence": {
