@@ -148,8 +148,8 @@
     "daily-remotion-2026-11-05-news": {
       "profile": "news",
       "due_at": "2026-11-05T10:00:00Z",
-      "status": "authored",
-      "source_run": 41917834470,
+      "status": "voice_requested",
+      "source_run": 41919166545,
       "created_at": "2026-11-04T21:38:03.341333+00:00",
       "source_selection": {
         "title": "OpenAI to acquire Pierre Computer Company, Inc.",
@@ -213,7 +213,8 @@
         "issues": [],
         "passed": true
       },
-      "story_sha256": "6595c40ca241023d990f8be7afc4e9f590ab297512ae4c6bddf61f4dff249dd1"
+      "story_sha256": "6595c40ca241023d990f8be7afc4e9f590ab297512ae4c6bddf61f4dff249dd1",
+      "voice_request_run": 41919166545
     }
   },
   "cutover_evidence": {
