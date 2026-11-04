@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-05",
+  "profile": "news",
+  "phase": "prepublish",
+  "checked_at": "2026-11-04T22:11:35.075849+00:00",
+  "run_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/actions/runs/41922964130",
+  "report_path": "reviews/daily_health/2026-11-05/41922964130-1.json",
+  "publication_due_utc": "2026-11-05T10:00:00+00:00",
+  "errors": [
+    "No successful clock-triggered daily run for this date; manual recovery and dry-run tests do not count as the automatic clock"
+  ],
+  "passed": false,
+  "generation_calls": 0,
+  "publication_mutations": 0,
+  "preview": false,
+  "observed_receipts": {
+    "youtube": [
+      {
+        "id": "6aebad2e4cb090f0ac40b9d6",
+        "channelId": "6ad3ef9d778b240e2f3fa5b9",
+        "status": "scheduled",
+        "dueAt": "2026-11-05T10:00:00.000Z",
+        "sentAt": null,
+        "externalLink": null
+      }
+    ],
+    "facebook": [
+      {
+        "id": "6aebad340baebf13ccc43b28",
+        "channelId": "6ad3ef2c778b240e2f3fa387",
+        "status": "scheduled",
+        "dueAt": "2026-11-05T10:00:00.000Z",
+        "sentAt": null,
+        "externalLink": null
+      }
+    ],
+    "instagram": [
+      {
+        "id": "6aebad3a0baebf13ccc43c93",
+        "channelId": "6ad3eeea778b240e2f3fa23b",
+        "status": "scheduled",
+        "dueAt": "2026-11-05T10:00:00.000Z",
+        "sentAt": null,
+        "externalLink": null
+      }
+    ]
+  },
+  "receipts": {
+    "youtube": {
+      "id": "6aebad2e4cb090f0ac40b9d6",
+      "channelId": "6ad3ef9d778b240e2f3fa5b9",
+      "status": "scheduled",
+      "dueAt": "2026-11-05T10:00:00.000Z",
+      "sentAt": null,
+      "externalLink": null
+    },
+    "facebook": {
+      "id": "6aebad340baebf13ccc43b28",
+      "channelId": "6ad3ef2c778b240e2f3fa387",
+      "status": "scheduled",
+      "dueAt": "2026-11-05T10:00:00.000Z",
+      "sentAt": null,
+      "externalLink": null
+    },
+    "instagram": {
+      "id": "6aebad3a0baebf13ccc43c93",
+      "channelId": "6ad3eeea778b240e2f3fa23b",
+      "status": "scheduled",
+      "dueAt": "2026-11-05T10:00:00.000Z",
+      "sentAt": null,
+      "externalLink": null
+    }
+  },
+  "episode": {
+    "slot": "daily-remotion-2026-11-05-news",
+    "title": "أوبن إيه آي ناوية تشتري بيير.. إيه اللي هيتغير في كودكس؟",
+    "pipeline": "remotion",
+    "expected_sha256": "393a991618dfe1f36b3e6106575d59f5a7a5851c5e110718f408b3394762f785"
+  },
+  "technical": {
+    "passed": true,
+    "sha256": "393a991618dfe1f36b3e6106575d59f5a7a5851c5e110718f408b3394762f785",
+    "full_decode": true,
+    "duration": 83.466667,
+    "width": 1080,
+    "height": 1920,
+    "audio_mean_db": -19.2,
+    "actual_visual_samples": 12,
+    "unique_visual_samples": 12,
+    "checked_at": "2026-11-04T22:11:46.596368+00:00",
+    "scope": "Independent technical media check; no claim of human narrative or scientific review",
+    "reused_immutable_media_check": false,
+    "live_asset_metadata_verified": true
+  },
+  "media_binding": "Same live scheduled source URL and independently hashed original",
+  "production_at_cairo": "2026-11-04T19:00:00+02:00",
+  "publication_at_cairo": "2026-11-05T12:00:00+02:00",
+  "hours_until_publication": 11.81,
+  "readiness": "verified"
+}
