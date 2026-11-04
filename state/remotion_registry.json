@@ -148,7 +148,7 @@
     "daily-remotion-2026-11-05-news": {
       "profile": "news",
       "due_at": "2026-11-05T10:00:00Z",
-      "status": "review_requested",
+      "status": "authored",
       "source_run": 41917834470,
       "created_at": "2026-11-04T21:38:03.341333+00:00",
       "source_selection": {
@@ -204,7 +204,15 @@
         "sha256": "6595c40ca241023d990f8be7afc4e9f590ab297512ae4c6bddf61f4dff249dd1"
       },
       "canonical_subject": "openai-acquire-pierre-computer",
-      "title": "أوبن إيه آي ناوية تشتري بيير.. إيه اللي هيتغير في كودكس؟"
+      "title": "أوبن إيه آي ناوية تشتري بيير.. إيه اللي هيتغير في كودكس؟",
+      "editorial_review": {
+        "supported": true,
+        "engaging": true,
+        "novel": true,
+        "visuals_match": true,
+        "issues": [],
+        "passed": true
+      }
     }
   },
   "cutover_evidence": {
