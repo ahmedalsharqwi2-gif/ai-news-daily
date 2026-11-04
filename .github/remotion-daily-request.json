@@ -1,12 +1,6 @@
 {
   "publish_date": "2026-11-05",
-  "revision": "owner-explicit-new-news-run-after-preplanning-cancel-20261105-v2",
+  "revision": "owner-bounded-news-no-apt-in-planning-v3",
   "preserve_existing_posts": true,
-  "previous_cancelled_run": 41904681860,
-  "previous_run_verified": {
-    "all_generation_and_publish_steps": "skipped",
-    "retained_episode": false,
-    "proof_run": 41907191378
-  },
-  "reason": "Explicit owner instruction to produce now. Safety review requires a new bounded production run rather than rerunning the cancelled preplanning job. Existing queue and ledger checks remain mandatory before any new writing, voice or publication."
+  "reason": "Explicit owner requests completion: bounded prerequisite setup without apt in planning. Existing serial concurrency and state/queue checks retain any progress from the prior bounded run."
 }
