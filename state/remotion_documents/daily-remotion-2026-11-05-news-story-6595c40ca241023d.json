@@ -1,0 +1,200 @@
+{
+  "title": "أوبن إيه آي ناوية تشتري بيير.. إيه اللي هيتغير في كودكس؟",
+  "canonical_subject": "openai-acquire-pierre-computer",
+  "hashtags": [
+    "#أخبار_الذكاء_الاصطناعي",
+    "#كودكس",
+    "#برمجة",
+    "#OpenAI"
+  ],
+  "scenes": [
+    {
+      "label": "إعلان الاستحواذ",
+      "narration": "أوبن إيه آي أعلنت يوم أربعة نوفمبر إنها هتستحوذ على شركة بيير كمبيوتر. الخبر هنا مش نموذج ذكاء اصطناعي جديد؛ التركيز على الأدوات اللي المبرمج بيستخدمها.",
+      "evidence_quote": "OpenAI will acquire Pierre Computer Company, Inc",
+      "diagram": "flow",
+      "labels": [
+        "إعلان رسمي",
+        "شركة بيير",
+        "أوبن إيه آي"
+      ],
+      "id": "scene_1",
+      "visual_mode": "hero",
+      "visual": {
+        "kind": "explainer",
+        "kicker": "flow",
+        "labels": [
+          "إعلان رسمي",
+          "شركة بيير",
+          "أوبن إيه آي"
+        ]
+      }
+    },
+    {
+      "label": "أدوات بيير الحالية",
+      "narration": "بيير بتطوّر أدوات لتصفح الملفات ومقارنة تغييرات الكود. ولو استخدمت الميزتين دول في تطبيق كودكس، فحسب الإعلان إنت بالفعل جرّبت مكتبات تريز وديفز بتاعتها.",
+      "evidence_quote": "you’ve already used Pierre’s Trees and Diffs libraries.",
+      "diagram": "compare",
+      "labels": [
+        "مكتبات برمجية",
+        "تطبيق كودكس",
+        "إدارة الملفات"
+      ],
+      "id": "scene_2",
+      "visual_mode": "hero",
+      "visual": {
+        "kind": "explainer",
+        "kicker": "compare",
+        "labels": [
+          "مكتبات برمجية",
+          "تطبيق كودكس",
+          "إدارة الملفات"
+        ]
+      }
+    },
+    {
+      "label": "تطوير نظام جيت",
+      "narration": "الفكرة إن الشغل حوالين جيت يتطور مع زيادة استخدام وكلاء البرمجة. وأوبن إيه آي بتقول إنها بتربط ده بخبرتها في باندو، نظام إدارة الكود الداخلي.",
+      "evidence_quote": "our in-house source control backend for engineers and agents",
+      "diagram": "cycle",
+      "labels": [
+        "نظام جيت",
+        "تطوير متوازي",
+        "هندسة برمجيات"
+      ],
+      "id": "scene_3",
+      "visual_mode": "hero",
+      "visual": {
+        "kind": "explainer",
+        "kicker": "cycle",
+        "labels": [
+          "نظام جيت",
+          "تطوير متوازي",
+          "هندسة برمجيات"
+        ]
+      }
+    },
+    {
+      "label": "معايير التطوير الحديث",
+      "narration": "الهدف المعلن هو تحسين رحلة التطوير، من إنشاء فرع للكود لحد نشره. لكن ده طموح للشراكة، مش إعلان إن كل المشاكل اتحلت أو كل الميزات وصلت.",
+      "evidence_quote": "from the first branch an agent creates",
+      "diagram": "flow",
+      "labels": [
+        "معايير حديثة",
+        "نشر البرمجيات",
+        "أعمال برمجية"
+      ],
+      "id": "scene_4",
+      "visual_mode": "hero",
+      "visual": {
+        "kind": "explainer",
+        "kicker": "flow",
+        "labels": [
+          "معايير حديثة",
+          "نشر البرمجيات",
+          "أعمال برمجية"
+        ]
+      }
+    },
+    {
+      "label": "أداة مراجعة الأكواد",
+      "narration": "في ديفز مثلًا، وضع التعديل بيسمح للمراجع يصلّح سطر الكود في نفس مكان ملاحظته. بدل ما تشوف المشكلة هنا وتروح تدور على الملف في حتة تانية.",
+      "evidence_quote": "Edit mode lets a reviewer fix a line of code",
+      "diagram": "compare",
+      "labels": [
+        "مراجعة الأكواد",
+        "تعديل الأخطاء",
+        "كفاءة عالية"
+      ],
+      "id": "scene_5",
+      "visual_mode": "hero",
+      "visual": {
+        "kind": "explainer",
+        "kicker": "compare",
+        "labels": [
+          "مراجعة الأكواد",
+          "تعديل الأخطاء",
+          "كفاءة عالية"
+        ]
+      }
+    },
+    {
+      "label": "تسليط الضوء السريع",
+      "narration": "وكمان عندهم هايلايتس، أداة لتمييز أجزاء الكود بألوان، بتتحدث مع كتابة المطور أو بث الوكيل للكود. يعني التغيير يتعرض أثناء ظهوره، مش صورة ثابتة للكود.",
+      "evidence_quote": "an extremely fast syntax highlighter that updates as a developer types",
+      "diagram": "layers",
+      "labels": [
+        "أداة هايلايتس",
+        "تحديث فوري",
+        "وكلاء أذكياء"
+      ],
+      "id": "scene_6",
+      "visual_mode": "hero",
+      "visual": {
+        "kind": "explainer",
+        "kicker": "layers",
+        "labels": [
+          "أداة هايلايتس",
+          "تحديث فوري",
+          "وكلاء أذكياء"
+        ]
+      }
+    },
+    {
+      "label": "مستقبل تخزين الكود",
+      "narration": "أما خدمة كود ستوريدج، فبتخزّن الكود وتتابع تاريخه باستخدام جيت. الشركة بتقول إن العملاء يقدروا يكملوا استخدامها، ومشروعات بيير المفتوحة هتفضل مفتوحة المصدر.",
+      "evidence_quote": "Pierre’s open-source projects will remain open-source",
+      "diagram": "flow",
+      "labels": [
+        "تخزين الكود",
+        "واجهة برمجة",
+        "تتبع التاريخ"
+      ],
+      "id": "scene_7",
+      "visual_mode": "hero",
+      "visual": {
+        "kind": "explainer",
+        "kicker": "flow",
+        "labels": [
+          "تخزين الكود",
+          "واجهة برمجة",
+          "تتبع التاريخ"
+        ]
+      }
+    },
+    {
+      "label": "شروط الإغلاق التنظيمي",
+      "narration": "بس خلي بالك من آخر سطر: الصفقة لسه خاضعة لشروط الإغلاق والموافقات التنظيمية. ولحد ما تقفل، الشركتان مستقلتان. إذن الإعلان عن الاستحواذ مش معناه إنه اكتمل.",
+      "evidence_quote": "Until closing, OpenAI and Pierre will remain separate and independent companies.",
+      "diagram": "compare",
+      "labels": [
+        "شروط تنظيمية",
+        "موافقات حكومية",
+        "استقلال مؤقت"
+      ],
+      "id": "scene_8",
+      "visual_mode": "hero",
+      "visual": {
+        "kind": "explainer",
+        "kicker": "compare",
+        "labels": [
+          "شروط تنظيمية",
+          "موافقات حكومية",
+          "استقلال مؤقت"
+        ]
+      }
+    }
+  ],
+  "cover_text": "صفقة جديدة لأدوات كودكس",
+  "profile": "news",
+  "series": "ai على السريع",
+  "fiction": false,
+  "documented": true,
+  "topic_key": "remotion-openai-acquire-pierre-computer",
+  "source": {
+    "url": "https://openai.com/index/openai-to-acquire-pierre",
+    "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+    "publisher": "OpenAI",
+    "published": "2026-11-04T14:30:00+00:00"
+  }
+}
