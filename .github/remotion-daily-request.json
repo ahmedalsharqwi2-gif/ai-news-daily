@@ -1,6 +1,6 @@
 {
   "publish_date": "2026-11-05",
-  "revision": "owner-bounded-news-no-apt-in-planning-v3",
+  "revision": "owner-retained-news-exact-evidence-and-natural-length-v4",
   "preserve_existing_posts": true,
-  "reason": "Explicit owner requests completion: bounded prerequisite setup without apt in planning. Existing serial concurrency and state/queue checks retain any progress from the prior bounded run."
+  "reason": "Owner requests completion: use retained manually corrected draft, first independent review and first voice; original writer/correction preserved, no third writing request."
 }

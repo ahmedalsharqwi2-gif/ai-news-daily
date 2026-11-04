@@ -167,8 +167,8 @@
       },
       "writer_run": 41917834470,
       "draft_document": {
-        "path": "state/remotion_documents/daily-remotion-2026-11-05-news-draft-3ee9923d6491902b.json",
-        "sha256": "3ee9923d6491902b7adc729e81d21a28e23a790d61c36117d7aed36ac68e53ff"
+        "path": "state/remotion_documents/daily-remotion-2026-11-05-news-manual-draft-6cfed4f51a76da0e.json",
+        "sha256": "6cfed4f51a76da0ec4d2fa4df22f4191e47974159b1045227caeedde773eced9"
       },
       "draft_repair": {
         "phase": "rejected",
@@ -181,7 +181,24 @@
           "sha256": "e8656fa9351bb414f68418ee891449472adeac565a30f38423fb3cb3a84985a9"
         },
         "failure": "Draft word budget fails natural-duration preflight; no TTS requested"
-      }
+      },
+      "draft_revision_history": [
+        {
+          "previous_document": {
+            "path": "state/remotion_documents/daily-remotion-2026-11-05-news-draft-3ee9923d6491902b.json",
+            "sha256": "3ee9923d6491902b7adc729e81d21a28e23a790d61c36117d7aed36ac68e53ff"
+          },
+          "previous_correction_document": {
+            "path": "state/remotion_documents/daily-remotion-2026-11-05-news-corrected-draft-e8656fa9351bb414.json",
+            "sha256": "e8656fa9351bb414f68418ee891449472adeac565a30f38423fb3cb3a84985a9"
+          },
+          "correction_document": {
+            "path": "state/remotion_documents/daily-remotion-2026-11-05-news-manual-draft-6cfed4f51a76da0e.json",
+            "sha256": "6cfed4f51a76da0ec4d2fa4df22f4191e47974159b1045227caeedde773eced9"
+          },
+          "reason": "Manual same-source concise Egyptian-Arabic edit; factual future acquisition distinguished from completed deal, exact short excerpts checked; no repeat writer request."
+        }
+      ]
     }
   },
   "cutover_evidence": {
