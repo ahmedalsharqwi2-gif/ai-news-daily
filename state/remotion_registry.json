@@ -171,11 +171,15 @@
         "sha256": "3ee9923d6491902b7adc729e81d21a28e23a790d61c36117d7aed36ac68e53ff"
       },
       "draft_repair": {
-        "phase": "requested",
+        "phase": "received",
         "original_sha256": "d1ef4e810c0e891eb5a120e3ffae40d856e4e7b7468ec596d00b8006de8c4dc6",
         "problem": "Actual supporting excerpt required for each factual scene",
         "maximum_requests": 1,
-        "voice_requests": 0
+        "voice_requests": 0,
+        "document": {
+          "path": "state/remotion_documents/daily-remotion-2026-11-05-news-corrected-draft-e8656fa9351bb414.json",
+          "sha256": "e8656fa9351bb414f68418ee891449472adeac565a30f38423fb3cb3a84985a9"
+        }
       }
     }
   },
