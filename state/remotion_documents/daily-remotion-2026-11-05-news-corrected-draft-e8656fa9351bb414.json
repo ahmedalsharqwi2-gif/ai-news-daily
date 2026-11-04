@@ -1,0 +1,101 @@
+{
+  "title": "إزاي صفقة أوبن إيه آي الجديدة هتغير طريقة كتابة وبرمجة الكود؟",
+  "canonical_subject": "openai-acquire-pierre-computer",
+  "hashtags": [
+    "OpenAI",
+    "Pierre",
+    "Coding",
+    "TechNews"
+  ],
+  "scenes": [
+    {
+      "label": "إعلان الاستحواذ",
+      "narration": "أعلنت الشركة رسمياً عن نيتها الاستحواذ على شركة بيير كمبيوتر بهدف تطوير أدوات المبرمجين.",
+      "evidence_quote": "Today we're announcing that OpenAI will acquire Pierre Computer Company, Inc",
+      "diagram": "flow",
+      "labels": [
+        "إعلان رسمي",
+        "شركة بيير",
+        "أوبن إيه آي"
+      ]
+    },
+    {
+      "label": "أدوات بيير الحالية",
+      "narration": "الشركة المستحوذ عليها تشتهر بتطوير مكتبات تريز وديفز التي يستهلكها المطورون بالفعل داخل تطبيق كودكس.",
+      "evidence_quote": "If you’ve browsed files or reviewed a change in the Codex app, you’ve already used Pierre’s Trees and Diffs libraries.",
+      "diagram": "compare",
+      "labels": [
+        "مكتبات برمجية",
+        "تطبيق كودكس",
+        "إدارة الملفات"
+      ]
+    },
+    {
+      "label": "تطوير نظام جيت",
+      "narration": "تسعى الشركة لدمج هذه التقنيات مع نظام إدارة الكود المسمى باندو لمساعدة مهندسي البرمجيات والوكلاء الذكيين.",
+      "evidence_quote": "We’ve seen in our own engineering work how the systems around Git need to evolve as more of that work happens in parallel.",
+      "diagram": "cycle",
+      "labels": [
+        "نظام جيت",
+        "تطوير متوازي",
+        "هندسة برمجيات"
+      ]
+    },
+    {
+      "label": "معايير التطوير الحديث",
+      "narration": "الهدف هو وضع معايير جديدة لعمليات تطوير البرمجيات من الفرع البرمجي الأول وحتى لحظة النشر النهائي.",
+      "evidence_quote": "With the Pierre team, we wish to set the standard for modern software development: from the first branch an agent creates to that magic moment when code is deployed to the world.",
+      "diagram": "flow",
+      "labels": [
+        "معايير حديثة",
+        "نشر البرمجيات",
+        "أعمال برمجية"
+      ]
+    },
+    {
+      "label": "أداة مراجعة الأكواد",
+      "narration": "تتيح ميزة التعديل داخل أداة ديفز للمراجعين تصحيح الأخطاء البرمجية في نفس المكان فور اكتشافها.",
+      "evidence_quote": "Diffs’ Edit mode lets a reviewer fix a line of code right where they spot the problem.",
+      "diagram": "compare",
+      "labels": [
+        "مراجعة الأكواد",
+        "تعديل الأخطاء",
+        "كفاءة عالية"
+      ]
+    },
+    {
+      "label": "تسليط الضوء السريع",
+      "narration": "أطلقت شركة بيير أداة هايلايتس الفائقة السرعة لتسليط الضوء والتي يتم تحديثها مع كتابة المطور أو الوكيل.",
+      "evidence_quote": "Pierre recently released Highlights, an extremely fast syntax highlighter that updates as a developer types or an agent streams code.",
+      "diagram": "layers",
+      "labels": [
+        "أداة هايلايتس",
+        "تحديث فوري",
+        "وكلاء أذكياء"
+      ]
+    },
+    {
+      "label": "مستقبل تخزين الكود",
+      "narration": "صمم الفريق واجهة برمجة التطبيقات الخاصة بخدمة تخزين الكود لحفظ وتتبع تاريخ الأكواد باستخدام جيت.",
+      "evidence_quote": "The same small team that put an editor inside a diff also designed the API for Code Storage, a service that lets apps store code and track its history using Git.",
+      "diagram": "flow",
+      "labels": [
+        "تخزين الكود",
+        "واجهة برمجة",
+        "تتبع التاريخ"
+      ]
+    },
+    {
+      "label": "شروط الإغلاق التنظيمي",
+      "narration": "ستظل الشركتان مستقلتين حتى اكتمال الصفقة والتي تخضع للشروط التنظيمية المعتادة والحصول على الموافقات.",
+      "evidence_quote": "The closing of the acquisition is subject to customary closing conditions, including receipt of regulatory approvals.",
+      "diagram": "compare",
+      "labels": [
+        "شروط تنظيمية",
+        "موافقات حكومية",
+        "استقلال مؤقت"
+      ]
+    }
+  ],
+  "cover_text": "استحواذ أوبن إيه آي على بيير"
+}
