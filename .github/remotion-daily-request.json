@@ -1,6 +1,12 @@
 {
   "publish_date": "2026-11-05",
-  "revision": "clock-drift-manual-recovery-20261105-v1",
+  "revision": "owner-explicit-new-news-run-after-preplanning-cancel-20261105-v2",
   "preserve_existing_posts": true,
-  "reason": "Owner-authorized remediation of proven stale external clock. Manual recovery for original November 5 noon slot, inspect retained state first, never duplicate or roll publication forward."
+  "previous_cancelled_run": 41904681860,
+  "previous_run_verified": {
+    "all_generation_and_publish_steps": "skipped",
+    "retained_episode": false,
+    "proof_run": 41907191378
+  },
+  "reason": "Explicit owner instruction to produce now. Safety review requires a new bounded production run rather than rerunning the cancelled preplanning job. Existing queue and ledger checks remain mandatory before any new writing, voice or publication."
 }
