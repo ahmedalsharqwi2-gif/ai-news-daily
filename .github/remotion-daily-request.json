@@ -1,6 +1,6 @@
 {
   "publish_date": "2026-11-05",
-  "revision": "owner-retained-news-name-timing-v5",
+  "revision": "owner-retained-news-official-ubuntu-mirror-v6",
   "preserve_existing_posts": true,
-  "reason": "Continue original 83.44-second news narration and actual ASR files. Context-only proper-name spelling normalization; retain raw ASR, audio and original story, no repeated writing or voice."
+  "reason": "Continue original voice+ASR after diagnosed Azure Ubuntu package-download stall. Official signed Ubuntu archive, no optional packages; same retained episode, no new writing, no repeated synthesis or posts."
 }
