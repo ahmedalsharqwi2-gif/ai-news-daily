@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-04",
+  "profile": "news",
+  "phase": "postpublish",
+  "checked_at": "2026-11-04T14:47:41.406731+00:00",
+  "run_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/actions/runs/41851025370",
+  "report_path": "reviews/daily_health/2026-11-04/41851025370-1.json",
+  "publication_due_utc": "2026-11-04T10:00:00+00:00",
+  "errors": [],
+  "passed": true,
+  "generation_calls": 0,
+  "publication_mutations": 0,
+  "preview": false,
+  "scheduler": {
+    "observed": false,
+    "reason": "Transition inventory retained; first automatic evening run targets November 5"
+  },
+  "observed_receipts": {
+    "youtube": [
+      {
+        "id": "6ae8d386c25538a9f8cb7f48",
+        "channelId": "6ad3ef9d778b240e2f3fa5b9",
+        "status": "sent",
+        "dueAt": "2026-11-04T10:00:00.000Z",
+        "sentAt": "2026-11-04T10:01:46.924Z",
+        "externalLink": "https://www.youtube.com/shorts/Db2BRf0fbrI"
+      }
+    ],
+    "facebook": [
+      {
+        "id": "6ae8d38ca1cb4345befc70e1",
+        "channelId": "6ad3ef2c778b240e2f3fa387",
+        "status": "sent",
+        "dueAt": "2026-11-04T10:00:00.000Z",
+        "sentAt": "2026-11-04T10:01:44.364Z",
+        "externalLink": "https://www.facebook.com/reel/1124464126794883/"
+      }
+    ],
+    "instagram": [
+      {
+        "id": "6ae8d391c1e1a07104366a33",
+        "channelId": "6ad3eeea778b240e2f3fa23b",
+        "status": "sent",
+        "dueAt": "2026-11-04T10:00:00.000Z",
+        "sentAt": "2026-11-04T10:03:29.559Z",
+        "externalLink": "https://www.instagram.com/reel/DfUMjKhiSaQ/"
+      }
+    ]
+  },
+  "receipts": {
+    "youtube": {
+      "id": "6ae8d386c25538a9f8cb7f48",
+      "channelId": "6ad3ef9d778b240e2f3fa5b9",
+      "status": "sent",
+      "dueAt": "2026-11-04T10:00:00.000Z",
+      "sentAt": "2026-11-04T10:01:46.924Z",
+      "externalLink": "https://www.youtube.com/shorts/Db2BRf0fbrI"
+    },
+    "facebook": {
+      "id": "6ae8d38ca1cb4345befc70e1",
+      "channelId": "6ad3ef2c778b240e2f3fa387",
+      "status": "sent",
+      "dueAt": "2026-11-04T10:00:00.000Z",
+      "sentAt": "2026-11-04T10:01:44.364Z",
+      "externalLink": "https://www.facebook.com/reel/1124464126794883/"
+    },
+    "instagram": {
+      "id": "6ae8d391c1e1a07104366a33",
+      "channelId": "6ad3eeea778b240e2f3fa23b",
+      "status": "sent",
+      "dueAt": "2026-11-04T10:00:00.000Z",
+      "sentAt": "2026-11-04T10:03:29.559Z",
+      "externalLink": "https://www.instagram.com/reel/DfUMjKhiSaQ/"
+    }
+  },
+  "episode": {
+    "slot": "remotion-2026-11-04-news",
+    "title": "جوجل تطلق منصة لتعلّم الذكاء الاصطناعي في أفريقيا",
+    "pipeline": "remotion",
+    "expected_sha256": "62a2216130784fd2cee140203e76b62cfd14f3fe517baa1db1d8853266705dad"
+  },
+  "technical": {
+    "passed": true,
+    "sha256": "62a2216130784fd2cee140203e76b62cfd14f3fe517baa1db1d8853266705dad",
+    "full_decode": true,
+    "duration": 96.466667,
+    "width": 1080,
+    "height": 1920,
+    "audio_mean_db": -18.9,
+    "actual_visual_samples": 12,
+    "unique_visual_samples": 12,
+    "checked_at": "2026-11-02T19:04:46.500088+00:00",
+    "scope": "Independent technical media check; no claim of human narrative or scientific review",
+    "reused_immutable_media_check": true,
+    "live_asset_metadata_verified": true
+  },
+  "media_binding": "Three live sent post IDs match retained original submission receipts; original release SHA independently verified. Platform-transcoded bytes are not claimed identical.",
+  "production_at_cairo": "2026-11-03T19:00:00+02:00",
+  "publication_at_cairo": "2026-11-04T12:00:00+02:00",
+  "hours_until_publication": -4.79,
+  "readiness": "verified"
+}
