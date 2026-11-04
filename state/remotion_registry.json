@@ -264,9 +264,9 @@
     }
   },
   "cutover_evidence": {
-    "slot": "remotion-2026-11-04-news",
-    "video_sha256": "62a2216130784fd2cee140203e76b62cfd14f3fe517baa1db1d8853266705dad",
-    "run": 41492135023,
+    "slot": "daily-remotion-2026-11-05-news",
+    "video_sha256": "393a991618dfe1f36b3e6106575d59f5a7a5851c5e110718f408b3394762f785",
+    "run": 41922021119,
     "ready": true
   }
 }
