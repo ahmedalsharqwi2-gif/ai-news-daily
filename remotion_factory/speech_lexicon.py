@@ -20,3 +20,15 @@ def recognized_key(text):
     if name in NAMES:return base_key(prefix+NAMES[name])
     if name in ALIASES:return base_key(ALIASES[name])
     return base_key(raw)
+
+# Context-only spellings of the same source names. Never translate arbitrary words.
+CONTEXT_NAMES={'openai':'أوبن إيه آي','pair':'بيير','pear':'بيير','pierre':'بيير','بيري':'بيير','بير':'بيير','computer':'كمبيوتر','codex':'كودكس','كوديكس':'كودكس','trees':'تريز','diffs':'ديفز','divs':'ديفز','دفز':'ديفز','pando':'باندو','highlights':'هايلايتس','code':'كود','storage':'ستوريدج','ستوريج':'ستوريدج','سترج':'ستوريدج','جات':'جيت'}
+def for_story(story):
+ expected=''.join(recognized_key(w) for scene in story['scenes'] for w in scene['narration'].split())
+ aliases={name:value for name,value in CONTEXT_NAMES.items() if recognized_key(value) in expected}
+ def key(text):
+  name=re.sub(r'[^a-zA-Z\u0621-\u064a]','',str(text)).lower();prefix=''
+  if len(name)>1 and name[0] in 'وف' and re.search('[a-z]',name):prefix,name=name[0],name[1:]
+  return recognized_key(prefix+aliases[name]) if name in aliases else recognized_key(text)
+ key.aliases=aliases
+ return key

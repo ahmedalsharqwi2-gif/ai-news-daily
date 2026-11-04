@@ -9,7 +9,7 @@ from .prepare import read_request,DELIVERY
 from .state import mutate
 from .alignment import measured_timing
 from .speech_characters import character_timing
-from .speech_lexicon import recognized_key
+from .speech_lexicon import recognized_key,for_story
 def main():
  req=read_request();story=json.loads((DELIVERY/'story.json').read_text());full=' '.join(s['narration'] for s in story['scenes']);wav=DELIVERY/'narration.wav';source=DELIVERY/'narration.source.json'
  def started(data):
@@ -28,7 +28,7 @@ def main():
  minimum=60 if story['profile']=='news' else 90
  if not minimum<duration<180:raise ValueError(f'Actual voice must be strictly over{minimum}seconds and under180; no padding or speed change')
  from faster_whisper import WhisperModel
- transcripts=[];timing=None;best_exact=0
+ transcripts=[];timing=None;best_exact=0;speech_key=for_story(story)
  for name in ('medium','small','large-v3'):
   p=DELIVERY/('asr-'+name+'.json')
   if p.exists():actual=json.loads(p.read_text())['recognized_words']
@@ -42,10 +42,10 @@ def main():
    candidate=measured_timing(story,duration,transcripts,allow_low_coverage=True);best_exact=max(best_exact,candidate.get('exact_token_coverage',candidate['coverage']))
    if candidate['coverage']>=.9 and not candidate.get('diagnostic_only'):timing=candidate;break
   except ValueError:pass
-  try:timing=character_timing(story,duration,transcripts,recognized_key,best_exact);break
+  try:timing=character_timing(story,duration,transcripts,speech_key,best_exact);break
   except ValueError:pass
  if timing is None:raise ValueError('Independent ASR does not cover enough real speech; original voice retained')
- timing.update(story_sha256=hashlib.sha256((DELIVERY/'story.json').read_bytes()).hexdigest(),audio_sha256=hashlib.sha256(wav.read_bytes()).hexdigest(),profile=story['profile'],topic_key=story['topic_key'])
+ timing.update(contextual_name_spellings=speech_key.aliases,story_sha256=hashlib.sha256((DELIVERY/'story.json').read_bytes()).hexdigest(),audio_sha256=hashlib.sha256(wav.read_bytes()).hexdigest(),profile=story['profile'],topic_key=story['topic_key'])
  (DELIVERY/'timing.json').write_text(json.dumps(timing,ensure_ascii=False,indent=2)+'\n')
  def ready(data):data['episodes'][req['slot']].update(status='voice_ready',duration=duration,audio_sha256=timing['audio_sha256'],timing_sha256=hashlib.sha256((DELIVERY/'timing.json').read_bytes()).hexdigest(),coverage=timing['coverage'])
  mutate(ready);print(json.dumps({'duration':duration,'coverage':timing['coverage'],'profile':story['profile']}))
