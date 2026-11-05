@@ -36,9 +36,9 @@ class V2RenderInputTests(unittest.TestCase):
         self.assertIn('Narration changed', self.rejected(audio_hash='0'*64))
 
     def test_full_film_duration_bounds(self):
-        for duration in (119.99, 180):
+        for duration in (60, 180):
             with self.subTest(duration=duration):
-                self.assertIn('120 <= duration < 180', self.rejected(duration=duration))
+                self.assertIn('over60seconds', self.rejected(duration=duration))
 
     def test_different_topic_cannot_reuse_voice_timing(self):
         self.assertIn('different topic', self.rejected(topic='other-news-item'))
