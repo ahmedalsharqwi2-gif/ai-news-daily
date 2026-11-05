@@ -161,7 +161,7 @@ export function drawDirectorOverlay(ctx,{story,timing,index,time,duration,logo})
  const row=story.scenes[index],silent=story.visual_review_only===true;ctx.clearRect(0,0,1080,1920);ctx.save();
  const top=ctx.createLinearGradient(0,0,0,430);top.addColorStop(0,'rgba(4,12,19,.9)');top.addColorStop(1,'rgba(4,12,19,0)');ctx.fillStyle=top;ctx.fillRect(0,0,1080,430);
  const bottom=ctx.createLinearGradient(0,1420,0,1920);bottom.addColorStop(0,'rgba(4,12,19,0)');bottom.addColorStop(.55,'rgba(4,12,19,.85)');bottom.addColorStop(1,'rgba(4,12,19,.98)');ctx.fillStyle=bottom;ctx.fillRect(0,1420,1080,500);
- ctx.direction='rtl';ctx.textAlign='right';ctx.fillStyle='#f8f1df';ctx.font='700 43px Noto';ctx.fillText(story.series||'ai على السريع',980,107);ctx.font='700 24px Noto';ctx.fillStyle='#c7d9d8';ctx.fillText(silent?'مقارنة إخراجية صامتة • ليست خبرًا':'خبر من المصدر • إخراج مرتبط بالموضوع',980,162);
+ ctx.direction='rtl';ctx.textAlign='right';ctx.fillStyle='#f8f1df';ctx.font='700 43px Noto';ctx.fillText(story.series||'AI على السريع',980,107);ctx.font='700 24px Noto';ctx.fillStyle='#c7d9d8';ctx.fillText(silent?'مقارنة إخراجية صامتة • ليست خبرًا':'خبر من المصدر • إخراج مرتبط بالموضوع',980,162);
  ctx.textAlign='center';ctx.font='700 48px Noto';ctx.fillStyle='#fff4df';ctx.fillText(row.label,540,285,930);
  const caption=timing?.caption_groups?.find(g=>time>=g.start&&time<g.end);if(caption){ctx.font='700 43px Noto';ctx.fillStyle='#fff';ctx.fillText(caption.text,540,1530,920);}
  ctx.font='700 25px Noto';ctx.fillStyle='#e7d4a7';ctx.fillText(silent?'تجربة حركة بلا تعليق صوتي • لا تصلح للنشر':'المزاح موسوم منفصلًا عن الوقائع',540,1660);

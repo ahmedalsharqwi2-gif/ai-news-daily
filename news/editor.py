@@ -44,6 +44,15 @@ def _entry_link(item):
         if el.attrib.get('rel','alternate')=='alternate' and el.attrib.get('type','text/html') in ('text/html','application/xhtml+xml'):
             return el.attrib.get('href','')
     return ''
+def validate_news_hook(line,source,now=None):
+    from visual_contract import load_template,validate_hook
+    t=load_template();now=now or datetime.now(timezone.utc)
+    age=(now-date(source.get('published'))).total_seconds()/3600
+    limit=json.loads((Path(__file__).resolve().parents[1]/'config/editorial_policy.json').read_text())['news_digest_max_age_hours']
+    if not source.get('publisher') or not source.get('url') or age<0 or age>limit:raise ValueError('Original publisher, URL and current digest date required')
+    if age>24 and re.search(r'عاجل|breaking|النهاردة|اليوم',line,re.I):raise ValueError('Old news cannot be presented as breaking today')
+    return validate_hook(line,max_words=t['hook']['max_words'],profile='news')
+
 def candidates(now=None):
     now=now or datetime.now(timezone.utc);rows=[];errors=[];invalid_items=0
     manual_path=Path('config/daily_topic_candidates.json')
@@ -64,7 +73,7 @@ def candidates(now=None):
                     published=date(_entry_value(item,'pubDate','{http://www.w3.org/2005/Atom}published','{http://www.w3.org/2005/Atom}updated'))
                 except (ValueError,TypeError,OverflowError):
                     invalid_items+=1;continue
-                if link in seen or not now-timedelta(hours=max(72,int(os.getenv('NEWS_DIGEST_MAX_AGE_HOURS','48'))))<=published<=now+timedelta(minutes=5):continue
+                if link in seen or not now-timedelta(hours=int(json.loads((Path(__file__).resolve().parents[1]/'config/editorial_policy.json').read_text())['news_digest_max_age_hours']))<=published<=now+timedelta(minutes=5):continue
                 title=text(_entry_value(item,'title','{http://www.w3.org/2005/Atom}title'))
                 summary=text(_entry_value(item,'description','{http://purl.org/rss/1.0/modules/content/}encoded','{http://www.w3.org/2005/Atom}summary','{http://www.w3.org/2005/Atom}content'))
                 if publisher=='NVIDIA' and not re.search(r'\bAI\b|artificial intelligence|model|agent|Gemini|LLM|DeepSeek|GPU',title+' '+summary,re.I):continue
@@ -188,6 +197,7 @@ def spoken_punchline(narration,punchline):
     return None
 
 def validate(plan,source):
+    if isinstance(plan,dict) and 'hook_line' in plan:validate_news_hook(plan['hook_line'],source)
     if not isinstance(plan,dict) or not 5<=len(plan.get('scenes',[]))<=7:raise ValueError('Need 5–7 scenes')
     narration=' '.join(s.get('narration','') for s in plan['scenes'])
     if not 135<=len(narration.split())<=230:raise ValueError('Narration must be 135–230 words')

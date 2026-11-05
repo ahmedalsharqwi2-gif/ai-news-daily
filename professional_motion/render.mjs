@@ -23,7 +23,7 @@ let timing;try{timing=JSON.parse(await readFile(path.join(delivery,'timing.json'
 if(timing&&timing.story_sha256!==storyHash)throw Error('Story changed after measured voice timing');
 if(pipeline==='v2'){
  const story=JSON.parse(storyBytes);
- if(story.visual_plan?.world!=='procedural_story'){const {validateVisualPlan}=await import('./topic_director.js');validateVisualPlan(story);}
+
  if(story.topic_key!==timing.topic_key)throw Error('Timing belongs to a different topic');
  if(visualReview){
   if(story.visual_review_only!==true||timing.timing_method!=='synthetic_visual_review_no_speech'||timing.audio_sha256||!Number.isFinite(timing.duration)||timing.duration<24||timing.duration>40)throw Error('Silent visual comparisons require honest synthetic timing,24–40sec, no narration claim');
@@ -32,6 +32,7 @@ if(pipeline==='v2'){
   if(audioHash!==timing.audio_sha256)throw Error('Narration changed after measured voice timing');
   if(!Number.isFinite(timing.duration)||timing.duration<=(story.profile==='news'?60:90)||timing.duration>=180)throw Error('V2 news requires over60seconds; other channels over90seconds; maximum under180seconds');
  }
+ if(story.visual_plan?.world!=='procedural_story'){const {validateVisualPlan}=await import('./topic_director.js');validateVisualPlan(story);}
 }
 
 const mime={'.html':'text/html','.js':'text/javascript','.mjs':'text/javascript','.json':'application/json','.ttf':'font/ttf','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.webp':'image/webp'};
