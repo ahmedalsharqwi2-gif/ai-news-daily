@@ -1,0 +1,13 @@
+{
+  "version": "channel-identities-v1",
+  "profile": "news",
+  "name": "التقنية في دقيقة",
+  "background": "#f1f3e9",
+  "ink": "#14252d",
+  "accent": "#426d34",
+  "visual": "editorial news desk, real product names, illustrative workflows and evidence versus implications",
+  "sound": "short percussive electronic pulse, dry interface ticks, no cinematic orchestral bed",
+  "enabled": true,
+  "approval_basis": "Owner approved the two real hybrid samples and requested channel-by-channel adaptation on 2026-11-05",
+  "schedule_and_publication_configuration_changed": false
+}

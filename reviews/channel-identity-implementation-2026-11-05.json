@@ -1,0 +1,204 @@
+{
+  "date": "2026-11-05",
+  "repository": "ai-news-daily",
+  "tested_code_sha": "0397117a26c454b6b229de8a241d11211cd66053",
+  "github_ci": [
+    {
+      "id": 41964482826,
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/actions/runs/41964482826"
+    }
+  ],
+  "local_tests": {
+    "python_exit": 0,
+    "typescript_exit": 0,
+    "summary": "....................................................................................................\n----------------------------------------------------------------------\nRan 104 tests in 0.597s\n\nOK\n"
+  },
+  "full_film_qa": {
+    "repo": "ai-news-daily",
+    "profile": "news",
+    "status": "complete_private_qa_film_technically_verified",
+    "review_only": true,
+    "publishable": false,
+    "scheduled": false,
+    "voice_generation_calls": 0,
+    "publication_calls": 0,
+    "duration": 96.466667,
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "movie_sha256": "ff751db8f2ab8dd9f2b5326fd75750a2f77b6247682f21112d4be23fa761bf43",
+    "original_voice_sha256": "221157f510fa89b4c4feaabab6de025d6e9c6bf784d63c8a533a19d7d7d22254",
+    "original_story_sha256": "c290c6bc016fe24a5b0771eef9db941cd526dc440fc8dd2fbdaf4436e5a0a74d",
+    "full_decode_passed": true,
+    "frames": 2894,
+    "audio_tail": {
+      "audio_seconds": 96.44,
+      "video_seconds": 96.44,
+      "difference_seconds": 0.0,
+      "last_speech_window_correlation": 0.9941460490226746,
+      "audio_tail_checked": true,
+      "silence_padding_used_to_hide_lost_speech": false
+    },
+    "scene_images": [
+      {
+        "name": "remotion-shot-1.png",
+        "sha256": "881a56963eb48e08186d62f5b79bf3b8a16ed222bbfd4cd6898e7f9b4ecdba4e"
+      },
+      {
+        "name": "remotion-shot-2.png",
+        "sha256": "4029144718bc13ba52855346e34f9d53bf6bdfc8f3ba6bfc7c469ec7319d31cd"
+      },
+      {
+        "name": "remotion-shot-3.png",
+        "sha256": "68895baf88005e32cffe4c7fc63526c69596af9842c5dbe2c1a6c9424c24ee63"
+      },
+      {
+        "name": "remotion-shot-4.png",
+        "sha256": "d68b22ff5bb8b086d5969e74da14b0bfd4b9e6207b925cd3cafb0b6c2d0353f6"
+      },
+      {
+        "name": "remotion-shot-5.png",
+        "sha256": "d51b576e14e45fe3f9c8677b53f8ba7cb085f775f647868cdbee83817eb4ab44"
+      },
+      {
+        "name": "remotion-shot-6.png",
+        "sha256": "30f1aef489b8ddb905910aa76ad9df82338ff2df6825b994dbd62d4f398dc148"
+      },
+      {
+        "name": "remotion-shot-7.png",
+        "sha256": "19b629984ff4523e6284a057a433fd91706af84692d7e27091db717a43de7772"
+      },
+      {
+        "name": "remotion-shot-8.png",
+        "sha256": "6c8c2650c85963e3e6d02bad9a83d9e2f72a870720fd3455005b4221af9fa0c8"
+      }
+    ],
+    "unique_scene_images": 8,
+    "identity": {
+      "version": "channel-identities-v1",
+      "profile": "news",
+      "name": "التقنية في دقيقة",
+      "background": "#f1f3e9",
+      "ink": "#14252d",
+      "accent": "#426d34",
+      "visual": "editorial news desk, real product names, illustrative workflows and evidence versus implications",
+      "sound": "short percussive electronic pulse, dry interface ticks, no cinematic orchestral bed"
+    },
+    "sound": {
+      "profile": "news",
+      "bpm": 112,
+      "sound_identity": "dry electronic percussion and short bass pulse",
+      "seed": 3694639866,
+      "episode_key_sha256": "dc37bafa562a58a277897c6689447d87dfeab9af633fdccf12daa533e006caf9",
+      "duration": 96.44,
+      "cues": [
+        {
+          "type": "interface_tick",
+          "at": 0,
+          "scene_object": "molecule"
+        },
+        {
+          "type": "interface_tick",
+          "at": 11.48,
+          "scene_object": "molecule"
+        },
+        {
+          "type": "interface_tick",
+          "at": 21.4,
+          "scene_object": "molecule"
+        },
+        {
+          "type": "interface_tick",
+          "at": 34.26,
+          "scene_object": "phone"
+        },
+        {
+          "type": "interface_tick",
+          "at": 45.38,
+          "scene_object": "molecule"
+        },
+        {
+          "type": "interface_tick",
+          "at": 56.94,
+          "scene_object": "molecule"
+        },
+        {
+          "type": "interface_tick",
+          "at": 69.62,
+          "scene_object": "robot"
+        },
+        {
+          "type": "interface_tick",
+          "at": 81.54,
+          "scene_object": "molecule"
+        }
+      ],
+      "original_composition": true,
+      "reference_audio_sampled": false,
+      "score_sha256": "1f338dc979fec4e4f263a2b25791ac0b7362fe838f60dc50357047ddc66c25e5"
+    },
+    "renderer": {
+      "pipeline": "remotion",
+      "renderer": "Remotion4.0.540",
+      "duration": 96.44,
+      "fps": 30,
+      "width": 1080,
+      "height": 1920,
+      "originalVoice": true,
+      "review": false,
+      "story_sha256": "c290c6bc016fe24a5b0771eef9db941cd526dc440fc8dd2fbdaf4436e5a0a74d",
+      "audio_sha256": "221157f510fa89b4c4feaabab6de025d6e9c6bf784d63c8a533a19d7d7d22254",
+      "total_frames": 2894,
+      "rendered_frames": 2894,
+      "render_mode": "video",
+      "visual_style": "التقنية في دقيقة",
+      "identity_version": "channel-identities-v1",
+      "identity_plan_sha256": "89fddc9e13e97097cb198e1b36bb19defee2b50321db98b43a25fae4dbd2bb6d",
+      "burned_hashtags": [
+        "جوجل",
+        "الذكاء_الاصطناعي",
+        "تعلّم"
+      ],
+      "errors": [],
+      "renderer_sources": {
+        "src/AdventurePlate.tsx": "da8a8c16496723b0ff44412cd771909e82cfdad33c95e3e2e36e1540cf2e739a",
+        "src/Documentary.tsx": "77661efe40f83978040e2215972057c430cdf7f1ede8c2b52945e9836fdf2556",
+        "src/ExplainerPlate.tsx": "3ec96774f04e1aeffc9c5ca2cd9a9918815b41dfe5bcd26ed0857d7c207c386b",
+        "src/IdentityFilm.tsx": "43c4aa830a55d9f1a97676c08898268d0a847e164cd80ab24256b2708f4a01b1",
+        "src/IdentityStickman.tsx": "ced2f0ecb0ef26fe01c3740495e5807c3ec99dd941a0893665685cec9365183f",
+        "src/LearningDevice.tsx": "0f6e5d1a54e3b7b67333d292281dc9a39483e9f02ee7e94bb9f26ee1ab08da88",
+        "src/LegacyWorld.tsx": "f83f66d937393d6f7180db6ad11caad2667d8a2acc300303d745b2d7ddc6523d",
+        "src/MapPlate.tsx": "9f5beb4bb0a5451d8b8ae438ca2b247f10c11742ceae2e6378067d7751354745",
+        "src/MotionFinish.tsx": "c01d9c9e0e7c4b0f1fc7e7ed7c4e66dce6b93e9188fb459f6e02eb6908748f2f",
+        "src/OpeningCover.tsx": "64e114f1531ce5676c4d4ab8d63757bf1ebdf20dcd7ae2b9c95389d78ec74ea7",
+        "src/Root.tsx": "c5f240f57d18387c8d047fdcc731e5775694278ed89bc2407afc85898872fb47",
+        "src/SciencePlate.tsx": "35064313d2afdd40e3cf5c0f8e04307c64c544fff554539f465444624e22f830",
+        "src/StickmanPlate.tsx": "a2249b511f86dcd9aa5b554bbb4e11e5494edee4e1de1bb1900e481410d39288",
+        "src/WhatIfPlate.tsx": "fbcd98d7212e65f83acca8a55d6b61a698f9651c7cf3ea3516d6083f84cdecfa",
+        "src/index.ts": "28c07a9c5b90643adcecc9e9235322ab175ab5c423bc4f0c813ecfb06e23ff56",
+        "src/types.ts": "696c6f841288407c611d0007c4e743010c10af6610c1f61717970e8934e977a7",
+        "render.mjs": "c23557b4898166e7b82a9055087f15cebb5a4363cd5d7377c8898f5e2f8e6240",
+        "package.json": "422907b1c8db1264e6ff674d5faa386e69fc6b713b8869e7347617b081c8951a",
+        "package-lock.json": "32147035bebea55f6b61667031723a159347192ec99968b8de33b57c7416c3c1",
+        "visual-overrides.json": "e7a13610af470eea3a4f8e0d9b80fad904caeb322103d3399ad21cdcaf7a2fae",
+        "../professional_motion/procedural_story.js": "f7b23780e7c37c28c4245e1513f8bebdb4d04baf500d1376eebbd1c22472349b",
+        "../professional_motion/identity_stage.js": "d8bd47fa0c1118ee358453f1a2a1aa6f74774c1ee82b965e03fc7332e99a230a",
+        "../professional_motion/cinema.js": "37954e44c4362a83df34e5523b768026a90bd06d4cf257bc1fd91eae49083667",
+        "../professional_motion/science_shots.js": "d051358861c5e2a6a55b43a2a0c6f9ca295fe082ad262bf3e48781cb92913df7"
+      }
+    },
+    "technical_checks_are_not_a_guarantee_of_engagement": true
+  },
+  "qa_narration": "Retained original episode and original narration; no new narration generated. Stickman next-episode writing rules are updated separately.",
+  "production_safeguards": {
+    "existing_posts_unchanged": true,
+    "schedule_unchanged": true,
+    "secrets_unchanged": true,
+    "generation_calls": 0,
+    "publication_calls": 0
+  },
+  "next_automatic_cycle_observed": false,
+  "review_media_upload": "Not uploaded: exact full-file Drive authorization pending."
+}
