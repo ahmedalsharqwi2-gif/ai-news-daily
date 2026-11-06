@@ -1,0 +1,149 @@
+{
+  "title": "لهجات مصر ونيجيريا تنضم لاختبارات الذكاء الاصطناعي",
+  "canonical_subject": "open-asr-leaderboard-egyptian-nigerian-english",
+  "hashtags": [
+    "ذكاء_اصطناعي",
+    "تقنية",
+    "تعرف_الصوت"
+  ],
+  "scenes": [
+    {
+      "label": "إعلان المنصة",
+      "narration": "أعلنت منصة هَاجينج فَايس رسميا عن إدراج اللهجتين المصرية والنيجيرية ضمن اختبارات التعرف على الكلام المفتوحة",
+      "evidence_quote": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "diagram": "flow",
+      "labels": [
+        "إعلان رسمي",
+        "تحديث المنصة"
+      ],
+      "secondary_object": "server",
+      "interaction": "none",
+      "shot_type": "headline",
+      "hero_object": "monitor",
+      "object_motion": "pulse",
+      "image_query": "hugging face open asr leaderboard announcement screen",
+      "visual_rationale": "شاشة عرض رقمية توضح إعلان المنصة عن إضافة اللهجات الجديدة"
+    },
+    {
+      "label": "تنوع البيانات",
+      "narration": "تعتمد هذه الخطوة على بيانات خاصة جديدة جُمعت بالتعاون مع شركة ليفا إيه آي لتقليل الانحياز",
+      "evidence_quote": "A few months ago, we added private data to the Open ASR Leaderboard",
+      "diagram": "compare",
+      "labels": [
+        "بيانات خاصة",
+        "تقليل الانحياز"
+      ],
+      "secondary_object": "document",
+      "interaction": "contrast",
+      "shot_type": "product",
+      "hero_object": "microphone",
+      "object_motion": "drift",
+      "image_query": "microphone capturing diverse conversational speech accents",
+      "visual_rationale": "ميكروفون يلتقط أصواتا متنوعة لتمثيل اللهجات بدقة"
+    },
+    {
+      "label": "توزيع الدوائر",
+      "narration": "يتم تصنيف اللهجات الآن بناء على نموذج الدوائر الثلاث للغة الإنجليزية لتوفير تحليل أكثر دقة للأداء",
+      "evidence_quote": "Kachru’s Three Circles",
+      "diagram": "layers",
+      "labels": [
+        "الدوائر الثلاث",
+        "تصنيف اللغات"
+      ],
+      "secondary_object": "network",
+      "interaction": "encircle",
+      "shot_type": "workflow",
+      "hero_object": "waveform",
+      "object_motion": "spin",
+      "image_query": "linguistic circles diagram for english language distribution",
+      "visual_rationale": "مخطط طبقات يوضح تصنيف اللهجات الخارجية والداخلية"
+    },
+    {
+      "label": "طبيعة البيانات",
+      "narration": "تأتي هذه البيانات من تفاعلات بشرية حقيقية عبر منتجات استهلاكية وليست مجرد نصوص معدة مسبقا",
+      "evidence_quote": "multimodal interaction data through consumer products used by real people",
+      "diagram": "flow",
+      "labels": [
+        "تفاعل حقيقي",
+        "استخدام يومي"
+      ],
+      "secondary_object": "phone",
+      "interaction": "transfer",
+      "shot_type": "product",
+      "hero_object": "server",
+      "object_motion": "flow",
+      "image_query": "multimodal interaction data collection from consumer devices",
+      "visual_rationale": "خادم رقمي يتدفق منه بيانات التفاعل البشري الحقيقي"
+    },
+    {
+      "label": "جودة التقييم",
+      "narration": "يهدف التحديث إلى تحسين دقة تقييم النمذجة الصوتية عبر إعطاء مساحة عادلة للهجات غير الغربية",
+      "evidence_quote": "improve representation in ASR evals",
+      "diagram": "compare",
+      "labels": [
+        "تقييم عادل",
+        "تمثيل اللهجات"
+      ],
+      "secondary_object": "monitor",
+      "interaction": "contrast",
+      "shot_type": "comparison",
+      "hero_object": "chip",
+      "object_motion": "none",
+      "image_query": "asr evaluation comparison chart showing accent performance",
+      "visual_rationale": "مقارنة مرئية بين أداء النماذج قبل وبعد إضافة اللهجات الجديدة"
+    },
+    {
+      "label": "دور الشركة",
+      "narration": "تتيح شركة ليفا إيه آي بيئة جمع وتوزيع متكاملة لمعالجة فجوات النماذج في مختلف الصناعات واللغات",
+      "evidence_quote": "Liva AI collects multimodal interaction data",
+      "diagram": "flow",
+      "labels": [
+        "ليفا إيه آي",
+        "معالجة الفجوات"
+      ],
+      "secondary_object": "network",
+      "interaction": "approach",
+      "shot_type": "workflow",
+      "hero_object": "network",
+      "object_motion": "assemble",
+      "image_query": "liva ai data collection workflow and multimodal interaction",
+      "visual_rationale": "شبكة بيانات تترابط لملء فجوات النماذج الصوتية"
+    },
+    {
+      "label": "تفاعل المجتمع",
+      "narration": "تفاعل مجتمع المطورين بشكل إيجابي مع هذه الخطوة لأهميتها في بناء اختبارات أكثر موثوقية عالميا",
+      "evidence_quote": "The community response was great",
+      "diagram": "cycle",
+      "labels": [
+        "تفاعل المجتمع",
+        "موثوقية الاختبارات"
+      ],
+      "secondary_object": "person",
+      "interaction": "transfer",
+      "shot_type": "takeaway",
+      "hero_object": "shield",
+      "object_motion": "pulse",
+      "image_query": "developers collaborating on AI trustworthiness and benchmark evaluation",
+      "visual_rationale": "درع رقمي يرمز إلى تعزيز موثوقية وتقييم النماذج"
+    },
+    {
+      "label": "الآفاق المستقبلية",
+      "narration": "تستمر الجهود لتقليل ممارسات التحسين المفرط للنتائج عبر إدخال المزيد من البيانات الخاصة والمتنوعة",
+      "evidence_quote": "minimize benchmaxxing",
+      "diagram": "flow",
+      "labels": [
+        "بيانات خاصة",
+        "تطوير مستمر"
+      ],
+      "secondary_object": "document",
+      "interaction": "separate",
+      "shot_type": "takeaway",
+      "hero_object": "document",
+      "object_motion": "drift",
+      "image_query": "future roadmap for open asr leaderboard and private datasets",
+      "visual_rationale": "مستندات تنظيمية توضح الخطوات المستقبلية لتوسيع نطاق البيانات"
+    }
+  ],
+  "cover_text": "إدراج اللهجة المصرية",
+  "director_version": "v1"
+}
