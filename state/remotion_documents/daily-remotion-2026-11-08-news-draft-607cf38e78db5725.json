@@ -1,0 +1,157 @@
+{
+  "title": "إزاي البيئات الافتراضية بتخلي الروبوتات تتعلم بترتيب المكعبات؟",
+  "canonical_subject": "toyblocks-robot-learning-evaluation",
+  "hashtags": [
+    "ذكاء_اصطناعي",
+    "روبوتات",
+    "تكنولوجيا"
+  ],
+  "scenes": [
+    {
+      "label": "المشهد الأول: المقدمة",
+      "narration": "الروبوتات بتواجه صعوبة تفهم إزاي تتعامل مع الأجسام الجديدة، عشان كده تم تصميم بيئة محاكاة افتراضية جديدة لتنظيم التدريب.",
+      "evidence_quote": "To study a complex system, scientists often begin with a small, controlled environment",
+      "diagram": "flow",
+      "labels": [
+        "بيئة افتراضية",
+        "محاكاة",
+        "روبوت"
+      ],
+      "secondary_object": "monitor",
+      "interaction": "approach",
+      "shot_type": "headline",
+      "hero_object": "robot",
+      "object_motion": "pulse",
+      "image_query": "robot arm simulation setup on tabletop",
+      "visual_rationale": "شاشة عرض توضح ذراع روبوت افتراضية فوق طاولة مكعبات في بيئة محاكاة."
+    },
+    {
+      "label": "المشهد الثاني: الفكرة",
+      "narration": "البيئة دي بتسمح للباحثين بتغيير بيانات التدريب بسهولة، وتتبع أسباب الأخطاء بدقة بدل الاعتماد على التجربة والخطأ العشوائي.",
+      "evidence_quote": "researchers should be able to change the training data or model design, repeat a test",
+      "diagram": "compare",
+      "labels": [
+        "بيانات التدريب",
+        "تتبع الأخطاء",
+        "تحليل"
+      ],
+      "secondary_object": "document",
+      "interaction": "contrast",
+      "shot_type": "workflow",
+      "hero_object": "server",
+      "object_motion": "none",
+      "image_query": "data processing workflow charts for machine learning",
+      "visual_rationale": "مخطط بياني يوضح مقارنة بين تدفق البيانات وتغيرات التصميم في النظام."
+    },
+    {
+      "label": "المشهد الثالث: توليد المهام",
+      "narration": "النظام بيقدر ينتج تسجيلات افتراضية للروبوت وهو بينفذ المهام تلقائيًا، من غير ما يحتاج تحكم يدوي بطيء ومكلف.",
+      "evidence_quote": "ToyBlocks automatically generates demonstrations, which are recordings of a robot completing tasks in simulation",
+      "diagram": "cycle",
+      "labels": [
+        "توليد تلقائي",
+        "تسجيل المهام",
+        "كفاءة"
+      ],
+      "secondary_object": "chip",
+      "interaction": "transfer",
+      "shot_type": "product",
+      "hero_object": "robot",
+      "object_motion": "assemble",
+      "image_query": "automated task generation interface for robotics",
+      "visual_rationale": "شريحة معالجة ترسل أوامر توليد تلقائية لمهام الروبوت على الشاشة."
+    },
+    {
+      "label": "المشهد الرابع: الخصائص",
+      "narration": "المكعبات مش بس بتترص، دي عليها حروف ورسوم بتجبر الروبوت يبحث ويفرز ويعمل عمليات دوران عشان يلاقي الوجه الصحيح.",
+      "evidence_quote": "pictures and letters on the blocks faces allow for searching, sorting, and arranging tasks",
+      "diagram": "flow",
+      "labels": [
+        "مكعبات ذكية",
+        "فرز الحروف",
+        "بحث"
+      ],
+      "secondary_object": "phone",
+      "interaction": "approach",
+      "shot_type": "workflow",
+      "hero_object": "monitor",
+      "object_motion": "spin",
+      "image_query": "alphabet blocks on table for robotic sorting task",
+      "visual_rationale": "ذراع روبوتية تدير مكعب مكتوب عليه حروف لتبين وجه البحث المخفي."
+    },
+    {
+      "label": "المشهد الخامس: التخطيط",
+      "narration": "نماذج التفكير العالي بتحدد المفروض يتعمل، بينما النماذج الحركية بتنفذ بدقة، وده بيسهل دراسة قدرة النماذج على التعميم.",
+      "evidence_quote": "High-level reasoning models decide what to do; low-level action models control the robot movements",
+      "diagram": "compare",
+      "labels": [
+        "تفكير عالي",
+        "تحكم حركي",
+        "تعميم"
+      ],
+      "secondary_object": "document",
+      "interaction": "contrast",
+      "shot_type": "comparison",
+      "hero_object": "network",
+      "object_motion": "pulse",
+      "image_query": "hierarchical neural network architecture diagram",
+      "visual_rationale": "رسم تفصيلي يوضح تفاعل نماذج التفكير العالي مع طبقات التحكم الحركي."
+    },
+    {
+      "label": "المشهد السادس: الاختبارات",
+      "narration": "التجارب أثبتت إن النماذج الحالية بتواجه صعوبة في التعميم المكاني، وده بيخلي البيئة دي أداة ممتازة لاختبار التحسينات.",
+      "evidence_quote": "Despite large-scale pretraining, these popular action models generalize poorly in the initial results",
+      "diagram": "layers",
+      "labels": [
+        "تعميم مكاني",
+        "أداء النماذج",
+        "اختبارات"
+      ],
+      "secondary_object": "server",
+      "interaction": "none",
+      "shot_type": "workflow",
+      "hero_object": "monitor",
+      "object_motion": "drift",
+      "image_query": "spatial generalization performance test results chart",
+      "visual_rationale": "منحنيات إحصائية تعرض معدلات النجاح والقصور في التعميم المكاني للروبوت."
+    },
+    {
+      "label": "المشهد السابع: النماذج العالمية",
+      "narration": "الباحثين جربوا كمان ربط مساعدين زي كلود بالنظام عشان ينفذوا مهام معقدة زي بناء أبراج بالحروف وإعلان الاستحالة.",
+      "evidence_quote": "In the search-and-spell setting, the agent had to generate stacks spelling out three-letter words",
+      "diagram": "flow",
+      "labels": [
+        "ذكاء موجه",
+        "مساعد آلي",
+        "تهجئة"
+      ],
+      "secondary_object": "microphone",
+      "interaction": "approach",
+      "shot_type": "product",
+      "hero_object": "phone",
+      "object_motion": "none",
+      "image_query": "AI assistant interface controlling robotic arm task",
+      "visual_rationale": "واجهة محادثة ذكية ترسل أوامر نصية لبناء برج مكعبات يتهجى الكلمات."
+    },
+    {
+      "label": "المشهد الثامن: الخلاصة",
+      "narration": "النظام الجديد بيفتح الباب أمام اختبارات أدق، لكن يفضل التحدي الأكبر هو نقل المهارات دي للواقع بشكل فعال وثابت.",
+      "evidence_quote": "By comparing simulation and real-world execution, we assess whether behaviors and failure patterns observed",
+      "diagram": "takeaway",
+      "labels": [
+        "الواقع الافتراضي",
+        "تحديات",
+        "مستقبل"
+      ],
+      "secondary_object": "robot",
+      "interaction": "transfer",
+      "shot_type": "takeaway",
+      "hero_object": "monitor",
+      "object_motion": "assemble",
+      "image_query": "robotics simulation research summary infographic",
+      "visual_rationale": "شاشة نهائية تلخص نتائج المحاكاة وتأثيرها على تطوير الروبوتات المستقبلية."
+    }
+  ],
+  "cover_text": "إزاي الروبوتات بتتعلم؟",
+  "director_version": "v1.0"
+}
