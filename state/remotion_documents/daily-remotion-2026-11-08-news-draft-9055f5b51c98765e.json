@@ -1,0 +1,157 @@
+{
+  "title": "إزاي بيئة ToyBlocks الجديدة بتساعد الروبوتات على التعلم والتفكير؟",
+  "canonical_subject": "toyblocks-robot-learning-framework",
+  "hashtags": [
+    "الروبوتات",
+    "الذكاء_الصنعي",
+    "تكنولوجيا"
+  ],
+  "scenes": [
+    {
+      "label": "مشكلة تدريب الروبوت",
+      "narration": "الروبوتات بتتعلم تطبق حاجات زي ترتيب المكعبات، بس التجارب الحقيقية محدودة ومش بتبين أسباب فشل النظم بشكل واضح ودقيق.",
+      "evidence_quote": "Robots are learning to fold laundry, sort parts, and handle unfamiliar objects.",
+      "diagram": "compare",
+      "labels": [
+        "الروبوتات",
+        "التدريب",
+        "القصور"
+      ],
+      "secondary_object": "document",
+      "interaction": "contrast",
+      "shot_type": "headline",
+      "hero_object": "robot",
+      "object_motion": "pulse",
+      "image_query": "robot arm sorting blocks on a table",
+      "visual_rationale": "عرض ذراع روبوتية وهي تحاول ترتيب مكعبات خشبية على طاولة اختبار للتوضيح بصرياً للمشكلة المعروضة في الخبر الرسمي للتقنية الجديدة."
+    },
+    {
+      "label": "إطلاق بيئة ToyBlocks",
+      "narration": "منصة هَجْ فيس كشفت عن بيئة جديدة اسمها توي بلوكس، وهي محاكاة افتراضية منظمة لدراسة سلوك الروبوت وتدريبه بسهولة تامة.",
+      "evidence_quote": "Today we're introducing a framework for creating these environments; we call them FoundationWorlds.",
+      "diagram": "flow",
+      "labels": [
+        "توي بلوكس",
+        "محاكاة",
+        "منصة"
+      ],
+      "secondary_object": "monitor",
+      "interaction": "approach",
+      "shot_type": "product",
+      "hero_object": "server",
+      "object_motion": "none",
+      "image_query": "virtual simulation interface showing robotic blocks",
+      "visual_rationale": "واجهة محاكاة رقمية تظهر بيئة توي بلوكس الافتراضية مع عناصر التحكم والأدوات المتاحة للباحثين والمطورين على شاشة عرض واضحة."
+    },
+    {
+      "label": "آلية توليد المهام",
+      "narration": "النظام بيولد مهام وتسجيلات أداء تلقائياً من غير حاجة للتحكم البشري البطيء، وده بيسمح بتجربة سيناريوهات مختلفة وبسرعات فائقة جداً.",
+      "evidence_quote": "ToyBlocks automatically generates demonstrations, which are recordings of a robot completing tasks in simulation",
+      "diagram": "cycle",
+      "labels": [
+        "التوليد",
+        "التلقائي",
+        "المهام"
+      ],
+      "secondary_object": "chip",
+      "interaction": "transfer",
+      "shot_type": "workflow",
+      "hero_object": "robot",
+      "object_motion": "assemble",
+      "image_query": "automated robotic task generation diagram",
+      "visual_rationale": "رسم توضيحي لخطوات توليد المهام الحركية تلقائياً بواسطة وحدة معالجة الرسوميات لتسريع عملية جمع بيانات التدريب للذكاء الاصطناعي."
+    },
+    {
+      "label": "المهام والقدرات الحركية",
+      "narration": "الروبوت مش بس بينقل المكعبات، ده كمان بيقلبها ويبحث عن الحروف المرسومة عليها، وده بيختبر قدرته على التفكير والتنسيق الحركي الدقيق.",
+      "evidence_quote": "ToyBlocks is not just about picking and stacking blocks: pictures and letters on the blocks' faces allow for searching",
+      "diagram": "layers",
+      "labels": [
+        "المهارات",
+        "الحروف",
+        "التنسيق"
+      ],
+      "secondary_object": "document",
+      "interaction": "encircle",
+      "shot_type": "workflow",
+      "hero_object": "robot",
+      "object_motion": "spin",
+      "image_query": "close up of robot gripper turning letter blocks",
+      "visual_rationale": "مقربة لقبضة روبوتية وهي تدير مكعباً يحمل حروفاً لاكتشاف الوجه المخفي قبل تحديد موقعه الصحيح وفقاً للمهام البرمجية المحددة."
+    },
+    {
+      "label": "الاستدلال والتخطيط",
+      "narration": "النماذج الكبيرة زي كلود بتستخدم أدوات النظام عشان تخطط وتبني أبراج مكعبات، بس النتائج بتوضح إن الأخطاء الإدراكية لسه موجودة أحياناً.",
+      "evidence_quote": "A frontier model controls a robot in a ToyBlocks world to search for and stack blocks",
+      "diagram": "compare",
+      "labels": [
+        "التخطيط",
+        "كلود",
+        "الأخطاء"
+      ],
+      "secondary_object": "phone",
+      "interaction": "contrast",
+      "shot_type": "comparison",
+      "hero_object": "monitor",
+      "object_motion": "drift",
+      "image_query": "ai model interface controlling robotic arm",
+      "visual_rationale": "شاشة تفاعلية توضح أوامر نموذج الذكاء الاصطناعي وهي تُنفذ على ذراع الروبوت مع مقارنة النجاحات والأخطاء في ترتيب المكعبات المستهدفة."
+    },
+    {
+      "label": "نماذج العالم التنبؤية",
+      "narration": "الباحثين جربوا نماذج تنبؤ بالفيديو زي وان تو بوينت تو عشان تتوقع حركة المكعبات ونتائج الأداء بدقة عالية ومقارنة كفاءتها المختلفة.",
+      "evidence_quote": "Specifically, we tested whether action-conditioned world models are capable of predicting the motions of blocks",
+      "diagram": "flow",
+      "labels": [
+        "التنبؤ",
+        "النماذج",
+        "الحركة"
+      ],
+      "secondary_object": "server",
+      "interaction": "transfer",
+      "shot_type": "workflow",
+      "hero_object": "waveform",
+      "object_motion": "pulse",
+      "image_query": "video prediction models comparison chart for robotics",
+      "visual_rationale": "مخطط بياني يوضح أداء نماذج التنبؤ المختلفة في محاكاة حركة المكعبات بدقة وتوقع تفاعلات الأجسام داخل بيئة التدريب الافتراضية بدقة."
+    },
+    {
+      "label": "النقل للواقع الفعلي",
+      "narration": "الاختبارات بتقيم مدى نجاح السياسات اللي اتدربت في المحاكاة لما تتطبق على روبوتات حقيقية في معامل الواقع لمعرفة نقاط القوة والضعف.",
+      "evidence_quote": "Sim-to-real evaluations test policies trained in simulation on physical robots performing block manipulation",
+      "diagram": "cycle",
+      "labels": [
+        "الواقع",
+        "المحاكاة",
+        "التطبيق"
+      ],
+      "secondary_object": "robot",
+      "interaction": "approach",
+      "shot_type": "product",
+      "hero_object": "robot",
+      "object_motion": "none",
+      "image_query": "physical robot arm interacting with wooden blocks",
+      "visual_rationale": "صورة روبوت حقيقي في المعمل وهو يطبق المهارات التي تعلمها داخل بيئة المحاكاة الافتراضية على طاولة اختبار حقيقية وملموسة."
+    },
+    {
+      "label": "الخلاصة والتأثير",
+      "narration": "توي بلوكس بتقدم أداة قوية للباحثين عشان يفهموا إزاي الروبوتات بتفكر وبتتعلم، وده بيفتح الباب لتطوير أنظمة ذكاء اصطناعي أكثر كفاءة واعتمادية.",
+      "evidence_quote": "ToyBlocks provides a valuable testbed for systematically exploring generalization techniques.",
+      "diagram": "layers",
+      "labels": [
+        "الخلاصة",
+        "البحث",
+        "المستقبل"
+      ],
+      "secondary_object": "document",
+      "interaction": "none",
+      "shot_type": "takeaway",
+      "hero_object": "monitor",
+      "object_motion": "none",
+      "image_query": "summary interface of toyblocks research framework",
+      "visual_rationale": "شاشة ختامية تعرض شعار المنصة وملخص نتائج الأبحاث الخاصة بتطوير قدرات الروبوتات والذكاء الاصطناعي بشكل مبسط ومباشر للمتابع."
+    }
+  ],
+  "cover_text": "تطوير ذكاء الروبوتات",
+  "director_version": "v1.0-egyptian"
+}
