@@ -307,6 +307,13 @@
         },
         "failure": "Draft word budget fails natural-duration preflight: actual 138, required 160-270; no TTS requested"
       }
+    },
+    "daily-remotion-2026-11-08-news": {
+      "profile": "news",
+      "due_at": "2026-11-08T10:00:00Z",
+      "status": "author_pending",
+      "source_run": 42240010136,
+      "created_at": "2026-11-06T15:07:21.591452+00:00"
     }
   },
   "cutover_evidence": {
