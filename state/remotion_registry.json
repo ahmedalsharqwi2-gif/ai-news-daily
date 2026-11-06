@@ -311,7 +311,7 @@
     "daily-remotion-2026-11-08-news": {
       "profile": "news",
       "due_at": "2026-11-08T10:00:00Z",
-      "status": "review_requested",
+      "status": "authored",
       "source_run": 42240010136,
       "created_at": "2026-11-06T15:07:21.591452+00:00",
       "source_selection": {
@@ -350,7 +350,15 @@
         "sha256": "679fa5c67179eb815c715c01f851e10372ec8d6db2d67688eaa2b8d1612cc48e"
       },
       "canonical_subject": "toyblocks-robot-learning-framework",
-      "title": "إزاي بيئة ToyBlocks الجديدة بتساعد الروبوتات على التعلم والتفكير؟"
+      "title": "إزاي بيئة ToyBlocks الجديدة بتساعد الروبوتات على التعلم والتفكير؟",
+      "editorial_review": {
+        "supported": true,
+        "engaging": true,
+        "novel": true,
+        "visuals_match": true,
+        "issues": [],
+        "passed": true
+      }
     },
     "daily-remotion-2026-11-09-news": {
       "profile": "news",
