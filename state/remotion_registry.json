@@ -330,8 +330,8 @@
       },
       "writer_run": 42240010136,
       "draft_document": {
-        "path": "state/remotion_documents/daily-remotion-2026-11-08-news-draft-607cf38e78db5725.json",
-        "sha256": "607cf38e78db5725ffc1b8fc53f3752d287495c40e8e7544e23a6c7ee6a284c9"
+        "path": "state/remotion_documents/daily-remotion-2026-11-08-news-draft-9055f5b51c98765e.json",
+        "sha256": "9055f5b51c98765eac229895926abba126b9d00a362d8dfa9857c041304b68fc"
       },
       "draft_repair": {
         "phase": "rejected",
