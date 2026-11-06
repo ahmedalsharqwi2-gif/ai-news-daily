@@ -294,6 +294,13 @@
       "draft_document": {
         "path": "state/remotion_documents/daily-remotion-2026-11-07-news-draft-d676bf4e98ddebde.json",
         "sha256": "d676bf4e98ddebde81256d2a4948f3dc957f03e0ee883180b32693772efd2107"
+      },
+      "draft_repair": {
+        "phase": "requested",
+        "original_sha256": "9d395ed85f16c0a149b0953f5c43f6fe818b1ceba1a3c5cb239030c85163bb1a",
+        "problem": "Draft word budget fails natural-duration preflight: actual 123, required 160-270; no TTS requested",
+        "maximum_requests": 1,
+        "voice_requests": 0
       }
     }
   },
