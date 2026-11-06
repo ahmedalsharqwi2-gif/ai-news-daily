@@ -1,0 +1,157 @@
+{
+  "title": "إزاي اللهجة المصرية دخلت لستة تقييم الذكاء الاصطناعي",
+  "canonical_subject": "open-asr-leaderboard-egyptian-nigerian",
+  "hashtags": [
+    "ذكاء_اصطناعي",
+    "تكنولوجيا",
+    "مصر"
+  ],
+  "scenes": [
+    {
+      "label": "إضافة اللهجة المصرية",
+      "narration": "منصة هاجين فيس أعلنت دخول اللهجة المصرية والنيجيرية رسمياً لليستة تقييم التعرف على الكلام عشان دقة النماذج.",
+      "evidence_quote": "We’re excited to announce a new collaboration with Liva AI to add even more private data with two new accents: Egyptian and Nigerian.",
+      "diagram": "flow",
+      "labels": [
+        "لهجة مصرية",
+        "تقييم الصوت",
+        "تحديث جديد"
+      ],
+      "secondary_object": "server",
+      "interaction": "approach",
+      "shot_type": "headline",
+      "hero_object": "microphone",
+      "object_motion": "pulse",
+      "image_query": "microphone icon with egyptian flag",
+      "visual_rationale": "Microphone pulses near a server rack to show the new audio data integration."
+    },
+    {
+      "label": "داتا سرية للتقييم",
+      "narration": "المشكلة الكبيرة في البرامج إن الشركات كانت بتدرب النماذج على نفس الكلام، عشان كده جابوا داتا سرية من شركة ليفا.",
+      "evidence_quote": "We added private data to the Open ASR Leaderboard : 11 splits from Appen and DataOceanAI covering scripted and conversational speech.",
+      "diagram": "compare",
+      "labels": [
+        "داتا سرية",
+        "تجنب التحيز",
+        "اختبار دقيق"
+      ],
+      "secondary_object": "document",
+      "interaction": "contrast",
+      "shot_type": "product",
+      "hero_object": "chip",
+      "object_motion": "none",
+      "image_query": "secure database server split comparison",
+      "visual_rationale": "Chip contrasts public data against a locked private document to explain benchmark testing."
+    },
+    {
+      "label": "طبيعة الكلام الواقعي",
+      "narration": "الداتا الجديدة مش كلام مكتوب وبس، دي محادثات حقيقية وواقعية من منتجات بيستخدمها الناس كل يوم في حياتهم.",
+      "evidence_quote": "access to natural, high-context behavior that emerges through real product use, rather than artificially elicited or task-based interactions.",
+      "diagram": "layers",
+      "labels": [
+        "محادثات حقيقية",
+        "تفاعل بشري",
+        "سياق واسع"
+      ],
+      "secondary_object": "phone",
+      "interaction": "approach",
+      "shot_type": "workflow",
+      "hero_object": "waveform",
+      "object_motion": "flow",
+      "image_query": "audio waveform flowing from mobile phone",
+      "visual_rationale": "Waveform flows outward from a phone screen to represent organic conversational speech."
+    },
+    {
+      "label": "تقسيم دوائر اللهجات",
+      "narration": "التقييم بقى بيقسم اللهجات لدوائر تلاتة، الداخلية بتاعت الدول الناطقة بالانجليزية الأساسية، والخارجية لباقي العالم.",
+      "evidence_quote": "based on Kachru’s Three Circles (kudos to Hume AI for this idea in their leaderboard ).",
+      "diagram": "cycle",
+      "labels": [
+        "دوائر كاشرو",
+        "توزيع اللهجات",
+        "مقارنة عالمية"
+      ],
+      "secondary_object": "network",
+      "interaction": "encircle",
+      "shot_type": "comparison",
+      "hero_object": "sphere",
+      "object_motion": "orbit",
+      "image_query": "global linguistic circles diagram representation",
+      "visual_rationale": "Sphere orbits a central network node, illustrating the different regional speech circles."
+    },
+    {
+      "label": "مقارنة الدول المختلفة",
+      "narration": "دلوقتي الترتيب بيقارن بين أمريكا وباقي الدول زي بريطانيا وأستراليا والهند ونيجيريا ومصر بشكل أوضح بكتير.",
+      "evidence_quote": "US vs. non-US ( UK, Australia, Canada, India, Nigeria, Egypt )",
+      "diagram": "compare",
+      "labels": [
+        "مقارنة أمريكا",
+        "تنوع اللغات",
+        "تقييم عادل"
+      ],
+      "secondary_object": "monitor",
+      "interaction": "contrast",
+      "shot_type": "comparison",
+      "hero_object": "document",
+      "object_motion": "none",
+      "image_query": "leaderboard table comparing US and non US accents",
+      "visual_rationale": "Document on a monitor contrasts US accents with international regional splits."
+    },
+    {
+      "label": "دور شركة ليفا",
+      "narration": "شركة ليفا بتجمع داتا التفاعل من منتجات حقيقية، وده بيديها قدرة تغطي النقص الموجود في النماذج القديمة.",
+      "evidence_quote": "Liva AI collects multimodal interaction data through consumer products used by real people.",
+      "diagram": "flow",
+      "labels": [
+        "شركة ليفا",
+        "بيانات متعددة",
+        "حلول النقص"
+      ],
+      "secondary_object": "robot",
+      "interaction": "transfer",
+      "shot_type": "workflow",
+      "hero_object": "server",
+      "object_motion": "assemble",
+      "image_query": "multimodal data collection workflow pipeline",
+      "visual_rationale": "Server and robot assemble data streams to show multimodal product interaction collection."
+    },
+    {
+      "label": "منع الغش في الاختبارات",
+      "narration": "الهدف الأساسي من الخطوة دي هو منع الشركات إنها تعمل تحسين وهمي للنتائج عشان تطلع أولى في الاختبارات.",
+      "evidence_quote": "new private data to minimize benchmaxxing, and new data providers",
+      "diagram": "flow",
+      "labels": [
+        "منع الغش",
+        "نتائج حقيقية",
+        "تطوير مستمر"
+      ],
+      "secondary_object": "shield",
+      "interaction": "approach",
+      "shot_type": "product",
+      "hero_object": "circuit",
+      "object_motion": "pulse",
+      "image_query": "digital shield protecting benchmark circuit board",
+      "visual_rationale": "Shield approaches a circuit board to signify protection against benchmark manipulation."
+    },
+    {
+      "label": "مستقبل تقييم الصوت",
+      "narration": "المجتمع التقني مستني يشוף إزاي التحديث ده هيحسن أداء فهم الصوت للغات وثقافات العالم المختلفة قريباً.",
+      "evidence_quote": "We’re excited to see the community continuing to push ASR performance for the world",
+      "diagram": "flow",
+      "labels": [
+        "مستقبل التقنية",
+        "أداء أفضل",
+        "تأثير عالمي"
+      ],
+      "secondary_object": "network",
+      "interaction": "transfer",
+      "shot_type": "takeaway",
+      "hero_object": "monitor",
+      "object_motion": "drift",
+      "image_query": "future ASR leaderboard performance metrics dashboard",
+      "visual_rationale": "Monitor displays shifting performance charts, highlighting future global speech model improvements."
+    }
+  ],
+  "cover_text": "اللهجة المصرية بالذكاء الاصطناعي",
+  "director_version": "v1.0"
+}
