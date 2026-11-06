@@ -1,27 +1,26 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "profile": "news",
-  "phase": "postpublish",
-  "checked_at": "2026-11-06T16:08:21.037119+00:00",
-  "run_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/actions/runs/42249392499",
-  "report_path": "reviews/daily_health/2026-11-06/42249392499-1.json",
-  "publication_due_utc": "2026-11-06T10:00:00+00:00",
+  "phase": "prepublish",
+  "checked_at": "2026-11-06T21:14:18.616691+00:00",
+  "run_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/actions/runs/42294957965",
+  "report_path": "reviews/daily_health/2026-11-07/42294957965-1.json",
+  "publication_due_utc": "2026-11-07T10:00:00+00:00",
   "errors": [
-    "No successful clock-triggered daily run for this date; manual recovery and dry-run tests do not count as the automatic clock",
-    "youtube: missing post or duplicate posts at the configured Cairo slot",
-    "Production workflow failed/cancelled; inspect its retained evidence"
+    "GitHub audit API unavailable: HTTP503",
+    "youtube: missing post or duplicate posts at the configured Cairo slot"
   ],
   "passed": false,
   "generation_calls": 0,
   "publication_mutations": 0,
-  "preview": false,
+  "preview": true,
   "observed_receipts": {
     "youtube": [],
     "facebook": [],
     "instagram": []
   },
-  "production_at_cairo": "2026-11-05T19:00:00+02:00",
-  "publication_at_cairo": "2026-11-06T12:00:00+02:00",
-  "hours_until_publication": -6.14,
+  "production_at_cairo": "2026-11-06T19:00:00+02:00",
+  "publication_at_cairo": "2026-11-07T12:00:00+02:00",
+  "hours_until_publication": 12.76,
   "readiness": "needs_attention"
 }
