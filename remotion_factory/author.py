@@ -127,6 +127,10 @@ def validate(story,profile,source):
   if s['diagram'] not in MODES:raise ValueError('Unsupported visual plan')
   if any(len(x)>35 for x in s['labels']):raise ValueError('Diagram label too long')
   if profile!='stickman' and (' '.join(s['evidence_quote'].split()) not in ' '.join(source.split()) or not 4<=len(s['evidence_quote'].split())<=18):raise ValueError('Actual supporting excerpt required for each factual scene')
+def normalize_diagrams(story):
+ for i,s in enumerate(story.get('scenes',[])):
+  if s.get('diagram') not in MODES:s['diagram']=MODES[i%len(MODES)]
+ return story
 def retained_draft(req,current,seen_urls,seen_topics):
  """Load an acknowledged draft or retain one original writing response."""
  slot=req['slot'];profile=req['profile']
@@ -168,7 +172,7 @@ def author(req,entry):
  prior=used();seen_urls,seen_topics=prior_identifiers(prior)
  draft,row,source=retained_draft(req,current,seen_urls,seen_topics)
  from .editorial_recovery import checked_draft
- draft=checked_draft(slot,draft,profile,source,row,validate,ask_once,SCHEMA,local()['episodes'][slot],mutate,document_write,lambda value:narrow_excerpts(value,source))
+ draft=checked_draft(slot,draft,profile,source,row,validate,ask_once,SCHEMA,local()['episodes'][slot],mutate,document_write,lambda value:normalize_diagrams(narrow_excerpts(value,source)))
  Path('professional_motion/delivery').mkdir(parents=True,exist_ok=True);Path('professional_motion/delivery/editorial-draft.json').write_text(json_text(draft))
  if draft['canonical_subject'] in seen_topics:raise ValueError('Underlying topic already produced')
  story={**draft,'profile':profile,'series':SERIES[profile],'fiction':profile=='stickman','documented':profile!='stickman','topic_key':'remotion-'+draft['canonical_subject'],'source':{k:row[k] for k in ('url','title','publisher','published') if k in row}}
@@ -188,4 +192,3 @@ def author(req,entry):
  mutate(save)
  if not review['passed']:raise ValueError('Independent editorial review rejected this retained draft; no new TTS or rewrite')
  return story
-
