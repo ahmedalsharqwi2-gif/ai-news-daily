@@ -1,0 +1,157 @@
+{
+  "title": "اللهجات العربية بتدخل اختبارات الذكاء الاصطناعي",
+  "canonical_subject": "egyptian-nigerian-english-open-asr-leaderboard",
+  "hashtags": [
+    "الذكاء_الاصطناعي",
+    "تكنولوجيا",
+    "مصر"
+  ],
+  "scenes": [
+    {
+      "label": "إضافة لهجات جديدة",
+      "narration": "منصة هاجين فيس ضافت لهجتين جداد وهما المصري والنيجيري لقائمة اختبارات التعرف على الكلام عشان تقيس أداء النظم بجد.",
+      "evidence_quote": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "diagram": "flow",
+      "labels": [
+        "لهجات عربية",
+        "تقييم الصوت",
+        "هاجين فيس"
+      ],
+      "secondary_object": "server",
+      "interaction": "transfer",
+      "shot_type": "headline",
+      "hero_object": "microphone",
+      "object_motion": "pulse",
+      "image_query": "microphone connected to server audio waveform",
+      "visual_rationale": "Shows a microphone transferring audio signals into a server to represent the integration of new accents."
+    },
+    {
+      "label": "بيانات سرية للاختبار",
+      "narration": "الخطوة دي بتعتمد على بيانات سرية جديدة عشان تمنع الشركات إنها تحسن النماذج خصعياً عشان تخدع نتائج الاختبارات.",
+      "evidence_quote": "add one more private split for Indian-accented English with Voice Arena",
+      "diagram": "layers",
+      "labels": [
+        "بيانات خاصة",
+        "اختبار عادل",
+        "منع التلاعب"
+      ],
+      "secondary_object": "document",
+      "interaction": "approach",
+      "shot_type": "product",
+      "hero_object": "shield",
+      "object_motion": "none",
+      "image_query": "secure database shield protecting audio files",
+      "visual_rationale": "Illustrates a shield protecting hidden test splits to prevent benchmark manipulation."
+    },
+    {
+      "label": "تعاون مع ليفا",
+      "narration": "البيانات دي جاية بفضل تعاون جديد مع شركة ليفا إيه آي اللي بتجمع تفاعلات حقيقية من منتجات الاستخدام اليومي.",
+      "evidence_quote": "a new collaboration with Liva AI to add even more private data",
+      "diagram": "flow",
+      "labels": [
+        "ليفا إيه آي",
+        "تفاعل بشري",
+        "بيانات حقيقية"
+      ],
+      "secondary_object": "phone",
+      "interaction": "transfer",
+      "shot_type": "workflow",
+      "hero_object": "network",
+      "object_motion": "flow",
+      "image_query": "mobile app data collection network diagram",
+      "visual_rationale": "Demonstrates data flowing from consumer phones into a central data collection network."
+    },
+    {
+      "label": "تمثيل عادل للأصوات",
+      "narration": "الهدف الأساسي من التحديث ده هو تحسين تمثيل اللهجات المختلفة وتقوية الثقة في تقييمات انظمة تحويل الكلام.",
+      "evidence_quote": "improve representation in ASR evals more accents and more languages",
+      "diagram": "compare",
+      "labels": [
+        "تنوع لغوي",
+        "تقييم دقيق",
+        "ثقة النظام"
+      ],
+      "secondary_object": "monitor",
+      "interaction": "contrast",
+      "shot_type": "comparison",
+      "hero_object": "waveform",
+      "object_motion": "drift",
+      "image_query": "comparison of speech waveforms on a computer screen",
+      "visual_rationale": "Compares different speech waveforms to show how diverse accents are represented and evaluated."
+    },
+    {
+      "label": "دوائر كاشرو اللغوية",
+      "narration": "المنصة بقت تقسم اللهجات بناءً على دوائر كاشرو الشهيرة عشان تقارن بين الدول الناطقة بالإنجليزية الرسمية وغير الرسمية.",
+      "evidence_quote": "based on Kachru’s Three Circles",
+      "diagram": "layers",
+      "labels": [
+        "دوائر كاشرو",
+        "تقسيم اللهجات",
+        "تحليل لغوي"
+      ],
+      "secondary_object": "document",
+      "interaction": "encircle",
+      "shot_type": "product",
+      "hero_object": "sphere",
+      "object_motion": "spin",
+      "image_query": "concentric circles diagram representing global english usage",
+      "visual_rationale": "Visualizes Kachru's concentric circles grouping different regional variations of English."
+    },
+    {
+      "label": "أمريكا ودول الخارج",
+      "narration": "التقسيم الجديد بيوضح الفرق بين الدول المهيمنة والدول الخارجية زي الهند ونيجيريا ومصر في دقة التعرف الصوتي.",
+      "evidence_quote": "Outer & Expanding Circles India, Nigeria, Egypt",
+      "diagram": "compare",
+      "labels": [
+        "مقارنة إقليمية",
+        "أمريكا ودول أخرى",
+        "أداء صوتي"
+      ],
+      "secondary_object": "server",
+      "interaction": "contrast",
+      "shot_type": "comparison",
+      "hero_object": "network",
+      "object_motion": "none",
+      "image_query": "global server network map comparing regions",
+      "visual_rationale": "Contrasts server clusters representing inner circle countries versus outer circle regions."
+    },
+    {
+      "label": "بيئة جمع حقيقية",
+      "narration": "شركة ليفا بتمتلك بيئة الجمع والتوزيع مع بعض وده بيديها وصول لسلوك طبيعي مش كلام مسجل بطريقة مصطنعة.",
+      "evidence_quote": "natural, high-context behavior that emerges through real product use",
+      "diagram": "flow",
+      "labels": [
+        "سلوك طبيعي",
+        "استخدام يومي",
+        "بيانات سياقية"
+      ],
+      "secondary_object": "phone",
+      "interaction": "approach",
+      "shot_type": "workflow",
+      "hero_object": "chip",
+      "object_motion": "pulse",
+      "image_query": "smartphone processing real time audio input chip",
+      "visual_rationale": "Shows a smartphone chip processing natural user interactions in real time."
+    },
+    {
+      "label": "مستقبل التعرف الصوتي",
+      "narration": "الخطوات دي بتساعد المجتمع التقني إنه يضغط على حدود أداء انظمة التعرف على الكلام عشان تفهم كل لغات العالم.",
+      "evidence_quote": "push ASR performance for the world",
+      "diagram": "flow",
+      "labels": [
+        "تطور مستقبلي",
+        "ذكاء اصطناعي",
+        "تعرف صوتي"
+      ],
+      "secondary_object": "network",
+      "interaction": "transfer",
+      "shot_type": "takeaway",
+      "hero_object": "server",
+      "object_motion": "grow",
+      "image_query": "global communication network expanding across continents",
+      "visual_rationale": "Illustrates a growing global network connecting diverse voices around the world."
+    }
+  ],
+  "cover_text": "اللهجات العربية في الذكاء الاصطناعي",
+  "director_version": "v1"
+}
