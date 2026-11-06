@@ -358,7 +358,8 @@
         "visuals_match": true,
         "issues": [],
         "passed": true
-      }
+      },
+      "story_sha256": "679fa5c67179eb815c715c01f851e10372ec8d6db2d67688eaa2b8d1612cc48e"
     },
     "daily-remotion-2026-11-09-news": {
       "profile": "news",
