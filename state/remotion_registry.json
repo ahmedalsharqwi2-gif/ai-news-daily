@@ -518,7 +518,16 @@
       "video_sha256": "b4884413f771e94323e80c6a0a5f4762bd9cdd5c68fc48b5a1d575939b7ae5f0",
       "render_run": 42420479866,
       "source_evidence_file": "professional_motion/output/remotion-validation.json",
-      "media_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/releases/download/production-daily-remotion-2026-11-09-news/news-daily-remotion-2026-11-09-news.mp4"
+      "media_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/releases/download/production-daily-remotion-2026-11-09-news/news-daily-remotion-2026-11-09-news.mp4",
+      "receipts": {
+        "youtube": {
+          "phase": "intent",
+          "channel_id": "6ad3ef9d778b240e2f3fa5b9",
+          "due_at": "2026-11-09T10:00:00Z",
+          "media_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/releases/download/production-daily-remotion-2026-11-09-news/news-daily-remotion-2026-11-09-news.mp4",
+          "created_at": "2026-11-07T22:30:18.431581+00:00"
+        }
+      }
     },
     "daily-remotion-2026-11-10-news": {
       "profile": "news",
