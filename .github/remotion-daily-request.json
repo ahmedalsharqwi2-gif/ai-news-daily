@@ -1,6 +1,6 @@
 {
-  "publish_date": "2026-11-05",
-  "revision": "owner-retained-news-official-ubuntu-mirror-v6",
+  "publish_date": "2026-11-07",
+  "revision": "design-v2-1-ai-news-daily-031127",
   "preserve_existing_posts": true,
-  "reason": "Continue original voice+ASR after diagnosed Azure Ubuntu package-download stall. Official signed Ubuntu archive, no optional packages; same retained episode, no new writing, no repeated synthesis or posts."
+  "reason": "Owner: the repositories must produce the videos. Queue the next slot with the v2.1 pack."
 }
