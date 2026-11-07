@@ -473,9 +473,24 @@
     "daily-remotion-2026-11-09-news": {
       "profile": "news",
       "due_at": "2026-11-09T10:00:00Z",
-      "status": "author_pending",
+      "status": "author_requested",
       "source_run": 42243392379,
-      "created_at": "2026-11-06T15:28:57.996444+00:00"
+      "created_at": "2026-11-06T15:28:57.996444+00:00",
+      "source_selection": {
+        "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+        "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks",
+        "publisher": "NVIDIA",
+        "published": "2026-11-06T16:00:35+00:00",
+        "summary": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, comparing results and building on each other’s work — connecting simulation and AI training with experiments on real over-the-air wireless […]"
+      },
+      "source": {
+        "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks"
+      },
+      "source_document": {
+        "path": "state/remotion_documents/daily-remotion-2026-11-09-news-source-f0b6937d6f4b9c80.json",
+        "sha256": "f0b6937d6f4b9c802a4e21b21dae8af1d3674fc9cdefc201ccb1f1b7435c72df"
+      },
+      "writer_run": 42420479866
     },
     "daily-remotion-2026-11-10-news": {
       "profile": "news",
