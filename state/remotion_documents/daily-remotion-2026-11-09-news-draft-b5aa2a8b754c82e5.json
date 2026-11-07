@@ -1,0 +1,159 @@
+{
+  "title": "إزاي أدوات إنفيديا المفتوحة بتغير مستقبل شبكات الجيل السادس؟",
+  "canonical_subject": "nvidia-open-source-tools-6g-networks",
+  "hashtags": [
+    "التقنية_في_دقيقة",
+    "إنفيديا",
+    "اتصالات",
+    "الجيل_السادس",
+    "ذكاء_اصطناعي"
+  ],
+  "scenes": [
+    {
+      "label": "إطلاق المنصة",
+      "narration": "من سنة واحدة، فتحت إنفيديا كود برمجيات إيريال اللاسلكية وانضمت لسلسلة أدوات مفتوحة المصدر لتسريع شبكات الجيل السادس.",
+      "evidence_quote": "A year ago, NVIDIA open sourced its Aerial wireless software , joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development.",
+      "diagram": "flow",
+      "labels": [
+        "إيريال",
+        "إنفيديا",
+        "جيل سادس"
+      ],
+      "secondary_object": "document",
+      "interaction": "transfer",
+      "shot_type": "headline",
+      "hero_object": "network",
+      "object_motion": "pulse",
+      "image_query": "nvidia open source wireless software architecture diagram",
+      "visual_rationale": "Displays the transition of software tools from closed source to open platform layout."
+    },
+    {
+      "label": "نمو المطورين",
+      "narration": "خلال السنة دي، زاد استخدام أدوات إنفيديا لعشرة أضعاف، وتخطى عدد تحميلات أدوات الجيل الخامس والسادس المليون تحميل حول العالم.",
+      "evidence_quote": "Over the past year, global developer adoption of NVIDIA AI Aerial and NVIDIA Sionna software has grown 10x, while NVIDIA’s open source 5G/6G tools have surpassed 1 million downloads.",
+      "diagram": "compare",
+      "labels": [
+        "مطورين",
+        "تحميلات",
+        "نمو عالمي"
+      ],
+      "secondary_object": "monitor",
+      "interaction": "contrast",
+      "shot_type": "product",
+      "hero_object": "server",
+      "object_motion": "grow",
+      "image_query": "global developer adoption metrics graph for network software",
+      "visual_rationale": "Compares download statistics growth using an illustrated chart on a computer display."
+    },
+    {
+      "label": "روبوتات أسرع",
+      "narration": "في لندن، استخدم الباحثون كاميرا وروبوت مع معالج جيتسون وسيوننا عشان يقللوا وقت المهام بنسبة قاربت اثنين وخمسين في المية.",
+      "evidence_quote": "At King’s College London , researchers connected a camera-equipped robot arm to an NVIDIA Jetson AGX Orin running NVIDIA Sionna, which supports both software-defined 5G network and edge AI processing.",
+      "diagram": "flow",
+      "labels": [
+        "روبوت ذكي",
+        "معالجة الحافة",
+        "تقليل التأخير"
+      ],
+      "secondary_object": "circuit",
+      "interaction": "approach",
+      "shot_type": "workflow",
+      "hero_object": "robot",
+      "object_motion": "spin",
+      "image_query": "robot arm connected to edge computing hardware setup",
+      "visual_rationale": "Shows the physical connection between a robotic arm and an edge processor unit."
+    },
+    {
+      "label": "مستقبل الاستقبال",
+      "narration": "سوفت بانك دمجت مستقبل عصبي مع ران الخاص بإنفيديا، واختبرته على تليفون تجاري عشان تحسن كفاءة الإشارات وسط التداخلات.",
+      "evidence_quote": "SoftBank demonstrated this by integrating a neural receiver into NVIDIA Aerial CUDA-Accelerated RAN (ACAR) and testing it with a commercial 5G smartphone.",
+      "diagram": "layers",
+      "labels": [
+        "مستقبل عصبي",
+        "تداخل إشاري",
+        "هاتف ذكي"
+      ],
+      "secondary_object": "waveform",
+      "interaction": "encircle",
+      "shot_type": "workflow",
+      "hero_object": "phone",
+      "object_motion": "pulse",
+      "image_query": "smartphone receiving wireless signal waves illustration",
+      "visual_rationale": "Illustrates radio wave signals being filtered by a neural receiver layer."
+    },
+    {
+      "label": "توفير الطاقة",
+      "narration": "في جامعة ليدز، عمل الباحثون نظام يتنبأ بالطلب قبلها بعشر دقايق عشان يقفل محطات الأساس وقت الفراغ ويوفر طاقة بنسبة ستة وأربعين في المية.",
+      "evidence_quote": "At the University of Leeds , researchers developed a system that predicts network demand 10 minutes ahead and uses those forecasts to guide base station sleep decisions.",
+      "diagram": "cycle",
+      "labels": [
+        "توفير طاقة",
+        "محطات أساس",
+        "تنبؤ بالطلب"
+      ],
+      "secondary_object": "circuit",
+      "interaction": "separate",
+      "shot_type": "comparison",
+      "hero_object": "network",
+      "object_motion": "drift",
+      "image_query": "base station power saving cycle diagram",
+      "visual_rationale": "Contrasts active base station power state with a lowered power sleep state."
+    },
+    {
+      "label": "محاكاة سريعة",
+      "narration": "مركز الاتصالات في كاتالونيا سرع حسابات القنوات اللاسلكية على كروت الشاشة، ونزل وقت المحاكاة من ثلاث ساعات لساعات معدودة.",
+      "evidence_quote": "The Centre Tecnològic de Telecomunicacions de Catalunya (CTTC) is accelerating that process by bringing GPU-accelerated radio channel models, running on ACAR, into CTTC’s open source 5G-LENA network simulator.",
+      "diagram": "flow",
+      "labels": [
+        "محاكاة لاسلكية",
+        "كروت شاشة",
+        "سرعة الحساب"
+      ],
+      "secondary_object": "monitor",
+      "interaction": "transfer",
+      "shot_type": "workflow",
+      "hero_object": "server",
+      "object_motion": "spin",
+      "image_query": "gpu accelerated network simulation software interface",
+      "visual_rationale": "Displays an illustrated simulation timeline shrinking from hours to minutes."
+    },
+    {
+      "label": "اختبار الشبكات",
+      "narration": "الأدوات دي بتسمح للفرق بتقييم تصاميم الشبكات ومعالجة التداخلات قبل ما يبنوا المعدات على أرض الواقع ويدفعوا فلوس كتيرة.",
+      "evidence_quote": "Simulating these conditions helps teams evaluate designs before committing to costly equipment and field trials.",
+      "diagram": "compare",
+      "labels": [
+        "اختبار مسبق",
+        "تقييم التصميم",
+        "تجنب التكلفة"
+      ],
+      "secondary_object": "document",
+      "interaction": "contrast",
+      "shot_type": "takeaway",
+      "hero_object": "network",
+      "object_motion": "none",
+      "image_query": "comparison between virtual network design and physical hardware",
+      "visual_rationale": "Presents a side-by-side comparison of a blueprint layout versus actual deployment hardware."
+    },
+    {
+      "label": "خطوة للمستقبل",
+      "narration": "منصات إيريال وسيوننا بقت متاحة على جيت هب لكل الباحثين عشان يكملوا بناء شبكات ذكية وخدمات اتصال أسرع للجميع.",
+      "evidence_quote": "NVIDIA AI Aerial and NVIDIA Sionna are available on GitHub.",
+      "diagram": "flow",
+      "labels": [
+        "جيت هب",
+        "منصات مفتوحة",
+        "مستقبل الاتصالات"
+      ],
+      "secondary_object": "shield",
+      "interaction": "approach",
+      "shot_type": "takeaway",
+      "hero_object": "circuit",
+      "object_motion": "assemble",
+      "image_query": "github open source software repository landing page illustration",
+      "visual_rationale": "Shows source code repositories assembling into an accessible public platform."
+    }
+  ],
+  "cover_text": "أدوات إنفيديا لشبكات الجيل السادس",
+  "director_version": "v1"
+}
