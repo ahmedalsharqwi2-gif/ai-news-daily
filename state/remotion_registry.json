@@ -333,11 +333,13 @@
       "media_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/releases/download/production-daily-remotion-2026-11-07-news/news-daily-remotion-2026-11-07-news.mp4",
       "receipts": {
         "youtube": {
-          "phase": "intent",
+          "phase": "acknowledged",
           "channel_id": "6ad3ef9d778b240e2f3fa5b9",
           "due_at": "2026-11-07T10:00:00Z",
           "media_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/releases/download/production-daily-remotion-2026-11-07-news/news-daily-remotion-2026-11-07-news.mp4",
-          "created_at": "2026-11-07T01:16:20.004924+00:00"
+          "created_at": "2026-11-07T01:16:20.004924+00:00",
+          "id": "6aee7be5d6bbae6fa159f411",
+          "accepted_at": "2026-11-07T01:16:21.969119+00:00"
         }
       }
     },
