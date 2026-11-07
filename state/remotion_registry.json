@@ -533,13 +533,16 @@
           "verified_at": "2026-11-07T22:30:21.950030+00:00"
         },
         "facebook": {
-          "phase": "acknowledged",
+          "phase": "verified",
           "channel_id": "6ad3ef2c778b240e2f3fa387",
           "due_at": "2026-11-09T10:00:00Z",
           "media_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/releases/download/production-daily-remotion-2026-11-09-news/news-daily-remotion-2026-11-09-news.mp4",
           "created_at": "2026-11-07T22:30:23.613748+00:00",
           "id": "6aefa6819214322f681c444d",
-          "accepted_at": "2026-11-07T22:30:26.400926+00:00"
+          "accepted_at": "2026-11-07T22:30:26.400926+00:00",
+          "status": "scheduled",
+          "scheduled_at": "2026-11-09T10:00:00.000Z",
+          "verified_at": "2026-11-07T22:30:27.860214+00:00"
         }
       }
     },
