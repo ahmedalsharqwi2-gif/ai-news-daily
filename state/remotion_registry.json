@@ -473,7 +473,7 @@
     "daily-remotion-2026-11-09-news": {
       "profile": "news",
       "due_at": "2026-11-09T10:00:00Z",
-      "status": "author_requested",
+      "status": "draft_retained",
       "source_run": 42243392379,
       "created_at": "2026-11-06T15:28:57.996444+00:00",
       "source_selection": {
@@ -490,7 +490,11 @@
         "path": "state/remotion_documents/daily-remotion-2026-11-09-news-source-f0b6937d6f4b9c80.json",
         "sha256": "f0b6937d6f4b9c802a4e21b21dae8af1d3674fc9cdefc201ccb1f1b7435c72df"
       },
-      "writer_run": 42420479866
+      "writer_run": 42420479866,
+      "draft_document": {
+        "path": "state/remotion_documents/daily-remotion-2026-11-09-news-draft-b5aa2a8b754c82e5.json",
+        "sha256": "b5aa2a8b754c82e5f84e1ecbc876640b2c12595b9ed6b9ef435daa1232aa3c9a"
+      }
     },
     "daily-remotion-2026-11-10-news": {
       "profile": "news",
