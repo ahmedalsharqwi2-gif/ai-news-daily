@@ -473,7 +473,7 @@
     "daily-remotion-2026-11-09-news": {
       "profile": "news",
       "due_at": "2026-11-09T10:00:00Z",
-      "status": "publishing",
+      "status": "scheduled",
       "source_run": 42420479866,
       "created_at": "2026-11-06T15:28:57.996444+00:00",
       "source_selection": {
