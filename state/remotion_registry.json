@@ -272,7 +272,7 @@
     "daily-remotion-2026-11-07-news": {
       "profile": "news",
       "due_at": "2026-11-07T10:00:00Z",
-      "status": "rendered",
+      "status": "publishing",
       "source_run": 42322686855,
       "created_at": "2026-11-06T13:51:12.814906+00:00",
       "source_selection": {
@@ -329,7 +329,8 @@
       "coverage": 0.9157303370786517,
       "video_sha256": "6c8fae68b14557ca7269f29f3ebe4aee0f9ddc8245d83e7eb6510385f620bd8a",
       "render_run": 42322686855,
-      "source_evidence_file": "professional_motion/output/remotion-validation.json"
+      "source_evidence_file": "professional_motion/output/remotion-validation.json",
+      "media_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/releases/download/production-daily-remotion-2026-11-07-news/news-daily-remotion-2026-11-07-news.mp4"
     },
     "daily-remotion-2026-11-08-news": {
       "profile": "news",
