@@ -1,0 +1,250 @@
+{
+  "title": "اللهجات العربية المحلية تنضم أخيراً لقياس دقة الذكاء الاصطناعي",
+  "canonical_subject": "open-asr-leaderboard-egyptian-nigerian-english",
+  "hashtags": [
+    "ذكاء_اصطناعي",
+    "تكنولوجيا",
+    "لهجة_مصرية"
+  ],
+  "scenes": [
+    {
+      "label": "إعلان المنصة",
+      "narration": "منصة هاجين فيس ضافت اللهجة المصرية والنيريجية لليستة قياس أنظمة التعرف على الكلام عشان تختبر الذكاء الاصطناعي بجدية أكتر بعيد عن التجارب الوهمية.",
+      "evidence_quote": "announce a new collaboration with Liva AI to add even more private data with two new accents: Egyptian",
+      "diagram": "flow",
+      "labels": [
+        "هاجين فيس",
+        "لهجة مصرية"
+      ],
+      "secondary_object": "server",
+      "interaction": "none",
+      "shot_type": "headline",
+      "hero_object": "monitor",
+      "object_motion": "pulse",
+      "image_query": "hugging face leaderboard interface on computer screen",
+      "visual_rationale": "يعرض الشاشة وهي تعرض إعلان انضمام اللهجات الجديدة بوضوح.",
+      "id": "scene_1",
+      "visual_mode": "hero",
+      "visual": {
+        "kind": "explainer",
+        "kicker": "flow",
+        "labels": [
+          "هاجين فيس",
+          "لهجة مصرية"
+        ]
+      }
+    },
+    {
+      "label": "طبيعة البيانات",
+      "narration": "البيانات دي مش مسجلة في استوديو بطريقة مصطنعة، دي متسجلة من تفاعلات حقيقية لناس بتستخدم منتجات تكنولوجية في حياتها اليومية عشان تعكس الواقع.",
+      "evidence_quote": "gives it access to natural, high-context behavior that emerges through real product use, rather than artificially elicited or",
+      "diagram": "compare",
+      "labels": [
+        "بيانات حقيقية",
+        "تفاعل بشري"
+      ],
+      "secondary_object": "phone",
+      "interaction": "approach",
+      "shot_type": "product",
+      "hero_object": "microphone",
+      "object_motion": "drift",
+      "image_query": "smartphone recording voice input in natural environment",
+      "visual_rationale": "يظهر ميكروفون هاتف يوضح تسجيل الصوت البشري الطبيعي.",
+      "id": "scene_2",
+      "visual_mode": "hero",
+      "visual": {
+        "kind": "explainer",
+        "kicker": "compare",
+        "labels": [
+          "بيانات حقيقية",
+          "تفاعل بشري"
+        ]
+      }
+    },
+    {
+      "label": "مشكلة الاختبارات",
+      "narration": "زمان الشركات كانت بتدرب الموديلات على بيانات عامة وتتفاجأ إن النظام بيقع قدام اللهجات المحلية، عشان كده الاختبارات الخاصة بقت ضرورية جدا.",
+      "evidence_quote": "few months ago, we added private data to the Open ASR Leaderboard : 11 splits from Appen and",
+      "diagram": "layers",
+      "labels": [
+        "اختبارات خاصة",
+        "تنوع اللهجات"
+      ],
+      "secondary_object": "document",
+      "interaction": "separate",
+      "shot_type": "workflow",
+      "hero_object": "network",
+      "object_motion": "spin",
+      "image_query": "network nodes filtering speech data streams",
+      "visual_rationale": "يوضح شبكة بيانات تفصل وتقارن بين اللهجات المختلفة.",
+      "id": "scene_3",
+      "visual_mode": "hero",
+      "visual": {
+        "kind": "explainer",
+        "kicker": "layers",
+        "labels": [
+          "اختبارات خاصة",
+          "تنوع اللهجات"
+        ]
+      }
+    },
+    {
+      "label": "تقسيم الدوائر",
+      "narration": "التصنيف الجديد بيقسم الكلام حسب دوائر كاشرو اللغوية، عشان نعرف الفرق بين النطق الأمريكي والبريطاني وبين الدول النامية زي مصر ونيجيريا.",
+      "evidence_quote": "The Open ASR Leaderboard will now report: US vs.",
+      "diagram": "compare",
+      "labels": [
+        "دوائر كاشرو",
+        "تقسيم اللهجات"
+      ],
+      "secondary_object": "shield",
+      "interaction": "contrast",
+      "shot_type": "comparison",
+      "hero_object": "waveform",
+      "object_motion": "float",
+      "image_query": "linguistic circles diagram comparing US and global accents",
+      "visual_rationale": "يعرض مقارنة بصرية بين الموجات الصوتية للأنواع المختلفة.",
+      "id": "scene_4",
+      "visual_mode": "hero",
+      "visual": {
+        "kind": "explainer",
+        "kicker": "compare",
+        "labels": [
+          "دوائر كاشرو",
+          "تقسيم اللهجات"
+        ]
+      }
+    },
+    {
+      "label": "دور ليفا إيه آي",
+      "narration": "شركة ليفا هي اللي وفرت التسجيلات دي من خلال منتجات استهلاكية بيستخدمها الناس بجد، وده بيضمن دقة عالية وتفاصيل معقدة مش موجودة في القواميس.",
+      "evidence_quote": "About Liva AI Liva AI collects multimodal interaction data through consumer products used by real people.",
+      "diagram": "flow",
+      "labels": [
+        "شركة ليفا",
+        "بيانات متعددة الوسائط"
+      ],
+      "secondary_object": "chip",
+      "interaction": "assemble",
+      "shot_type": "product",
+      "hero_object": "server",
+      "object_motion": "grow",
+      "image_query": "data collection servers processing interaction logs",
+      "visual_rationale": "يظهر خادم رقمي يجمع البيانات المتعددة ويعالجها.",
+      "id": "scene_5",
+      "visual_mode": "hero",
+      "visual": {
+        "kind": "explainer",
+        "kicker": "flow",
+        "labels": [
+          "شركة ليفا",
+          "بيانات متعددة الوسائط"
+        ]
+      }
+    },
+    {
+      "label": "منع التلاعب",
+      "narration": "البيانات السرية دي مش منشورة للكل، ودي خطوة ذكية عشان تمنع الشركات إنها تلاعب النتائج أو تحسن أداء الموديل على قد الاختبار بس.",
+      "evidence_quote": "new private data to minimize benchmaxxing, and new data providers",
+      "diagram": "layers",
+      "labels": [
+        "بيانات سرية",
+        "منع التلاعب"
+      ],
+      "secondary_object": "document",
+      "interaction": "protect",
+      "shot_type": "workflow",
+      "hero_object": "shield",
+      "object_motion": "pulse",
+      "image_query": "secure database lock icon protecting benchmark data",
+      "visual_rationale": "يوضح درع حماية يمنع الوصول غير المرغوب لملفات القياس.",
+      "id": "scene_6",
+      "visual_mode": "hero",
+      "visual": {
+        "kind": "explainer",
+        "kicker": "layers",
+        "labels": [
+          "بيانات سرية",
+          "منع التلاعب"
+        ]
+      }
+    },
+    {
+      "label": "تفاعل المجتمعات",
+      "narration": "المجتمع التقني استقبل الخطوة دي بحماس كبير عشان بتدي فرصة حقيقية للغات تانية تثبت نفسها بعيد عن سيطرة الإنجليزية القياسية لوحدها.",
+      "evidence_quote": "The community response was great, with many highlighting the importance of held-out sets",
+      "diagram": "flow",
+      "labels": [
+        "تفاعل تقني",
+        "دعم اللغات"
+      ],
+      "secondary_object": "person",
+      "interaction": "approach",
+      "shot_type": "takeaway",
+      "hero_object": "network",
+      "object_motion": "drift",
+      "image_query": "global developers collaborating on AI platforms",
+      "visual_rationale": "يعرض شبكة مستخدمين يتفاعلون مع منصة التقييم المفتوحة.",
+      "id": "scene_7",
+      "visual_mode": "hero",
+      "visual": {
+        "kind": "explainer",
+        "kicker": "flow",
+        "labels": [
+          "تفاعل تقني",
+          "دعم اللغات"
+        ]
+      }
+    },
+    {
+      "label": "الخطوة الجاية",
+      "narration": "الخطوات دي بتفتح باب لطرق تقييم أنضف وأصدق، والمطورين مستنيين يشوفوا موديلات الذكاء الاصطناعي هتعمل إيه مع اللهجة المصرية في المستقبل.",
+      "evidence_quote": "We’re excited to see the community continuing to push ASR performance for the world",
+      "diagram": "flow",
+      "labels": [
+        "مستقبل الذكاء الاصطناعي",
+        "تقييم دقيق"
+      ],
+      "secondary_object": "monitor",
+      "interaction": "none",
+      "shot_type": "takeaway",
+      "hero_object": "waveform",
+      "object_motion": "pulse",
+      "image_query": "futuristic speech recognition dashboard glowing",
+      "visual_rationale": "يظهر مؤشر صوتي مستقبلي يوضح استمرار قياس الأداء.",
+      "id": "scene_8",
+      "visual_mode": "hero",
+      "visual": {
+        "kind": "explainer",
+        "kicker": "flow",
+        "labels": [
+          "مستقبل الذكاء الاصطناعي",
+          "تقييم دقيق"
+        ]
+      }
+    }
+  ],
+  "cover_text": "اللهجة المصرية في قياس الذكاء الاصطناعي",
+  "director_version": "v2.1-masri",
+  "profile": "news",
+  "series": "ai على السريع",
+  "fiction": false,
+  "documented": true,
+  "topic_key": "remotion-open-asr-leaderboard-egyptian-nigerian-english",
+  "source": {
+    "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+    "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+    "publisher": "Hugging Face",
+    "published": "2026-11-06T00:00:00+00:00"
+  },
+  "visual_identity": {
+    "version": "channel-identities-v1",
+    "profile": "news",
+    "name": "التقنية في دقيقة",
+    "background": "#f1f3e9",
+    "ink": "#14252d",
+    "accent": "#426d34",
+    "visual": "editorial news desk, real product names, illustrative workflows and evidence versus implications",
+    "sound": "short percussive electronic pulse, dry interface ticks, no cinematic orchestral bed"
+  }
+}
