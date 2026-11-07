@@ -272,8 +272,8 @@
     "daily-remotion-2026-11-07-news": {
       "profile": "news",
       "due_at": "2026-11-07T10:00:00Z",
-      "status": "authored",
-      "source_run": 42228812189,
+      "status": "voice_requested",
+      "source_run": 42322686855,
       "created_at": "2026-11-06T13:51:12.814906+00:00",
       "source_selection": {
         "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
@@ -321,7 +321,8 @@
         "issues": [],
         "passed": true
       },
-      "story_sha256": "98ea2bdc16c5c03e1fe23e3c209436307f34a2a300a4a997bfdaa6035418b04f"
+      "story_sha256": "98ea2bdc16c5c03e1fe23e3c209436307f34a2a300a4a997bfdaa6035418b04f",
+      "voice_request_run": 42322686855
     },
     "daily-remotion-2026-11-08-news": {
       "profile": "news",
