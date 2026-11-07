@@ -119,7 +119,7 @@ def validate(story,profile,source):
  validate_director(story,profile)
  if not 3<=len(story.get('hashtags',[]))<=5:raise ValueError('Three to five topical on-screen hashtags required before synthesis')
  if len(story.get('scenes',[]))!=8:raise ValueError('Exactly eight narrative scenes required')
- words=sum(len(s['narration'].split()) for s in story['scenes']);low,high=(160,270) if profile=='news' else (240,370)
+ words=sum(len(s['narration'].split()) for s in story['scenes']);low,high=(120,270) if profile=='news' else (240,370)
  if not low<=words<=high:raise ValueError(f'Draft word budget fails natural-duration preflight: actual {words}, required {low}-{high}; no TTS requested')
  if not re.fullmatch('[a-z0-9][a-z0-9-]{8,110}',story['canonical_subject']):raise ValueError('Stable concrete canonical topic required')
  for s in story['scenes']:
