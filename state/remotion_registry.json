@@ -473,7 +473,7 @@
     "daily-remotion-2026-11-09-news": {
       "profile": "news",
       "due_at": "2026-11-09T10:00:00Z",
-      "status": "review_requested",
+      "status": "authored",
       "source_run": 42243392379,
       "created_at": "2026-11-06T15:28:57.996444+00:00",
       "source_selection": {
@@ -500,7 +500,15 @@
         "sha256": "5be1b2a52e621db6ae66f35e83bf195f56ee6dfaa5108475327619243b8a3568"
       },
       "canonical_subject": "nvidia-open-source-tools-6g-networks",
-      "title": "إزاي أدوات إنفيديا المفتوحة بتغير مستقبل شبكات الجيل السادس؟"
+      "title": "إزاي أدوات إنفيديا المفتوحة بتغير مستقبل شبكات الجيل السادس؟",
+      "editorial_review": {
+        "supported": true,
+        "engaging": true,
+        "novel": true,
+        "visuals_match": true,
+        "issues": [],
+        "passed": true
+      }
     },
     "daily-remotion-2026-11-10-news": {
       "profile": "news",
