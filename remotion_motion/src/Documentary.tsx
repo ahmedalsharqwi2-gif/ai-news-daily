@@ -13,6 +13,7 @@ import {ExplainerPlate} from './ExplainerPlate';
 import {AdventurePlate} from './AdventurePlate';
 import {WhatIfPlate} from './WhatIfPlate';
 import {OpeningCover} from './OpeningCover';
+import {NewsPlate} from './NewsPlate';
 loadFont({family:'Arabic',url:staticFile('fonts/Arabic-Regular.ttf'),weight:'400'});
 loadFont({family:'Arabic',url:staticFile('fonts/Arabic-Bold.ttf'),weight:'700'});
 import {PhotoScene} from './PhotoScene';
@@ -34,6 +35,7 @@ const SceneView=({scene,episode,index}:{scene:Scene;episode:Episode;index:number
  {scene.kind==='stability'?<ShipStability color={palette.accent}/>:null}
  {scene.kind==='temple'?<Temple color={palette.accent}/>:null}
  {scene.kind==='platform'?<NewsPlatform scene={scene} color={palette.accent}/>:null}
+ {['workflow','product','comparison','takeaway','headline','explainer'].includes(scene.kind)?<NewsPlate scene={scene} accent={palette.accent}/>:null}
  {scene.kind==='stickman'?<StickmanPlate action={scene.kicker||'discover'} duration={scene.end-scene.start}/>:null}
  {scene.kind==='explainer'?<ExplainerPlate scene={scene} color={palette.accent}/>:null}
  {scene.kind==='adventure'?<AdventurePlate action={scene.kicker||'danger'} scenario={scene.scenario||'flood'} duration={scene.end-scene.start}/>:null}
