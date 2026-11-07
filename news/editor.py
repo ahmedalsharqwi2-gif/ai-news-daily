@@ -7,8 +7,8 @@ from urllib.parse import urlparse
 import requests
 from bs4 import BeautifulSoup
 from api_budget import reserve
-FEEDS=[('Google','https://blog.google/technology/ai/rss/'),('NVIDIA','https://blogs.nvidia.com/feed/'),('Hugging Face','https://huggingface.co/blog/feed.xml'),('Google DeepMind','https://deepmind.google/blog/rss.xml'),('OpenAI','https://openai.com/news/rss.xml')]
-ALLOWED={'blog.google','blogs.nvidia.com','huggingface.co','deepmind.google','openai.com','investor.nvidia.com'}
+FEEDS=[('Google','https://blog.google/technology/ai/rss/'),('NVIDIA','https://blogs.nvidia.com/feed/'),('Hugging Face','https://huggingface.co/blog/feed.xml'),('Google DeepMind','https://deepmind.google/blog/rss.xml'),('OpenAI','https://openai.com/news/rss.xml'),('Microsoft Research','https://www.microsoft.com/en-us/research/feed/'),('Google Research','https://research.google/blog/rss/')]
+ALLOWED={'blog.google','blogs.nvidia.com','huggingface.co','deepmind.google','openai.com','investor.nvidia.com','www.microsoft.com','research.google'}
 UA={'User-Agent':'AI-News-Daily/1.0 (official-source editorial reader)'}
 
 def canonical(url):
