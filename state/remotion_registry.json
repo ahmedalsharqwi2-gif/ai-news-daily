@@ -473,7 +473,7 @@
     "daily-remotion-2026-11-09-news": {
       "profile": "news",
       "due_at": "2026-11-09T10:00:00Z",
-      "status": "draft_retained",
+      "status": "review_requested",
       "source_run": 42243392379,
       "created_at": "2026-11-06T15:28:57.996444+00:00",
       "source_selection": {
@@ -494,7 +494,13 @@
       "draft_document": {
         "path": "state/remotion_documents/daily-remotion-2026-11-09-news-draft-b5aa2a8b754c82e5.json",
         "sha256": "b5aa2a8b754c82e5f84e1ecbc876640b2c12595b9ed6b9ef435daa1232aa3c9a"
-      }
+      },
+      "story_document": {
+        "path": "state/remotion_documents/daily-remotion-2026-11-09-news-story-5be1b2a52e621db6.json",
+        "sha256": "5be1b2a52e621db6ae66f35e83bf195f56ee6dfaa5108475327619243b8a3568"
+      },
+      "canonical_subject": "nvidia-open-source-tools-6g-networks",
+      "title": "إزاي أدوات إنفيديا المفتوحة بتغير مستقبل شبكات الجيل السادس؟"
     },
     "daily-remotion-2026-11-10-news": {
       "profile": "news",
