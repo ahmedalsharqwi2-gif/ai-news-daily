@@ -357,11 +357,13 @@
           "verified_at": "2026-11-07T01:16:28.458174+00:00"
         },
         "instagram": {
-          "phase": "intent",
+          "phase": "acknowledged",
           "channel_id": "6ad3eeea778b240e2f3fa23b",
           "due_at": "2026-11-07T10:00:00Z",
           "media_url": "https://github.com/ahmedalsharqwi2-gif/ai-news-daily/releases/download/production-daily-remotion-2026-11-07-news/news-daily-remotion-2026-11-07-news.mp4",
-          "created_at": "2026-11-07T01:16:29.833889+00:00"
+          "created_at": "2026-11-07T01:16:29.833889+00:00",
+          "id": "6aee7befa7751de7c9baf76c",
+          "accepted_at": "2026-11-07T01:16:31.692066+00:00"
         }
       }
     },
