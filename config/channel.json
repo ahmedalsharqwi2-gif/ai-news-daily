@@ -1,0 +1,18 @@
+{
+  "profile": "news",
+  "name": "AI على السريع",
+  "accent": "#9083ef",
+  "counter": "الخبر",
+  "maxAgeHours": 48,
+  "feeds": [
+    {
+      "url": "https://openai.com/news/rss.xml",
+      "official": true
+    },
+    {
+      "url": "https://blog.google/technology/ai/rss/",
+      "official": true
+    }
+  ],
+  "logo": "brand/logo.png"
+}
