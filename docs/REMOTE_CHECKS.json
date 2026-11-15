@@ -1,0 +1,9 @@
+{
+  "conclusion": "failure",
+  "databaseId": 43767338707,
+  "status": "completed",
+  "errors": [
+    "topics: NO_CURRENT_VERIFIED_SOURCES"
+  ],
+  "repo": "ai-news-daily"
+}
