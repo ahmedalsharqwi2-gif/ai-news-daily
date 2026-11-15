@@ -7,3 +7,5 @@ Review-only GitHub Actions is the next environment attempt. Remote test/run stat
 First remote run: verify PASS. Review failed; see review-media/reviews/*/report.json. Added public-feed redirect handling and Gemini model discovery after observed HTTP 404. News freshness window remains 48 hours. Await the next actual run before claiming any success.
 
 Latest observed remote result: completed / failure; topics: NO_CURRENT_VERIFIED_SOURCES. No new complete review film exists. See REMOTE_CHECKS.json for the exact run ID; later Actions status supersedes this observation.
+
+Final observed run is completed / failure: topics: NO_CURRENT_VERIFIED_SOURCES. See FINAL_REPORT.md.
