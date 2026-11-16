@@ -3,46 +3,60 @@ npm test
 > review-video-pipeline@2.0.0 test
 > node --test tests/*.test.mjs
 
-✔ installed logo bytes match the recorded original SHA256 and the public source resolves to it (10.156196ms)
-✔ logo verification rejects altered bytes (14.624796ms)
-✔ missing Gemini reports required secret names only (0.552961ms)
-✔ claims require an exact excerpt from an attached source (10.945561ms)
-✔ a science script cannot relabel a legend as a verified source (0.824469ms)
-✔ RSS fetch sends a clear User-Agent, reuses fresh cache and enforces delay (65.71998ms)
-✔ expired RSS cache is not used after a protected response (5.803469ms)
-✔ a generic channel update does not make an undated archived item fresh (2.418756ms)
-✔ 429 Retry-After is honored and successful response is reused without another request (55.130025ms)
-✔ 503 retries use exponential backoff plus jitter and stop at the configured attempts (5.160797ms)
-✔ fallback model still respects Retry-After set by the previous model (23.677933ms)
-✔ 404 falls back in configured order; authorization errors never cycle through models (6.739395ms)
-✔ Retry-After beyond total deadline stops rather than sending too early (2.312405ms)
-✔ limiter serializes starts and enforces the per-minute quota (0.496914ms)
-✔ resume keeps successful voice chunk after a later 503 and after a fresh client instance (11.205671ms)
-✔ changing voice settings invalidates cache and long narration is split without losing words (7.709118ms)
-✔ parallel requests for the same response share one request (3.087711ms)
-✔ model-discovery Retry-After also delays the following generation call (3.917817ms)
-✔ publish blocked even if config edited (1.376508ms)
-✔ Cairo 17:00 covers winter and summer offset (14.928241ms)
-✔ original words and measured monotonic times required (1.522169ms)
-✔ canonical identity and source prevent changed-title duplicates (1.04619ms)
-✔ reject silent media or wrong output format (0.525604ms)
-✔ service health independent of provider and uploads closed (54.637627ms)
-✔ 72-hour news window includes a verified 70-hour announcement (2.413237ms)
-✔ weekly fallback is explicitly labeled and never admits older than a week (0.60967ms)
-✔ one secondary publisher cannot confirm a story; independent publishers must cite the same primary reference (0.602369ms)
-✔ missing dates and future posts are excluded instead of given the current time (2.237948ms)
-✔ previous source URLs remain excluded when article headlines change (0.336824ms)
-✔ official but unrelated headlines do not displace verified AI reporting (0.761213ms)
-ℹ tests 30
+✔ installed logo bytes match the recorded original SHA256 and the public source resolves to it (18.622829ms)
+✔ logo verification rejects altered bytes (66.796842ms)
+✔ missing Gemini reports required secret names only (0.621146ms)
+✔ claims require an exact excerpt from an attached source (36.000823ms)
+✔ a science script cannot relabel a legend as a verified source (6.05278ms)
+✔ RSS fetch sends a clear User-Agent, reuses fresh cache and enforces delay (228.607612ms)
+✔ expired RSS cache is not used after a protected response (15.743388ms)
+✔ a generic channel update does not make an undated archived item fresh (8.043405ms)
+✔ 429 Retry-After is honored and successful response is reused without another request (273.738111ms)
+✔ 503 retries use exponential backoff plus jitter and stop at the configured attempts (26.758758ms)
+✔ fallback model still respects Retry-After set by the previous model (144.017929ms)
+✔ 404 falls back in configured order; authorization errors never cycle through models (24.429633ms)
+✔ Retry-After beyond total deadline stops rather than sending too early (9.654217ms)
+✔ limiter serializes starts and enforces the per-minute quota (0.475517ms)
+✔ resume keeps successful voice chunk after a later 503 and after a fresh client instance (67.597533ms)
+✔ changing voice settings invalidates cache and long narration is split without losing words (30.727469ms)
+✔ parallel requests for the same response share one request (4.617833ms)
+✔ model-discovery Retry-After also delays the following generation call (10.16886ms)
+✔ resumed news remains channel relevant and inside its declared date window (3.244096ms)
+✔ weekly resume requires the explicit weekly label rather than stale daily framing (4.616173ms)
+✔ quarantine preserves the exact old pointer bytes and does not touch voice cache or history (92.607498ms)
+✔ publish blocked even if config edited (1.128686ms)
+✔ Cairo 17:00 covers winter and summer offset (58.744193ms)
+✔ original words and measured monotonic times required (37.690198ms)
+✔ canonical identity and source prevent changed-title duplicates (0.961136ms)
+✔ reject silent media or wrong output format (0.291258ms)
+✔ service health independent of provider and uploads closed (207.620115ms)
+✔ galaxy references cannot become Earth despite mentioning distance from Earth (4.543806ms)
+✔ a generic company map is a concept graph, never a planet (0.550859ms)
+✔ NGC206 is a star cluster and incidental host galaxy does not replace scene focus (0.1705ms)
+✔ distance from Earth is a light path, not a map of Earth (0.110425ms)
+✔ 72-hour news window includes a verified 70-hour announcement (7.538174ms)
+✔ weekly fallback is explicitly labeled and never admits older than a week (0.952831ms)
+✔ one secondary publisher cannot confirm a story; independent publishers must cite the same primary reference (4.584326ms)
+✔ missing dates and future posts are excluded instead of given the current time (4.641247ms)
+✔ previous source URLs remain excluded when article headlines change (3.167593ms)
+✔ official but unrelated headlines do not displace verified AI reporting (2.573421ms)
+ℹ tests 37
 ℹ suites 0
-ℹ pass 30
+ℹ pass 37
 ℹ fail 0
 ℹ cancelled 0
 ℹ skipped 0
 ℹ todo 0
-ℹ duration_ms 2221.934787
+ℹ duration_ms 10776.647155
 npm run typecheck
 
 > review-video-pipeline@2.0.0 typecheck
 > tsc --noEmit
 
+python -m unittest discover -s tests -p 'test_alignment.py'
+
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.002s
+
+OK
