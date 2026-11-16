@@ -1,0 +1,124 @@
+{
+  "selected": {
+    "id": "ff7833693fa2",
+    "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+    "url": "https://openai.com/index/lvmh-media-division-partnership",
+    "text": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+    "published": "2026-11-16T09:00:00.000Z",
+    "official": true,
+    "dateBasis": "item_publication_or_update",
+    "publisher": "openai",
+    "primaryRefs": []
+  },
+  "sources": [
+    {
+      "id": "ff7833693fa2",
+      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "text": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+      "published": "2026-11-16T09:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "openai",
+      "primaryRefs": []
+    }
+  ],
+  "editorialMode": "daily",
+  "editorialLabel": null,
+  "windowHours": 72,
+  "relevanceExcluded": 315,
+  "verification": [
+    {
+      "id": "ff7833693fa2",
+      "basis": "official_primary_source",
+      "sourceIds": [
+        "ff7833693fa2"
+      ]
+    }
+  ],
+  "diagnostics": [
+    {
+      "url": "https://openai.com/news/rss.xml",
+      "items": 1390,
+      "valid": 1224,
+      "invalid": 166,
+      "future": 0,
+      "status": "ok",
+      "cache": "miss"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/rss/",
+      "items": 20,
+      "valid": 18,
+      "invalid": 2,
+      "future": 0,
+      "status": "ok",
+      "cache": "miss"
+    },
+    {
+      "url": "https://blog.google/technology/ai/rss/",
+      "items": 20,
+      "valid": 18,
+      "invalid": 2,
+      "future": 0,
+      "status": "ok",
+      "cache": "miss"
+    },
+    {
+      "url": "https://huggingface.co/blog/feed.xml",
+      "items": 907,
+      "valid": 0,
+      "invalid": 907,
+      "future": 0,
+      "status": "ok",
+      "cache": "miss"
+    },
+    {
+      "url": "https://blogs.nvidia.com/feed/",
+      "items": 18,
+      "valid": 18,
+      "invalid": 0,
+      "future": 0,
+      "status": "ok",
+      "cache": "miss"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/research/feed/",
+      "items": 10,
+      "valid": 10,
+      "invalid": 0,
+      "future": 0,
+      "status": "ok",
+      "cache": "miss"
+    },
+    {
+      "url": "https://rss.arxiv.org/rss/cs.AI",
+      "items": 276,
+      "valid": 276,
+      "invalid": 0,
+      "future": 0,
+      "status": "ok",
+      "cache": "miss"
+    },
+    {
+      "url": "https://rss.arxiv.org/rss/cs.CL",
+      "items": 117,
+      "valid": 117,
+      "invalid": 0,
+      "future": 0,
+      "status": "ok",
+      "cache": "miss"
+    },
+    {
+      "url": "https://hnrss.org/frontpage",
+      "items": 20,
+      "valid": 20,
+      "invalid": 0,
+      "future": 0,
+      "status": "ok",
+      "cache": "miss"
+    }
+  ],
+  "trend": [],
+  "scoring": "Source authority, verified freshness and unused canonical source URL; no invented trend-volume metric."
+}
