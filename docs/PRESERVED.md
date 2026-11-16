@@ -19,3 +19,13 @@ All listed bytes preserved at their original paths, except the Nafhamha identity
 | `professional_motion/assets/brand/logo.png` | `3c4f8c1d66fa41e6f95e746071956e862cc77ba67951b1807a662197270d01de` |
 
 Original logo present in checkout: yes. The owner subsequently supplied inline logo references. Their original file bytes have not been exposed by the upload tool; no replacement has been drawn. See config/logo-intake.json. Original font files and their available notices remain. Charon and intended 17:00 Africa/Cairo destination names remain in config. No .mp4 files were tracked on the cloned main snapshots; no approved media was deleted from remote media branches. Legacy scheduling files are in the backup, but the new branch has only one active workflow.
+
+## Follow-up original logo installation
+
+Source: Preserved original professional_motion/assets/brand/logo.png
+
+Canonical file: `brand/logo/logo.png`
+
+SHA-256: `3c4f8c1d66fa41e6f95e746071956e862cc77ba67951b1807a662197270d01de`
+
+Byte-for-byte copy verified; no redraw, recolor, background removal, raster edit or vectorization. The public/brand/logo directory is a symlink to the canonical directory. Header, intro/outro and thumbnail use the same Logo component and source.

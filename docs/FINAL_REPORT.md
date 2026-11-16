@@ -1,20 +1,13 @@
-# Actual delivery status
+# Follow-up review status
 
-This rebuild remains a DRAFT candidate; the requested full production acceptance is incomplete.
+Original existing AI logo is installed unchanged at `brand/logo/logo.png`; SHA256 `3c4f8c1d66fa41e6f95e746071956e862cc77ba67951b1807a662197270d01de`. No replacement logo was drawn. Header, scene entry/exit and thumbnail all use the same BrandLogo component/source, with a matching dark badge.
 
-- Remote backup branch and tag verified before deletion. Main never modified.
-- Preserved identity, fonts, available font licenses and original historical topic data; extracted semantic topic index retained.
-- One review-only workflow; publishing blocked; no Buffer/YouTube upload or scheduling performed.
-- Local eight policy/evidence/service tests and TypeScript pass in all six repositories. Remote verify job also passed in all six.
-- Seven actual 1080x1920 template stills rendered and visually sampled for Nafhamha; seven for the stickman prototype, then re-rendered after outline/expression changes. These are not complete episodes.
-- Actual local review attempt failed at missing Gemini binding. Actual remote review attempts failed as recorded below.
+Local mocked tests and TypeScript checks were run after unified Gemini client, resume and source fixes. These tests make no real Gemini calls. Actual current test transcript: FOLLOWUP_LOCAL_TESTS.txt (refreshed again before push).
 
-Latest remote attempt: https://github.com/ahmedalsharqwi2-gif/ai-news-daily/actions/runs/43767338707
+Live public feed verification: FOLLOWUP_LIVE_SOURCES.json records one actual fetch of each of nine configured feeds, all cache=miss. Each feed records item counts, rejected dates/excerpts and publication metadata; endpoint 200 is not treated as proof of a useful source. The first selection was official OpenAI reporting on how GPT-6 Astra assisted scientific research, published 2026-11-15T22:00:01Z; physics context is explicitly AI-assisted. There are now a configurable AI-topic filter and independent publisher verification; generic channel dates cannot make undated items look new.
 
-Failure: `topics: NO_CURRENT_VERIFIED_SOURCES`.
+72-hour verified-news window and explicit <=168-hour أهم أخبار الأسبوع fallback are tested. Sources with no dated, sufficient excerpt are rejected; a feed's accessibility alone does not qualify its stories. No RSS protection/login was bypassed. Requests use a clear User-Agent, 30-minute cache and >=1-second minimum network request delay.
 
-No new complete film, final contact sheet, listening approval or reference-level acceptance was produced. Original inline logo images were seen but their file bytes were unavailable through the attachment tool, so they have not been recreated or falsely claimed installed. Exact-logo installation, fully matched art direction, automatic visual/pronunciation/character gates, comprehensive Python lock/license audit, and service caller compatibility remain incomplete. See RUNBOOK and REFERENCE_COMPARISON before any production use.
+Actual full review with repository bindings is being run through GitHub Actions on this same draft branch. A local no-binding attempt was started under the shared render lock; no narrated film is claimed before its actual terminal result. If Gemini remains unavailable, the workflow renders a 96-second silent/incomplete visual preview, thumbnail, contact sheet, layout checks and exact-logo rendered-pixel check. It is not accepted as a complete episode.
 
-Provider 429 means usage/rate limits; 503 means provider unavailable; no-current-source deliberately stops stale/unverified news; missing Gemini binding needs the existing secure repository connection configured, not a key pasted into chat.
-
-Remotion may require a paid Company License for commercial organizations outside its free eligibility; see LICENSES.md.
+Publishing remains false; no main push, Buffer/YouTube publication or live schedule activation. Actual terminal results and artifact locations will be appended after the Actions run.
