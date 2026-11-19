@@ -1,0 +1,128 @@
+{
+  "selected": {
+    "id": "00a064e6720e",
+    "title": "The Gemini app is now available on lower-memory Android devices.",
+    "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+    "text": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+    "published": "2026-11-18T17:00:00.000Z",
+    "official": true,
+    "dateBasis": "item_publication_or_update",
+    "publisher": "google",
+    "primaryRefs": [
+      "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_app_Android_social_share.max-600x600.format-webp.webp"
+    ]
+  },
+  "sources": [
+    {
+      "id": "00a064e6720e",
+      "title": "The Gemini app is now available on lower-memory Android devices.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+      "text": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+      "published": "2026-11-18T17:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "google",
+      "primaryRefs": [
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_app_Android_social_share.max-600x600.format-webp.webp"
+      ]
+    }
+  ],
+  "editorialMode": "daily",
+  "editorialLabel": null,
+  "windowHours": 72,
+  "relevanceExcluded": 311,
+  "verification": [
+    {
+      "id": "00a064e6720e",
+      "basis": "official_primary_source",
+      "sourceIds": [
+        "00a064e6720e"
+      ]
+    }
+  ],
+  "diagnostics": [
+    {
+      "url": "https://openai.com/news/rss.xml",
+      "items": 1413,
+      "valid": 1246,
+      "invalid": 167,
+      "future": 0,
+      "status": "ok",
+      "cache": "miss"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/rss/",
+      "items": 20,
+      "valid": 18,
+      "invalid": 2,
+      "future": 0,
+      "status": "ok",
+      "cache": "miss"
+    },
+    {
+      "url": "https://blog.google/technology/ai/rss/",
+      "items": 20,
+      "valid": 18,
+      "invalid": 2,
+      "future": 0,
+      "status": "ok",
+      "cache": "miss"
+    },
+    {
+      "url": "https://huggingface.co/blog/feed.xml",
+      "items": 913,
+      "valid": 0,
+      "invalid": 913,
+      "future": 0,
+      "status": "ok",
+      "cache": "miss"
+    },
+    {
+      "url": "https://blogs.nvidia.com/feed/",
+      "items": 18,
+      "valid": 18,
+      "invalid": 0,
+      "future": 0,
+      "status": "ok",
+      "cache": "miss"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/research/feed/",
+      "items": 10,
+      "valid": 10,
+      "invalid": 0,
+      "future": 0,
+      "status": "ok",
+      "cache": "miss"
+    },
+    {
+      "url": "https://rss.arxiv.org/rss/cs.AI",
+      "items": 401,
+      "valid": 401,
+      "invalid": 0,
+      "future": 0,
+      "status": "ok",
+      "cache": "miss"
+    },
+    {
+      "url": "https://rss.arxiv.org/rss/cs.CL",
+      "items": 162,
+      "valid": 162,
+      "invalid": 0,
+      "future": 0,
+      "status": "ok",
+      "cache": "miss"
+    },
+    {
+      "url": "https://hnrss.org/frontpage",
+      "items": 20,
+      "valid": 20,
+      "invalid": 0,
+      "future": 0,
+      "status": "ok",
+      "cache": "miss"
+    }
+  ],
+  "trend": [],
+  "scoring": "Source authority, verified freshness and unused canonical source URL; no invented trend-volume metric."
+}
