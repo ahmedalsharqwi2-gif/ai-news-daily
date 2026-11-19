@@ -1,35 +1,33 @@
 {
   "id": "2026-11-19T10-13-23-539Z",
-  "attemptId": "2026-11-19T10-13-23-539Z",
+  "attemptId": "2026-11-19T11-52-57-465Z",
   "mode": "review",
   "published": false,
   "status": "failed",
-  "resumed": false,
+  "resumed": true,
   "stages": [
     {
       "name": "preflight",
       "status": "pass",
-      "seconds": 0.231
+      "seconds": 0.134
     },
     {
       "name": "topics",
-      "status": "pass",
-      "seconds": 14.418
+      "status": "resumed_from_saved_source_manifest"
     },
     {
       "name": "script",
-      "status": "pass",
-      "seconds": 40.587
+      "status": "resumed_from_hash_verified_script"
     },
     {
       "name": "voice",
       "status": "pass",
-      "seconds": 836.706
+      "seconds": 0.623
     },
     {
       "name": "voice-repair-1",
       "status": "pass",
-      "seconds": 1.708
+      "seconds": 1.293
     }
   ],
   "limitations": [
@@ -37,12 +35,6 @@
     "align failed (ALIGNMENT_SPEECH_MISMATCH); re-narrating once with fresh synthesis",
     "align repair failed (ALIGNMENT_SPEECH_MISMATCH); repair budget exhausted"
   ],
-  "retiredEpisode": {
-    "id": "2026-11-19T07-31-39-337Z",
-    "stage": "align",
-    "code": "ALIGNMENT_SPEECH_MISMATCH",
-    "reason": "Same stage and code failed on consecutive resumed attempts; retained audio and hash-locked script are immutable, so the deterministic failure cannot clear. Episode retired; a fresh episode is rolled through the same gates."
-  },
   "failedStage": "align-repair-1",
   "errorCode": "ALIGNMENT_SPEECH_MISMATCH",
   "partial": {
