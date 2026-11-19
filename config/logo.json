@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "path": "brand/logo/logo.png",
-  "sha256": "3c4f8c1d66fa41e6f95e746071956e862cc77ba67951b1807a662197270d01de",
-  "bytes": 10749,
-  "width": 80,
-  "height": 80,
+  "sha256": "c5d4c0d6406ff67a0ccbda2e00a4b70e55491b64ec32d882b349df2b601b71bf",
+  "bytes": 43663,
+  "width": 800,
+  "height": 800,
   "badgeBackground": "#000d19",
-  "source": "Preserved original professional_motion/assets/brand/logo.png",
-  "altered": false
+  "source": "Owner-approved rebrand 2026-11-19: AI على السريع robot mascot identity; masters in assets/brand/",
+  "altered": true
 }

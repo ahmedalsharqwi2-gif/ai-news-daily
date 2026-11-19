@@ -1,6 +1,6 @@
 import React from 'react';
 import {AbsoluteFill,Composition,Sequence,Audio,Img,registerRoot,staticFile,useCurrentFrame,interpolate,spring,useVideoConfig} from 'remotion';
-import {BrandLogo} from './Logo';
+import {BrandLogo,BrandWatermark} from './Logo';
 import {ScientificDiagram} from './ScientificDiagrams';
 import {scientificSubject} from '../pipeline/subject-policy.mjs';
 import {Character} from './Character';
@@ -40,6 +40,7 @@ function Shot({scene,index,count,incomplete,editorialLabel,incompleteMode}:{scen
  <div style={{position:'absolute',top:1380,left:100,right:100,height:174,boxSizing:'border-box',borderRadius:22,padding:'22px 30px',background:'#102c30ed',boxShadow:'0 10px 30px #0003',fontSize:visible.map(w=>w.text).join(' ').length>65?30:40,fontWeight:800,textAlign:'center',lineHeight:1.35,overflowWrap:'anywhere'}} data-text-box>
  {visible.length?visible.map((word,i)=><React.Fragment key={i}><span style={{color:start+i===active?tokens.amber:'white'}}>{word.text}</span>{' '}</React.Fragment>):scene.summary}</div>
  <div style={{position:'absolute',top:1600,left:100,right:100,fontSize:21,color:'#eee',textAlign:'center'}} data-text-box>{scene.kind==='legend'?'أسطورة — مش واقعة مؤكدة':scene.kind==='illustration'?'سيناريو تخيّلي للتوضيح':'المصدر: '+(scene.sourceLabel||'موثّق في بيانات الحلقة')}</div>
+ <BrandWatermark/>
  </AbsoluteFill>;
 }
 export function Episode(props:EpisodeProps){let seconds=0;return <AbsoluteFill><style>{`@font-face{font-family:ChannelArabic;src:url('${staticFile('fonts/Arabic-Bold.ttf')}')} *{box-sizing:border-box}`}</style>{props.audio&&<Audio src={staticFile(props.audio)}/>} {props.scenes.map((scene,i)=>{const from=Math.round(seconds*30);seconds+=scene.duration;const end=i===props.scenes.length-1?props.durationInFrames:Math.round(seconds*30);return <Sequence key={i} from={from} durationInFrames={end-from}><Shot scene={scene} index={i} count={props.scenes.length} incomplete={props.incomplete} editorialLabel={props.editorialLabel} incompleteMode={props.incompleteMode}/></Sequence>})}</AbsoluteFill>;}
