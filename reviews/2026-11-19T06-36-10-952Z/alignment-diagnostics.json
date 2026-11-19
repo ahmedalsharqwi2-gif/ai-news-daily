@@ -71,18 +71,17 @@
       "sourceWords": 35,
       "recognizedWords": 35,
       "missingNumerals": []
+    },
+    {
+      "scene": 7,
+      "passed": true,
+      "words": 34,
+      "characterSimilarity": 0.9604863221884499,
+      "wordCoverage": 0.7941176470588235,
+      "sourceWords": 34,
+      "recognizedWords": 34,
+      "missingNumerals": []
     }
   ],
-  "passed": false,
-  "code": "ALIGNMENT_SPEECH_MISMATCH",
-  "stage": "independent_asr",
-  "scene": 7,
-  "errorType": "AlignmentError",
-  "details": {
-    "characterSimilarity": 0.8327645051194539,
-    "wordCoverage": 0.6176470588235294,
-    "sourceWords": 34,
-    "recognizedWords": 27,
-    "missingNumerals": []
-  }
+  "passed": true
 }

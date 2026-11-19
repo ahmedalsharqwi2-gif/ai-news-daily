@@ -1,0 +1,1540 @@
+{
+  "topicKey": "ai-medicine-future-2026",
+  "title": "مستقبل الطب مع الذكاء الاصطناعي",
+  "hook": "تخيل لو الذكاء الاصطناعي بقى دكتورك الخاص اللي بيشخص حالتك بدقة أعلى من البشر، هل ده حقيقة ولا خيال علمي؟",
+  "cta": "تابعونا عشان تعرفوا أكتر عن أحدث تقنيات الذكاء الاصطناعي اللي بتغير حياتنا كل يوم.",
+  "scenes": [
+    {
+      "title": "بداية ثورة الطب",
+      "text": "الذكاء الاصطناعي مش بس بيساعدنا، ده بيغير قواعد اللعبة في الطب. من تشخيص الأمراض لحد اكتشاف أدوية جديدة، التطور سريع جداً ومبهر، وبيخلينا نسأل إيه اللي جاي في المستقبل القريب للرعاية الصحية؟",
+      "summary": "الذكاء الاصطناعي يغير قواعد الطب بسرعة مذهلة.",
+      "keyword": "ثورة طبية",
+      "template": "phenomenon",
+      "labels": [
+        "طب",
+        "ذكاء اصطناعي",
+        "تكنولوجيا"
+      ],
+      "values": [],
+      "claim": "الذكاء الاصطناعي يحدث ثورة في الطب.",
+      "sourceId": "46af5006ff7d",
+      "evidence": "It’s clear there’s a huge disruption happening at the intersection of biology and medicine and AI right now.",
+      "kind": "fact",
+      "expression": 8,
+      "action": "walk",
+      "words": [
+        {
+          "text": "الذكاء",
+          "start": 0.5,
+          "end": 0.86
+        },
+        {
+          "text": "الاصطناعي",
+          "start": 0.86,
+          "end": 1.56
+        },
+        {
+          "text": "مش",
+          "start": 1.56,
+          "end": 1.78
+        },
+        {
+          "text": "بس",
+          "start": 1.78,
+          "end": 2.08
+        },
+        {
+          "text": "بيساعدنا،",
+          "start": 3,
+          "end": 3.1
+        },
+        {
+          "text": "ده",
+          "start": 3.1,
+          "end": 3.18
+        },
+        {
+          "text": "بيغير",
+          "start": 3.18,
+          "end": 3.66
+        },
+        {
+          "text": "قواعد",
+          "start": 3.74,
+          "end": 4.18
+        },
+        {
+          "text": "اللعبة",
+          "start": 4.18,
+          "end": 4.58
+        },
+        {
+          "text": "في",
+          "start": 4.58,
+          "end": 4.7
+        },
+        {
+          "text": "الطب.",
+          "start": 4.7,
+          "end": 5.6
+        },
+        {
+          "text": "من",
+          "start": 5.66,
+          "end": 5.76
+        },
+        {
+          "text": "تشخيص",
+          "start": 5.76,
+          "end": 6.26
+        },
+        {
+          "text": "الأمراض",
+          "start": 6.26,
+          "end": 6.86
+        },
+        {
+          "text": "لحد",
+          "start": 6.86,
+          "end": 7.24
+        },
+        {
+          "text": "اكتشاف",
+          "start": 7.24,
+          "end": 7.72
+        },
+        {
+          "text": "أدوية",
+          "start": 7.72,
+          "end": 8.1
+        },
+        {
+          "text": "جديدة،",
+          "start": 8.1,
+          "end": 8.94
+        },
+        {
+          "text": "التطور",
+          "start": 8.94,
+          "end": 9.52
+        },
+        {
+          "text": "سريع",
+          "start": 9.52,
+          "end": 9.96
+        },
+        {
+          "text": "جداً",
+          "start": 9.96,
+          "end": 10.48
+        },
+        {
+          "text": "ومبهر،",
+          "start": 10.48,
+          "end": 11.32
+        },
+        {
+          "text": "وبيخلينا",
+          "start": 11.34,
+          "end": 12
+        },
+        {
+          "text": "نسأل",
+          "start": 12.46,
+          "end": 12.56
+        },
+        {
+          "text": "إيه",
+          "start": 12.56,
+          "end": 12.84
+        },
+        {
+          "text": "اللي",
+          "start": 12.84,
+          "end": 13.06
+        },
+        {
+          "text": "جاي",
+          "start": 13.06,
+          "end": 13.28
+        },
+        {
+          "text": "في",
+          "start": 13.28,
+          "end": 13.42
+        },
+        {
+          "text": "المستقبل",
+          "start": 13.42,
+          "end": 13.94
+        },
+        {
+          "text": "القريب",
+          "start": 13.94,
+          "end": 14.48
+        },
+        {
+          "text": "للرعاية",
+          "start": 14.48,
+          "end": 15
+        },
+        {
+          "text": "الصحية؟",
+          "start": 15,
+          "end": 15.3
+        }
+      ],
+      "duration": 15.650958,
+      "sourceUrl": "https://www.microsoft.com/en-us/research/podcast/can-ai-help-build-a-healthier-future/",
+      "sourceLabel": "www.microsoft.com"
+    },
+    {
+      "title": "التشخيص الذكي",
+      "text": "تخيل نظام ذكاء اصطناعي بيقوم بدور الطبيب، بيسأل الأسئلة الصح، وبيطلب التحاليل المناسبة بدقة عالية. الأبحاث بتقول إن النماذج دي قدرت تتفوق على الأطباء في التشخيص، وده بيفتح باب جديد لإنقاذ حياة ناس كتير.",
+      "summary": "الذكاء الاصطناعي يتفوق في التشخيص الطبي.",
+      "keyword": "تشخيص",
+      "template": "comparison",
+      "labels": [
+        "تشخيص",
+        "أطباء",
+        "ذكاء اصطناعي"
+      ],
+      "values": [],
+      "claim": "نماذج الذكاء الاصطناعي تتفوق على الأطباء في التشخيص.",
+      "sourceId": "46af5006ff7d",
+      "evidence": "Markedly improved accuracy over physicians, almost doubling, but at lower cost.",
+      "kind": "fact",
+      "expression": 9,
+      "action": "point",
+      "words": [
+        {
+          "text": "تخيل",
+          "start": 0.48,
+          "end": 0.78
+        },
+        {
+          "text": "نظام",
+          "start": 0.78,
+          "end": 1.18
+        },
+        {
+          "text": "ذكاء",
+          "start": 1.18,
+          "end": 1.54
+        },
+        {
+          "text": "اصطناعي",
+          "start": 1.54,
+          "end": 2.26
+        },
+        {
+          "text": "بيقوم",
+          "start": 2.26,
+          "end": 2.66
+        },
+        {
+          "text": "بدور",
+          "start": 2.66,
+          "end": 2.96
+        },
+        {
+          "text": "الطبيب،",
+          "start": 3.82,
+          "end": 3.92
+        },
+        {
+          "text": "بيسأل",
+          "start": 3.92,
+          "end": 4.36
+        },
+        {
+          "text": "الأسئلة",
+          "start": 4.36,
+          "end": 4.8
+        },
+        {
+          "text": "الصح،",
+          "start": 4.8,
+          "end": 5.52
+        },
+        {
+          "text": "وبيطلب",
+          "start": 5.52,
+          "end": 5.96
+        },
+        {
+          "text": "التحاليل",
+          "start": 5.96,
+          "end": 6.54
+        },
+        {
+          "text": "المناسبة",
+          "start": 6.54,
+          "end": 7.22
+        },
+        {
+          "text": "بدقة",
+          "start": 7.5,
+          "end": 7.6
+        },
+        {
+          "text": "عالية.",
+          "start": 7.6,
+          "end": 8.66
+        },
+        {
+          "text": "الأبحاث",
+          "start": 8.8,
+          "end": 9.08
+        },
+        {
+          "text": "بتقول",
+          "start": 9.22,
+          "end": 9.6
+        },
+        {
+          "text": "إن",
+          "start": 9.74,
+          "end": 9.94
+        },
+        {
+          "text": "النماذج",
+          "start": 9.94,
+          "end": 10.44
+        },
+        {
+          "text": "دي",
+          "start": 10.44,
+          "end": 10.56
+        },
+        {
+          "text": "قدرت",
+          "start": 10.56,
+          "end": 10.96
+        },
+        {
+          "text": "تتفوق",
+          "start": 11.26,
+          "end": 11.54
+        },
+        {
+          "text": "على",
+          "start": 11.54,
+          "end": 11.74
+        },
+        {
+          "text": "الأطباء",
+          "start": 11.9,
+          "end": 12.26
+        },
+        {
+          "text": "في",
+          "start": 12.26,
+          "end": 12.42
+        },
+        {
+          "text": "التشخيص،",
+          "start": 13.22,
+          "end": 13.32
+        },
+        {
+          "text": "وده",
+          "start": 13.32,
+          "end": 13.54
+        },
+        {
+          "text": "بيفتح",
+          "start": 13.54,
+          "end": 13.94
+        },
+        {
+          "text": "باب",
+          "start": 13.94,
+          "end": 14.18
+        },
+        {
+          "text": "جديد",
+          "start": 14.18,
+          "end": 14.78
+        },
+        {
+          "text": "لإنقاذ",
+          "start": 14.78,
+          "end": 15.32
+        },
+        {
+          "text": "حياة",
+          "start": 15.44,
+          "end": 15.82
+        },
+        {
+          "text": "ناس",
+          "start": 15.82,
+          "end": 16.06
+        },
+        {
+          "text": "كتير.",
+          "start": 16.06,
+          "end": 16.4
+        }
+      ],
+      "duration": 16.8,
+      "sourceUrl": "https://www.microsoft.com/en-us/research/podcast/can-ai-help-build-a-healthier-future/",
+      "sourceLabel": "www.microsoft.com"
+    },
+    {
+      "title": "معضلة الصور الطبية",
+      "text": "عندنا كنوز من الصور الطبية زي الأشعة والتحاليل، بس للأسف مش بنستغلها صح. الذكاء الاصطناعي يقدر يقرأ تفاصيل في الصور دي البشر مش بيشوفوها، ومع ذلك لسه بنعاني من بطء في تطبيق التكنولوجيا دي.",
+      "summary": "الصور الطبية كنز غير مستغل بالذكاء الاصطناعي.",
+      "keyword": "صور طبية",
+      "template": "chart",
+      "labels": [
+        "أشعة",
+        "تحاليل",
+        "بيانات"
+      ],
+      "values": [],
+      "claim": "الذكاء الاصطناعي يرى تفاصيل في الصور الطبية لا يراها البشر.",
+      "sourceId": "46af5006ff7d",
+      "evidence": "Eking out all the embedded information that humans can’t see, but AI can interpret from every type of medical image that we know of.",
+      "kind": "fact",
+      "expression": 5,
+      "action": "turn",
+      "words": [
+        {
+          "text": "عندنا",
+          "start": 0.6,
+          "end": 0.82
+        },
+        {
+          "text": "كنوز",
+          "start": 0.82,
+          "end": 1.26
+        },
+        {
+          "text": "من",
+          "start": 1.26,
+          "end": 1.44
+        },
+        {
+          "text": "الصور",
+          "start": 1.44,
+          "end": 1.8
+        },
+        {
+          "text": "الطبية",
+          "start": 1.8,
+          "end": 2.44
+        },
+        {
+          "text": "زي",
+          "start": 2.68,
+          "end": 3.02
+        },
+        {
+          "text": "الأشعة",
+          "start": 3.02,
+          "end": 3.62
+        },
+        {
+          "text": "والتحاليل،",
+          "start": 3.62,
+          "end": 4.98
+        },
+        {
+          "text": "بس",
+          "start": 4.98,
+          "end": 5.16
+        },
+        {
+          "text": "للأسف",
+          "start": 5.16,
+          "end": 5.64
+        },
+        {
+          "text": "مش",
+          "start": 5.64,
+          "end": 5.8
+        },
+        {
+          "text": "بنستغلها",
+          "start": 5.8,
+          "end": 6.54
+        },
+        {
+          "text": "صح.",
+          "start": 6.54,
+          "end": 6.64
+        },
+        {
+          "text": "الذكاء",
+          "start": 7.66,
+          "end": 8.1
+        },
+        {
+          "text": "الاصطناعي",
+          "start": 8.1,
+          "end": 8.76
+        },
+        {
+          "text": "يقدر",
+          "start": 8.76,
+          "end": 9.16
+        },
+        {
+          "text": "يقرأ",
+          "start": 9.16,
+          "end": 9.48
+        },
+        {
+          "text": "تفاصيل",
+          "start": 9.8,
+          "end": 10
+        },
+        {
+          "text": "في",
+          "start": 10.04,
+          "end": 10.14
+        },
+        {
+          "text": "الصور",
+          "start": 10.14,
+          "end": 10.52
+        },
+        {
+          "text": "دي",
+          "start": 10.52,
+          "end": 10.9
+        },
+        {
+          "text": "البشر",
+          "start": 10.98,
+          "end": 11.44
+        },
+        {
+          "text": "مش",
+          "start": 11.44,
+          "end": 11.6
+        },
+        {
+          "text": "بيشوفوها،",
+          "start": 11.6,
+          "end": 12.86
+        },
+        {
+          "text": "ومع",
+          "start": 12.86,
+          "end": 13.16
+        },
+        {
+          "text": "ذلك",
+          "start": 13.16,
+          "end": 13.52
+        },
+        {
+          "text": "لسه",
+          "start": 13.52,
+          "end": 13.9
+        },
+        {
+          "text": "بنعاني",
+          "start": 13.9,
+          "end": 14.44
+        },
+        {
+          "text": "من",
+          "start": 14.44,
+          "end": 14.68
+        },
+        {
+          "text": "بطء",
+          "start": 14.68,
+          "end": 15.06
+        },
+        {
+          "text": "في",
+          "start": 15.06,
+          "end": 15.16
+        },
+        {
+          "text": "تطبيق",
+          "start": 15.16,
+          "end": 15.6
+        },
+        {
+          "text": "التكنولوجيا",
+          "start": 15.88,
+          "end": 16.32
+        },
+        {
+          "text": "دي.",
+          "start": 16.32,
+          "end": 16.58
+        }
+      ],
+      "duration": 16.6,
+      "sourceUrl": "https://www.microsoft.com/en-us/research/podcast/can-ai-help-build-a-healthier-future/",
+      "sourceLabel": "www.microsoft.com"
+    },
+    {
+      "title": "نموذج المريض الكامل",
+      "text": "الهدف دلوقتي هو بناء نموذج للمريض الكامل، بيجمع كل حاجة من الجينات للبيانات الحيوية. ده هيخلينا نتوقع الأمراض قبل ما تحصل، ونغير مسار العلاج بشكل شخصي ومختلف تماماً عن اللي بنعمله دلوقتي.",
+      "summary": "نموذج المريض الكامل يتوقع الأمراض.",
+      "keyword": "مريض كامل",
+      "template": "map",
+      "labels": [
+        "جينات",
+        "بيانات",
+        "توقع"
+      ],
+      "values": [],
+      "claim": "نماذج المريض الكامل تساعد في توقع الأمراض.",
+      "sourceId": "46af5006ff7d",
+      "evidence": "It could be genomics, could be proteomics; it could be, you know, the exposome—all these layers of data.",
+      "kind": "fact",
+      "expression": 7,
+      "action": "walk",
+      "words": [
+        {
+          "text": "الهدف",
+          "start": 0.46,
+          "end": 0.78
+        },
+        {
+          "text": "دلوقتي",
+          "start": 0.78,
+          "end": 1.42
+        },
+        {
+          "text": "هو",
+          "start": 1.44,
+          "end": 1.74
+        },
+        {
+          "text": "بناء",
+          "start": 1.74,
+          "end": 2.12
+        },
+        {
+          "text": "نموذج",
+          "start": 2.12,
+          "end": 2.72
+        },
+        {
+          "text": "للمريض",
+          "start": 2.72,
+          "end": 3.3
+        },
+        {
+          "text": "الكامل،",
+          "start": 3.3,
+          "end": 4.28
+        },
+        {
+          "text": "بيجمع",
+          "start": 4.28,
+          "end": 4.76
+        },
+        {
+          "text": "كل",
+          "start": 4.78,
+          "end": 5.08
+        },
+        {
+          "text": "حاجة",
+          "start": 5.6,
+          "end": 5.7
+        },
+        {
+          "text": "من",
+          "start": 5.7,
+          "end": 5.94
+        },
+        {
+          "text": "الجينات",
+          "start": 6.56,
+          "end": 6.66
+        },
+        {
+          "text": "للبيانات",
+          "start": 6.66,
+          "end": 7.24
+        },
+        {
+          "text": "الحيوية.",
+          "start": 7.24,
+          "end": 7.84
+        },
+        {
+          "text": "ده",
+          "start": 8.42,
+          "end": 8.62
+        },
+        {
+          "text": "هيخلينا",
+          "start": 8.62,
+          "end": 9.12
+        },
+        {
+          "text": "نتوقع",
+          "start": 9.12,
+          "end": 9.74
+        },
+        {
+          "text": "الأمراض",
+          "start": 9.74,
+          "end": 10.3
+        },
+        {
+          "text": "قبل",
+          "start": 10.32,
+          "end": 10.58
+        },
+        {
+          "text": "ما",
+          "start": 10.58,
+          "end": 10.7
+        },
+        {
+          "text": "تحصل،",
+          "start": 11.36,
+          "end": 11.46
+        },
+        {
+          "text": "ونغير",
+          "start": 11.46,
+          "end": 12
+        },
+        {
+          "text": "مسار",
+          "start": 12,
+          "end": 12.38
+        },
+        {
+          "text": "العلاج",
+          "start": 12.38,
+          "end": 12.86
+        },
+        {
+          "text": "بشكل",
+          "start": 12.86,
+          "end": 13.26
+        },
+        {
+          "text": "شخصي",
+          "start": 13.3,
+          "end": 13.82
+        },
+        {
+          "text": "ومختلف",
+          "start": 13.82,
+          "end": 14.42
+        },
+        {
+          "text": "تماماً",
+          "start": 14.48,
+          "end": 15.08
+        },
+        {
+          "text": "عن",
+          "start": 15.08,
+          "end": 15.18
+        },
+        {
+          "text": "اللي",
+          "start": 15.18,
+          "end": 15.32
+        },
+        {
+          "text": "بنعمله",
+          "start": 15.32,
+          "end": 15.7
+        },
+        {
+          "text": "دلوقتي.",
+          "start": 15.7,
+          "end": 15.94
+        }
+      ],
+      "duration": 16.48,
+      "sourceUrl": "https://www.microsoft.com/en-us/research/podcast/can-ai-help-build-a-healthier-future/",
+      "sourceLabel": "www.microsoft.com"
+    },
+    {
+      "title": "عقبات التنفيذ",
+      "text": "ليه التكنولوجيا دي مش في كل المستشفيات؟ المشكلة مش في العلم، المشكلة في التنفيذ. النظام الطبي بطيء في التغيير، وفيه تحديات اقتصادية بتخلي المستشفيات تتردد في الاستثمار في حلول ذكاء اصطناعي جديدة ومبتكرة.",
+      "summary": "التحديات الاقتصادية تعيق تبني الذكاء الاصطناعي.",
+      "keyword": "تنفيذ",
+      "template": "cause",
+      "labels": [
+        "اقتصاد",
+        "مستشفيات",
+        "تحديات"
+      ],
+      "values": [],
+      "claim": "النظام الطبي بطيء في تبني الذكاء الاصطناعي لأسباب اقتصادية.",
+      "sourceId": "46af5006ff7d",
+      "evidence": "Oftentimes, there’s financial constraints; there’s unwillingness to invest at health systems level because, you know, they’re working at very low margins.",
+      "kind": "fact",
+      "expression": 4,
+      "action": "jump",
+      "words": [
+        {
+          "text": "ليه",
+          "start": 0.52,
+          "end": 0.64
+        },
+        {
+          "text": "التكنولوجيا",
+          "start": 0.64,
+          "end": 1.48
+        },
+        {
+          "text": "دي",
+          "start": 1.48,
+          "end": 1.78
+        },
+        {
+          "text": "مش",
+          "start": 1.8,
+          "end": 2.06
+        },
+        {
+          "text": "في",
+          "start": 2.06,
+          "end": 2.24
+        },
+        {
+          "text": "كل",
+          "start": 2.24,
+          "end": 2.48
+        },
+        {
+          "text": "المستشفيات؟",
+          "start": 2.48,
+          "end": 3.9
+        },
+        {
+          "text": "المشكلة",
+          "start": 3.9,
+          "end": 4.46
+        },
+        {
+          "text": "مش",
+          "start": 4.46,
+          "end": 4.58
+        },
+        {
+          "text": "في",
+          "start": 4.58,
+          "end": 4.76
+        },
+        {
+          "text": "العلم،",
+          "start": 4.76,
+          "end": 5.54
+        },
+        {
+          "text": "المشكلة",
+          "start": 5.54,
+          "end": 6.16
+        },
+        {
+          "text": "في",
+          "start": 6.16,
+          "end": 6.26
+        },
+        {
+          "text": "التنفيذ.",
+          "start": 6.26,
+          "end": 7.48
+        },
+        {
+          "text": "النظام",
+          "start": 7.62,
+          "end": 7.86
+        },
+        {
+          "text": "الطبي",
+          "start": 7.86,
+          "end": 8.2
+        },
+        {
+          "text": "بطيء",
+          "start": 8.2,
+          "end": 8.62
+        },
+        {
+          "text": "في",
+          "start": 8.62,
+          "end": 8.72
+        },
+        {
+          "text": "التغيير،",
+          "start": 8.72,
+          "end": 9.68
+        },
+        {
+          "text": "وفيه",
+          "start": 9.68,
+          "end": 10.1
+        },
+        {
+          "text": "تحديات",
+          "start": 10.1,
+          "end": 10.6
+        },
+        {
+          "text": "اقتصادية",
+          "start": 10.68,
+          "end": 11.28
+        },
+        {
+          "text": "بتخلي",
+          "start": 11.52,
+          "end": 11.9
+        },
+        {
+          "text": "المستشفيات",
+          "start": 11.9,
+          "end": 12.7
+        },
+        {
+          "text": "تتردد",
+          "start": 13.14,
+          "end": 13.24
+        },
+        {
+          "text": "في",
+          "start": 13.24,
+          "end": 13.36
+        },
+        {
+          "text": "الاستثمار",
+          "start": 13.36,
+          "end": 13.94
+        },
+        {
+          "text": "في",
+          "start": 13.94,
+          "end": 14.08
+        },
+        {
+          "text": "حلول",
+          "start": 14.12,
+          "end": 14.44
+        },
+        {
+          "text": "ذكاء",
+          "start": 14.44,
+          "end": 14.8
+        },
+        {
+          "text": "اصطناعي",
+          "start": 14.8,
+          "end": 15.3
+        },
+        {
+          "text": "جديدة",
+          "start": 15.3,
+          "end": 15.72
+        },
+        {
+          "text": "ومبتكرة.",
+          "start": 15.72,
+          "end": 16.3
+        }
+      ],
+      "duration": 16.741917,
+      "sourceUrl": "https://www.microsoft.com/en-us/research/podcast/can-ai-help-build-a-healthier-future/",
+      "sourceLabel": "www.microsoft.com"
+    },
+    {
+      "title": "الذكاء الاصطناعي والتعاطف",
+      "text": "مفاجأة غريبة! المرضى بقوا بيلجأوا للروبوتات عشان يلاقوا تعاطف أكتر من البشر. الروبوتات عندها وقت غير محدود، وبتقدر تجاوب على كل الأسئلة، وده بيخلي المريض يحس باهتمام أكبر في ظل ضغط وقت الأطباء.",
+      "summary": "المرضى يجدون تعاطفاً في الذكاء الاصطناعي.",
+      "keyword": "تعاطف",
+      "template": "phenomenon",
+      "labels": [
+        "تعاطف",
+        "مرضى",
+        "روبوتات"
+      ],
+      "values": [],
+      "claim": "المرضى يجدون الذكاء الاصطناعي أكثر تعاطفاً من الأطباء.",
+      "sourceId": "46af5006ff7d",
+      "evidence": "Patients turn to chatbots and AI to find out that they are more empathetic than humans.",
+      "kind": "fact",
+      "expression": 6,
+      "action": "run",
+      "words": [
+        {
+          "text": "مفاجأة",
+          "start": 0.26,
+          "end": 0.86
+        },
+        {
+          "text": "غريبة!",
+          "start": 0.86,
+          "end": 1.92
+        },
+        {
+          "text": "المرضى",
+          "start": 2.02,
+          "end": 2.28
+        },
+        {
+          "text": "بقوا",
+          "start": 2.28,
+          "end": 2.5
+        },
+        {
+          "text": "بيلجأوا",
+          "start": 2.5,
+          "end": 3.04
+        },
+        {
+          "text": "للروبوتات",
+          "start": 3.04,
+          "end": 3.72
+        },
+        {
+          "text": "عشان",
+          "start": 3.72,
+          "end": 4.08
+        },
+        {
+          "text": "يلاقوا",
+          "start": 4.08,
+          "end": 4.34
+        },
+        {
+          "text": "تعاطف",
+          "start": 4.34,
+          "end": 4.82
+        },
+        {
+          "text": "أكتر",
+          "start": 4.84,
+          "end": 5.22
+        },
+        {
+          "text": "من",
+          "start": 5.22,
+          "end": 5.34
+        },
+        {
+          "text": "البشر.",
+          "start": 5.34,
+          "end": 5.72
+        },
+        {
+          "text": "الروبوتات",
+          "start": 6.22,
+          "end": 6.9
+        },
+        {
+          "text": "عندها",
+          "start": 6.9,
+          "end": 7.3
+        },
+        {
+          "text": "وقت",
+          "start": 7.3,
+          "end": 7.68
+        },
+        {
+          "text": "غير",
+          "start": 7.68,
+          "end": 8
+        },
+        {
+          "text": "محدود،",
+          "start": 8,
+          "end": 8.84
+        },
+        {
+          "text": "وبتقدر",
+          "start": 9.22,
+          "end": 9.32
+        },
+        {
+          "text": "تجاوب",
+          "start": 9.32,
+          "end": 9.72
+        },
+        {
+          "text": "على",
+          "start": 9.72,
+          "end": 10
+        },
+        {
+          "text": "كل",
+          "start": 10.08,
+          "end": 10.34
+        },
+        {
+          "text": "الأسئلة،",
+          "start": 10.34,
+          "end": 11.14
+        },
+        {
+          "text": "وده",
+          "start": 11.26,
+          "end": 11.56
+        },
+        {
+          "text": "بيخلي",
+          "start": 11.56,
+          "end": 11.9
+        },
+        {
+          "text": "المريض",
+          "start": 11.9,
+          "end": 12.32
+        },
+        {
+          "text": "يحس",
+          "start": 12.32,
+          "end": 12.64
+        },
+        {
+          "text": "باهتمام",
+          "start": 12.64,
+          "end": 13.14
+        },
+        {
+          "text": "أكبر",
+          "start": 13.14,
+          "end": 13.74
+        },
+        {
+          "text": "في",
+          "start": 13.86,
+          "end": 13.96
+        },
+        {
+          "text": "ظل",
+          "start": 13.96,
+          "end": 14.24
+        },
+        {
+          "text": "ضغط",
+          "start": 14.24,
+          "end": 14.54
+        },
+        {
+          "text": "وقت",
+          "start": 14.54,
+          "end": 14.76
+        },
+        {
+          "text": "الأطباء.",
+          "start": 14.76,
+          "end": 14.9
+        }
+      ],
+      "duration": 15.810958,
+      "sourceUrl": "https://www.microsoft.com/en-us/research/podcast/can-ai-help-build-a-healthier-future/",
+      "sourceLabel": "www.microsoft.com"
+    },
+    {
+      "title": "مستقبل الوقاية",
+      "text": "الطب مش بس علاج، الطب الحقيقي هو الوقاية. الذكاء الاصطناعي بيفتح باب جديد عشان نمنع الأمراض قبل ما تبدأ، وده تغيير جذري في فلسفة الرعاية الصحية اللي كانت دايماً بتركز على العلاج بعد وقوع المرض.",
+      "summary": "الذكاء الاصطناعي يركز على الوقاية من الأمراض.",
+      "keyword": "وقاية",
+      "template": "journey",
+      "labels": [
+        "وقاية",
+        "صحة",
+        "مستقبل"
+      ],
+      "values": [],
+      "claim": "الذكاء الاصطناعي يتيح فرصاً غير مسبوقة للوقاية من الأمراض.",
+      "sourceId": "46af5006ff7d",
+      "evidence": "We have a real, a chance to enable prevention, which we’ve never really done in any meaningful way in healthcare.",
+      "kind": "fact",
+      "expression": 10,
+      "action": "walk",
+      "words": [
+        {
+          "text": "الطب",
+          "start": 0.52,
+          "end": 0.78
+        },
+        {
+          "text": "مش",
+          "start": 0.78,
+          "end": 0.9
+        },
+        {
+          "text": "بس",
+          "start": 0.9,
+          "end": 1.24
+        },
+        {
+          "text": "علاج،",
+          "start": 1.24,
+          "end": 2.28
+        },
+        {
+          "text": "الطب",
+          "start": 2.34,
+          "end": 2.58
+        },
+        {
+          "text": "الحقيقي",
+          "start": 2.58,
+          "end": 3.22
+        },
+        {
+          "text": "هو",
+          "start": 3.24,
+          "end": 3.48
+        },
+        {
+          "text": "الوقاية.",
+          "start": 3.48,
+          "end": 4.94
+        },
+        {
+          "text": "الذكاء",
+          "start": 5.02,
+          "end": 5.24
+        },
+        {
+          "text": "الاصطناعي",
+          "start": 5.24,
+          "end": 5.72
+        },
+        {
+          "text": "بيفتح",
+          "start": 5.72,
+          "end": 6.14
+        },
+        {
+          "text": "باب",
+          "start": 6.14,
+          "end": 6.34
+        },
+        {
+          "text": "جديد",
+          "start": 6.34,
+          "end": 6.92
+        },
+        {
+          "text": "عشان",
+          "start": 6.96,
+          "end": 7.3
+        },
+        {
+          "text": "نمنع",
+          "start": 7.3,
+          "end": 7.62
+        },
+        {
+          "text": "الأمراض",
+          "start": 7.62,
+          "end": 8.1
+        },
+        {
+          "text": "قبل",
+          "start": 8.12,
+          "end": 8.36
+        },
+        {
+          "text": "ما",
+          "start": 8.36,
+          "end": 8.52
+        },
+        {
+          "text": "تبدأ،",
+          "start": 8.52,
+          "end": 9.52
+        },
+        {
+          "text": "وده",
+          "start": 9.52,
+          "end": 9.66
+        },
+        {
+          "text": "تغيير",
+          "start": 9.66,
+          "end": 10.02
+        },
+        {
+          "text": "جذري",
+          "start": 10.02,
+          "end": 10.34
+        },
+        {
+          "text": "في",
+          "start": 10.34,
+          "end": 10.46
+        },
+        {
+          "text": "فلسفة",
+          "start": 10.46,
+          "end": 10.94
+        },
+        {
+          "text": "الرعاية",
+          "start": 10.94,
+          "end": 11.26
+        },
+        {
+          "text": "الصحية",
+          "start": 11.26,
+          "end": 11.94
+        },
+        {
+          "text": "اللي",
+          "start": 12.04,
+          "end": 12.28
+        },
+        {
+          "text": "كانت",
+          "start": 12.28,
+          "end": 12.54
+        },
+        {
+          "text": "دايماً",
+          "start": 12.54,
+          "end": 12.78
+        },
+        {
+          "text": "بتركز",
+          "start": 12.78,
+          "end": 13.28
+        },
+        {
+          "text": "على",
+          "start": 13.28,
+          "end": 13.42
+        },
+        {
+          "text": "العلاج",
+          "start": 13.42,
+          "end": 14.06
+        },
+        {
+          "text": "بعد",
+          "start": 14.06,
+          "end": 14.38
+        },
+        {
+          "text": "وقوع",
+          "start": 14.38,
+          "end": 14.76
+        },
+        {
+          "text": "المرض.",
+          "start": 14.76,
+          "end": 14.96
+        }
+      ],
+      "duration": 15.52,
+      "sourceUrl": "https://www.microsoft.com/en-us/research/podcast/can-ai-help-build-a-healthier-future/",
+      "sourceLabel": "www.microsoft.com"
+    },
+    {
+      "title": "الخلاصة",
+      "text": "الذكاء الاصطناعي مش بديل للطبيب، ده أداة قوية بتدينا وقت أكتر للتركيز على المريض. المستقبل بيوعدنا بطب أفضل وأدق، وأهم حاجة إننا نبدأ نستخدم الأدوات دي دلوقتي. شاركونا رأيكم في التعليقات، واعملوا لايك وشير!",
+      "summary": "الذكاء الاصطناعي أداة لتعزيز دور الطبيب.",
+      "keyword": "خلاصة",
+      "template": "steps",
+      "labels": [
+        "مستقبل",
+        "طب",
+        "مشاركة"
+      ],
+      "values": [],
+      "claim": "الذكاء الاصطناعي يعزز العلاقة بين الطبيب والمريض.",
+      "sourceId": "46af5006ff7d",
+      "evidence": "I hope that we’ll see a return to the … with the gift of time, with patients being somewhat more autonomous, physicians having more time with patients.",
+      "kind": "fact",
+      "expression": 11,
+      "action": "point",
+      "words": [
+        {
+          "text": "الذكاء",
+          "start": 0.36,
+          "end": 0.92
+        },
+        {
+          "text": "الاصطناعي",
+          "start": 0.92,
+          "end": 1.66
+        },
+        {
+          "text": "مش",
+          "start": 1.66,
+          "end": 1.86
+        },
+        {
+          "text": "بديل",
+          "start": 1.86,
+          "end": 2.26
+        },
+        {
+          "text": "للطبيب،",
+          "start": 2.26,
+          "end": 3.38
+        },
+        {
+          "text": "ده",
+          "start": 3.38,
+          "end": 3.46
+        },
+        {
+          "text": "أداة",
+          "start": 3.72,
+          "end": 3.82
+        },
+        {
+          "text": "قوية",
+          "start": 3.82,
+          "end": 4.32
+        },
+        {
+          "text": "بتدينا",
+          "start": 4.32,
+          "end": 4.92
+        },
+        {
+          "text": "وقت",
+          "start": 4.92,
+          "end": 5.22
+        },
+        {
+          "text": "أكتر",
+          "start": 5.48,
+          "end": 5.68
+        },
+        {
+          "text": "للتركيز",
+          "start": 5.68,
+          "end": 6.26
+        },
+        {
+          "text": "على",
+          "start": 6.26,
+          "end": 6.44
+        },
+        {
+          "text": "المريض.",
+          "start": 6.44,
+          "end": 6.56
+        },
+        {
+          "text": "المستقبل",
+          "start": 7.76,
+          "end": 8.3
+        },
+        {
+          "text": "بيوعدنا",
+          "start": 8.3,
+          "end": 8.98
+        },
+        {
+          "text": "بطب",
+          "start": 8.98,
+          "end": 9.4
+        },
+        {
+          "text": "أفضل",
+          "start": 9.44,
+          "end": 9.98
+        },
+        {
+          "text": "وأدق،",
+          "start": 10.88,
+          "end": 10.98
+        },
+        {
+          "text": "وأهم",
+          "start": 10.98,
+          "end": 11.34
+        },
+        {
+          "text": "حاجة",
+          "start": 11.94,
+          "end": 12.04
+        },
+        {
+          "text": "إننا",
+          "start": 12.04,
+          "end": 12.36
+        },
+        {
+          "text": "نبدأ",
+          "start": 12.36,
+          "end": 12.7
+        },
+        {
+          "text": "نستخدم",
+          "start": 12.7,
+          "end": 13.22
+        },
+        {
+          "text": "الأدوات",
+          "start": 13.6,
+          "end": 13.7
+        },
+        {
+          "text": "دي",
+          "start": 13.7,
+          "end": 13.82
+        },
+        {
+          "text": "دلوقتي.",
+          "start": 13.82,
+          "end": 14.1
+        },
+        {
+          "text": "شاركونا",
+          "start": 15.12,
+          "end": 15.48
+        },
+        {
+          "text": "رأيكم",
+          "start": 15.48,
+          "end": 15.96
+        },
+        {
+          "text": "في",
+          "start": 15.96,
+          "end": 16.06
+        },
+        {
+          "text": "التعليقات،",
+          "start": 16.82,
+          "end": 16.92
+        },
+        {
+          "text": "واعملوا",
+          "start": 16.92,
+          "end": 17.46
+        },
+        {
+          "text": "لايك",
+          "start": 17.46,
+          "end": 17.76
+        },
+        {
+          "text": "وشير!",
+          "start": 17.76,
+          "end": 18.06
+        }
+      ],
+      "duration": 18.330958,
+      "sourceUrl": "https://www.microsoft.com/en-us/research/podcast/can-ai-help-build-a-healthier-future/",
+      "sourceLabel": "www.microsoft.com"
+    }
+  ],
+  "editorialMode": "daily",
+  "editorialLabel": null,
+  "scriptModel": "gemini-3.1-flash-lite-preview",
+  "audio": "generated/2026-11-19T06-36-10-952Z/audio.wav",
+  "durationInFrames": 3959
+}
