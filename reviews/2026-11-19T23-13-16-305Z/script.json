@@ -1,0 +1,167 @@
+{
+  "topicKey": "nvidia-omniverse-frontier-ai-agents",
+  "title": "مستقبل المحاكاة الذكية مع إنفيديا",
+  "hook": "عمرك سألت نفسك إزاي المهندسين بيختبروا الروبوتات قبل ما ينزلوها أرض الواقع؟ هل ممكن نبني عالم كامل جوه الكمبيوتر ونشوفه بيتحرك قدامنا كأنه حقيقة؟",
+  "cta": "جرب بنفسك تستخدم أدوات إنفيديا أومنيفيرس وابدأ رحلتك في بناء محاكاة ذكية النهاردة، المستقبل بيتبني دلوقتي قدام عينيك، مستني إيه؟",
+  "scenes": [
+    {
+      "title": "عالم المحاكاة الرقمي",
+      "text": "تخيل إنك بتبني مصنع أو مستشفى كاملة جوه الكمبيوتر قبل ما تحط طوبة واحدة في الحقيقة. ده اللي بيعمله المطورين دلوقتي باستخدام نماذج الذكاء الاصطناعي المتطورة مع مكتبات إنفيديا أومنيفيرس القوية.",
+      "summary": "استخدام الذكاء الاصطناعي لبناء محاكاة واقعية للمشاريع.",
+      "keyword": "Omniverse",
+      "template": "phenomenon",
+      "labels": [
+        "محاكاة",
+        "ذكاء اصطناعي",
+        "إنفيديا"
+      ],
+      "values": [],
+      "claim": "Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs.",
+      "sourceId": "5beef147a781",
+      "evidence": "Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs.",
+      "kind": "fact",
+      "expression": 5,
+      "action": "point"
+    },
+    {
+      "title": "روبوتات في المستشفى",
+      "text": "في تجربة مذهلة، قدر المطورين يختبروا مئات الروبوتات الصغيرة اللي بتتحرك في وحدة عناية مركزة افتراضية. الروبوتات دي اتدربت على التوازن والحركة عشان تضمن إنها تقدر تشتغل في بيئة حقيقية ومعقدة.",
+      "summary": "اختبار حركة الروبوتات في بيئة مستشفى افتراضية.",
+      "keyword": "Microducks",
+      "template": "journey",
+      "labels": [
+        "روبوتات",
+        "عناية مركزة",
+        "محاكاة"
+      ],
+      "values": [
+        99
+      ],
+      "claim": "In a 256-ward run, 766 of 768 Microducks were still standing after 14 simulated seconds.",
+      "sourceId": "5beef147a781",
+      "evidence": "In a 256-ward run, 766 of 768 Microducks were still standing after 14 simulated seconds.",
+      "kind": "fact",
+      "expression": 8,
+      "action": "walk"
+    },
+    {
+      "title": "تفكيك الروبوتات",
+      "text": "قبل ما الروبوت يفكك قطعة غيار، لازم نعرف الأدوات بتاعته هتوصل للبراغي إزاي. المهندسين بيستخدموا المحاكاة عشان يعدلوا تصميم المفكات ويضمنوا إن الروبوت يقدر يخلص المهمة من غير أي أخطاء مكلفة.",
+      "summary": "استخدام المحاكاة لاختبار قدرة الروبوت على التفكيك.",
+      "keyword": "Robotic Disassembly",
+      "template": "steps",
+      "labels": [
+        "تفكيك",
+        "تصميم",
+        "هندسة"
+      ],
+      "values": [],
+      "claim": "Jens Jebens, a senior product manager for OpenUSD at NVIDIA, directed Astra to model a car suspension in PTC Onshape and configure it in NVIDIA Isaac Sim.",
+      "sourceId": "5beef147a781",
+      "evidence": "Jens Jebens, a senior product manager for OpenUSD at NVIDIA, directed Astra to model a car suspension in PTC Onshape and configure it in NVIDIA Isaac Sim.",
+      "kind": "fact",
+      "expression": 4,
+      "action": "turn"
+    },
+    {
+      "title": "إعادة بناء المباني",
+      "text": "إزاي نحول صور حقيقية لمبنى لموديل ثلاثي الأبعاد نقدر نعدل عليه؟ الذكاء الاصطناعي بيقدر يفسر الصور البانورامية ويبني هندسة المبنى، عشان المطورين يقدروا يغيروا أماكن الرفوف والآلات ويجربوا سيناريوهات مختلفة.",
+      "summary": "تحويل صور المواقع الحقيقية لنماذج افتراضية قابلة للتعديل.",
+      "keyword": "Building Model",
+      "template": "map",
+      "labels": [
+        "بناء",
+        "مسح",
+        "أتمتة"
+      ],
+      "values": [],
+      "claim": "Wehr guided Astra to interpret panoramic photos, create building geometry and align it with point-cloud measurements.",
+      "sourceId": "5beef147a781",
+      "evidence": "Wehr guided Astra to interpret panoramic photos, create building geometry and align it with point-cloud measurements.",
+      "kind": "fact",
+      "expression": 6,
+      "action": "point"
+    },
+    {
+      "title": "اختبار التوربينات",
+      "text": "المهندسين بيستخدموا التوائم الرقمية عشان يشوفوا إيه اللي هيحصل لو صمام وقود علق أو لو درجة الحرارة اتغيرت. المحاكاة بتديهم فرصة يشوفوا النتائج قبل ما يلمسوا أي معدة حقيقية في الواقع.",
+      "summary": "استخدام التوائم الرقمية لاختبار أعطال التوربينات.",
+      "keyword": "Digital Twin",
+      "template": "comparison",
+      "labels": [
+        "توربينات",
+        "طاقة",
+        "تحليل"
+      ],
+      "values": [],
+      "claim": "The prototype gives engineers an interactive way to investigate how operating changes and faults could affect equipment behavior, supporting decisions about which scenarios warrant further testing.",
+      "sourceId": "5beef147a781",
+      "evidence": "The prototype gives engineers an interactive way to investigate how operating changes and faults could affect equipment behavior, supporting decisions about which scenarios warrant further testing.",
+      "kind": "fact",
+      "expression": 7,
+      "action": "jump"
+    },
+    {
+      "title": "أولمبياد الروبوتات",
+      "text": "تخيل روبوت بيحاول ينط فوق حاجز في محاكاة رياضية. التجربة دي بتساعد المطورين يظبطوا توقيت وحركة الروبوتات، وفي تجربة واحدة، الروبوت قدر ينجح في أربعة وستين محاولة من أصل مائة محاولة.",
+      "summary": "استخدام المحاكاة لتدريب الروبوتات على حركات رياضية.",
+      "keyword": "Robo Olympics",
+      "template": "chart",
+      "labels": [
+        "رياضة",
+        "روبوتات",
+        "تحكم"
+      ],
+      "values": [
+        64
+      ],
+      "claim": "In one experiment, the robot cleared a single hurdle in 64 of 100 simulation trials.",
+      "sourceId": "5beef147a781",
+      "evidence": "In one experiment, the robot cleared a single hurdle in 64 of 100 simulation trials.",
+      "kind": "fact",
+      "expression": 9,
+      "action": "run"
+    },
+    {
+      "title": "محطة الفضاء في المتصفح",
+      "text": "بمساعدة الذكاء الاصطناعي، قدر المهندسين يجمعوا نماذج ناسا لمحطة الفضاء الدولية في تطبيق واحد بيشتغل جوه المتصفح. تقدر تشوف الأرض وتغير زاوية الرؤية بضغطة زرار واحدة وبكل سهولة.",
+      "summary": "عرض نماذج محطة الفضاء الدولية في المتصفح.",
+      "keyword": "Space Station",
+      "template": "journey",
+      "labels": [
+        "فضاء",
+        "متصفح",
+        "بيانات"
+      ],
+      "values": [],
+      "claim": "Johns built the application with a single prompt, then used a follow-up prompt to shift the scene to Earth’s daytime side so the planet was visible.",
+      "sourceId": "5beef147a781",
+      "evidence": "Johns built the application with a single prompt, then used a follow-up prompt to shift the scene to Earth’s daytime side so the planet was visible.",
+      "kind": "fact",
+      "expression": 10,
+      "action": "point"
+    },
+    {
+      "title": "خاتمة المحاكاة",
+      "text": "دي كانت نظرة سريعة على إزاي الذكاء الاصطناعي بيغير طريقة شغلنا. من المصانع للمحطات الفضائية، المحاكاة بقت هي المفتاح اللي بيخلينا نجرب ونغلط ونصلح من غير ما نخسر أي حاجة حقيقية.",
+      "summary": "ملخص لأهمية المحاكاة في مختلف المجالات.",
+      "keyword": "Future",
+      "template": "cause",
+      "labels": [
+        "مستقبل",
+        "تكنولوجيا",
+        "ابتكار"
+      ],
+      "values": [],
+      "claim": "These workflows bring agent-assisted creation into existing artist tools, giving teams editable content they can inspect, refine and render across applications.",
+      "sourceId": "5beef147a781",
+      "evidence": "These workflows bring agent-assisted creation into existing artist tools, giving teams editable content they can inspect, refine and render across applications.",
+      "kind": "illustration",
+      "expression": 11,
+      "action": "sleep"
+    }
+  ],
+  "editorialMode": "daily",
+  "editorialLabel": null,
+  "scriptModel": "gemini-3.1-flash-lite"
+}
