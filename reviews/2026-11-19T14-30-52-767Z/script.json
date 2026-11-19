@@ -1,0 +1,167 @@
+{
+  "topicKey": "geforce-now-black-friday-2026",
+  "title": "عروض الجمعة البيضاء من إنفيديا",
+  "hook": "عمرك فكرت تلعب ألعاب تقيلة من غير ما تحتاج جهاز كمبيوتر غالي؟",
+  "cta": "الحق العرض قبل يوم ثلاثين نوفمبر وجرب تجربة الألعاب السحابية بنفسك.",
+  "scenes": [
+    {
+      "title": "بداية عروض الجمعة البيضاء",
+      "text": "إنفيديا بدأت عروض الجمعة البيضاء على خدمة جيفورس ناو. دلوقتي تقدر تشترك في باقات الأداء أو الباقات المتطورة لمدة ست شهور بخصم ثلاثين في المئة، وده بيخلي الألعاب أسهل وأوفر بكتير.",
+      "summary": "خصومات جيفورس ناو الجديدة",
+      "keyword": "Black Friday",
+      "template": "phenomenon",
+      "labels": [
+        "خصومات",
+        "ألعاب",
+        "إنفيديا"
+      ],
+      "values": [
+        30
+      ],
+      "claim": "خصم ثلاثين في المئة على اشتراكات ست شهور",
+      "sourceId": "81bcb470e238",
+      "evidence": "Save 30% on the first six-month term of a Performance or Ultimate membership",
+      "kind": "fact",
+      "expression": 5,
+      "action": "point"
+    },
+    {
+      "title": "جيفورس ناو على أمازون",
+      "text": "الخبر الأهم إن الخدمة بقت متاحة رسمياً على أجهزة أمازون فاير تي في ستيك. تقدر دلوقتي تلعب آلاف الألعاب مباشرة على التلفزيون من غير ما تحتاج كونسول، كل اللي محتاجه هو يد تحكم.",
+      "summary": "دعم أجهزة أمازون فاير تي في",
+      "keyword": "Amazon Fire TV",
+      "template": "journey",
+      "labels": [
+        "أمازون",
+        "تلفزيون",
+        "ألعاب"
+      ],
+      "values": [],
+      "claim": "دعم أجهزة أمازون فاير تي في ستيك",
+      "sourceId": "81bcb470e238",
+      "evidence": "GeForce NOW arrives on Amazon Fire TV Stick HD, Fire TV Stick 4K Select and Fire TV Stick 4K (2026 model)",
+      "kind": "fact",
+      "expression": 8,
+      "action": "walk"
+    },
+    {
+      "title": "عرض خاص من أمازون",
+      "text": "ومش بس كدة، أمازون بتقدم عرض قوي جداً. لو اشتركت من خلال أجهزة فاير تي في، هتاخد خصم تسعين في المئة على أول شهر في باقات الأداء أو الباقات المتطورة في مناطق مختارة.",
+      "summary": "خصم تسعين في المئة",
+      "keyword": "Amazon Offer",
+      "template": "comparison",
+      "labels": [
+        "عرض",
+        "خصم",
+        "أمازون"
+      ],
+      "values": [
+        90
+      ],
+      "claim": "خصم تسعين في المئة على أول شهر",
+      "sourceId": "81bcb470e238",
+      "evidence": "90% off the first month of an eligible Performance or Ultimate membership",
+      "kind": "fact",
+      "expression": 10,
+      "action": "jump"
+    },
+    {
+      "title": "ألعاب بيثيسدا تنضم للخدمة",
+      "text": "عشاق ألعاب بيثيسدا ليهم نصيب كبير. خمس ألعاب محبوبة زي فول أوت أربعة ودووم إتيرنال بقوا متاحين دلوقتي من خلال نسخة جوج، يعني تقدر تلعبهم من غير ما تشتري اللعبة مرة تانية.",
+      "summary": "إضافة ألعاب بيثيسدا",
+      "keyword": "Bethesda",
+      "template": "steps",
+      "labels": [
+        "ألعاب",
+        "بيثيسدا",
+        "تحديث"
+      ],
+      "values": [],
+      "claim": "إضافة خمس ألعاب من بيثيسدا بدعم جوج",
+      "sourceId": "81bcb470e238",
+      "evidence": "Five Bethesda titles expand their GeForce NOW support this week with their GOG versions",
+      "kind": "fact",
+      "expression": 7,
+      "action": "turn"
+    },
+    {
+      "title": "تكنولوجيا الأداء العالي",
+      "text": "الباقات المتطورة بتديك أداء كروت آر تي إكس خمسة آلاف وثمانين، مع دعم تقنيات زي دي إل إس إس خمسة، عشان تستمتع بإضاءة واقعية جداً في ألعاب زي هوجورتس ليجاسي.",
+      "summary": "تقنيات إنفيديا المتطورة",
+      "keyword": "RTX 5080",
+      "template": "phenomenon",
+      "labels": [
+        "أداء",
+        "تقنية",
+        "جرافيك"
+      ],
+      "values": [],
+      "claim": "دعم تقنيات دي إل إس إس خمسة",
+      "sourceId": "81bcb470e238",
+      "evidence": "Ultimate brings the latest NVIDIA innovations to the cloud, including DLSS 5 technology",
+      "kind": "fact",
+      "expression": 9,
+      "action": "point"
+    },
+    {
+      "title": "تجربة لعب بدون تحميل",
+      "text": "أحلى حاجة إن جيفورس ناو بتشيل عنك هم التحميل والتحديثات. الخدمة جاهزة للعب فوراً، وده بيوفر مساحة كبيرة على جهازك وبيخليك تدخل في جو اللعب من غير أي انتظار أو تعقيد.",
+      "summary": "توفير مساحة التخزين",
+      "keyword": "Ready-to-Play",
+      "template": "cause",
+      "labels": [
+        "تخزين",
+        "سرعة",
+        "راحة"
+      ],
+      "values": [],
+      "claim": "جيفورس ناو بتوفر مساحة التخزين المحلية",
+      "sourceId": "81bcb470e238",
+      "evidence": "GeForce NOW handles downloads, patches and updates for Ready-to-Play games, freeing local storage",
+      "kind": "fact",
+      "expression": 6,
+      "action": "walk"
+    },
+    {
+      "title": "خيارات لعب متنوعة",
+      "text": "سواء كنت بتحب ألعاب المغامرات أو التكتيك، الخدمة بتدعم أجهزة كتير زي الماك والكمبيوتر وحتى أجهزة الألعاب المحمولة. يعني تقدر تكمل لعبك في أي مكان ومن أي جهاز بتفضله بكل سهولة.",
+      "summary": "تعدد الأجهزة المدعومة",
+      "keyword": "Multi-device",
+      "template": "map",
+      "labels": [
+        "أجهزة",
+        "مرونة",
+        "لعب"
+      ],
+      "values": [],
+      "claim": "دعم أجهزة متعددة للعب",
+      "sourceId": "81bcb470e238",
+      "evidence": "Go Ultimate for GeForce RTX 5080-class performance across PCs, Macs, Steam Deck and other supported handhelds",
+      "kind": "fact",
+      "expression": 8,
+      "action": "turn"
+    },
+    {
+      "title": "خاتمة العروض",
+      "text": "ماذا لو كان جهازك القديم يقدر يشغل أقوى الألعاب؟ مع جيفورس ناو ده بقى حقيقة. استغل العروض دي وابدأ رحلتك في عالم الألعاب السحابية النهاردة. الحق العرض قبل يوم ثلاثين نوفمبر وجرب بنفسك.",
+      "summary": "دعوة للتجربة",
+      "keyword": "Cloud Gaming",
+      "template": "journey",
+      "labels": [
+        "نهاية",
+        "عروض",
+        "ألعاب"
+      ],
+      "values": [],
+      "claim": "العروض مستمرة حتى يوم ثلاثين نوفمبر",
+      "sourceId": "81bcb470e238",
+      "evidence": "The sale runs through Monday, Nov. 30, while supplies last.",
+      "kind": "illustration",
+      "expression": 11,
+      "action": "point"
+    }
+  ],
+  "editorialMode": "daily",
+  "editorialLabel": null,
+  "scriptModel": "gemini-3.1-flash-lite"
+}

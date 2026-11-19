@@ -20,7 +20,13 @@
   {
     "topicKey": "nvidia-vera-rubin-mlperf-debut",
     "value": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
-    "status": "reserved",
+    "status": "retired",
     "run": "2026-11-19T12-36-53-382Z"
+  },
+  {
+    "topicKey": "geforce-now-black-friday-2026",
+    "value": "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026/",
+    "status": "reserved",
+    "run": "2026-11-19T14-30-52-767Z"
   }
 ]
