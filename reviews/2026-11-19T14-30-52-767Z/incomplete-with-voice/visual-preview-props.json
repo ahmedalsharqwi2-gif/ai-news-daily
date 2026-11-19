@@ -43,7 +43,7 @@
       "kind": "fact",
       "expression": 8,
       "action": "walk",
-      "duration": 15.24,
+      "duration": 14.84,
       "words": []
     },
     {
@@ -66,7 +66,7 @@
       "kind": "fact",
       "expression": 10,
       "action": "jump",
-      "duration": 14.6,
+      "duration": 13.64,
       "words": []
     },
     {
@@ -87,7 +87,7 @@
       "kind": "fact",
       "expression": 7,
       "action": "turn",
-      "duration": 13.76,
+      "duration": 15.48,
       "words": []
     },
     {
@@ -108,7 +108,7 @@
       "kind": "fact",
       "expression": 9,
       "action": "point",
-      "duration": 12.92,
+      "duration": 12.72,
       "words": []
     },
     {
@@ -129,7 +129,7 @@
       "kind": "fact",
       "expression": 6,
       "action": "walk",
-      "duration": 13.84,
+      "duration": 14,
       "words": []
     },
     {
@@ -150,7 +150,7 @@
       "kind": "fact",
       "expression": 8,
       "action": "turn",
-      "duration": 15.68,
+      "duration": 15.36,
       "words": []
     },
     {
@@ -171,11 +171,11 @@
       "kind": "illustration",
       "expression": 11,
       "action": "point",
-      "duration": 16.12,
+      "duration": 16.84,
       "words": []
     }
   ],
-  "durationInFrames": 3507,
+  "durationInFrames": 3529,
   "audio": "generated/2026-11-19T14-30-52-767Z/audio.wav",
   "incompleteMode": "unaligned_narration",
   "preview": true,

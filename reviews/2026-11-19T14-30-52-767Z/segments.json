@@ -24,9 +24,9 @@
   },
   {
     "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-19T14-30-52-767Z/scene-1.wav",
-    "duration": 15.24,
+    "duration": 14.84,
     "text": "الخبر الأهم إن الخدمة بقت متاحة رسمياً على أجهزة أمازون فاير تي في ستيك. تقدر دلوقتي تلعب آلاف الألعاب مباشرة على التلفزيون من غير ما تحتاج كونسول، كل اللي محتاجه هو يد تحكم.",
-    "sha256": "c890c89ab60dcde877b52c84e0abfad3f6218a469f2d7b3578966c203d732ec8",
+    "sha256": "78bfeb2d7ec018f0a0ff2051d1aa369b880b0ca7633963d149b51d8bede253d7",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -35,21 +35,21 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "3f205e3c13a65184c11fa7b59fb8a3606a437c20e0d5e410977b372a07bc3731",
-        "sha256": "c890c89ab60dcde877b52c84e0abfad3f6218a469f2d7b3578966c203d732ec8",
+        "sha256": "78bfeb2d7ec018f0a0ff2051d1aa369b880b0ca7633963d149b51d8bede253d7",
         "text_sha256": "ac034797d17585c49461538dd9063fa655a8bd661d21f074aab3d3c6b353519b",
         "voice": "Charon",
         "provider": "Gemini",
         "model": "gemini-3.1-flash-tts-preview",
-        "bytes": 731598,
-        "reused": true
+        "bytes": 712398,
+        "reused": false
       }
     ]
   },
   {
     "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-19T14-30-52-767Z/scene-2.wav",
-    "duration": 14.6,
+    "duration": 13.64,
     "text": "ومش بس كدة، أمازون بتقدم عرض قوي جداً. لو اشتركت من خلال أجهزة فاير تي في، هتاخد خصم تسعين في المئة على أول شهر في باقات الأداء أو الباقات المتطورة في مناطق مختارة.",
-    "sha256": "0d7fd38f340ea25100e5e35be2216759fffacd3a056bc6eac3c87560988889b2",
+    "sha256": "146c6662aed56318b15dbfcf36d55dcc18443be79999209a01ef1d72307866ce",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -58,21 +58,21 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "2a31c6801dbc0971bd0b97a476fee76d4b88b1cbb6a6c378117919e57cac64fb",
-        "sha256": "0d7fd38f340ea25100e5e35be2216759fffacd3a056bc6eac3c87560988889b2",
+        "sha256": "146c6662aed56318b15dbfcf36d55dcc18443be79999209a01ef1d72307866ce",
         "text_sha256": "5a1cebd09e504f60ed450277ec5d89e5f2c5f30c51ba607f7537ba6153009b85",
         "voice": "Charon",
         "provider": "Gemini",
         "model": "gemini-3.1-flash-tts-preview",
-        "bytes": 700878,
-        "reused": true
+        "bytes": 654798,
+        "reused": false
       }
     ]
   },
   {
     "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-19T14-30-52-767Z/scene-3.wav",
-    "duration": 13.76,
+    "duration": 15.48,
     "text": "عشاق ألعاب بيثيسدا ليهم نصيب كبير. خمس ألعاب محبوبة زي فول أوت أربعة ودووم إتيرنال بقوا متاحين دلوقتي من خلال نسخة جوج، يعني تقدر تلعبهم من غير ما تشتري اللعبة مرة تانية.",
-    "sha256": "8c0d91e4da77207dfe169eab7ab420611c3ba4ead2331d57febbfa32c5ccb84d",
+    "sha256": "aafc3e3e1d2e106dca3c113ca9b9d64ef164e996a87cda2fcfdce5396e3835db",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -81,21 +81,21 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "1675c2f6f8112bf6d5e400cd7462032de13df20fbd2487822882400033a6f71e",
-        "sha256": "8c0d91e4da77207dfe169eab7ab420611c3ba4ead2331d57febbfa32c5ccb84d",
+        "sha256": "aafc3e3e1d2e106dca3c113ca9b9d64ef164e996a87cda2fcfdce5396e3835db",
         "text_sha256": "c37117b95ddf504e024a65993532f966171214b37221f3265704ce02231f3246",
         "voice": "Charon",
         "provider": "Gemini",
         "model": "gemini-3.1-flash-tts-preview",
-        "bytes": 660558,
-        "reused": true
+        "bytes": 743118,
+        "reused": false
       }
     ]
   },
   {
     "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-19T14-30-52-767Z/scene-4.wav",
-    "duration": 12.92,
+    "duration": 12.72,
     "text": "الباقات المتطورة بتديك أداء كروت آر تي إكس خمسة آلاف وثمانين، مع دعم تقنيات زي دي إل إس إس خمسة، عشان تستمتع بإضاءة واقعية جداً في ألعاب زي هوجورتس ليجاسي.",
-    "sha256": "f01e4c1b8e5f6a49089cc248dc09b5d5d12ebdeb7f0bd4bdd8325c255f2bcd35",
+    "sha256": "85dc1130cf9a0d549de7af413c6bf11bb9356a8d3513fef6f7e207ca8a6d07df",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -104,21 +104,21 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "eae48cad21b90ea61ae0f41f78d27a1025a23b59203e618c5363ee165a0f6403",
-        "sha256": "f01e4c1b8e5f6a49089cc248dc09b5d5d12ebdeb7f0bd4bdd8325c255f2bcd35",
+        "sha256": "85dc1130cf9a0d549de7af413c6bf11bb9356a8d3513fef6f7e207ca8a6d07df",
         "text_sha256": "180105ac25f705dfdc2af8b7fec73dfedb42ab09d4cd038e2e05df840814d0bd",
         "voice": "Charon",
         "provider": "Gemini",
         "model": "gemini-3.1-flash-tts-preview",
-        "bytes": 620238,
-        "reused": true
+        "bytes": 610638,
+        "reused": false
       }
     ]
   },
   {
     "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-19T14-30-52-767Z/scene-5.wav",
-    "duration": 13.84,
+    "duration": 14,
     "text": "أحلى حاجة إن جيفورس ناو بتشيل عنك هم التحميل والتحديثات. الخدمة جاهزة للعب فوراً، وده بيوفر مساحة كبيرة على جهازك وبيخليك تدخل في جو اللعب من غير أي انتظار أو تعقيد.",
-    "sha256": "ab16859f5cd7f58698a42e338c65b5a7925013addec678d125705f8b0857d066",
+    "sha256": "3cc593a43c46bada280e35ce4d2c0ce18b78388d5317fd1eeb0931e610ad78e6",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -127,21 +127,21 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "c645435d779eb6597cdce186ffce3fb1bb2a4020cebefdf191917738442e92a9",
-        "sha256": "ab16859f5cd7f58698a42e338c65b5a7925013addec678d125705f8b0857d066",
+        "sha256": "3cc593a43c46bada280e35ce4d2c0ce18b78388d5317fd1eeb0931e610ad78e6",
         "text_sha256": "fcd0c5af986210fa7652c27a6f49a184b14dc627ca425c9d75f5ecb32bfa1b69",
         "voice": "Charon",
         "provider": "Gemini",
         "model": "gemini-3.1-flash-tts-preview",
-        "bytes": 664398,
-        "reused": true
+        "bytes": 672078,
+        "reused": false
       }
     ]
   },
   {
     "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-19T14-30-52-767Z/scene-6.wav",
-    "duration": 15.68,
+    "duration": 15.36,
     "text": "سواء كنت بتحب ألعاب المغامرات أو التكتيك، الخدمة بتدعم أجهزة كتير زي الماك والكمبيوتر وحتى أجهزة الألعاب المحمولة. يعني تقدر تكمل لعبك في أي مكان ومن أي جهاز بتفضله بكل سهولة.",
-    "sha256": "662c857033d9b5b242e18dcdc1f022b3b1c993dbd013dbc85e208c1e38528aca",
+    "sha256": "06765d84f004e3bfb11a375b68deedaa0dbae9abb277153db00752c5ca9bd670",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -150,21 +150,21 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "7257441896e3fb48b92f4b8765bb645ea651097f9a2386fcab612d0c21623818",
-        "sha256": "662c857033d9b5b242e18dcdc1f022b3b1c993dbd013dbc85e208c1e38528aca",
+        "sha256": "06765d84f004e3bfb11a375b68deedaa0dbae9abb277153db00752c5ca9bd670",
         "text_sha256": "4dad12c7e9b198cf17790470e2e09120689baef0d9559230f2c50823b564fbfe",
         "voice": "Charon",
         "provider": "Gemini",
         "model": "gemini-3.1-flash-tts-preview",
-        "bytes": 752718,
-        "reused": true
+        "bytes": 737358,
+        "reused": false
       }
     ]
   },
   {
     "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-19T14-30-52-767Z/scene-7.wav",
-    "duration": 16.12,
+    "duration": 16.84,
     "text": "ماذا لو كان جهازك القديم يقدر يشغل أقوى الألعاب؟ مع جيفورس ناو ده بقى حقيقة. استغل العروض دي وابدأ رحلتك في عالم الألعاب السحابية النهاردة. الحق العرض قبل يوم ثلاثين نوفمبر وجرب بنفسك.",
-    "sha256": "9a21c82790410d101ad5b181ad9331a44e05a19a32dd140c8232a3c6dc0e8724",
+    "sha256": "c7b449bf9dcd946ea1d36f569532dabbd39ea9c8eb41bff4c72ade71d2a98619",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -173,26 +173,26 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "9749e839b2ef5156e50d9780f5dd2ee4b58172d34452b15632fabb144ccceecd",
-        "sha256": "3eae99926ca1fda6b9d7f8167cf192ad59429ceac0b46369b83a845613ecf6a7",
+        "sha256": "a54ac5866ecd40d4e979e1e17f7776b67d4daa57044b50cecc80e317f7279fb4",
         "text_sha256": "f9eca0090708500eef79713d7f999a318c7a95521f1e3f0bb2a7a83d6486b010",
         "voice": "Charon",
         "provider": "Gemini",
         "model": "gemini-3.1-flash-tts-preview",
-        "bytes": 357198,
-        "reused": true
+        "bytes": 362958,
+        "reused": false
       },
       {
         "scene": 7,
         "chunk": 1,
         "schema": 1,
         "cacheKey": "568b587b8626c19d1730042b85f59770e14f31f06daec47be6020cef16749337",
-        "sha256": "7a5b1258420e3b228fc641a7fe583e780ce254a8b404202ae1d42600aa386911",
+        "sha256": "25283baef2e945a0245c0c152eb5d59ce7e773eee9616df9d43daa70ff5e4199",
         "text_sha256": "248c4ba2c6ea8256fc28a11739c314fba52ba41cb02b9c7e6b398235ccfa267b",
         "voice": "Charon",
         "provider": "Gemini",
         "model": "gemini-3.1-flash-tts-preview",
-        "bytes": 416718,
-        "reused": true
+        "bytes": 445518,
+        "reused": false
       }
     ]
   }
