@@ -1,0 +1,186 @@
+[
+  {
+    "file": "audio/scene-0.wav",
+    "duration": 15.88,
+    "text": "ديب شوكويست بتدير عمليات إنفيديا، وبتقول إن وظيفتهم الأساسية هي تحويل التصاميم لواقع. الموضوع بيحتاج توازن دقيق بين اختيار الشركاء الصح والقدرة على تنفيذ حاجات مكنش حد يقدر يعملها قبل كدة أبداً.",
+    "sha256": "d9089f4534d1690c27526b01ec7b3ddaba1852b59304efb0c3a90c9d7a5088db",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 0,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "22487c9b48dad028aa48cfb5c39271fe897e568a6284f6bd2799b391e9b2b984",
+        "sha256": "d9089f4534d1690c27526b01ec7b3ddaba1852b59304efb0c3a90c9d7a5088db",
+        "text_sha256": "f8c94137824bc08b4bd99aee86d70142815b0ee06060464dd62c87f96423bca5",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 762318,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-1.wav",
+    "duration": 15.44,
+    "text": "إنفيديا مش بتشتغل لوحدها، دي عندها علاقات قوية مع شركات زي تي إس إم سي من سنة ألف وتسعمائة ثمانية وتسعين. الشراكات دي بتكبر مع كل تحدي بيواجهوه سوا على أرض المصنع.",
+    "sha256": "5043f90722997469b021343d25363d92b461ed8ab21aca8059a3171810dc55e6",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 1,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "c79239c2fd56056bdab1f3b1c1e7c0f579b262d5951cd5ee8a31e56836e63db5",
+        "sha256": "5043f90722997469b021343d25363d92b461ed8ab21aca8059a3171810dc55e6",
+        "text_sha256": "324543d1f8241bfabc32ef1b4b7a8d74a68f70d722063fd424884b649398ca2e",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 741198,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-2.wav",
+    "duration": 15.16,
+    "text": "في فيتنام، فيه كابلات معقدة جداً بتحتوي على ألف وخمسمائة طرف. كل طرف محتاج دقة متناهية عشان نسبة العيوب تكون أقل من واحد جزء في المليون، وده بيحتاج مجهود جبار من العمال.",
+    "sha256": "d53cf3c56a39815d1ee7913adf6c2b3107c7345940b6b4acd871977ee108b644",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 2,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "f8f9a88ebd907f859ca552f0fed8152dc098f51f525e510c253dd7c5a0202077",
+        "sha256": "d53cf3c56a39815d1ee7913adf6c2b3107c7345940b6b4acd871977ee108b644",
+        "text_sha256": "a90c747676ccca1b178adcc3f5fb09be829a09241c21706b0818106052237838",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 727758,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-3.wav",
+    "duration": 15.44,
+    "text": "لما إنفيديا اتحولت من تصنيع الشيبس لبناء أنظمة كاملة، احتاجت شركاء جدد. دلوقتي هما بيخلقوا سلاسل توريد جديدة تماماً في مجالات زي البصريات، وده بيحتاج استثمارات ضخمة عشان يوصلوا للحجم المطلوب.",
+    "sha256": "5678981f77cba7e332b512d15f6ca19dcd6a00f35b1c8253abe07d4e0abc8cd9",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 3,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "356da633f2576c8fd835cf2346ffc68dde95bab3ddae61124e01c1789a1c95a2",
+        "sha256": "5678981f77cba7e332b512d15f6ca19dcd6a00f35b1c8253abe07d4e0abc8cd9",
+        "text_sha256": "db66722aa06eb2885f7627458596019608589a7f8343118d66de4e142ed6a127",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 741198,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-4.wav",
+    "duration": 14.84,
+    "text": "ديب بتقضي ست أسابيع كل سنة في السفر عشان تزور الشركاء في تايوان والصين وكوريا وفيتنام وأمريكا. التواصل المباشر في أرض المصنع بيخلي فيه ثقة تسمح للعمال يقولوا إيه اللي ناقصهم للنجاح.",
+    "sha256": "45642ddee03a5e5bcab0752e2585be02e1c6ffb4305446c0af5df120b3063434",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 4,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "71a1bc84cf0e9dc57c54767565418edf7ed3ff7e4f6754e7e6b228b94b3f6cb5",
+        "sha256": "45642ddee03a5e5bcab0752e2585be02e1c6ffb4305446c0af5df120b3063434",
+        "text_sha256": "47566ae8789a1dfd39f5dc0efdd2243d06ccd8c71276e196c2467cd460e58a46",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 712398,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-5.wav",
+    "duration": 13.170958,
+    "text": "لما واجهوا مشكلة في سرعة الإنتاج، مدير التصنيع في تايوان قرر يوقف الأتمتة ويرجع للتحميل اليدوي عشان يحمي المنتج. ده كان قرار شجاع للحفاظ على الجودة في وقت الأزمات الصعبة.",
+    "sha256": "a49355779a8392f93b7799fd45f1ad00ac4e598b678a599ad0cdf9ca246dc4b5",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 5,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "68d4eab74f717f7a92669b180e590d6ead2a5061f515c6114be950e8313a86fc",
+        "sha256": "a49355779a8392f93b7799fd45f1ad00ac4e598b678a599ad0cdf9ca246dc4b5",
+        "text_sha256": "167e01f6874d70a25c7f7587889cc7f6692e975233017c5dd731ac37e6c883a7",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 632284,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-6.wav",
+    "duration": 15.68,
+    "text": "عشان يحلوا المشكلة، بعتوا فريق من المهندسين من كل الأقسام عشان يشتغلوا مع فريق فوكسكون. الفريق ده بيسموه سرب إنفيديا، وهما بيؤمنوا إن المهمة هي المدير اللي بيحرك كل حاجة.",
+    "sha256": "0e76e02045d71416305190a12dfe5cb0f32184706583bfeec12608a2b4fb8da0",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 6,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "929700cc5b8af902bdc5047582a85bc660b7c1043c1d270c7b120e660ac8b2ea",
+        "sha256": "0e76e02045d71416305190a12dfe5cb0f32184706583bfeec12608a2b4fb8da0",
+        "text_sha256": "ff2b64e3e3071a38f54a7057a3c9d2a9a0498f2cc879d354fb9fc6e9ee113ca1",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 752718,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-7.wav",
+    "duration": 15.370958,
+    "text": "التحديات كبيرة، بس ديب بتشوف إن الشغل ده مثير جداً. كل اللي بيقف بين أهدافهم ونجاحهم هو إبداعهم، والقدرة على تغيير سلاسل التوريد بسرعة عشان يلبوا الطلب المتزايد على التكنولوجيا الجديدة.",
+    "sha256": "825225efb77475c2f9a382154ea526f766db7e109750f906376daa1efd2e089c",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 7,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "08ebb8c74bb40548256ba26a1a6adac691ab36e08d0fefea6ca6490380fedacf",
+        "sha256": "825225efb77475c2f9a382154ea526f766db7e109750f906376daa1efd2e089c",
+        "text_sha256": "9fbf88d6d45c22a8d924c03635895061e13c2dedfb006dfb9d6132eca3ba4256",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 737884,
+        "reused": false
+      }
+    ]
+  }
+]

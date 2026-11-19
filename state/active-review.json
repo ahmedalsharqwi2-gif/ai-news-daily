@@ -27281,8 +27281,8 @@
   "scriptSha256": "ecf36d0bcc02e3b12ee04f0145408f721f3457a51a3f592d9892908e1d8366e3",
   "state": "failed",
   "lastFailure": {
-    "stage": "voice",
-    "code": "GEMINI_HTTP_429_EXHAUSTED",
+    "stage": "align",
+    "code": "ALIGNMENT_SPEECH_MISMATCH",
     "repeat": 0
   }
 }
