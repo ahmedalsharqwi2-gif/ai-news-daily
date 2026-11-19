@@ -25327,6 +25327,6 @@
   "lastFailure": {
     "stage": "align-repair-1",
     "code": "ALIGNMENT_SPEECH_MISMATCH",
-    "repeat": 0
+    "repeat": 1
   }
 }
