@@ -14,7 +14,13 @@
   {
     "topicKey": "nvidia-rtx-spark-desktops-launch",
     "value": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
-    "status": "reserved",
+    "status": "retired",
     "run": "2026-11-19T10-13-23-539Z"
+  },
+  {
+    "topicKey": "nvidia-vera-rubin-mlperf-debut",
+    "value": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+    "status": "reserved",
+    "run": "2026-11-19T12-36-53-382Z"
   }
 ]

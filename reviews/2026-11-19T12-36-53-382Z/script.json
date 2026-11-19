@@ -1,0 +1,169 @@
+{
+  "topicKey": "nvidia-vera-rubin-mlperf-debut",
+  "title": "أهم أخبار الأسبوع: إنفيديا فيرا روبين تكتسح اختبارات الذكاء الاصطناعي",
+  "hook": "عمرك سألت نفسك إزاي الذكاء الاصطناعي بيتعلم بسرعة البرق؟ إنفيديا نزلت منصة فيرا روبين الجديدة، وحققت أرقام قياسية في اختبارات إم إل بيرف، بتغير قواعد اللعبة تماماً في سرعة تدريب النماذج الذكية.",
+  "cta": "تابعونا عشان تعرفوا كل جديد في عالم الذكاء الاصطناعي، واشتركوا في القناة عشان يوصلكم كل تحديث أول بأول، وشاركوا الفيديو مع أصحابكم المهتمين بالتكنولوجيا والابتكار.",
+  "scenes": [
+    {
+      "title": "ظهور منصة فيرا روبين",
+      "text": "منصة إنفيديا فيرا روبين الجديدة عملت ضجة كبيرة في أول ظهور ليها في اختبارات إم إل بيرف، وقدمت أداء استثنائي في تدريب النماذج والاستنتاج الذكي، وده بيفتح آفاق جديدة تماماً للسرعة.",
+      "summary": "ظهور منصة فيرا روبين في اختبارات إم إل بيرف",
+      "keyword": "فيرا روبين",
+      "template": "phenomenon",
+      "labels": [
+        "إنفيديا",
+        "فيرا روبين",
+        "إم إل بيرف"
+      ],
+      "values": [],
+      "claim": "NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference.",
+      "sourceId": "b696bf684c37",
+      "evidence": "In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference.",
+      "kind": "fact",
+      "expression": 8,
+      "action": "point"
+    },
+    {
+      "title": "اكتساح اختبارات التدريب",
+      "text": "إنفيديا اكتسحت كل اختبارات التدريب في نسخة ستة فاصلة واحد، وده بيأكد تفوقها التقني، والمنصة دي بتساعد المطورين يبنوا نماذج أذكى بكتير في وقت أقل، وده إنجاز تقني كبير جداً في المجال.",
+      "summary": "اكتساح إنفيديا لاختبارات التدريب",
+      "keyword": "تدريب النماذج",
+      "template": "comparison",
+      "labels": [
+        "تدريب",
+        "أداء",
+        "إنفيديا"
+      ],
+      "values": [],
+      "claim": "NVIDIA swept every MLPerf Training v6.1 benchmark.",
+      "sourceId": "b696bf684c37",
+      "evidence": "NVIDIA swept every MLPerf Training v6.1 benchmark",
+      "kind": "fact",
+      "expression": 9,
+      "action": "run"
+    },
+    {
+      "title": "قفزة في كفاءة الطاقة",
+      "text": "في أول مشاركة ليها في اختبارات إند بوينتس، حققت إنفيديا مكاسب ضخمة وصلت لأكتر من عشر أضعاف في كفاءة الطاقة لكل وات، وده بيخلي الوكلاء الأذكياء يشتغلوا بفاعلية أكبر بكتير من قبل كده.",
+      "summary": "مكاسب عشر أضعاف في كفاءة الطاقة",
+      "keyword": "كفاءة الطاقة",
+      "template": "chart",
+      "labels": [
+        "طاقة",
+        "كفاءة",
+        "وات"
+      ],
+      "values": [
+        10
+      ],
+      "claim": "delivered more than 10x generational gains in throughput per watt for agentic AI",
+      "sourceId": "b696bf684c37",
+      "evidence": "delivered more than 10x generational gains in throughput per watt for agentic AI",
+      "kind": "fact",
+      "expression": 10,
+      "action": "jump"
+    },
+    {
+      "title": "تطور الأداء بين الأجيال",
+      "text": "منصة فيرا روبين إن في إل اثنين وسبعين قدرت تقدم أداء ضعف أداء نظام جي بي ثلاثمائة، وده بيوضح سرعة الابتكار اللي بتعمله إنفيديا من جيل للتاني، وبيدي قيمة أكبر للعملاء.",
+      "summary": "أداء ضعف الجيل السابق",
+      "keyword": "فيرا روبين",
+      "template": "comparison",
+      "labels": [
+        "أداء",
+        "ابتكار",
+        "إنفيديا"
+      ],
+      "values": [
+        2
+      ],
+      "claim": "Vera Rubin NVL72 delivered up to 2x more performance per GPU than the highly optimized NVIDIA GB300 NVL72 system",
+      "sourceId": "b696bf684c37",
+      "evidence": "Vera Rubin NVL72 delivered up to 2x more performance per GPU than the highly optimized NVIDIA GB300 NVL72 system",
+      "kind": "fact",
+      "expression": 7,
+      "action": "turn"
+    },
+    {
+      "title": "كفاءة العمل الجماعي",
+      "text": "لما جربوا يوسعوا النطاق على ألف وأربعة وعشرين وحدة معالجة، حققوا كفاءة سبعة وتسعين في المية، وده خلى وقت التدريب يقل من ستة عشر دقيقة لأربع دقايق بس، وده رقم مذهل فعلاً.",
+      "summary": "كفاءة سبعة وتسعين في المية عند التوسع",
+      "keyword": "كفاءة",
+      "template": "steps",
+      "labels": [
+        "كفاءة",
+        "تدريب",
+        "سرعة"
+      ],
+      "values": [
+        97
+      ],
+      "claim": "Vera Rubin NVL72 scaled from 256 to 1,024 GPUs with about 97% efficiency",
+      "sourceId": "b696bf684c37",
+      "evidence": "Vera Rubin NVL72 scaled from 256 to 1,024 GPUs with about 97% efficiency",
+      "kind": "fact",
+      "expression": 11,
+      "action": "walk"
+    },
+    {
+      "title": "الوكلاء الأذكياء في كل مكان",
+      "text": "الوكلاء الأذكياء بقوا في كل حتة، بيكتبوا كود، بيشغلوا سير عمل الشركات، وبيجاوبوا على أسئلة العملاء، والسرعة دي بتخلي اكتشاف الأدوية ونماذج كشف الاحتيال تتطور وتتأقلم مع التهديدات الجديدة بشكل أسرع بكتير.",
+      "summary": "انتشار الوكلاء الأذكياء وتطبيقاتهم",
+      "keyword": "وكلاء أذكياء",
+      "template": "journey",
+      "labels": [
+        "وكلاء",
+        "ذكاء اصطناعي",
+        "تطبيقات"
+      ],
+      "values": [],
+      "claim": "AI agents are now everywhere, writing code, running business workflows, answering customer questions",
+      "sourceId": "b696bf684c37",
+      "evidence": "AI agents are now everywhere, writing code, running business workflows, answering customer questions",
+      "kind": "fact",
+      "expression": 9,
+      "action": "point"
+    },
+    {
+      "title": "تحدي كيمي كيه ثلاثة",
+      "text": "في اختبار كيمي كيه ثلاثة، فيرا روبين قدرت تحقق أداء متفوق جداً، وده بيثبت إن البنية التحتية لإنفيديا تقدر تشغل كل حاجة من التدريب المسبق لحد استنتاج الوكلاء الأذكياء بكفاءة عالية جداً.",
+      "summary": "تفوق فيرا روبين في اختبار كيمي كيه ثلاثة",
+      "keyword": "كيمي كيه ثلاثة",
+      "template": "phenomenon",
+      "labels": [
+        "اختبار",
+        "أداء",
+        "إنفيديا"
+      ],
+      "values": [],
+      "claim": "NVIDIA Vera Rubin leads across all of its agentic benchmarks.",
+      "sourceId": "b696bf684c37",
+      "evidence": "NVIDIA Vera Rubin leads across all of its agentic benchmarks.",
+      "kind": "fact",
+      "expression": 8,
+      "action": "turn"
+    },
+    {
+      "title": "مستقبل الذكاء الاصطناعي",
+      "text": "النتائج دي مجرد بداية، وأداء فيرا روبين هيكمل صعوده مع تحسينات مستمرة في برمجيات إنفيديا، عشان البنية التحتية اللي بيستثمر فيها العملاء النهاردة تقدم قيمة أكبر بكتير مع مرور الوقت، استنونا المرة الجاية.",
+      "summary": "مستقبل واعد مع تحسينات مستمرة",
+      "keyword": "مستقبل",
+      "template": "journey",
+      "labels": [
+        "مستقبل",
+        "استثمار",
+        "إنفيديا"
+      ],
+      "values": [],
+      "claim": "These results are just the beginning.",
+      "sourceId": "b696bf684c37",
+      "evidence": "These results are just the beginning.",
+      "kind": "fact",
+      "expression": 11,
+      "action": "walk"
+    }
+  ],
+  "editorialMode": "daily",
+  "editorialLabel": null,
+  "scriptModel": "gemini-3.1-flash-lite-preview"
+}

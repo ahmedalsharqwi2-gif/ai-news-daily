@@ -1,0 +1,186 @@
+[
+  {
+    "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-19T12-36-53-382Z/scene-0.wav",
+    "duration": 14.04,
+    "text": "منصة إنفيديا فيرا روبين الجديدة عملت ضجة كبيرة في أول ظهور ليها في اختبارات إم إل بيرف، وقدمت أداء استثنائي في تدريب النماذج والاستنتاج الذكي، وده بيفتح آفاق جديدة تماماً للسرعة.",
+    "sha256": "7c22eaf49a9109d654de407338c5cfb8c66d40cbaff5e53cfa04dad47ac4a75d",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 0,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "94c8be36fc2d5444dcbaee3a767509585aab769ab1b5c56fd4d9d8d89994ecf1",
+        "sha256": "7c22eaf49a9109d654de407338c5cfb8c66d40cbaff5e53cfa04dad47ac4a75d",
+        "text_sha256": "a6e41ad27de6ab875a55a4bf286d5178c33e6ad4ece4930d3c974b7029bf303e",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 673998,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-19T12-36-53-382Z/scene-1.wav",
+    "duration": 14.88,
+    "text": "إنفيديا اكتسحت كل اختبارات التدريب في نسخة ستة فاصلة واحد، وده بيأكد تفوقها التقني، والمنصة دي بتساعد المطورين يبنوا نماذج أذكى بكتير في وقت أقل، وده إنجاز تقني كبير جداً في المجال.",
+    "sha256": "65547db7f7477febcc9df16f695ac618acf02ef3b9d2abe2f7596d74cf4a9deb",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 1,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "3c3fb9d5218156d73cac8d720210d3b367103d722d7efcc193652d9b676c0296",
+        "sha256": "65547db7f7477febcc9df16f695ac618acf02ef3b9d2abe2f7596d74cf4a9deb",
+        "text_sha256": "19ade0a2e6377a086adbb86a8313653f36ea07d7fcf5f5d5898dda59f3f08f14",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 714318,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-19T12-36-53-382Z/scene-2.wav",
+    "duration": 14.8,
+    "text": "في أول مشاركة ليها في اختبارات إند بوينتس، حققت إنفيديا مكاسب ضخمة وصلت لأكتر من عشر أضعاف في كفاءة الطاقة لكل وات، وده بيخلي الوكلاء الأذكياء يشتغلوا بفاعلية أكبر بكتير من قبل كده.",
+    "sha256": "65e0d6e940e34e159d14795959c1ae0014b52d5ad848c04536ff6f4f31fdd16f",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 2,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "f1fc50f7a3c1e482fc330e9383eceea5cebbddd3d573e91a39cf3221cbe47eda",
+        "sha256": "65e0d6e940e34e159d14795959c1ae0014b52d5ad848c04536ff6f4f31fdd16f",
+        "text_sha256": "01669ba3db8caeb07526c0e3bf84aec0d69dbc8fd78f45cfc25d826fd2fac704",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 710478,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-19T12-36-53-382Z/scene-3.wav",
+    "duration": 13.4,
+    "text": "منصة فيرا روبين إن في إل اثنين وسبعين قدرت تقدم أداء ضعف أداء نظام جي بي ثلاثمائة، وده بيوضح سرعة الابتكار اللي بتعمله إنفيديا من جيل للتاني، وبيدي قيمة أكبر للعملاء.",
+    "sha256": "6be97dfc9b9e26c861e22850cbf75d48c41b8019c9158bbfc8e0d004a05c0d1f",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 3,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "3b8ab660bfad8aa49149177f2655f36fa3f0d898e55b041f46534d08325b512f",
+        "sha256": "6be97dfc9b9e26c861e22850cbf75d48c41b8019c9158bbfc8e0d004a05c0d1f",
+        "text_sha256": "3464096c610214204dc553990ab340d2230325330ca114e530b3cc0ddd08974c",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 643278,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-19T12-36-53-382Z/scene-4.wav",
+    "duration": 14.84,
+    "text": "لما جربوا يوسعوا النطاق على ألف وأربعة وعشرين وحدة معالجة، حققوا كفاءة سبعة وتسعين في المية، وده خلى وقت التدريب يقل من ستة عشر دقيقة لأربع دقايق بس، وده رقم مذهل فعلاً.",
+    "sha256": "486d57ff07df77d44ae40c71f1cbb15bb6be065538519260b69cb8b4d3be04e2",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 4,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "bb22147ba7b82f27f35ed41efa982cf4bfb5c0d264c75dcef59881f77b4800c1",
+        "sha256": "486d57ff07df77d44ae40c71f1cbb15bb6be065538519260b69cb8b4d3be04e2",
+        "text_sha256": "a7564bd739152f518b645808d8dd4be8d59772c65b2d7f2598e4fe6600bc4a3d",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 712398,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-19T12-36-53-382Z/scene-5.wav",
+    "duration": 17.970958,
+    "text": "الوكلاء الأذكياء بقوا في كل حتة، بيكتبوا كود، بيشغلوا سير عمل الشركات، وبيجاوبوا على أسئلة العملاء، والسرعة دي بتخلي اكتشاف الأدوية ونماذج كشف الاحتيال تتطور وتتأقلم مع التهديدات الجديدة بشكل أسرع بكتير.",
+    "sha256": "e90d33ddcdeccfaf9941cd5360d501a27ddfda8437f12cfc4fdd85a50b08b6ef",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 5,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "c37c88bca4cc11b7c9bf9d774e27776e1122ee723fbf705c70faea03ecb85d04",
+        "sha256": "e90d33ddcdeccfaf9941cd5360d501a27ddfda8437f12cfc4fdd85a50b08b6ef",
+        "text_sha256": "e67279a9983a39c930004b376a4119ec2ce13676412a0ecd562b41b510ae35b1",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 862684,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-19T12-36-53-382Z/scene-6.wav",
+    "duration": 15.530958,
+    "text": "في اختبار كيمي كيه ثلاثة، فيرا روبين قدرت تحقق أداء متفوق جداً، وده بيثبت إن البنية التحتية لإنفيديا تقدر تشغل كل حاجة من التدريب المسبق لحد استنتاج الوكلاء الأذكياء بكفاءة عالية جداً.",
+    "sha256": "e59cda94a13d1a76812c28d012de9a7524630202688051b8d7f7cad4780a5a3c",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 6,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "f825f59e2310950e6a7a02ca0f4727e8ab650c6962323e50239be9d34a9bfc74",
+        "sha256": "e59cda94a13d1a76812c28d012de9a7524630202688051b8d7f7cad4780a5a3c",
+        "text_sha256": "34a5d8f57300d652f8cc780d752d6989eadbc656f78561aad817de18bf75129f",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 745564,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-19T12-36-53-382Z/scene-7.wav",
+    "duration": 16.44,
+    "text": "النتائج دي مجرد بداية، وأداء فيرا روبين هيكمل صعوده مع تحسينات مستمرة في برمجيات إنفيديا، عشان البنية التحتية اللي بيستثمر فيها العملاء النهاردة تقدم قيمة أكبر بكتير مع مرور الوقت، استنونا المرة الجاية.",
+    "sha256": "57eea2d9215a047210becd7735782392c089b83cfd3de1d16b710e95b1caac17",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 7,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "e6e03dd1fef65592eb6d61238044b9b14829aa3da776b8fe0fc70918ff851ff4",
+        "sha256": "57eea2d9215a047210becd7735782392c089b83cfd3de1d16b710e95b1caac17",
+        "text_sha256": "67ef28689ffa6992b9718018a212af906327fb1724a3be6e57d0917a08904e50",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 789198,
+        "reused": true
+      }
+    ]
+  }
+]
