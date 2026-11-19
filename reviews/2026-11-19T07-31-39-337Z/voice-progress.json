@@ -13,7 +13,7 @@
       "model": "gemini-3.1-flash-tts-preview",
       "bytes": 762318,
       "file": "/home/runner/work/ai-news-daily/ai-news-daily/.cache/voice/22487c9b48dad028aa48cfb5c39271fe897e568a6284f6bd2799b391e9b2b984.wav",
-      "reused": false
+      "reused": true
     },
     {
       "scene": 1,
@@ -27,7 +27,7 @@
       "model": "gemini-3.1-flash-tts-preview",
       "bytes": 741198,
       "file": "/home/runner/work/ai-news-daily/ai-news-daily/.cache/voice/c79239c2fd56056bdab1f3b1c1e7c0f579b262d5951cd5ee8a31e56836e63db5.wav",
-      "reused": false
+      "reused": true
     },
     {
       "scene": 2,
@@ -41,7 +41,7 @@
       "model": "gemini-3.1-flash-tts-preview",
       "bytes": 727758,
       "file": "/home/runner/work/ai-news-daily/ai-news-daily/.cache/voice/f8f9a88ebd907f859ca552f0fed8152dc098f51f525e510c253dd7c5a0202077.wav",
-      "reused": false
+      "reused": true
     },
     {
       "scene": 3,
@@ -55,7 +55,7 @@
       "model": "gemini-3.1-flash-tts-preview",
       "bytes": 741198,
       "file": "/home/runner/work/ai-news-daily/ai-news-daily/.cache/voice/356da633f2576c8fd835cf2346ffc68dde95bab3ddae61124e01c1789a1c95a2.wav",
-      "reused": false
+      "reused": true
     },
     {
       "scene": 4,
@@ -69,7 +69,7 @@
       "model": "gemini-3.1-flash-tts-preview",
       "bytes": 712398,
       "file": "/home/runner/work/ai-news-daily/ai-news-daily/.cache/voice/71a1bc84cf0e9dc57c54767565418edf7ed3ff7e4f6754e7e6b228b94b3f6cb5.wav",
-      "reused": false
+      "reused": true
     },
     {
       "scene": 5,
@@ -83,7 +83,7 @@
       "model": "gemini-2.5-flash-preview-tts",
       "bytes": 632284,
       "file": "/home/runner/work/ai-news-daily/ai-news-daily/.cache/voice/68d4eab74f717f7a92669b180e590d6ead2a5061f515c6114be950e8313a86fc.wav",
-      "reused": false
+      "reused": true
     },
     {
       "scene": 6,
@@ -97,7 +97,7 @@
       "model": "gemini-3.1-flash-tts-preview",
       "bytes": 752718,
       "file": "/home/runner/work/ai-news-daily/ai-news-daily/.cache/voice/929700cc5b8af902bdc5047582a85bc660b7c1043c1d270c7b120e660ac8b2ea.wav",
-      "reused": false
+      "reused": true
     },
     {
       "scene": 7,
@@ -111,7 +111,7 @@
       "model": "gemini-2.5-flash-preview-tts",
       "bytes": 737884,
       "file": "/home/runner/work/ai-news-daily/ai-news-daily/.cache/voice/08ebb8c74bb40548256ba26a1a6adac691ab36e08d0fefea6ca6490380fedacf.wav",
-      "reused": false
+      "reused": true
     }
   ]
 }
