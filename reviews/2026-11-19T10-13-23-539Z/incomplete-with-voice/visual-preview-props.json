@@ -1,0 +1,187 @@
+{
+  "title": "أجهزة إنفيديا الجديدة: ذكاء اصطناعي في بيتك",
+  "editorialLabel": null,
+  "scenes": [
+    {
+      "title": "ثورة أجهزة إنفيديا الجديدة",
+      "text": "إنفيديا أطلقت أجهزة آر تي إكس سبارك المدمجة من شركات زي أسوس وديل وإم إس آي، عشان تجيب الذكاء الاصطناعي المحلي مباشرة لجهاز الويندوز بتاعك وتخلصك من تكاليف السحابة.",
+      "summary": "إطلاق أجهزة آر تي إكس سبارك المدمجة للذكاء الاصطناعي.",
+      "keyword": "RTX Spark",
+      "template": "phenomenon",
+      "labels": [
+        "إنفيديا",
+        "آر تي إكس",
+        "ذكاء اصطناعي"
+      ],
+      "values": [],
+      "claim": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today",
+      "sourceId": "a9ef6dbadc6b",
+      "evidence": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC.",
+      "kind": "fact",
+      "expression": 5,
+      "action": "point",
+      "duration": 13.72,
+      "words": []
+    },
+    {
+      "title": "قوة هاردوير جبارة",
+      "text": "الأجهزة دي مش مجرد كمبيوتر عادي، دي بتيجي بمعالج إنفيديا جريس بـ عشرين نواة، ومعالج رسوميات بلاك ويل بـ ستة آلاف ومئة وأربعة وأربعين نواة كودا، وذاكرة موحدة بتوصل لـ مئة وثمانية وعشرين جيجابايت.",
+      "summary": "مواصفات تقنية قوية للأجهزة الجديدة.",
+      "keyword": "Hardware",
+      "template": "chart",
+      "labels": [
+        "معالج",
+        "ذاكرة",
+        "أداء"
+      ],
+      "values": [],
+      "claim": "RTX Spark desktops are equipped with a 20-core NVIDIA Grace CPU, an NVIDIA Blackwell RTX GPU with 6,144 CUDA cores and up to 128GB of unified memory",
+      "sourceId": "a9ef6dbadc6b",
+      "evidence": "RTX Spark desktops are equipped with a 20-core NVIDIA Grace CPU, an NVIDIA Blackwell RTX GPU with 6,144 CUDA cores and up to 128GB of unified memory, delivering up to 1 petaflop of AI performance.",
+      "kind": "fact",
+      "expression": 8,
+      "action": "walk",
+      "duration": 15.84,
+      "words": []
+    },
+    {
+      "title": "قدرات خيالية محلياً",
+      "text": "تخيل إنك تقدر تشغل نماذج لغوية ضخمة بـ مئة وعشرين مليار بارامتر محلياً، أو تعمل ريندر لمشاهد ثلاثية الأبعاد بحجم تسعين جيجابايت في الوقت الحقيقي، كل ده من غير ما تخرج بره جهازك.",
+      "summary": "تشغيل نماذج ضخمة وريندر ثلاثي الأبعاد محلياً.",
+      "keyword": "Capabilities",
+      "template": "phenomenon",
+      "labels": [
+        "نماذج لغوية",
+        "ريندر",
+        "أداء"
+      ],
+      "values": [],
+      "claim": "Running massive 120-billion-parameter large language models locally",
+      "sourceId": "a9ef6dbadc6b",
+      "evidence": "Running massive 120-billion-parameter large language models locally Rendering 90GB+ 3D scenes in real time Smoothly editing 4:2:2 video in real time",
+      "kind": "fact",
+      "expression": 9,
+      "action": "jump",
+      "duration": 16.08,
+      "words": []
+    },
+    {
+      "title": "تطوير العمل الإبداعي",
+      "text": "أدوبي كمان دخلت في اللعبة، فوتوشوب وإليستريتور بقوا أسرع بكتير على أجهزة آر تي إكس سبارك، وده بيخلي المصممين يخلصوا شغلهم أسرع بـ ثلاثين في المئة مقارنة بالنسخ القديمة اللي كانت بتشتغل بالمحاكاة.",
+      "summary": "تحسين أداء تطبيقات أدوبي على أجهزة آر تي إكس.",
+      "keyword": "Adobe",
+      "template": "comparison",
+      "labels": [
+        "أدوبي",
+        "فوتوشوب",
+        "أداء"
+      ],
+      "values": [
+        30
+      ],
+      "claim": "Adobe Illustrator delivers up to 30% higher performance than its emulated version",
+      "sourceId": "a9ef6dbadc6b",
+      "evidence": "Adobe Illustrator delivers up to 30% higher performance than its emulated version, helping accelerate illustration, graphic design and page-layout workflows on RTX Spark.",
+      "kind": "fact",
+      "expression": 7,
+      "action": "point",
+      "duration": 14.770958,
+      "words": []
+    },
+    {
+      "title": "بلندر والواقعية في الوقت الحقيقي",
+      "text": "برنامج بلندر خمسة فاصلة ثلاثة دلوقتي بيدعم تقنية دي إل إس إس أربعة فاصلة خمسة لإعادة بناء الأشعة، يعني الفنانين هيشوفوا إضاءة وانعكاسات بجودة نهائية تقريباً وهما شغالين من غير انتظار.",
+      "summary": "تحديث بلندر لدعم إعادة بناء الأشعة.",
+      "keyword": "Blender",
+      "template": "phenomenon",
+      "labels": [
+        "بلندر",
+        "إضاءة",
+        "جرافيك"
+      ],
+      "values": [
+        5,
+        4
+      ],
+      "claim": "Blender 5.3 integrates DLSS 4.5 Ray Reconstruction into the Cycles viewport",
+      "sourceId": "a9ef6dbadc6b",
+      "evidence": "Blender 5.3 integrates DLSS 4.5 Ray Reconstruction into the Cycles viewport, helping artists evaluate lighting and materials with near-final-quality ray-traced previews as they work.",
+      "kind": "fact",
+      "expression": 6,
+      "action": "turn",
+      "duration": 14.890958,
+      "words": []
+    },
+    {
+      "title": "ذكاء اصطناعي للجميع",
+      "text": "المطورين دلوقتي يقدروا يشغلوا أي نموذج جي جي يو إف من منصة هاجينج فيس جوه ويندوز إم إل، وده بيفتح الباب لدمج قدرات الذكاء الاصطناعي في الألعاب والتطبيقات بشكل أسهل بكتير من الأول.",
+      "summary": "تشغيل نماذج الذكاء الاصطناعي داخل ويندوز إم إل.",
+      "keyword": "Windows ML",
+      "template": "steps",
+      "labels": [
+        "ويندوز",
+        "مطورين",
+        "نماذج"
+      ],
+      "values": [],
+      "claim": "developers can now bring any GGUF model from Hugging Face and run it within Windows ML",
+      "sourceId": "a9ef6dbadc6b",
+      "evidence": "developers can now bring any GGUF model from Hugging Face and run it within Windows ML using the llama.cpp backend.",
+      "kind": "fact",
+      "expression": 4,
+      "action": "walk",
+      "duration": 13.530958,
+      "words": []
+    },
+    {
+      "title": "تخيل لو الكمبيوتر بقى بيفكر",
+      "text": "تخيل إنك بتطلب من الكمبيوتر يرسم صورة أو يعدل فيديو بكلمتين، وهو بيعمل كل ده لوحده في الخلفية، كأن عندك مساعد ذكي شغال أربعة وعشرين ساعة في سبعة أيام من غير تعب.",
+      "summary": "توضيح فكرة المساعد الذكي الذي يعمل دائماً.",
+      "keyword": "Agents",
+      "template": "journey",
+      "labels": [
+        "مساعد ذكي",
+        "خيال",
+        "أتمتة"
+      ],
+      "values": [
+        24,
+        7
+      ],
+      "claim": "RTX Spark compact desktops like the ASUS ProArt GR1X mini PC are built to run personal AI agents 24/7.",
+      "sourceId": "a9ef6dbadc6b",
+      "evidence": "RTX Spark compact desktops like the ASUS ProArt GR1X mini PC are built to run personal AI agents 24/7.",
+      "kind": "illustration",
+      "expression": 10,
+      "action": "sleep",
+      "duration": 13.930958,
+      "words": []
+    },
+    {
+      "title": "مستقبل الذكاء الاصطناعي",
+      "text": "دي كانت نظرة سريعة على أجهزة إنفيديا الجديدة اللي بتغير قواعد اللعبة، لو عايز تعرف أكتر عن إزاي الأجهزة دي ممكن تطور شغلك، تابعنا واشترك في النشرة عشان يوصلك كل جديد.",
+      "summary": "خاتمة ودعوة للمتابعة.",
+      "keyword": "Future",
+      "template": "journey",
+      "labels": [
+        "مستقبل",
+        "تكنولوجيا",
+        "إنفيديا"
+      ],
+      "values": [],
+      "claim": "NVIDIA RTX Spark compact desktops are available today",
+      "sourceId": "a9ef6dbadc6b",
+      "evidence": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today",
+      "kind": "fact",
+      "expression": 11,
+      "action": "point",
+      "duration": 11.6,
+      "words": []
+    }
+  ],
+  "durationInFrames": 3431,
+  "audio": "generated/2026-11-19T10-13-23-539Z/audio.wav",
+  "incompleteMode": "unaligned_narration",
+  "preview": true,
+  "incomplete": true
+}

@@ -1,0 +1,186 @@
+[
+  {
+    "file": "audio/scene-0.wav",
+    "duration": 13.72,
+    "text": "إنفيديا أطلقت أجهزة آر تي إكس سبارك المدمجة من شركات زي أسوس وديل وإم إس آي، عشان تجيب الذكاء الاصطناعي المحلي مباشرة لجهاز الويندوز بتاعك وتخلصك من تكاليف السحابة.",
+    "sha256": "89614673e22bab6ac107bd7990e9ea6457f023bb29ec781b70ae0fcaa19dba3c",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 0,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "04b7ea24dc314a806c13630ba6cd489e2d42a37c09fa92abc1195690d701d0f9",
+        "sha256": "89614673e22bab6ac107bd7990e9ea6457f023bb29ec781b70ae0fcaa19dba3c",
+        "text_sha256": "42552d59c0e0ba08026d2340a3f7693c62669d6b6c5d168d71a304071cb07112",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 658638,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-1.wav",
+    "duration": 15.84,
+    "text": "الأجهزة دي مش مجرد كمبيوتر عادي، دي بتيجي بمعالج إنفيديا جريس بـ عشرين نواة، ومعالج رسوميات بلاك ويل بـ ستة آلاف ومئة وأربعة وأربعين نواة كودا، وذاكرة موحدة بتوصل لـ مئة وثمانية وعشرين جيجابايت.",
+    "sha256": "7488ce0e41a95d70519a4020be5da24c1d6376308400388c6e918de5dc584fbb",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 1,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "ff7ad197e85ccb834eed7224abe55875917eb055d761039ec06c7ec3f19375dd",
+        "sha256": "7488ce0e41a95d70519a4020be5da24c1d6376308400388c6e918de5dc584fbb",
+        "text_sha256": "13891cd5c304c16af24b58938ff492b336623ae7d88258baf5faed2bebb0a34e",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 760398,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-2.wav",
+    "duration": 16.08,
+    "text": "تخيل إنك تقدر تشغل نماذج لغوية ضخمة بـ مئة وعشرين مليار بارامتر محلياً، أو تعمل ريندر لمشاهد ثلاثية الأبعاد بحجم تسعين جيجابايت في الوقت الحقيقي، كل ده من غير ما تخرج بره جهازك.",
+    "sha256": "653db7045fa2806d688d52bd2a917e47d4253897374521e246df5b71f8afed32",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 2,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "19b779e3313cc1da5dbb6007835def146c8e31217132049507cb49c5581be7e3",
+        "sha256": "653db7045fa2806d688d52bd2a917e47d4253897374521e246df5b71f8afed32",
+        "text_sha256": "b1a435ce87ec05a6de1df0bc3dc090a4475fd7dea9815338a7800bc05e9124da",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 771918,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-3.wav",
+    "duration": 14.770958,
+    "text": "أدوبي كمان دخلت في اللعبة، فوتوشوب وإليستريتور بقوا أسرع بكتير على أجهزة آر تي إكس سبارك، وده بيخلي المصممين يخلصوا شغلهم أسرع بـ ثلاثين في المئة مقارنة بالنسخ القديمة اللي كانت بتشتغل بالمحاكاة.",
+    "sha256": "d79511ce7a09c83b2fa2ed65c9b59961f5787db7f11b1190c9ec10157217e918",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 3,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "4f7dfcce8c5380fb70e84b6c9309da59d4991c9c876b87603ac69fbbf3ef86fa",
+        "sha256": "d79511ce7a09c83b2fa2ed65c9b59961f5787db7f11b1190c9ec10157217e918",
+        "text_sha256": "e80059edc33c27644db10bc706288416542e75d9b0ac99e721ac709326de8759",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 709084,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-4.wav",
+    "duration": 14.890958,
+    "text": "برنامج بلندر خمسة فاصلة ثلاثة دلوقتي بيدعم تقنية دي إل إس إس أربعة فاصلة خمسة لإعادة بناء الأشعة، يعني الفنانين هيشوفوا إضاءة وانعكاسات بجودة نهائية تقريباً وهما شغالين من غير انتظار.",
+    "sha256": "2124c3ca0c70206df6292b108c18ece60f23400c189367361d99907bdf89f98d",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 4,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "b3c64a0a3a298569bca0e753459353ea14b8a434b4eb54cb42c6dd7f181539f7",
+        "sha256": "2124c3ca0c70206df6292b108c18ece60f23400c189367361d99907bdf89f98d",
+        "text_sha256": "99300397f8cc59d68d23adf56c25183a6d45f5f35b845c6fc371b65e60a4e332",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 714844,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-5.wav",
+    "duration": 13.530958,
+    "text": "المطورين دلوقتي يقدروا يشغلوا أي نموذج جي جي يو إف من منصة هاجينج فيس جوه ويندوز إم إل، وده بيفتح الباب لدمج قدرات الذكاء الاصطناعي في الألعاب والتطبيقات بشكل أسهل بكتير من الأول.",
+    "sha256": "688bd77a2fc7ce4488f2c6574c40f6c0720744179191e0d481f7cf02ae8469d0",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 5,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "58d03121e46ce37a8e727d8e8ea3c9411c7c85f4130894642850a0e256bbe88b",
+        "sha256": "688bd77a2fc7ce4488f2c6574c40f6c0720744179191e0d481f7cf02ae8469d0",
+        "text_sha256": "81130ff0e64491070fa9f0a42dca1c80bb16542bb65610bbe00d5f1b8d1d1355",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 649564,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-6.wav",
+    "duration": 13.930958,
+    "text": "تخيل إنك بتطلب من الكمبيوتر يرسم صورة أو يعدل فيديو بكلمتين، وهو بيعمل كل ده لوحده في الخلفية، كأن عندك مساعد ذكي شغال أربعة وعشرين ساعة في سبعة أيام من غير تعب.",
+    "sha256": "b71a3ef308b7aa4bb98e74fd7df4c788ae315bc90d5091d463c4f32597e165e3",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 6,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "b5b69ffede1bf038145aefdf6d7880df72e2c817309a8a1d0e864595f6caed21",
+        "sha256": "b71a3ef308b7aa4bb98e74fd7df4c788ae315bc90d5091d463c4f32597e165e3",
+        "text_sha256": "8a81a5e55d8e404e7f3f36a94221198cba44a665a107c3c28f7bb03d951bf0e8",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 668764,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-7.wav",
+    "duration": 11.6,
+    "text": "دي كانت نظرة سريعة على أجهزة إنفيديا الجديدة اللي بتغير قواعد اللعبة، لو عايز تعرف أكتر عن إزاي الأجهزة دي ممكن تطور شغلك، تابعنا واشترك في النشرة عشان يوصلك كل جديد.",
+    "sha256": "fdd873a4256b9f0ecba2dfb8cf662f579fff04d8355c687076816c6bcfc3b37c",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 7,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "ba19e9396923911d6c13e482840f6feaa651ff9e9a9a10a2e6a9f6092bf05371",
+        "sha256": "fdd873a4256b9f0ecba2dfb8cf662f579fff04d8355c687076816c6bcfc3b37c",
+        "text_sha256": "14cf705dac47eda90af8d239133869c42f71236d84ebdbe446748ea268f7693a",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 556878,
+        "reused": true
+      }
+    ]
+  }
+]
