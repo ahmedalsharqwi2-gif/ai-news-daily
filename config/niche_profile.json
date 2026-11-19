@@ -1,0 +1,101 @@
+{
+  "channel": "AI على السريع",
+  "audience": "Arab audience using AI tools for work, study and content",
+  "searchIntent": "product or model name + إيه الجديد، إزاي أستخدم…، مقارنة…",
+  "tone": "fast, practical, verified; rumors labeled unconfirmed",
+  "pillars": [
+    {
+      "id": "news_of_day",
+      "title": "أخبار اليوم الموثقة",
+      "keywords": [
+        "openai",
+        "جوجل",
+        "google",
+        "anthropic",
+        "ميتا",
+        "meta",
+        "سام ألتمان",
+        "إعلان",
+        "إطلاق",
+        "release",
+        "announcement"
+      ]
+    },
+    {
+      "id": "new_tools",
+      "title": "أدوات جديدة وطريقة استخدامها",
+      "keywords": [
+        "أداة",
+        "تطبيق",
+        "chatgpt",
+        "جيميني",
+        "gemini",
+        "كلود",
+        "claude",
+        "copilot",
+        "كوبايلوت",
+        "midjourney",
+        "برومبت"
+      ]
+    },
+    {
+      "id": "comparisons",
+      "title": "مقارنات أدوات ونماذج",
+      "keywords": [
+        "مقارنة",
+        "الأفضل",
+        "ضد",
+        "versus",
+        "vs"
+      ]
+    },
+    {
+      "id": "ai_and_jobs",
+      "title": "الذكاء الاصطناعي والوظائف والتعلم",
+      "keywords": [
+        "وظيفة",
+        "وظائف",
+        "شغل",
+        "تعلم",
+        "مهارات",
+        "jobs",
+        "automation"
+      ]
+    },
+    {
+      "id": "concept_explainers",
+      "title": "شرح مفاهيم ببساطة",
+      "keywords": [
+        "يعني إيه",
+        "نموذج",
+        "ذكاء اصطناعي",
+        "تعلم الآلة",
+        "llm",
+        "transformer",
+        "token"
+      ]
+    }
+  ],
+  "questionPatterns": [
+    "إيه الجديد",
+    "إزاي أستخدم",
+    "مقارنة"
+  ],
+  "bannedTopics": [
+    "خبر غير موثق",
+    "تسريب بدون مصدر"
+  ],
+  "rules": [
+    "two independent sources or one official source",
+    "rewrite not copy",
+    "rumors labeled unconfirmed",
+    "no invented news",
+    "if no verified news, fall back to a verified evergreen topic"
+  ],
+  "bankMix": {
+    "evergreen": 35,
+    "trending": 65
+  },
+  "visualFilmabilityDefault": 0.4,
+  "aiDisclosure": "محتوى مُنشأ بمساعدة الذكاء الاصطناعي"
+}
