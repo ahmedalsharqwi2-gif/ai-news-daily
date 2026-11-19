@@ -3,6 +3,7 @@ import {assertReviewMode,assertTiming,assertMedia,dueInCairo,digest,episodeSchem
 import {json,save,run,probe} from './io.mjs';import {selectTopic,script,voice,backgrounds} from './providers.mjs';
 import {preflight} from './preflight.mjs';import {providerDiagnostics} from './provider-client.mjs';import {renderEpisode,visualQA,partialReview} from './render.mjs';import {layoutQA} from './layout-qa.mjs';
 import {assessActiveNews,quarantineActive} from './news-active.mjs';
+import {hudplan} from './hudplan.mjs';import {hudAudio} from './hud-audio.mjs';
 const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 async function optionalJSON(p,fallback){try{return await json(p);}catch(e){if(e.code!=='ENOENT')throw e;return fallback;}}
 async function mixInner(segments,dir){
@@ -52,7 +53,11 @@ export async function review({mode='review',scheduled=false,topicReservationPath
   }
   if(!alignedOk)throw alignErr;
   await stage('assets',async()=>{for(const s of episode.scenes){const source=topic.sources.find(v=>v.id===s.sourceId);s.sourceUrl=source.url;s.sourceLabel=new URL(source.url).hostname;}const assets=await backgrounds(episode,config,pub);await save(out+'/assets.json',assets);await writeFile(out+'/ATTRIBUTIONS.md','# Asset rights\n\nOriginal vector motion and FFmpeg synthesized bed; immutable owner logo at config/logo.json with SHA256. Fonts and provider terms: docs/LICENSES.md. Individual generated image models and cache keys are recorded in assets.json. Research sources are in sources.json and are not blanket image licenses.\n');});
-  const duration=await stage('mix',()=>mix(segments,pub,out+'/mix-diagnostics.json'));const props={...episode,audio:'generated/'+id+'/audio.wav',durationInFrames:Math.ceil(duration*30)};await save(out+'/props.json',props);
+  let hudPlan=null;
+  if(config.hud){try{hudPlan=await stage('hudplan',async()=>{const r=hudplan(episode,config);await save(out+'/hudplan.json',{schema:1,plan:r.plan});return r.plan;});}catch(e){report.limitations.push('hudplan failed ('+String(e&&e.message||e)+'); rendered with the classic template instead.');}}
+  const duration=await stage('mix',()=>mix(segments,pub,out+'/mix-diagnostics.json'));
+  if(config.hud&&config.hudAudio!==false){try{await stage('hud-audio',()=>hudAudio(pub+'/audio.wav',segments,typeof config.hudAudio==='object'?config.hudAudio:{}));}catch(e){report.limitations.push('hud-audio failed ('+String(e&&e.message||e)+'); shipped voice-only mix.');}}
+  const props={...episode,audio:'generated/'+id+'/audio.wav',durationInFrames:Math.ceil(duration*30),...(hudPlan?{hud:{plan:hudPlan}}:{})};await save(out+'/props.json',props);
   await stage('layout-qa',()=>layoutQA(props,out));await stage('render',()=>renderEpisode(props,out));
   const qa=await stage('qa',async()=>{
    const p=await probe(out+'/review.mp4');assertMedia(p);const v=await visualQA(out,'review.mp4');const levels=await run('ffmpeg',['-hide_banner','-i',out+'/review.mp4','-af','loudnorm=I=-14:TP=-1.5:LRA=9:print_format=json','-f','null','-'],{timeout:120000});const qaLoud=levels.stderr.slice(levels.stderr.lastIndexOf('{'));const m=JSON.parse(qaLoud.slice(0,qaLoud.lastIndexOf('}')+1));
