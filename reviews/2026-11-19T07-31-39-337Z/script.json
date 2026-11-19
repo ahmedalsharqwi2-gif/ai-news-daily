@@ -1,0 +1,165 @@
+{
+  "topicKey": "nvidia-ai-supply-chain-2026",
+  "title": "إزاي إنفيديا بتصنع مستقبل الذكاء الاصطناعي؟",
+  "hook": "عمرك سألت نفسك إزاي إنفيديا بتنتج تكنولوجيا معقدة زي دي وبكميات ضخمة؟ الحكاية مش مجرد تصميم، دي شبكة عالمية من المصانع والناس اللي بيشتغلوا بقلب عشان يحولوا التصاميم دي لواقع ملموس.",
+  "cta": "تابعونا عشان تعرفوا أكتر عن كواليس التكنولوجيا اللي بتغير العالم، واعملوا اشتراك في القناة عشان يوصلكم كل جديد عن عالم الذكاء الاصطناعي على السريع.",
+  "scenes": [
+    {
+      "title": "بداية التصنيع",
+      "text": "ديب شوكويست بتدير عمليات إنفيديا، وبتقول إن وظيفتهم الأساسية هي تحويل التصاميم لواقع. الموضوع بيحتاج توازن دقيق بين اختيار الشركاء الصح والقدرة على تنفيذ حاجات مكنش حد يقدر يعملها قبل كدة أبداً.",
+      "summary": "ديب شوكويست بتشرح دورها في تحويل التصاميم لواقع.",
+      "keyword": "عمليات",
+      "template": "phenomenon",
+      "labels": [
+        "عمليات",
+        "تصنيع",
+        "إنفيديا"
+      ],
+      "values": [],
+      "claim": "Operations at NVIDIA convert designs into the physical world.",
+      "sourceId": "4c9c656647cd",
+      "evidence": "At the most basic level, our job is to convert designs into the physical world.",
+      "kind": "fact",
+      "expression": 5,
+      "action": "walk"
+    },
+    {
+      "title": "علاقات عمرها عقود",
+      "text": "إنفيديا مش بتشتغل لوحدها، دي عندها علاقات قوية مع شركات زي تي إس إم سي من سنة ألف وتسعمائة ثمانية وتسعين. الشراكات دي بتكبر مع كل تحدي بيواجهوه سوا على أرض المصنع.",
+      "summary": "علاقات إنفيديا مع المصنعين بدأت من سنين طويلة.",
+      "keyword": "شراكات",
+      "template": "journey",
+      "labels": [
+        "شراكات",
+        "تاريخ",
+        "تي إس إم سي"
+      ],
+      "values": [],
+      "claim": "NVIDIA has maintained long-term partnerships with manufacturers like TSMC since 1998.",
+      "sourceId": "4c9c656647cd",
+      "evidence": "TSMC has partnered with NVIDIA since 1998.",
+      "kind": "fact",
+      "expression": 7,
+      "action": "point"
+    },
+    {
+      "title": "تحدي الدقة العالية",
+      "text": "في فيتنام، فيه كابلات معقدة جداً بتحتوي على ألف وخمسمائة طرف. كل طرف محتاج دقة متناهية عشان نسبة العيوب تكون أقل من واحد جزء في المليون، وده بيحتاج مجهود جبار من العمال.",
+      "summary": "الدقة المطلوبة في تصنيع الكابلات المعقدة.",
+      "keyword": "دقة",
+      "template": "chart",
+      "labels": [
+        "دقة",
+        "فيتنام",
+        "تصنيع"
+      ],
+      "values": [
+        1
+      ],
+      "claim": "The cable cartridge requires a precision assembly yielding less than 1 DPPM.",
+      "sourceId": "4c9c656647cd",
+      "evidence": "Each one requires a very precise assembly to yield a quality level of less than 1 DPPM, or defect part per million.",
+      "kind": "fact",
+      "expression": 8,
+      "action": "jump"
+    },
+    {
+      "title": "التحول للأنظمة",
+      "text": "لما إنفيديا اتحولت من تصنيع الشيبس لبناء أنظمة كاملة، احتاجت شركاء جدد. دلوقتي هما بيخلقوا سلاسل توريد جديدة تماماً في مجالات زي البصريات، وده بيحتاج استثمارات ضخمة عشان يوصلوا للحجم المطلوب.",
+      "summary": "توسع إنفيديا في بناء أنظمة كاملة يتطلب شركاء جدد.",
+      "keyword": "أنظمة",
+      "template": "comparison",
+      "labels": [
+        "أنظمة",
+        "استثمار",
+        "بصريات"
+      ],
+      "values": [],
+      "claim": "NVIDIA transitioned from chip manufacturing to building data center systems.",
+      "sourceId": "4c9c656647cd",
+      "evidence": "As we became a data center systems company, we needed more partners.",
+      "kind": "fact",
+      "expression": 6,
+      "action": "turn"
+    },
+    {
+      "title": "أهمية التواصل",
+      "text": "ديب بتقضي ست أسابيع كل سنة في السفر عشان تزور الشركاء في تايوان والصين وكوريا وفيتنام وأمريكا. التواصل المباشر في أرض المصنع بيخلي فيه ثقة تسمح للعمال يقولوا إيه اللي ناقصهم للنجاح.",
+      "summary": "أهمية الزيارات الميدانية لبناء الثقة مع الموردين.",
+      "keyword": "تواصل",
+      "template": "map",
+      "labels": [
+        "تواصل",
+        "سفر",
+        "ثقة"
+      ],
+      "values": [],
+      "claim": "Shoquist spends six weeks annually visiting partners globally to build trust.",
+      "sourceId": "4c9c656647cd",
+      "evidence": "spends six weeks each year on the road visiting partners in Taiwan, China, Korea, Vietnam and the U.S.",
+      "kind": "fact",
+      "expression": 9,
+      "action": "walk"
+    },
+    {
+      "title": "إدارة الأزمات",
+      "text": "لما واجهوا مشكلة في سرعة الإنتاج، مدير التصنيع في تايوان قرر يوقف الأتمتة ويرجع للتحميل اليدوي عشان يحمي المنتج. ده كان قرار شجاع للحفاظ على الجودة في وقت الأزمات الصعبة.",
+      "summary": "التعامل مع مشاكل الإنتاج بقرارات سريعة.",
+      "keyword": "أزمات",
+      "template": "steps",
+      "labels": [
+        "أزمات",
+        "جودة",
+        "تايوان"
+      ],
+      "values": [],
+      "claim": "Operations director disabled automation to protect product quality during a ramp issue.",
+      "sourceId": "4c9c656647cd",
+      "evidence": "The operations director of Taiwan manufacturing made the call that to protect the product and shipments, he needed to disable the entire process and return to manual test loading.",
+      "kind": "fact",
+      "expression": 4,
+      "action": "fall"
+    },
+    {
+      "title": "سرب إنفيديا",
+      "text": "عشان يحلوا المشكلة، بعتوا فريق من المهندسين من كل الأقسام عشان يشتغلوا مع فريق فوكسكون. الفريق ده بيسموه سرب إنفيديا، وهما بيؤمنوا إن المهمة هي المدير اللي بيحرك كل حاجة.",
+      "summary": "فريق إنفيديا بيتحرك بسرعة لحل المشاكل التقنية.",
+      "keyword": "سرب",
+      "template": "phenomenon",
+      "labels": [
+        "سرب",
+        "هندسة",
+        "تعاون"
+      ],
+      "values": [],
+      "claim": "NVIDIA deployed a cross-functional team to resolve production line issues.",
+      "sourceId": "4c9c656647cd",
+      "evidence": "That’s when we executed the NVIDIA swarm. Teams from NVIDIA design engineering, operations industrial, and product and test engineering, as well as from Foxconn automation engineering, flooded the line with talent",
+      "kind": "fact",
+      "expression": 10,
+      "action": "run"
+    },
+    {
+      "title": "مستقبل التصنيع",
+      "text": "التحديات كبيرة، بس ديب بتشوف إن الشغل ده مثير جداً. كل اللي بيقف بين أهدافهم ونجاحهم هو إبداعهم، والقدرة على تغيير سلاسل التوريد بسرعة عشان يلبوا الطلب المتزايد على التكنولوجيا الجديدة.",
+      "summary": "الإبداع هو مفتاح النجاح في عمليات إنفيديا.",
+      "keyword": "إبداع",
+      "template": "cause",
+      "labels": [
+        "إبداع",
+        "مستقبل",
+        "طلب"
+      ],
+      "values": [],
+      "claim": "Creativity is the primary driver for NVIDIA's operational success.",
+      "sourceId": "4c9c656647cd",
+      "evidence": "The only thing between our goals and our success is our own creativity.",
+      "kind": "fact",
+      "expression": 11,
+      "action": "sleep"
+    }
+  ],
+  "editorialMode": "daily",
+  "editorialLabel": null,
+  "scriptModel": "gemini-3.1-flash-lite-preview"
+}

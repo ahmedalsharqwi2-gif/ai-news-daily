@@ -4,5 +4,11 @@
     "value": "https://www.microsoft.com/en-us/research/podcast/can-ai-help-build-a-healthier-future/",
     "status": "review",
     "run": "2026-11-19T06-36-10-952Z"
+  },
+  {
+    "topicKey": "nvidia-ai-supply-chain-2026",
+    "value": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
+    "status": "reserved",
+    "run": "2026-11-19T07-31-39-337Z"
   }
 ]
