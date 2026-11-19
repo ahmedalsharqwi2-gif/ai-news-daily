@@ -1,0 +1,40 @@
+{
+  "id": "2026-11-19T06-36-10-952Z",
+  "attemptId": "2026-11-19T06-36-10-952Z",
+  "mode": "review",
+  "published": false,
+  "status": "failed",
+  "resumed": false,
+  "stages": [
+    {
+      "name": "preflight",
+      "status": "pass",
+      "seconds": 0.294
+    },
+    {
+      "name": "topics",
+      "status": "pass",
+      "seconds": 16.524
+    },
+    {
+      "name": "script",
+      "status": "pass",
+      "seconds": 38.038
+    },
+    {
+      "name": "voice",
+      "status": "pass",
+      "seconds": 925.89
+    }
+  ],
+  "limitations": [
+    "Incomplete visual previews never pass narrated-film acceptance. Human pronunciation and art-direction approval are separate."
+  ],
+  "failedStage": "align",
+  "errorCode": "ALIGNMENT_SPEECH_MISMATCH",
+  "partial": {
+    "status": "rendered",
+    "path": "/home/runner/work/ai-news-daily/ai-news-daily/out/2026-11-19T06-36-10-952Z/incomplete-with-voice/review-with-voice-INCOMPLETE.mp4",
+    "incomplete": true
+  }
+}

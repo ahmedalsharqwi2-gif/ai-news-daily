@@ -1,0 +1,225 @@
+[
+  {
+    "file": "audio/scene-0.wav",
+    "duration": 15.650958,
+    "text": "الذكاء الاصطناعي مش بس بيساعدنا، ده بيغير قواعد اللعبة في الطب. من تشخيص الأمراض لحد اكتشاف أدوية جديدة، التطور سريع جداً ومبهر، وبيخلينا نسأل إيه اللي جاي في المستقبل القريب للرعاية الصحية؟",
+    "sha256": "bd2209f6bb2e335b4e6ef6ad31fed906b9a11d14875f1d77a6eceabc2358f104",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 0,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "fe8cde514d380723259dc74c3a6469cc629b00d86d1e574cb8b10056e206e636",
+        "sha256": "bd2209f6bb2e335b4e6ef6ad31fed906b9a11d14875f1d77a6eceabc2358f104",
+        "text_sha256": "68f91f9159da5f5520178c8eae5528e4f5a5b6102b186de71227d3924f0d0445",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 751324,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-1.wav",
+    "duration": 16.8,
+    "text": "تخيل نظام ذكاء اصطناعي بيقوم بدور الطبيب، بيسأل الأسئلة الصح، وبيطلب التحاليل المناسبة بدقة عالية. الأبحاث بتقول إن النماذج دي قدرت تتفوق على الأطباء في التشخيص، وده بيفتح باب جديد لإنقاذ حياة ناس كتير.",
+    "sha256": "af8d7d15705cec9b49984a1c2e317c74a60c2afaba73edef4d944bb445452fcc",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 1,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "68833e9332031940f00cb37ffb576e5c9926519bf3b4d50ebb5c1acbdff0aa11",
+        "sha256": "af8d7d15705cec9b49984a1c2e317c74a60c2afaba73edef4d944bb445452fcc",
+        "text_sha256": "42ad205cf14a0a816f3d1ca515c72a9e25324b6221518614a371126e28f546ab",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 806478,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-2.wav",
+    "duration": 16.6,
+    "text": "عندنا كنوز من الصور الطبية زي الأشعة والتحاليل، بس للأسف مش بنستغلها صح. الذكاء الاصطناعي يقدر يقرأ تفاصيل في الصور دي البشر مش بيشوفوها، ومع ذلك لسه بنعاني من بطء في تطبيق التكنولوجيا دي.",
+    "sha256": "791cd6a85b62c02e801b28773a3560b6320130ddf9ebb7835de58370cf72e6a0",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 2,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "f0f23379c96994a6a77aed3150efee0c7fa22e422beaa2aee4644dc6a995be7a",
+        "sha256": "791cd6a85b62c02e801b28773a3560b6320130ddf9ebb7835de58370cf72e6a0",
+        "text_sha256": "64f4f8e7fc0795529557006f4c5f63dc1343f21fbbebe82d975cc99a4a0ff0f4",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 796878,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-3.wav",
+    "duration": 16.48,
+    "text": "الهدف دلوقتي هو بناء نموذج للمريض الكامل، بيجمع كل حاجة من الجينات للبيانات الحيوية. ده هيخلينا نتوقع الأمراض قبل ما تحصل، ونغير مسار العلاج بشكل شخصي ومختلف تماماً عن اللي بنعمله دلوقتي.",
+    "sha256": "ee0d3925b1d46de962804c694bd2c07592fdc18488f45d45e45a4b62341a0d54",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 3,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "868b7dc1368d9a1aca1121227ba98eb63dfe37973bab5f8cfb25a9f7941e54d3",
+        "sha256": "ee0d3925b1d46de962804c694bd2c07592fdc18488f45d45e45a4b62341a0d54",
+        "text_sha256": "1b1cd8bd9e80d02f1ec149d163e46cfea9b977e54515ebee7db7d5cb8fe759d7",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 791118,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-4.wav",
+    "duration": 16.741917,
+    "text": "ليه التكنولوجيا دي مش في كل المستشفيات؟ المشكلة مش في العلم، المشكلة في التنفيذ. النظام الطبي بطيء في التغيير، وفيه تحديات اقتصادية بتخلي المستشفيات تتردد في الاستثمار في حلول ذكاء اصطناعي جديدة ومبتكرة.",
+    "sha256": "7d30d54514fba982b58149ec3cf9fa352e4208c4c14c9f5eef4c2076bda450c7",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 4,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "0c3c5d7ce648aea11358f08df73032d476e53fcb16e0d64d64bbc633fc0fb10b",
+        "sha256": "2cdc6d3bf38ca292d6b41a2458c7cb0790f9de1ba40f166a4406a9d5c7bad48a",
+        "text_sha256": "56636d3ec706963f5042f8f9e9e28dde42e5cba9893c57bae76a9b14161aaa9b",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 342364,
+        "reused": false
+      },
+      {
+        "scene": 4,
+        "chunk": 1,
+        "schema": 1,
+        "cacheKey": "43eea13bea8eb1ddba9eaae5b2929cc6481dfe7366aa5b926ba35b1833c25f94",
+        "sha256": "e0cdfc4443b5cd210abcdcc536e2e58182bdb6a2336798bf93b0d9e1a30e5d2d",
+        "text_sha256": "266e176df066ecea02d4c7091e2add3af19d0b2714a6ceaf88a3564d0028dd66",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 461404,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-5.wav",
+    "duration": 15.810958,
+    "text": "مفاجأة غريبة! المرضى بقوا بيلجأوا للروبوتات عشان يلاقوا تعاطف أكتر من البشر. الروبوتات عندها وقت غير محدود، وبتقدر تجاوب على كل الأسئلة، وده بيخلي المريض يحس باهتمام أكبر في ظل ضغط وقت الأطباء.",
+    "sha256": "6bf4c08ab9856897d5a1eef1583dbfd2b63cdb5476a6960c87e02a6bc58e0b0b",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 5,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "c3188e644b323ad3aabb25da7782d5a854239d0eabeb0c292d641c5b5bba9497",
+        "sha256": "b0192ebd9d7238926fb18e26d6b15fbadacfc10fa6ddb005f5c878c94dddc10b",
+        "text_sha256": "03da72707054c0f33b7abb7a52112db0173e3737ff09301b521c5b0ff2b31bc8",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 284764,
+        "reused": false
+      },
+      {
+        "scene": 5,
+        "chunk": 1,
+        "schema": 1,
+        "cacheKey": "eee435cccaccb9016a92bf3eb7a83261364ed0c6ef9f4dad4a48f7ba44aebddb",
+        "sha256": "f70195190c0b51399f5f53134af4ee2730aedfe0a02d4211493553bb1fc47394",
+        "text_sha256": "b3c76216069a6dbb9369d6a038a7cec0ab8c422e2f3bbf14d64ab7dd47f1988a",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 474318,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-6.wav",
+    "duration": 15.52,
+    "text": "الطب مش بس علاج، الطب الحقيقي هو الوقاية. الذكاء الاصطناعي بيفتح باب جديد عشان نمنع الأمراض قبل ما تبدأ، وده تغيير جذري في فلسفة الرعاية الصحية اللي كانت دايماً بتركز على العلاج بعد وقوع المرض.",
+    "sha256": "de3b1151838b21846089bf9cd6f9a1f75396972b8fee2dc2d3d4977ef6d065f6",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 6,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "4b905ce52c8039ad0ae8acea4b4e640b006482c1273af0f73c5c700c51874ae9",
+        "sha256": "de3b1151838b21846089bf9cd6f9a1f75396972b8fee2dc2d3d4977ef6d065f6",
+        "text_sha256": "97f2ab4c763ea6c910d9a2069c329a5b9ebd59135db89931a5a0614a18cc58bd",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 745038,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-7.wav",
+    "duration": 18.330958,
+    "text": "الذكاء الاصطناعي مش بديل للطبيب، ده أداة قوية بتدينا وقت أكتر للتركيز على المريض. المستقبل بيوعدنا بطب أفضل وأدق، وأهم حاجة إننا نبدأ نستخدم الأدوات دي دلوقتي. شاركونا رأيكم في التعليقات، واعملوا لايك وشير!",
+    "sha256": "a712f586abf4341e58c6ce1300a1cc909b2ececdc76444b46a828ddba533af83",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 7,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "1589d9cd294d2350b5197fdee2bdd0dcbeb1000901403165a2ea1600a86ad273",
+        "sha256": "386048067fce5ef6f33d239422fbbb7e78a11d626632544a6e20e18a2428ecff",
+        "text_sha256": "9f5fca27c507a431a70a8e122f7391b3373d2663f08ccf71e7e628b3e8779def",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 700878,
+        "reused": false
+      },
+      {
+        "scene": 7,
+        "chunk": 1,
+        "schema": 1,
+        "cacheKey": "9e099a4dcc888c8f22c6187a4d827c6842b1bee4f120cb8597adc96717ece99a",
+        "sha256": "06e4ad9782aabac6dd22de214c3c783313ac648b0aa286cb9606d88305264d7b",
+        "text_sha256": "0e4e616c59104fbe3e6fa29973860076f7556ce4aa76eb5318288e23d87afc43",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 179164,
+        "reused": false
+      }
+    ]
+  }
+]

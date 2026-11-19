@@ -1,0 +1,179 @@
+{
+  "title": "مستقبل الطب مع الذكاء الاصطناعي",
+  "editorialLabel": null,
+  "scenes": [
+    {
+      "title": "بداية ثورة الطب",
+      "text": "الذكاء الاصطناعي مش بس بيساعدنا، ده بيغير قواعد اللعبة في الطب. من تشخيص الأمراض لحد اكتشاف أدوية جديدة، التطور سريع جداً ومبهر، وبيخلينا نسأل إيه اللي جاي في المستقبل القريب للرعاية الصحية؟",
+      "summary": "الذكاء الاصطناعي يغير قواعد الطب بسرعة مذهلة.",
+      "keyword": "ثورة طبية",
+      "template": "phenomenon",
+      "labels": [
+        "طب",
+        "ذكاء اصطناعي",
+        "تكنولوجيا"
+      ],
+      "values": [],
+      "claim": "الذكاء الاصطناعي يحدث ثورة في الطب.",
+      "sourceId": "46af5006ff7d",
+      "evidence": "It’s clear there’s a huge disruption happening at the intersection of biology and medicine and AI right now.",
+      "kind": "fact",
+      "expression": 8,
+      "action": "walk",
+      "duration": 15.650958,
+      "words": []
+    },
+    {
+      "title": "التشخيص الذكي",
+      "text": "تخيل نظام ذكاء اصطناعي بيقوم بدور الطبيب، بيسأل الأسئلة الصح، وبيطلب التحاليل المناسبة بدقة عالية. الأبحاث بتقول إن النماذج دي قدرت تتفوق على الأطباء في التشخيص، وده بيفتح باب جديد لإنقاذ حياة ناس كتير.",
+      "summary": "الذكاء الاصطناعي يتفوق في التشخيص الطبي.",
+      "keyword": "تشخيص",
+      "template": "comparison",
+      "labels": [
+        "تشخيص",
+        "أطباء",
+        "ذكاء اصطناعي"
+      ],
+      "values": [],
+      "claim": "نماذج الذكاء الاصطناعي تتفوق على الأطباء في التشخيص.",
+      "sourceId": "46af5006ff7d",
+      "evidence": "Markedly improved accuracy over physicians, almost doubling, but at lower cost.",
+      "kind": "fact",
+      "expression": 9,
+      "action": "point",
+      "duration": 16.8,
+      "words": []
+    },
+    {
+      "title": "معضلة الصور الطبية",
+      "text": "عندنا كنوز من الصور الطبية زي الأشعة والتحاليل، بس للأسف مش بنستغلها صح. الذكاء الاصطناعي يقدر يقرأ تفاصيل في الصور دي البشر مش بيشوفوها، ومع ذلك لسه بنعاني من بطء في تطبيق التكنولوجيا دي.",
+      "summary": "الصور الطبية كنز غير مستغل بالذكاء الاصطناعي.",
+      "keyword": "صور طبية",
+      "template": "chart",
+      "labels": [
+        "أشعة",
+        "تحاليل",
+        "بيانات"
+      ],
+      "values": [],
+      "claim": "الذكاء الاصطناعي يرى تفاصيل في الصور الطبية لا يراها البشر.",
+      "sourceId": "46af5006ff7d",
+      "evidence": "Eking out all the embedded information that humans can’t see, but AI can interpret from every type of medical image that we know of.",
+      "kind": "fact",
+      "expression": 5,
+      "action": "turn",
+      "duration": 16.6,
+      "words": []
+    },
+    {
+      "title": "نموذج المريض الكامل",
+      "text": "الهدف دلوقتي هو بناء نموذج للمريض الكامل، بيجمع كل حاجة من الجينات للبيانات الحيوية. ده هيخلينا نتوقع الأمراض قبل ما تحصل، ونغير مسار العلاج بشكل شخصي ومختلف تماماً عن اللي بنعمله دلوقتي.",
+      "summary": "نموذج المريض الكامل يتوقع الأمراض.",
+      "keyword": "مريض كامل",
+      "template": "map",
+      "labels": [
+        "جينات",
+        "بيانات",
+        "توقع"
+      ],
+      "values": [],
+      "claim": "نماذج المريض الكامل تساعد في توقع الأمراض.",
+      "sourceId": "46af5006ff7d",
+      "evidence": "It could be genomics, could be proteomics; it could be, you know, the exposome—all these layers of data.",
+      "kind": "fact",
+      "expression": 7,
+      "action": "walk",
+      "duration": 16.48,
+      "words": []
+    },
+    {
+      "title": "عقبات التنفيذ",
+      "text": "ليه التكنولوجيا دي مش في كل المستشفيات؟ المشكلة مش في العلم، المشكلة في التنفيذ. النظام الطبي بطيء في التغيير، وفيه تحديات اقتصادية بتخلي المستشفيات تتردد في الاستثمار في حلول ذكاء اصطناعي جديدة ومبتكرة.",
+      "summary": "التحديات الاقتصادية تعيق تبني الذكاء الاصطناعي.",
+      "keyword": "تنفيذ",
+      "template": "cause",
+      "labels": [
+        "اقتصاد",
+        "مستشفيات",
+        "تحديات"
+      ],
+      "values": [],
+      "claim": "النظام الطبي بطيء في تبني الذكاء الاصطناعي لأسباب اقتصادية.",
+      "sourceId": "46af5006ff7d",
+      "evidence": "Oftentimes, there’s financial constraints; there’s unwillingness to invest at health systems level because, you know, they’re working at very low margins.",
+      "kind": "fact",
+      "expression": 4,
+      "action": "jump",
+      "duration": 16.741917,
+      "words": []
+    },
+    {
+      "title": "الذكاء الاصطناعي والتعاطف",
+      "text": "مفاجأة غريبة! المرضى بقوا بيلجأوا للروبوتات عشان يلاقوا تعاطف أكتر من البشر. الروبوتات عندها وقت غير محدود، وبتقدر تجاوب على كل الأسئلة، وده بيخلي المريض يحس باهتمام أكبر في ظل ضغط وقت الأطباء.",
+      "summary": "المرضى يجدون تعاطفاً في الذكاء الاصطناعي.",
+      "keyword": "تعاطف",
+      "template": "phenomenon",
+      "labels": [
+        "تعاطف",
+        "مرضى",
+        "روبوتات"
+      ],
+      "values": [],
+      "claim": "المرضى يجدون الذكاء الاصطناعي أكثر تعاطفاً من الأطباء.",
+      "sourceId": "46af5006ff7d",
+      "evidence": "Patients turn to chatbots and AI to find out that they are more empathetic than humans.",
+      "kind": "fact",
+      "expression": 6,
+      "action": "run",
+      "duration": 15.810958,
+      "words": []
+    },
+    {
+      "title": "مستقبل الوقاية",
+      "text": "الطب مش بس علاج، الطب الحقيقي هو الوقاية. الذكاء الاصطناعي بيفتح باب جديد عشان نمنع الأمراض قبل ما تبدأ، وده تغيير جذري في فلسفة الرعاية الصحية اللي كانت دايماً بتركز على العلاج بعد وقوع المرض.",
+      "summary": "الذكاء الاصطناعي يركز على الوقاية من الأمراض.",
+      "keyword": "وقاية",
+      "template": "journey",
+      "labels": [
+        "وقاية",
+        "صحة",
+        "مستقبل"
+      ],
+      "values": [],
+      "claim": "الذكاء الاصطناعي يتيح فرصاً غير مسبوقة للوقاية من الأمراض.",
+      "sourceId": "46af5006ff7d",
+      "evidence": "We have a real, a chance to enable prevention, which we’ve never really done in any meaningful way in healthcare.",
+      "kind": "fact",
+      "expression": 10,
+      "action": "walk",
+      "duration": 15.52,
+      "words": []
+    },
+    {
+      "title": "الخلاصة",
+      "text": "الذكاء الاصطناعي مش بديل للطبيب، ده أداة قوية بتدينا وقت أكتر للتركيز على المريض. المستقبل بيوعدنا بطب أفضل وأدق، وأهم حاجة إننا نبدأ نستخدم الأدوات دي دلوقتي. شاركونا رأيكم في التعليقات، واعملوا لايك وشير!",
+      "summary": "الذكاء الاصطناعي أداة لتعزيز دور الطبيب.",
+      "keyword": "خلاصة",
+      "template": "steps",
+      "labels": [
+        "مستقبل",
+        "طب",
+        "مشاركة"
+      ],
+      "values": [],
+      "claim": "الذكاء الاصطناعي يعزز العلاقة بين الطبيب والمريض.",
+      "sourceId": "46af5006ff7d",
+      "evidence": "I hope that we’ll see a return to the … with the gift of time, with patients being somewhat more autonomous, physicians having more time with patients.",
+      "kind": "fact",
+      "expression": 11,
+      "action": "point",
+      "duration": 18.330958,
+      "words": []
+    }
+  ],
+  "durationInFrames": 3959,
+  "audio": "generated/2026-11-19T06-36-10-952Z/audio.wav",
+  "incompleteMode": "unaligned_narration",
+  "preview": true,
+  "incomplete": true
+}

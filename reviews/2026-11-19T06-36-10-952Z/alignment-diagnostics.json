@@ -1,0 +1,88 @@
+{
+  "method": "stable-ts attention forced alignment; independent unprompted faster-whisper ASR",
+  "estimatedTiming": false,
+  "scenes": [
+    {
+      "scene": 0,
+      "passed": true,
+      "words": 32,
+      "characterSimilarity": 0.9836065573770492,
+      "wordCoverage": 0.90625,
+      "sourceWords": 32,
+      "recognizedWords": 32,
+      "missingNumerals": []
+    },
+    {
+      "scene": 1,
+      "passed": true,
+      "words": 34,
+      "characterSimilarity": 0.9663608562691132,
+      "wordCoverage": 0.7941176470588235,
+      "sourceWords": 34,
+      "recognizedWords": 34,
+      "missingNumerals": []
+    },
+    {
+      "scene": 2,
+      "passed": true,
+      "words": 34,
+      "characterSimilarity": 0.9867549668874173,
+      "wordCoverage": 0.9117647058823529,
+      "sourceWords": 34,
+      "recognizedWords": 35,
+      "missingNumerals": []
+    },
+    {
+      "scene": 3,
+      "passed": true,
+      "words": 32,
+      "characterSimilarity": 0.9900332225913622,
+      "wordCoverage": 0.9375,
+      "sourceWords": 32,
+      "recognizedWords": 32,
+      "missingNumerals": []
+    },
+    {
+      "scene": 4,
+      "passed": true,
+      "words": 33,
+      "characterSimilarity": 0.9909365558912386,
+      "wordCoverage": 0.9393939393939394,
+      "sourceWords": 33,
+      "recognizedWords": 33,
+      "missingNumerals": []
+    },
+    {
+      "scene": 5,
+      "passed": true,
+      "words": 33,
+      "characterSimilarity": 0.967948717948718,
+      "wordCoverage": 0.9090909090909091,
+      "sourceWords": 33,
+      "recognizedWords": 33,
+      "missingNumerals": []
+    },
+    {
+      "scene": 6,
+      "passed": true,
+      "words": 35,
+      "characterSimilarity": 0.987012987012987,
+      "wordCoverage": 0.9428571428571428,
+      "sourceWords": 35,
+      "recognizedWords": 35,
+      "missingNumerals": []
+    }
+  ],
+  "passed": false,
+  "code": "ALIGNMENT_SPEECH_MISMATCH",
+  "stage": "independent_asr",
+  "scene": 7,
+  "errorType": "AlignmentError",
+  "details": {
+    "characterSimilarity": 0.8327645051194539,
+    "wordCoverage": 0.6176470588235294,
+    "sourceWords": 34,
+    "recognizedWords": 27,
+    "missingNumerals": []
+  }
+}
