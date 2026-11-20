@@ -32,7 +32,19 @@
   {
     "topicKey": "nvidia-omniverse-frontier-ai-agents",
     "value": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-    "status": "reserved",
+    "status": "retired",
     "run": "2026-11-19T23-13-16-305Z"
+  },
+  {
+    "topicKey": "horizonbench-ai-personalization-2026",
+    "value": "https://arxiv.org/abs/2604.17283",
+    "status": "retired",
+    "run": "2026-11-20T01-18-10-002Z"
+  },
+  {
+    "topicKey": "nvidia-sc26-ai-agents-science",
+    "value": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
+    "status": "reserved",
+    "run": "2026-11-20T01-22-10-139Z"
   }
 ]

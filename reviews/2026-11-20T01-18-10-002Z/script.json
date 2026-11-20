@@ -1,0 +1,165 @@
+{
+  "topicKey": "horizonbench-ai-personalization-2026",
+  "title": "إزاي الذكاء الاصطناعي بينسى تفضيلاتك الشخصية مع الوقت؟",
+  "hook": "ماذا لو قلت لك إن المساعد الذكي اللي بتكلمه كل يوم ممكن ينسى أهم تفضيلاتك بمجرد ما حياتك تتغير؟ هل فعلاً الذكاء الاصطناعي بيقدر يواكب تطور شخصيتك ولا بيعلق في الماضي؟",
+  "cta": "تابعونا عشان تعرفوا أكتر عن أحدث الأبحاث في تطوير الذاكرة طويلة المدى للذكاء الاصطناعي، واشتركوا في القناة عشان يوصلكم كل جديد عن مستقبل التكنولوجيا والذكاء الاصطناعي على السريع.",
+  "scenes": [
+    {
+      "title": "مشكلة الذاكرة في المساعدات الذكية",
+      "text": "المساعدات الذكية دلوقتي بتفضل تتكلم مع نفس المستخدم لشهور طويلة، لكن المشكلة إن تفضيلاتنا بتتغير مع الوقت. المساعد اللي بيفضل متمسك بتفضيلات قديمة إحنا تجاوزناها، بيعتبر فشل في أداء مهمته الأساسية.",
+      "summary": "المساعدات الذكية بتفشل في مواكبة تغير تفضيلات المستخدمين.",
+      "keyword": "تفضيلات المستخدم",
+      "template": "phenomenon",
+      "labels": [
+        "ذكاء اصطناعي",
+        "ذاكرة",
+        "تفضيلات"
+      ],
+      "values": [],
+      "claim": "المساعدات الذكية تفشل عندما تتمسك بتفضيلات قديمة.",
+      "sourceId": "53ead09f1e1f",
+      "evidence": "an assistant that keeps serving a preference the user has outgrown fails that user.",
+      "kind": "fact",
+      "expression": 5,
+      "action": "walk"
+    },
+    {
+      "title": "تحدي قياس تغير التفضيلات",
+      "text": "المشكلة إن المحادثات الحقيقية مش بتسجل ليه أو إمتى التفضيلات اتغيرت. النماذج الحالية إما بتثبت التفضيلات أو بتستنى المستخدم يقول التغيير، وده بيخلينا مش عارفين هل النموذج نسي ولا فشل في التحديث.",
+      "summary": "صعوبة تتبع تغير تفضيلات المستخدم في المحادثات.",
+      "keyword": "تتبع التفضيلات",
+      "template": "comparison",
+      "labels": [
+        "نماذج",
+        "بيانات",
+        "تحديث"
+      ],
+      "values": [],
+      "claim": "النماذج الحالية لا تستطيع التمييز بين النسيان وفشل التحديث.",
+      "sourceId": "53ead09f1e1f",
+      "evidence": "existing benchmarks either hold preferences fixed or have the user state the change, so they cannot tell whether a model forgot what the user said or failed to update its belief about the user.",
+      "kind": "fact",
+      "expression": 2,
+      "action": "point"
+    },
+    {
+      "title": "تقديم هورايزون بنش",
+      "text": "الباحثين قدموا هورايزون بنش، وهي أداة بتولد ست شهور من المحادثات بناءً على أحداث حياتية حقيقية. كل تغيير بيحصل في التفضيلات بيتبع حدث في حياة المستخدم من غير ما يصرح بالتغيير مباشرة.",
+      "summary": "أداة هورايزون بنش لمحاكاة تغير تفضيلات المستخدم.",
+      "keyword": "HorizonBench",
+      "template": "steps",
+      "labels": [
+        "أداة",
+        "محاكاة",
+        "بحث"
+      ],
+      "values": [],
+      "claim": "HorizonBench يحاكي تغير التفضيلات بناءً على أحداث الحياة.",
+      "sourceId": "53ead09f1e1f",
+      "evidence": "We introduce HorizonBench and its data generator, which samples how a user's preferences change and generates six months of conversation from that sequence",
+      "kind": "fact",
+      "expression": 8,
+      "action": "jump"
+    },
+    {
+      "title": "بيانات بشرية ضخمة",
+      "text": "تم جمع بيانات طولية من مئة وستين شخص على مدار ثلاثة عشر أسبوع، بإجمالي ثلاثة وثمانين ألف وأربعة وعشرين تقييم. البيانات دي بتحدد إزاي وبأي معدل أحداث الحياة بتغير تفضيلاتنا الشخصية.",
+      "summary": "جمع بيانات بشرية لفهم تغير التفضيلات.",
+      "keyword": "بيانات طولية",
+      "template": "chart",
+      "labels": [
+        "بيانات",
+        "بشر",
+        "دراسة"
+      ],
+      "values": [],
+      "claim": "تم جمع 83,024 تقييم من 160 شخص لفهم تغير التفضيلات.",
+      "sourceId": "53ead09f1e1f",
+      "evidence": "A human longitudinal preference dataset that we collect and release, 83,024 ratings from 160 people over 13 weeks, sets how often and how much life events change preferences.",
+      "kind": "fact",
+      "expression": 4,
+      "action": "turn"
+    },
+    {
+      "title": "اختبار النماذج الرائدة",
+      "text": "تم اختبار خمسة وعشرين نموذج من النماذج الرائدة، والنتيجة كانت صادمة. النماذج دي بتختار التفضيلات القديمة أكتر بكتير من الأخطاء العشوائية، وأفضل نموذج وصل لدقة بلغت اثنين وخمسين فاصلة ثمانية بالمئة فقط.",
+      "summary": "أداء النماذج الرائدة في اختبارات التفضيلات.",
+      "keyword": "دقة النماذج",
+      "template": "chart",
+      "labels": [
+        "نماذج",
+        "دقة",
+        "اختبار"
+      ],
+      "values": [
+        52.8
+      ],
+      "claim": "أفضل النماذج الرائدة حقق دقة 52.8% فقط.",
+      "sourceId": "53ead09f1e1f",
+      "evidence": "All 25 frontier models we evaluate choose the outdated preference more often than evenly spread errors would predict, and the best reaches 52.8% accuracy.",
+      "kind": "fact",
+      "expression": 1,
+      "action": "fall"
+    },
+    {
+      "title": "تأثير الجملة الواحدة",
+      "text": "المثير للدهشة إن إضافة جملة واحدة بتوضح التغيير في التفضيلات رفعت دقة النماذج من أحد عشر إلى اثنين وعشرين نقطة. ده بيثبت إن النماذج عندها قدرة بس محتاجة إشارة واضحة ومباشرة.",
+      "summary": "جملة واحدة كافية لتحسين دقة النماذج بشكل كبير.",
+      "keyword": "تحسين الدقة",
+      "template": "phenomenon",
+      "labels": [
+        "تحسين",
+        "دقة",
+        "نماذج"
+      ],
+      "values": [],
+      "claim": "جملة واحدة توضح التغيير ترفع الدقة بمقدار 11 إلى 22 نقطة.",
+      "sourceId": "53ead09f1e1f",
+      "evidence": "one added sentence stating the change raises their accuracy by 11 to 22 points",
+      "kind": "fact",
+      "expression": 9,
+      "action": "run"
+    },
+    {
+      "title": "الذاكرة مقابل التفضيل الحالي",
+      "text": "البحث بيأكد إن تذكر كلام المستخدم ومعرفة تفضيله الحالي هما قدرتين منفصلتين تماماً. طرق الاسترجاع والذاكرة الحالية مش قادرة تستعيد الدقة المفقودة، وده بيفتح مجال جديد للبحث العلمي في تطوير الذكاء الاصطناعي.",
+      "summary": "الذاكرة وتحديث التفضيلات قدرتان منفصلتان.",
+      "keyword": "قدرات الذكاء",
+      "template": "comparison",
+      "labels": [
+        "ذاكرة",
+        "تفضيلات",
+        "بحث"
+      ],
+      "values": [],
+      "claim": "تذكر ما قاله المستخدم ومعرفة ما يفضله الآن هما قدرتان منفصلتان.",
+      "sourceId": "53ead09f1e1f",
+      "evidence": "Remembering what a user said and knowing what the user prefers now are therefore separate capabilities",
+      "kind": "fact",
+      "expression": 6,
+      "action": "hang"
+    },
+    {
+      "title": "خاتمة وتوقعات",
+      "text": "في النهاية، هورايزون بنش بيقدم أساس قوي لفهم إزاي النماذج بتتعامل مع تغيرات حياتنا. المستقبل بيعتمد على قدرة الآلة إنها تتطور معانا، مش بس تحفظ اللي قلناه في الماضي البعيد.",
+      "summary": "مستقبل الذكاء الاصطناعي في فهم تغيرات المستخدم.",
+      "keyword": "مستقبل الذكاء",
+      "template": "journey",
+      "labels": [
+        "مستقبل",
+        "تطور",
+        "آلة"
+      ],
+      "values": [],
+      "claim": "HorizonBench يدعم البحث في قدرات الذاكرة وتحديث التفضيلات.",
+      "sourceId": "53ead09f1e1f",
+      "evidence": "HorizonBench, its generator, and the human dataset support research on both.",
+      "kind": "illustration",
+      "expression": 10,
+      "action": "sleep"
+    }
+  ],
+  "editorialMode": "daily",
+  "editorialLabel": null,
+  "scriptModel": "gemini-3.1-flash-lite"
+}

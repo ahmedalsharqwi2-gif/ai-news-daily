@@ -1,0 +1,19 @@
+{
+  "complete": false,
+  "chunks": [
+    {
+      "scene": 0,
+      "chunk": 0,
+      "schema": 1,
+      "cacheKey": "3fffc5849a686fdac0a8605955b7c22134af29f6cb4dad0ed0f6557709b0420f",
+      "sha256": "580ba7791aa843f0bfac644def5344d3ba5cf0c167b5bab1fea7024b2fe1f50b",
+      "text_sha256": "073ced6fe9bd8a207ac4e1eb963266b7cd0dec7ce28a82b7fdd0add55893cb4b",
+      "voice": "Charon",
+      "provider": "Gemini",
+      "model": "gemini-3.1-flash-tts-preview",
+      "bytes": 746958,
+      "file": "/home/runner/work/ai-news-daily/ai-news-daily/.cache/voice/3fffc5849a686fdac0a8605955b7c22134af29f6cb4dad0ed0f6557709b0420f.wav",
+      "reused": false
+    }
+  ]
+}

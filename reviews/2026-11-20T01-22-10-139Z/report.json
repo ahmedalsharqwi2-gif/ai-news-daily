@@ -1,0 +1,91 @@
+{
+  "id": "2026-11-20T01-22-10-139Z",
+  "attemptId": "2026-11-20T01-10-39-424Z",
+  "mode": "review",
+  "published": false,
+  "status": "failed",
+  "resumed": false,
+  "stages": [
+    {
+      "name": "preflight",
+      "status": "pass",
+      "seconds": 0.127
+    },
+    {
+      "name": "topics",
+      "status": "resumed_from_saved_source_manifest"
+    },
+    {
+      "name": "script",
+      "status": "resumed_from_hash_verified_script"
+    },
+    {
+      "name": "roll",
+      "status": "rolled_fresh_topic",
+      "roll": 1,
+      "fromStage": "voice",
+      "code": "STAGE_FAILED_SEE_RUNBOOK"
+    },
+    {
+      "name": "preflight",
+      "status": "pass",
+      "seconds": 0.031
+    },
+    {
+      "name": "topics",
+      "status": "pass",
+      "seconds": 15.522
+    },
+    {
+      "name": "script",
+      "status": "pass",
+      "seconds": 81.061
+    },
+    {
+      "name": "roll",
+      "status": "rolled_fresh_topic",
+      "roll": 2,
+      "fromStage": "voice",
+      "code": "STAGE_FAILED_SEE_RUNBOOK"
+    },
+    {
+      "name": "preflight",
+      "status": "pass",
+      "seconds": 0.03
+    },
+    {
+      "name": "topics",
+      "status": "pass",
+      "seconds": 0.735
+    },
+    {
+      "name": "script",
+      "status": "pass",
+      "seconds": 35.851
+    }
+  ],
+  "limitations": [
+    "Incomplete visual previews never pass narrated-film acceptance. Human pronunciation and art-direction approval are separate."
+  ],
+  "rolled": [
+    {
+      "id": "2026-11-19T23-13-16-305Z",
+      "stage": "voice",
+      "code": "STAGE_FAILED_SEE_RUNBOOK",
+      "roll": 1
+    },
+    {
+      "id": "2026-11-20T01-18-10-002Z",
+      "stage": "voice",
+      "code": "STAGE_FAILED_SEE_RUNBOOK",
+      "roll": 2
+    }
+  ],
+  "failedStage": "voice",
+  "errorCode": "STAGE_FAILED_SEE_RUNBOOK",
+  "partial": {
+    "status": "rendered",
+    "path": "/home/runner/work/ai-news-daily/ai-news-daily/out/2026-11-20T01-22-10-139Z/incomplete/visual-preview-incomplete.mp4",
+    "incomplete": true
+  }
+}
