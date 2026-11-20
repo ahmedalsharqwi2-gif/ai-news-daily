@@ -1,0 +1,167 @@
+{
+  "topicKey": "nvidia-microsoft-ignite-2026",
+  "title": "أهم أخبار الأسبوع: تعاون إنفيديا ومايكروسوفت في الذكاء الاصطناعي",
+  "hook": "عمرك سألت نفسك إزاي الشركات الكبيرة بتشغل الذكاء الاصطناعي على أجهزة الكمبيوتر العادية؟ النهاردة هنشوف إزاي إنفيديا ومايكروسوفت بيغيروا قواعد اللعبة في البنية التحتية للذكاء الاصطناعي من السحابة لحد جهازك الشخصي في البيت.",
+  "cta": "تابعونا عشان تعرفوا أكتر عن أحدث تقنيات الذكاء الاصطناعي اللي بتغير حياتنا كل يوم، واشتركوا في القناة عشان يوصلكم كل جديد عن عالم التكنولوجيا والابتكار اللي بيحصل حوالينا في كل مكان.",
+  "scenes": [
+    {
+      "title": "تعاون استراتيجي جديد",
+      "text": "إنفيديا ومايكروسوفت بيوسعوا تعاونهم عشان يساعدوا المؤسسات في بناء ونشر تطبيقات ذكية، من البنية التحتية على أزور لحد أنظمة الكمبيوتر الشخصي. ده بيفتح أبواب جديدة للمطورين عشان يبتكروا حلول أسرع وأكثر كفاءة.",
+      "summary": "توسيع التعاون بين إنفيديا ومايكروسوفت للذكاء الاصطناعي",
+      "keyword": "تعاون",
+      "template": "phenomenon",
+      "labels": [
+        "إنفيديا",
+        "مايكروسوفت",
+        "ذكاء اصطناعي"
+      ],
+      "values": [],
+      "claim": "توسيع التعاون بين إنفيديا ومايكروسوفت",
+      "sourceId": "36bc207225e9",
+      "evidence": "NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build, customize and deploy intelligent applications",
+      "kind": "fact",
+      "expression": 5,
+      "action": "walk"
+    },
+    {
+      "title": "قوة فيرا روبين في أزور",
+      "text": "أنظمة فيرا روبين الجديدة بتشتغل دلوقتي في مراكز بيانات أزور، ومصممة خصيصاً للمهام الصعبة وتدريب النماذج الكبيرة. ده بيخلي الشركات تقدر تعالج بياناتها المعقدة بسرعة أكبر بكتير من الأول وبأداء عالي جداً.",
+      "summary": "أنظمة فيرا روبين في مراكز بيانات أزور",
+      "keyword": "فيرا روبين",
+      "template": "map",
+      "labels": [
+        "أزور",
+        "فيرا روبين",
+        "بنية تحتية"
+      ],
+      "values": [],
+      "claim": "تشغيل أنظمة فيرا روبين في أزور",
+      "sourceId": "36bc207225e9",
+      "evidence": "NVIDIA Vera Rubin NVL72 systems are running in Azure data centers , providing infrastructure designed for demanding reasoning, agentic applications, and large-scale model training and inference.",
+      "kind": "fact",
+      "expression": 6,
+      "action": "point"
+    },
+    {
+      "title": "أداء قياسي في الاختبارات",
+      "text": "في اختبارات الأداء الأخيرة، أزور قدرت توصل لعشرة آلاف ومائتين وأربعين وحدة معالجة رسومية. ده رقم ضخم بيثبت إن البنية التحتية الجديدة قادرة على التعامل مع أضخم النماذج العالمية بكفاءة عالية جداً.",
+      "summary": "أداء قياسي في اختبارات التدريب",
+      "keyword": "أداء",
+      "template": "chart",
+      "labels": [
+        "أداء",
+        "وحدات معالجة",
+        "اختبارات"
+      ],
+      "values": [],
+      "claim": "أداء قياسي في اختبارات التدريب",
+      "sourceId": "36bc207225e9",
+      "evidence": "In MLPerf Training v6.1 , Azure scaled to 10,240 NVIDIA GPUs with GB200 NVL72 systems on the DeepSeek-V3 model, the largest scale in the round.",
+      "kind": "fact",
+      "expression": 8,
+      "action": "run"
+    },
+    {
+      "title": "تفوق في الاستنتاج التفاعلي",
+      "text": "أنظمة جي بي ثلاثمائة تفوقت على كل المنافسين في السحابة بنسبة أكتر من عشرة في المائة في سرعة الاستنتاج التفاعلي. ده بيخلي التطبيقات اللي بتحتاج ردود سريعة تشتغل بسلاسة أكبر بكتير من قبل.",
+      "summary": "تفوق في سرعة الاستنتاج",
+      "keyword": "استنتاج",
+      "template": "comparison",
+      "labels": [
+        "سرعة",
+        "استنتاج",
+        "تفوق"
+      ],
+      "values": [
+        10
+      ],
+      "claim": "تفوق في سرعة الاستنتاج التفاعلي",
+      "sourceId": "36bc207225e9",
+      "evidence": "Azure’s NVIDIA GB300 NVL72 systems led cloud submissions on DeepSeek-R1 interactive throughput by over 10%, per Signal65.",
+      "kind": "fact",
+      "expression": 9,
+      "action": "jump"
+    },
+    {
+      "title": "تخصيص النماذج للشركات",
+      "text": "شركة إي واي استخدمت أدوات التدريب المبرمج عشان تعدل نماذج نيموترون المفتوحة، وده حسن دقة النتائج بنسبة خمسة وخمسين في المائة وقلل التكاليف بشكل كبير جداً مقارنة بالنماذج التانية اللي كانت بتستخدمها قبل كده.",
+      "summary": "تحسين دقة النماذج للشركات",
+      "keyword": "تخصيص",
+      "template": "steps",
+      "labels": [
+        "تخصيص",
+        "نماذج",
+        "دقة"
+      ],
+      "values": [
+        55
+      ],
+      "claim": "تحسين دقة النماذج بنسبة 55%",
+      "sourceId": "36bc207225e9",
+      "evidence": "EY used Programmed Training in Microsoft Foundry to adapt NVIDIA Nemotron open models for classifying corporate purchasing records, improving accuracy on its evaluation dataset by 55% and lowering cost by 15x compared with proprietary frontier models.",
+      "kind": "fact",
+      "expression": 7,
+      "action": "turn"
+    },
+    {
+      "title": "الذكاء الاصطناعي على جهازك",
+      "text": "مش بس في السحابة، إنفيديا ومايكروسوفت بيخلوا الذكاء الاصطناعي يشتغل مباشرة على أجهزة الكمبيوتر الشخصية اللي بتستخدم كروت آر تي إكس سبارك. ده بيسمح للمطورين بتجربة تطبيقات ذكية محلية وسريعة جداً من غير إنترنت.",
+      "summary": "تشغيل الذكاء الاصطناعي محلياً",
+      "keyword": "محلي",
+      "template": "phenomenon",
+      "labels": [
+        "كمبيوتر",
+        "محلي",
+        "آر تي إكس"
+      ],
+      "values": [],
+      "claim": "تشغيل الذكاء الاصطناعي على أجهزة الكمبيوتر",
+      "sourceId": "36bc207225e9",
+      "evidence": "On Windows PCs powered by NVIDIA RTX Spark , NVIDIA and Microsoft will showcase local large language model experiences at Ignite, demonstrating how developers can run AI applications directly on devices.",
+      "kind": "fact",
+      "expression": 4,
+      "action": "point"
+    },
+    {
+      "title": "ثورة في البحث العلمي",
+      "text": "أدوات بيونيمو وألكيمي بتدخل دلوقتي في كتالوج مايكروسوفت ديسكفري عشان تساعد العلماء في أبحاث الأدوية والعلوم الحيوية. ده بيسرع عمليات اكتشاف علاجات جديدة باستخدام لغة طبيعية وأدوات ذكاء اصطناعي متطورة جداً ومبتكرة.",
+      "summary": "استخدام الذكاء الاصطناعي في العلوم",
+      "keyword": "علم",
+      "template": "journey",
+      "labels": [
+        "علوم",
+        "أدوية",
+        "بحث"
+      ],
+      "values": [],
+      "claim": "دعم الأبحاث العلمية بالذكاء الاصطناعي",
+      "sourceId": "36bc207225e9",
+      "evidence": "For scientific research, NVIDIA BioNemo Agent Toolkit and NVIDIA ALCHEMI Toolkit are expanding into the Microsoft Discovery catalog , bringing models for life sciences, drug discovery and materials and chemical science into Microsoft’s agentic research platform.",
+      "kind": "fact",
+      "expression": 10,
+      "action": "walk"
+    },
+    {
+      "title": "مستقبل الذكاء الاصطناعي",
+      "text": "التعاون ده بيوريك إزاي التكنولوجيا بتتحرك بسرعة عشان تخلي الذكاء الاصطناعي جزء من كل حاجة بنعملها، من الشغل للمصانع للبحث العلمي. المستقبل بيتشكل قدام عينينا بفضل الشراكات القوية دي بين الشركات العملاقة.",
+      "summary": "مستقبل الذكاء الاصطناعي",
+      "keyword": "مستقبل",
+      "template": "cause",
+      "labels": [
+        "مستقبل",
+        "تكنولوجيا",
+        "ابتكار"
+      ],
+      "values": [],
+      "claim": "تأثير التعاون على مستقبل الذكاء الاصطناعي",
+      "sourceId": "36bc207225e9",
+      "evidence": "The work demonstrates how enterprises can customize open models for specialized business tasks.",
+      "kind": "illustration",
+      "expression": 11,
+      "action": "point"
+    }
+  ],
+  "editorialMode": "daily",
+  "editorialLabel": null,
+  "scriptModel": "gemini-3.1-flash-lite"
+}

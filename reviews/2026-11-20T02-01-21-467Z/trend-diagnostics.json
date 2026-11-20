@@ -1,0 +1,5579 @@
+{
+  "sources": [
+    {
+      "source": "trends",
+      "status": "ok",
+      "items": 9
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "hackerNews",
+      "status": "ok",
+      "items": 20
+    }
+  ],
+  "degraded": false,
+  "decisions": [
+    {
+      "id": "36bc207225e9",
+      "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+      "demand": 38.25,
+      "recency": 0.92,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 10
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "search_suggestion",
+          "label": "tools ai agent",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "I believe there are entire companies right now under AI psychosis",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Local AI needs to be the norm",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 3
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 3
+        }
+      ],
+      "score": 38.93985571680622
+    },
+    {
+      "id": "1b3aafed7dd5",
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "demand": 3.5,
+      "recency": 0.895,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 2
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 4.170917931337397
+    },
+    {
+      "id": "d47c74f9a7ce",
+      "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+      "demand": 9.5,
+      "recency": 0.882,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 4
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        }
+      ],
+      "score": 10.161664038636047
+    },
+    {
+      "id": "1d3b0e4eaaa8",
+      "title": "We’re partnering with Blue Origin on our first heavy-lift Project Suncatcher launch.",
+      "demand": 9.5,
+      "recency": 0.835,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 4
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        }
+      ],
+      "score": 10.12590736258286
+    },
+    {
+      "id": "9342dbf934e4",
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "demand": 11,
+      "recency": 0.779,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 4
+        },
+        {
+          "kind": "search_suggestion",
+          "label": "chatgpt codex",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        }
+      ],
+      "score": 11.583916464647926
+    },
+    {
+      "id": "29ee79bb6de8",
+      "title": "Human-AI Interactions and Societal Pitfalls",
+      "demand": 19.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 2.25
+        }
+      ],
+      "score": 20.31008651672273
+    },
+    {
+      "id": "16d0742b29c3",
+      "title": "Games played by Exponential Weights Algorithms",
+      "demand": 17.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 1.5
+        }
+      ],
+      "score": 18.06008651672273
+    },
+    {
+      "id": "4dbc7b892e44",
+      "title": "A Survey on Collaborative Mechanisms Between Large and Small Language Models",
+      "demand": 20.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Local AI needs to be the norm",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+          "weight": 1.5
+        }
+      ],
+      "score": 21.31008651672273
+    },
+    {
+      "id": "652d54d4afba",
+      "title": "MARBLE: An Agentic Benchmark for Spatial Reasoning and Visual Abstraction",
+      "demand": 26.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "I believe there are entire companies right now under AI psychosis",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 4.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI must win",
+          "weight": 1.5
+        }
+      ],
+      "score": 27.06008651672273
+    },
+    {
+      "id": "98e99acdab50",
+      "title": "CXReasonAgent: Evidence-Grounded Diagnostic Reasoning Agent for Chest X-rays",
+      "demand": 23.25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "search_suggestion",
+          "label": "tools ai agent",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        }
+      ],
+      "score": 23.81008651672273
+    },
+    {
+      "id": "d56f10b2c0ec",
+      "title": "Prior Knowledge or Search? A Study of LLM Agents in Hardware-Aware Code Optimization",
+      "demand": 15.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "I believe there are entire companies right now under AI psychosis",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        }
+      ],
+      "score": 16.31008651672273
+    },
+    {
+      "id": "90c95def4a14",
+      "title": "CaMBRAIN: Real-time, Continuous EEG Inference with Causal State Space Models",
+      "demand": 27.25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 8
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "I believe there are entire companies right now under AI psychosis",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 27.81008651672273
+    },
+    {
+      "id": "0ab3fd1203e5",
+      "title": "Arbor: How Search Policy Shapes Agent Behavior in System Optimization",
+      "demand": 24,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 8
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "search_suggestion",
+          "label": "tools ai agent",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 3
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 24.56008651672273
+    },
+    {
+      "id": "7011d59735fd",
+      "title": "GA-VINO: A Geometry-Aware Variational Physics-informed Neural Operator for Mindlin-Reissner Plates",
+      "demand": 18,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "I believe there are entire companies right now under AI psychosis",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 18.56008651672273
+    },
+    {
+      "id": "2f68785468a4",
+      "title": "When Does Learning to Stop Help? Configuring Risk-Controlled Early Exit for Reasoning-Model Services",
+      "demand": 23.25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "search_suggestion",
+          "label": "chatgpt pro free",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        }
+      ],
+      "score": 23.81008651672273
+    },
+    {
+      "id": "87b12edbcb32",
+      "title": "ElephantAgent: Contextual State Continuity in Agentic Systems",
+      "demand": 27.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "pif tower riyadh",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "search_suggestion",
+          "label": "tools ai agent",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Bypassing airport security via SQL injection",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Local AI needs to be the norm",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 3
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 2.25
+        }
+      ],
+      "score": 28.31008651672273
+    },
+    {
+      "id": "1d31337ec2a4",
+      "title": "AgentAbstain: Do LLM Agents Know When Not to Act?",
+      "demand": 25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "I believe there are entire companies right now under AI psychosis",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 3
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        }
+      ],
+      "score": 25.56008651672273
+    },
+    {
+      "id": "e2e25bff0f67",
+      "title": "Bringing Back Rule Induction to Fluid Intelligence Research? An Initial Validation of the ARC-AGI Benchmark in Humans",
+      "demand": 19.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        }
+      ],
+      "score": 20.31008651672273
+    },
+    {
+      "id": "f500f84acb02",
+      "title": "Disagreement-Guided Agentic Data Curation for Multimodal Safety",
+      "demand": 11.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        }
+      ],
+      "score": 12.06008651672273
+    },
+    {
+      "id": "f21036c452ce",
+      "title": "Making Mathematical Knowledge Explainable, Accessible and Interoperable Through Large Language Model Integration",
+      "demand": 19.25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI must win",
+          "weight": 1.5
+        }
+      ],
+      "score": 19.81008651672273
+    },
+    {
+      "id": "bf64915f49d5",
+      "title": "CoNav-UAV: Cooperative Dual-Altitude Aerial Navigation via Stackelberg Learning",
+      "demand": 20,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "I believe there are entire companies right now under AI psychosis",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        }
+      ],
+      "score": 20.56008651672273
+    },
+    {
+      "id": "42b312b1b96c",
+      "title": "JUDOR: CTDE-Based Multi-Agent Reinforcement Learning for the Co-Optimization of Joint UAV Motion and Decentralized Opportunistic Routing in Delay-Tolerant Network",
+      "demand": 22.25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "pif tower riyadh",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Local AI needs to be the norm",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 3.75
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 22.81008651672273
+    },
+    {
+      "id": "6f1a5d7fa821",
+      "title": "Beyond Routing Weights: Faithful Response-Level Interpretation of Mixture-of-Experts Reward Models via Contribution Contrast",
+      "demand": 17.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 4
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        }
+      ],
+      "score": 18.06008651672273
+    },
+    {
+      "id": "dca9b10deec0",
+      "title": "Linearized 2-Simplicial Attention",
+      "demand": 11.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 4
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 2.25
+        }
+      ],
+      "score": 12.31008651672273
+    },
+    {
+      "id": "24c10beee579",
+      "title": "Meta$^n$: Recursive Self-Improvement through Emergent Depth",
+      "demand": 12.25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        }
+      ],
+      "score": 12.81008651672273
+    },
+    {
+      "id": "64177dad2bf3",
+      "title": "MAP: A Benchmark on Multimodal Accessibility Planning for Real World Places",
+      "demand": 18.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 4.5
+        }
+      ],
+      "score": 19.06008651672273
+    },
+    {
+      "id": "68b82d399b35",
+      "title": "Bad Genius: Counterfactual-Guided Harness Evolution Beyond Task-Specific Shortcuts",
+      "demand": 14.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 3
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 15.06008651672273
+    },
+    {
+      "id": "1e58da6f1140",
+      "title": "RiskWorld: Risk-Aware World Modeling with Flow-Guided Occupancy Evolution for Selective Trajectory Planning in Automated Driving",
+      "demand": 20.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        }
+      ],
+      "score": 21.31008651672273
+    },
+    {
+      "id": "8458760ecc3d",
+      "title": "WorkWorlds: Evaluating Agents in a Company Built Before the Task",
+      "demand": 21.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "My AI skeptic friends are all nuts",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "I believe there are entire companies right now under AI psychosis",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 3.75
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        }
+      ],
+      "score": 22.31008651672273
+    },
+    {
+      "id": "1911c2798b07",
+      "title": "Neoadjuvant chemotherapy response prediction using pretreatment diffusion and contrast-enhanced magnetic resonance imaging with clinical variables",
+      "demand": 17,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        }
+      ],
+      "score": 17.56008651672273
+    },
+    {
+      "id": "3b98ec9bcf5f",
+      "title": "Cost-Efficient LLM Evaluation: A Framework for Narrow Confidence Intervals Under Fixed Budgets",
+      "demand": 22.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 23.31008651672273
+    },
+    {
+      "id": "da56a135b102",
+      "title": "What Does a Harness Buy? Tokens, Mostly",
+      "demand": 22.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "search_suggestion",
+          "label": "tools ai agent",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "I believe there are entire companies right now under AI psychosis",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        }
+      ],
+      "score": 23.06008651672273
+    },
+    {
+      "id": "aec907937d5c",
+      "title": "CADFather: Autonomous CAD Reconstruction through Coordinated Tool Use",
+      "demand": 19.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "search_suggestion",
+          "label": "tools ai agent",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Air Con: $1697 for an on/off switch",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+          "weight": 1.5
+        }
+      ],
+      "score": 20.31008651672273
+    },
+    {
+      "id": "ea48c1cf5a2b",
+      "title": "MemeLogos: Knowledge-Driven Retrieval-Augmented Reasoning for Harmful Meme Detection",
+      "demand": 21,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 10
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 21.56008651672273
+    },
+    {
+      "id": "cf0e6fac9d11",
+      "title": "Toward Agentic Retrieval-Augmented Generation for Enterprise Retail Workflows over Heterogeneous Data Sources",
+      "demand": 21.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "My AI skeptic friends are all nuts",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 3
+        }
+      ],
+      "score": 22.06008651672273
+    },
+    {
+      "id": "c01817605671",
+      "title": "ProteinGeoBench: Frontier Structural-Biology Agents Are Fluent at Lookup but Lost in Geometry",
+      "demand": 17,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 4
+        },
+        {
+          "kind": "hacker_news",
+          "label": "My AI skeptic friends are all nuts",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        }
+      ],
+      "score": 17.56008651672273
+    },
+    {
+      "id": "2fbb462a3743",
+      "title": "DataPraxis: Scaling Analytics Tasks via Verified Workspace Evolution",
+      "demand": 15.25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 15.81008651672273
+    },
+    {
+      "id": "1ec3ff4a1c6f",
+      "title": "DuoCook: An Overcooked-Inspired Benchmark for Visual Planning and Coordination",
+      "demand": 17,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        }
+      ],
+      "score": 17.56008651672273
+    },
+    {
+      "id": "ecdff12d9509",
+      "title": "Query-Driven Learning for Lifted Reasoning",
+      "demand": 19.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 8
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        }
+      ],
+      "score": 20.06008651672273
+    },
+    {
+      "id": "c7ae188fcae3",
+      "title": "Co-Pilot for Health: Personalized Algorithmic AI Nudging to Improve Health Outcomes",
+      "demand": 18.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 3
+        }
+      ],
+      "score": 19.06008651672273
+    },
+    {
+      "id": "ec35a8959dc3",
+      "title": "I2I Backdoor: Backdoor Attacks against Image-to-Image Tasks",
+      "demand": 28.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 8
+        },
+        {
+          "kind": "google_trend",
+          "label": "pif tower riyadh",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AI-generated posters don’t have to be horrible",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 29.31008651672273
+    },
+    {
+      "id": "5c5f66567055",
+      "title": "Design Optimization of Nuclear Fusion Reactor through Deep Reinforcement Learning",
+      "demand": 21.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 8
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        }
+      ],
+      "score": 22.06008651672273
+    },
+    {
+      "id": "3b6229b9f2f9",
+      "title": "Mixtures of In-Context Learners",
+      "demand": 21.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 2.25
+        }
+      ],
+      "score": 22.31008651672273
+    },
+    {
+      "id": "77685326fb3b",
+      "title": "MultiAgentBench: Evaluating the Collaboration and Competition of LLM agents",
+      "demand": 11,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 4
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        }
+      ],
+      "score": 11.56008651672273
+    },
+    {
+      "id": "240f168e0678",
+      "title": "Reinforcement Learning with Reference-Based Rewards for Language Model Reasoning and Alignment",
+      "demand": 21,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 21.56008651672273
+    },
+    {
+      "id": "3ebbb93a77cc",
+      "title": "FedS2R: One-Shot Federated Domain Generalization for Synthetic-to-Real Semantic Segmentation in Autonomous Driving",
+      "demand": 24,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 3
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 24.56008651672273
+    },
+    {
+      "id": "281731fd1734",
+      "title": "How K-12 Teachers Adapt Generative AI to Local Classroom Demands: Cultural Distance Between GenAI Defaults and Everyday Teaching Practices",
+      "demand": 15.25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Local AI needs to be the norm",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        }
+      ],
+      "score": 15.81008651672273
+    },
+    {
+      "id": "72cab751fd4f",
+      "title": "Improving Outdoor Multi-cell Fingerprinting-based Positioning via Mobile Data Augmentation",
+      "demand": 22.25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 10
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 3
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 2.25
+        }
+      ],
+      "score": 22.81008651672273
+    },
+    {
+      "id": "6014890f521a",
+      "title": "MonitorVLM:A Vision Language Framework for Safety Violation Detection in Mining Operations",
+      "demand": 16.25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        }
+      ],
+      "score": 16.81008651672273
+    },
+    {
+      "id": "afa70d5cd689",
+      "title": "TinyMyo: a Tiny Foundation Model for Flexible EMG Signal Processing at the Edge",
+      "demand": 20.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        }
+      ],
+      "score": 21.31008651672273
+    },
+    {
+      "id": "9fe49d7523a5",
+      "title": "Meta-RL with Bayesian Linear Task Models",
+      "demand": 10.25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 4
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        }
+      ],
+      "score": 10.81008651672273
+    },
+    {
+      "id": "c0d30a92dbba",
+      "title": "Low-Dimensional Adaptation of Rectified Flow: A Diffusion and Stochastic Localization Perspective",
+      "demand": 15.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        }
+      ],
+      "score": 16.06008651672273
+    },
+    {
+      "id": "9a94cc6e1b04",
+      "title": "Disentangling generalization and memorization in large language models using chess",
+      "demand": 24.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 25.31008651672273
+    },
+    {
+      "id": "05072efc5937",
+      "title": "CoreQ: Mismatch-Corrected Successive Rounding for LLM Quantization",
+      "demand": 21.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 10
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        }
+      ],
+      "score": 22.06008651672273
+    },
+    {
+      "id": "65baa1e23679",
+      "title": "PANC: Prior-Aware Normalized Cut for Training-Free In-Context Segmentation",
+      "demand": 15.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 16.31008651672273
+    },
+    {
+      "id": "4bfda00a781d",
+      "title": "Generating Adversarial Events: A Motion-Aware Point Cloud Framework",
+      "demand": 17.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "pif tower riyadh",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        }
+      ],
+      "score": 18.06008651672273
+    },
+    {
+      "id": "2785d74af04a",
+      "title": "Multimodal Information Fusion for Chart Understanding: A Survey of MLLMs -- Evolution, Limitations, and Cognitive Enhancement",
+      "demand": 16.25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        }
+      ],
+      "score": 16.81008651672273
+    },
+    {
+      "id": "def03886e023",
+      "title": "Colosseum: Auditing Collusion in Cooperative Multi-Agent Systems",
+      "demand": 21.25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 21.81008651672273
+    },
+    {
+      "id": "e7cdde3932da",
+      "title": "Counterfactual Feature Regularization for Expansion-Based Class-Incremental Learning",
+      "demand": 15.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        }
+      ],
+      "score": 16.31008651672273
+    },
+    {
+      "id": "fff4e1e3cc69",
+      "title": "SHAMISA: SHAped Modeling of Implicit Structural Associations for Self-supervised No-Reference Image Quality Assessment",
+      "demand": 23.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 10
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 2.25
+        }
+      ],
+      "score": 24.06008651672273
+    },
+    {
+      "id": "817a8c159861",
+      "title": "Auditing Path-Specific Fairness Across Causal Discovery Algorithms: A Heart Failure Case Study",
+      "demand": 18.25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "I believe there are entire companies right now under AI psychosis",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Air Con: $1697 for an on/off switch",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        }
+      ],
+      "score": 18.81008651672273
+    },
+    {
+      "id": "ba701039e142",
+      "title": "Knowledge Localization in Mixture-of-Experts LLMs Using Cross-Lingual Inconsistency",
+      "demand": 15.25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 15.81008651672273
+    },
+    {
+      "id": "79c61a9409df",
+      "title": "HYPER: Hypothesis-Guided Planning for Evidence-Seeking Retrieval",
+      "demand": 21.25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "search_suggestion",
+          "label": "chatgpt pro free",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 21.81008651672273
+    },
+    {
+      "id": "5750af2e948f",
+      "title": "PEARL: Personalized Streaming Video Understanding with Runtime-Defined Concepts",
+      "demand": 27.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 8
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "My AI skeptic friends are all nuts",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 3
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 2.25
+        }
+      ],
+      "score": 28.31008651672273
+    },
+    {
+      "id": "4011f18315c0",
+      "title": "MedExAgent: Training LLM Agents to Ask, Examine, and Diagnose in Noisy Clinical Environments",
+      "demand": 23.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Local AI needs to be the norm",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 3
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 24.06008651672273
+    },
+    {
+      "id": "cc151c9e8d56",
+      "title": "Learning to Decide with AI Assistance under Human-Alignment",
+      "demand": 17.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "I believe there are entire companies right now under AI psychosis",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        }
+      ],
+      "score": 18.31008651672273
+    },
+    {
+      "id": "377e2fdf36d1",
+      "title": "REALM: Retrospective Encoder Alignment for LFP Modeling",
+      "demand": 24,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 8
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Local AI needs to be the norm",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 3
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        }
+      ],
+      "score": 24.56008651672273
+    },
+    {
+      "id": "85a2e955e67e",
+      "title": "What competing constraints reveal about representation learning",
+      "demand": 17,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        }
+      ],
+      "score": 17.56008651672273
+    },
+    {
+      "id": "0d2cee7b9e26",
+      "title": "KVBuffer: IO-aware Serving for Linear Attention",
+      "demand": 19.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        }
+      ],
+      "score": 20.06008651672273
+    },
+    {
+      "id": "10773f73ed45",
+      "title": "Extracting Training Data from Diffusion Language Models via Infilling",
+      "demand": 18.25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        }
+      ],
+      "score": 18.81008651672273
+    },
+    {
+      "id": "1e0d930f4f28",
+      "title": "LLM-Assisted Reranking to Operationalize Nuanced Objectives in Recommender Systems",
+      "demand": 34.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 12
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "My AI skeptic friends are all nuts",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "I believe there are entire companies right now under AI psychosis",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 3
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 35.060086516722734
+    },
+    {
+      "id": "e088f55b78c9",
+      "title": "Measuring What Matters: Synthetic Benchmarks for Concept Bottleneck Models",
+      "demand": 23.25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 3.75
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        }
+      ],
+      "score": 23.81008651672273
+    },
+    {
+      "id": "85b68ea246ef",
+      "title": "Accounting for Purchased Artificial Intelligence Inference in Corporate Greenhouse Gas Inventories: A Token-Based Method",
+      "demand": 20.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "My AI skeptic friends are all nuts",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 2.25
+        }
+      ],
+      "score": 21.06008651672273
+    },
+    {
+      "id": "dc98aec89c40",
+      "title": "Rational Sparse Autoencoder",
+      "demand": 21.25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "My AI skeptic friends are all nuts",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "I believe there are entire companies right now under AI psychosis",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Air Con: $1697 for an on/off switch",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 21.81008651672273
+    },
+    {
+      "id": "66f44b8b0d32",
+      "title": "Robustness of Text-Only Adapted Speech LLMs for Spoken Semantic Parsing",
+      "demand": 20.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "I believe there are entire companies right now under AI psychosis",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        }
+      ],
+      "score": 21.06008651672273
+    },
+    {
+      "id": "c14a371e01e0",
+      "title": "Multi-Modal Environment-Aware Beam Management for Massive MIMO: A Geometry-Driven Virtual Base Station Framework",
+      "demand": 16.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 2.25
+        }
+      ],
+      "score": 17.06008651672273
+    },
+    {
+      "id": "04dc5e37acd1",
+      "title": "SharQ: Bridging Activation Sparsity and FP4 Quantization for LLM Inference",
+      "demand": 18,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 3
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 18.56008651672273
+    },
+    {
+      "id": "6a78891d4835",
+      "title": "Brownian Bridge Diffusion-Assisted Joint Channel Estimation and Data Detection for Jamming-Resilient OFDM Receivers",
+      "demand": 15.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 16.31008651672273
+    },
+    {
+      "id": "f35cfc14d1da",
+      "title": "A Geometric Coding Theorem",
+      "demand": 15,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 15.56008651672273
+    },
+    {
+      "id": "ed4d84f92105",
+      "title": "Operational Proto-Introspection in Looped Language Models: Reading Correctness Before the Answer",
+      "demand": 29.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 8
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 8
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "search_suggestion",
+          "label": "chat gpt plus free",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "I believe there are entire companies right now under AI psychosis",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        }
+      ],
+      "score": 30.06008651672273
+    },
+    {
+      "id": "a45abbb77ce3",
+      "title": "Where Is the Cost of Third-Party API Routers in Agentic Software Development?",
+      "demand": 16,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 3
+        }
+      ],
+      "score": 16.56008651672273
+    },
+    {
+      "id": "4c34a891a17f",
+      "title": "SciFigQual-Bench: Scientific Figure Quality Assessment with Manuscript-Linked Context",
+      "demand": 22.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "An AI agent published a hit piece on me",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        }
+      ],
+      "score": 23.06008651672273
+    },
+    {
+      "id": "0be6fc9c3e8b",
+      "title": "MANGO-Grasp: Mahalanobis Fields over Geometry-Oriented 3D Gaussians for Cross-Embodiment Dexterous Grasping",
+      "demand": 16.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Local AI needs to be the norm",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 3.75
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        }
+      ],
+      "score": 17.31008651672273
+    },
+    {
+      "id": "e319540a1973",
+      "title": "Scrouting: Cost-Aware Routing of Coding Agents by Scouting the Repository First",
+      "demand": 20.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "I believe there are entire companies right now under AI psychosis",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 3
+        }
+      ],
+      "score": 21.06008651672273
+    },
+    {
+      "id": "0a83dff05a72",
+      "title": "How do features act in an individual prediction? Separating standalone and interaction effects with a case-based taxonomy",
+      "demand": 27.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 8
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Air Con: $1697 for an on/off switch",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Local AI needs to be the norm",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 28.06008651672273
+    },
+    {
+      "id": "729c3ce8b8f3",
+      "title": "Autonomous discovery of new structure-plausibility laws for explainable and rapid crystal diagnosis and screening",
+      "demand": 17.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 2.25
+        }
+      ],
+      "score": 18.31008651672273
+    },
+    {
+      "id": "c9aa696067b5",
+      "title": "OracleZoom: Reference-Constrained Recursive Image Super-Resolution Beyond Ground Truth",
+      "demand": 18,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 3
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 3
+        }
+      ],
+      "score": 18.56008651672273
+    },
+    {
+      "id": "7e7e80b11565",
+      "title": "TabBench-Bio: A Living Benchmark for Machine Learning on High-Dimensional Biomedical Tables",
+      "demand": 18.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 19.31008651672273
+    },
+    {
+      "id": "a32bbf24a0be",
+      "title": "Improving Cross-Lingual Token Representations by Adding a Pinch of SALT",
+      "demand": 14.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        }
+      ],
+      "score": 15.06008651672273
+    },
+    {
+      "id": "2fee59f80171",
+      "title": "RPMem: Learning Long-Term Recurrent Parametric Memory Across Sessions for LLM Agents",
+      "demand": 15,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        }
+      ],
+      "score": 15.56008651672273
+    },
+    {
+      "id": "cc3915804aef",
+      "title": "When Does Reallocating a Sampling Budget Pay? Instance-wise Allocation for Neural Routing Solvers",
+      "demand": 20.25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "I believe there are entire companies right now under AI psychosis",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Local AI needs to be the norm",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 3
+        }
+      ],
+      "score": 20.81008651672273
+    },
+    {
+      "id": "d1f090b5c9a5",
+      "title": "Who Is Behind the Harness? Verifying Model Identity in Coding Agents through Behavioral Fingerprinting",
+      "demand": 23.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "search_suggestion",
+          "label": "tools ai agent",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "My AI skeptic friends are all nuts",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "I believe there are entire companies right now under AI psychosis",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        }
+      ],
+      "score": 24.31008651672273
+    },
+    {
+      "id": "6f14b59b2640",
+      "title": "Hearsay: Who Can Audit the Record a Deployed Agent Harness Writes?",
+      "demand": 29.25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 8
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 8
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 29.81008651672273
+    },
+    {
+      "id": "75641918ea8a",
+      "title": "Orbits as Strong Models: Kolmogorov Structure Function under Symmetry",
+      "demand": 21.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 10
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "My AI skeptic friends are all nuts",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "I believe there are entire companies right now under AI psychosis",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 22.06008651672273
+    },
+    {
+      "id": "bd133fa488b7",
+      "title": "Risk-Calibrated Intent Routing for Conversational AI via Signed Lexical Evidence",
+      "demand": 26.25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "My AI skeptic friends are all nuts",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "I believe there are entire companies right now under AI psychosis",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 26.81008651672273
+    },
+    {
+      "id": "67ff843c2d8f",
+      "title": "CriticHack: Evaluating Visual Rewards Under Robot Policy Optimization",
+      "demand": 21.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "I believe there are entire companies right now under AI psychosis",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Local AI needs to be the norm",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 22.06008651672273
+    },
+    {
+      "id": "1054fa647031",
+      "title": "CAPTOR: a vision-language foundation model for Chest-Abdomen-Pelvis Oncologic CT",
+      "demand": 15.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 2.25
+        }
+      ],
+      "score": 16.31008651672273
+    },
+    {
+      "id": "8bb419e5e712",
+      "title": "Interaction-as-a-Judge",
+      "demand": 22.25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 2.25
+        }
+      ],
+      "score": 22.81008651672273
+    },
+    {
+      "id": "b3fd9f46a901",
+      "title": "FlashReFocus: Interactive Image Refocusing in Seconds",
+      "demand": 18.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 19.06008651672273
+    },
+    {
+      "id": "241898760829",
+      "title": "The Effectiveness and Durability of Pretraining Data Filtering in Protein Language Models",
+      "demand": 26.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 8
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        }
+      ],
+      "score": 27.06008651672273
+    },
+    {
+      "id": "037ea25370e3",
+      "title": "The Digital-Energy Recomposition of the Kitchin Cycle: Exploratory Evidence from U.S. IT and Irish Data-Centre Series (1995-2025)",
+      "demand": 17.25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "My AI skeptic friends are all nuts",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        }
+      ],
+      "score": 17.81008651672273
+    },
+    {
+      "id": "dd5d37ebba3d",
+      "title": "Practical Assessment of Agentic Systems in Acoustics",
+      "demand": 21.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 3.75
+        }
+      ],
+      "score": 22.31008651672273
+    },
+    {
+      "id": "5d6613500136",
+      "title": "Coherence boosting: When your pretrained language model is not paying enough attention",
+      "demand": 22.25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AI-generated posters don’t have to be horrible",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 22.81008651672273
+    },
+    {
+      "id": "fcf385fbcce7",
+      "title": "ThinkSum: Probabilistic reasoning over sets using large language models",
+      "demand": 26,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 3
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 26.56008651672273
+    },
+    {
+      "id": "a01c483376ec",
+      "title": "Don't Pay Attention, PLANT It: Pretraining Attention via Learning-to-Rank",
+      "demand": 19.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 2.25
+        }
+      ],
+      "score": 20.06008651672273
+    },
+    {
+      "id": "ae6feebb7c17",
+      "title": "Challenging Quadratic Attention$\\unicode{x2013}$A Holistic View on the Rise of Alternative Language Model Architectures",
+      "demand": 17.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 10
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+          "weight": 1.5
+        }
+      ],
+      "score": 18.31008651672273
+    },
+    {
+      "id": "f26e16f9c088",
+      "title": "S-GRADES -- Studying Generalization of Student Response Assessments in Diverse Evaluative Settings",
+      "demand": 21.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI must win",
+          "weight": 1.5
+        }
+      ],
+      "score": 22.06008651672273
+    },
+    {
+      "id": "1d965e08f716",
+      "title": "Improving LLM Final Representations with Inter-Layer Geometry",
+      "demand": 23,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 10
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 3
+        }
+      ],
+      "score": 23.56008651672273
+    },
+    {
+      "id": "57ab7257102d",
+      "title": "CRAM: Centroid-Routing and Adaptive MoE for Multimodal Continual Instruction Tuning",
+      "demand": 18,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 4.5
+        }
+      ],
+      "score": 18.56008651672273
+    },
+    {
+      "id": "1311beb55ba3",
+      "title": "Polar: A Benchmark for Evaluating Political Bias in LLMs",
+      "demand": 22.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 10
+        },
+        {
+          "kind": "hacker_news",
+          "label": "My AI skeptic friends are all nuts",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 23.06008651672273
+    },
+    {
+      "id": "91540f7b9cb2",
+      "title": "Learning User Simulators with Turing Rewards",
+      "demand": 27,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AI-generated posters don’t have to be horrible",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 2.25
+        }
+      ],
+      "score": 27.56008651672273
+    },
+    {
+      "id": "1dfe63a09934",
+      "title": "RABBiT: Rapidly adaptive BOLD foundation model via brain-tuning for accurate zero-shot and few-shot prediction of speech-elicited responses in the brain",
+      "demand": 17.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        }
+      ],
+      "score": 18.06008651672273
+    },
+    {
+      "id": "c753074af7cf",
+      "title": "EasyOPD: An Easy-to-use On-Policy Distillation Framework for Large Language Models",
+      "demand": 20.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 21.06008651672273
+    },
+    {
+      "id": "e480ba473673",
+      "title": "Meta-Learning Preferences for Multilingual LLM Alignment",
+      "demand": 13.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 14.31008651672273
+    },
+    {
+      "id": "d76a1f752b26",
+      "title": "Ceiling-Clipped Acceptance Histograms Indicate Stranded Speed-up in Block-Diffusion Speculative Decoding",
+      "demand": 23.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "I believe there are entire companies right now under AI psychosis",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 24.31008651672273
+    },
+    {
+      "id": "78ce5c60242a",
+      "title": "Swiss-Knife: A Framework for Reconfigurable Externalised Multi-Objective Alignment at Decode Time",
+      "demand": 20.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "I believe there are entire companies right now under AI psychosis",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        }
+      ],
+      "score": 21.06008651672273
+    },
+    {
+      "id": "9ae33e2a3041",
+      "title": "Distill What You Trust: Reliability-Aware Multi-Teacher On-Policy Distillation",
+      "demand": 27,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Local AI needs to be the norm",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 2.25
+        }
+      ],
+      "score": 27.56008651672273
+    },
+    {
+      "id": "a0a29d98dd02",
+      "title": "DV-Lens: Revealing the Functional Organization of Language Model Parameters",
+      "demand": 22.25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Local AI needs to be the norm",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        }
+      ],
+      "score": 22.81008651672273
+    },
+    {
+      "id": "3f6807b8a164",
+      "title": "TCC-RAG: Temporal Causal Chain-Guided RAG for Temporal Knowledge Graph Question Answering",
+      "demand": 15.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 10
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        }
+      ],
+      "score": 16.06008651672273
+    },
+    {
+      "id": "4b19dca7d41b",
+      "title": "Quicksviewer: An LMM with Early Video Compression using Annealed Gumbel-Softmax",
+      "demand": 16.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 17.06008651672273
+    },
+    {
+      "id": "02658cabba70",
+      "title": "Unlocking Continuous Diffusion Language Models via Discrete Stochastic Localization",
+      "demand": 19.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 20.06008651672273
+    },
+    {
+      "id": "068b9697d1bb",
+      "title": "How Far Does Online RL Generalize in Mobile GUI Agents? A Controlled Study with AndroidWorld-Generalization",
+      "demand": 24.25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "I believe there are entire companies right now under AI psychosis",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 3.75
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 24.81008651672273
+    },
+    {
+      "id": "1a4bce4bd381",
+      "title": "A conceptual framework for ideology in online discourse beyond the left and right",
+      "demand": 18.25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        }
+      ],
+      "score": 18.81008651672273
+    },
+    {
+      "id": "9dfc79ca263c",
+      "title": "Training-Free Dynamic Upcycling of Expert Language Models",
+      "demand": 20.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 10
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 21.31008651672273
+    },
+    {
+      "id": "68ba5e452887",
+      "title": "Sparse Layers are Critical to Scaling Looped Language Models",
+      "demand": 16.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+          "weight": 1.5
+        }
+      ],
+      "score": 17.06008651672273
+    },
+    {
+      "id": "f00e52ef292d",
+      "title": "Know Before You Fetch: When Does Confidence-Based Retrieval-Budget Allocation Pay Off?",
+      "demand": 27,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "My AI skeptic friends are all nuts",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "I believe there are entire companies right now under AI psychosis",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Air Con: $1697 for an on/off switch",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 27.56008651672273
+    },
+    {
+      "id": "15c64acf14a0",
+      "title": "MOLT: A Hugging Face-Native, Minimal, and Scalable Framework for Agentic Reinforcement Learning",
+      "demand": 24.5,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 3
+        },
+        {
+          "kind": "hacker_news",
+          "label": "I believe there are entire companies right now under AI psychosis",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Local AI needs to be the norm",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI must win",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 25.06008651672273
+    },
+    {
+      "id": "97045bfddb9c",
+      "title": "XMerge: Cross-Axis Selection and Reconstructive Layer Merging for LLM Depth Compression",
+      "demand": 26.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 10
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Local AI needs to be the norm",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 27.31008651672273
+    },
+    {
+      "id": "b2d6c17d11cb",
+      "title": "Circuit Hypernetworks for Quantum-Augmented Diffusion Language Models",
+      "demand": 22,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 8
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 22.56008651672273
+    },
+    {
+      "id": "1facd22b9942",
+      "title": "SANTA++: Sampling Attention through Representative Keys",
+      "demand": 18.25,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "I believe there are entire companies right now under AI psychosis",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 18.81008651672273
+    },
+    {
+      "id": "9981158b40ca",
+      "title": "LoongSage: A Production-Grade, High-Efficiency Agentic RL Framework for Frontier LLMs with Validated Recipes",
+      "demand": 18,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 3
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 18.56008651672273
+    },
+    {
+      "id": "8130d33497ff",
+      "title": "Typed Decision Models under Prevalence Shift and Label Budgets: Decision Training, Calibration, and Implicit Priors",
+      "demand": 22.75,
+      "recency": 0.747,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "I believe there are entire companies right now under AI psychosis",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Local AI needs to be the norm",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 23.31008651672273
+    },
+    {
+      "id": "00a064e6720e",
+      "title": "The Gemini app is now available on lower-memory Android devices.",
+      "demand": 13.75,
+      "recency": 0.632,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "pif tower riyadh",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 4
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 2.25
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+          "weight": 1.5
+        }
+      ],
+      "score": 14.224103000763433
+    },
+    {
+      "id": "184d931227f2",
+      "title": "The Silent Consensus",
+      "demand": 12,
+      "recency": 0.574,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 4
+        }
+      ],
+      "score": 12.430179419819533
+    },
+    {
+      "id": "58da586369f3",
+      "title": "Research acceleration: The jagged frontier",
+      "demand": 12,
+      "recency": 0.558,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 4
+        }
+      ],
+      "score": 12.418394429679791
+    },
+    {
+      "id": "53d809d7420a",
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "demand": 8,
+      "recency": 0.558,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 4
+        }
+      ],
+      "score": 8.418394429679791
+    },
+    {
+      "id": "99be0c0a7e07",
+      "title": "Managing frontier AI risk: From training to deployment",
+      "demand": 7.5,
+      "recency": 0.543,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 2
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 7.906932295507106
+    },
+    {
+      "id": "68ddb817fe40",
+      "title": "Advancing chip design with OpenAI models",
+      "demand": 6,
+      "recency": 0.499,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 2
+        }
+      ],
+      "score": 6.374395785613602
+    },
+    {
+      "id": "a1de396d3910",
+      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "demand": 6,
+      "recency": 0.499,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 2
+        }
+      ],
+      "score": 6.374395785613602
+    },
+    {
+      "id": "b6a48baf5af3",
+      "title": "How genome mapping can help researchers better understand disease",
+      "demand": 11.5,
+      "recency": 0.486,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 4
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        }
+      ],
+      "score": 11.864139017301282
+    },
+    {
+      "id": "8f6af8c44a4a",
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "demand": 9.5,
+      "recency": 0.458,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 4
+        },
+        {
+          "kind": "search_suggestion",
+          "label": "chatgpt codex",
+          "weight": 1.5
+        }
+      ],
+      "score": 9.843266781203331
+    },
+    {
+      "id": "b451aff394ad",
+      "title": "Put Gemini to work for you",
+      "demand": 16,
+      "recency": 0.453,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 3
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Zoom terms now allow training AI on user content with no opt out",
+          "weight": 1.5
+        }
+      ],
+      "score": 16.33970964448399
+    },
+    {
+      "id": "3047d7657748",
+      "title": "Introducing ChatGPT for Sales",
+      "demand": 13,
+      "recency": 0.4,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "microsoft",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "twitch",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "netflix",
+          "weight": 6
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Open source AI is the path forward",
+          "weight": 1.5
+        },
+        {
+          "kind": "hacker_news",
+          "label": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "weight": 1.5
+        }
+      ],
+      "score": 13.299792709035234
+    }
+  ]
+}

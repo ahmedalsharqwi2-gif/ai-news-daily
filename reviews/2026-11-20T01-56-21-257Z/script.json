@@ -1,0 +1,161 @@
+{
+  "topicKey": "self-rewriting-ai-weights-2026",
+  "title": "الذكاء الاصطناعي اللي بيصلح نفسه بنفسه",
+  "hook": "تخيل لو الكمبيوتر يقدر يطور نفسه من غير ما حد يتدخل؟ هل ممكن الذكاء الاصطناعي يغير أوزانه الداخلية عشان يبقى أذكى وأسرع من غير أي تدريب إضافي أو مجهود بشري؟",
+  "cta": "تابعونا عشان تعرفوا كل جديد في عالم الذكاء الاصطناعي، واشتركوا في القناة عشان يوصلكم كل فيديو جديد عن التطورات اللي بتحصل في التكنولوجيا كل يوم على السريع.",
+  "scenes": [
+    {
+      "title": "مفهوم جديد للذكاء",
+      "text": "النماذج الحالية بتتحفظ وتتجميد بعد التدريب، لكن فيه طريقة تالتة ظهرت مؤخراً. النموذج بيقدر يغير أوزانه بنفسه من خلال التفكير المنطقي، ومن غير ما يحتاج لعمليات تدريب تانية أو حسابات معقدة.",
+      "summary": "الذكاء الاصطناعي بيطور نفسه ذاتياً",
+      "keyword": "التعلم الذاتي",
+      "template": "phenomenon",
+      "labels": [
+        "ذكاء اصطناعي",
+        "تطوير ذاتي"
+      ],
+      "values": [],
+      "claim": "النموذج بيغير أوزانه بنفسه",
+      "sourceId": "03b179946dd0",
+      "evidence": "a language model rewrites its own weights by its own reasoning and becomes better, with no gradients and no training.",
+      "kind": "fact",
+      "expression": 5,
+      "action": "point"
+    },
+    {
+      "title": "النموذج كمدرب لنفسه",
+      "text": "الباحثين اكتشفوا إن النموذج بيشتغل كأنه هو المحسن الخاص بنفسه. النموذج بيقدر يشخص أخطاءه ويعدل الأوزان اللي وراه، وده بيخليه يتفوق على أدائه السابق في مهام ما شافهاش قبل كدة خالص.",
+      "summary": "النموذج بيشخص ويصلح أخطاءه",
+      "keyword": "المحسن الذاتي",
+      "template": "journey",
+      "labels": [
+        "تحسين",
+        "أداء"
+      ],
+      "values": [],
+      "claim": "النموذج بيشخص ويصلح أخطاءه",
+      "sourceId": "03b179946dd0",
+      "evidence": "the model is its own optimizer. In earlier work, a frontier model edited a much smaller one; here an open 27B model, given its weights, its graded answers and the ability to run itself, diagnoses its own failure and rewrites the weights behind it.",
+      "kind": "fact",
+      "expression": 8,
+      "action": "walk"
+    },
+    {
+      "title": "قفزة في الدقة",
+      "text": "التعديلات اللي بيعملها النموذج بتزود دقته بشكل ملحوظ. في تجارب معينة، التعديل اللي عمله النموذج بنفسه خلاه أدق بستة فاصلة ستة نقطة في حل مشاكل صعبة ما تعرضش ليها قبل كدة أبداً.",
+      "summary": "زيادة الدقة بعد التعديل الذاتي",
+      "keyword": "الدقة",
+      "template": "chart",
+      "labels": [
+        "دقة",
+        "تطوير"
+      ],
+      "values": [
+        6
+      ],
+      "claim": "النموذج بيزود دقته بعد التعديل",
+      "sourceId": "03b179946dd0",
+      "evidence": "its own edit makes it 6.6 points more accurate on problems it never saw.",
+      "kind": "fact",
+      "expression": 9,
+      "action": "jump"
+    },
+    {
+      "title": "تحسن مستمر",
+      "text": "النموذج مش بيقف عند حد معين، ده بيختبر تعديلاته على مسائل تدريبية وبيختار بس اللي بينجح. على مدار تمن جلسات متتالية، دقة النموذج كانت بتزيد مع كل خطوة بيعملها بشكل مستمر.",
+      "summary": "النموذج بيتحسن مع كل محاولة",
+      "keyword": "التحسن المستمر",
+      "template": "steps",
+      "labels": [
+        "تطوير",
+        "تجارب"
+      ],
+      "values": [
+        8
+      ],
+      "claim": "الدقة بتزيد مع كل جلسة",
+      "sourceId": "03b179946dd0",
+      "evidence": "it tests its edits on practice problems and submits only what works, each edit improving on the last, and over eight consecutive sessions its accuracy only rises.",
+      "kind": "fact",
+      "expression": 7,
+      "action": "run"
+    },
+    {
+      "title": "إصلاح الذات",
+      "text": "تخيل روبوت مكسور بيصلح نفسه من غير ما حد يعيد بناءه. النموذج بيقدر يرجع نسخة تانية تالفة من نفسه لأكثر من ثمانين في المئة من دقتها الأصلية من غير أي إعادة تدريب.",
+      "summary": "النموذج بيصلح نسخ تالفة من نفسه",
+      "keyword": "إصلاح الذات",
+      "template": "phenomenon",
+      "labels": [
+        "إصلاح",
+        "روبوتات"
+      ],
+      "values": [
+        80
+      ],
+      "claim": "النموذج بيصلح نسخة تالفة من نفسه",
+      "sourceId": "03b179946dd0",
+      "evidence": "It repairs a damaged copy of itself, like a broken robot that fixes itself without being rebuilt: the copy solves almost nothing, yet with no retraining and without ever reading the original weights, the model brings it back to over 80% of the original accuracy on image tasks it never saw.",
+      "kind": "fact",
+      "expression": 6,
+      "action": "turn"
+    },
+    {
+      "title": "القدرة بتظهر مع الحجم",
+      "text": "القدرة دي مش موجودة في كل النماذج، دي بتظهر بس مع النماذج الكبيرة. النماذج الصغيرة بتفشل أو بتبوظ نفسها، لكن النماذج الأكبر هي بس اللي بتقدر تحسن وتصلح نفسها بشكل فعال ومبهر.",
+      "summary": "القدرة بتظهر في النماذج الكبيرة",
+      "keyword": "الحجم",
+      "template": "comparison",
+      "labels": [
+        "نماذج",
+        "حجم"
+      ],
+      "values": [],
+      "claim": "القدرة بتظهر مع زيادة حجم النموذج",
+      "sourceId": "03b179946dd0",
+      "evidence": "And the ability emerges with scale: in one model family, the smaller models make no edit or break themselves, and only the largest improves and repairs itself.",
+      "kind": "fact",
+      "expression": 4,
+      "action": "point"
+    },
+    {
+      "title": "تجاوز حدود التدريب",
+      "text": "الفرق بين التدريب والاستنتاج بقى مجرد حد من أدواتنا مش خاصية في الذكاء نفسه. النموذج بيقدر يكتب مكاسبه في أوزانه من غير تكلفة إضافية لكل إجابة، وده بيغير قواعد اللعبة تماماً.",
+      "summary": "دمج التدريب والاستنتاج",
+      "keyword": "الاستنتاج",
+      "template": "cause",
+      "labels": [
+        "تدريب",
+        "تكنولوجيا"
+      ],
+      "values": [],
+      "claim": "الفرق بين التدريب والاستنتاج هو حد في الأدوات",
+      "sourceId": "03b179946dd0",
+      "evidence": "The wall between training and inference is a limit of our tools, not a property of intelligence.",
+      "kind": "fact",
+      "expression": 10,
+      "action": "fall"
+    },
+    {
+      "title": "مستقبل التطور الذاتي",
+      "text": "ده خطوة ضرورية نحو التحسين الذاتي المتكرر. النموذج ممكن يفضل يطور نفسه طول حياته زي البشر، من غير الحاجة لنماذج أكبر أو هندسة أوامر معقدة، وده بيفتح آفاق جديدة ومذهلة للذكاء الاصطناعي.",
+      "summary": "مستقبل التحسين الذاتي المستمر",
+      "keyword": "المستقبل",
+      "template": "journey",
+      "labels": [
+        "مستقبل",
+        "تطور"
+      ],
+      "values": [],
+      "claim": "النموذج ممكن يطور نفسه طول حياته",
+      "sourceId": "03b179946dd0",
+      "evidence": "We believe self-rewriting is a necessary step toward recursive self-improvement: a model that, like a human, does not separate training from inference could keep upgrading itself for life, with no larger model, no harness or prompt engineering, and no pre- or post-training.",
+      "kind": "fact",
+      "expression": 11,
+      "action": "sleep"
+    }
+  ],
+  "editorialMode": "daily",
+  "editorialLabel": null,
+  "scriptModel": "gemini-3.1-flash-lite"
+}

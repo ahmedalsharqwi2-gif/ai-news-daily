@@ -1,0 +1,31 @@
+{
+  "incomplete": true,
+  "published": false,
+  "reason": "GEMINI_HTTP_429_EXHAUSTED",
+  "narration": false,
+  "voice": null,
+  "wordAlignment": false,
+  "storySource": "actual authored script from failed review attempt",
+  "qa": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 96,
+    "geometryPassed": true,
+    "logo": {
+      "path": "brand/logo/logo.png",
+      "sha256": "c5d4c0d6406ff67a0ccbda2e00a4b70e55491b64ec32d882b349df2b601b71bf",
+      "bytes": 43663,
+      "original": true,
+      "renderedPixelsChecked": true,
+      "wordmarkChecked": false
+    },
+    "watermark": {
+      "knownTextScan": "no_known_foreign_watermark_detected",
+      "assetPolicy": "Only original vectors, owner-supplied immutable logos and documented generated backgrounds; listening/visual approval remains separate."
+    },
+    "audioRequired": false,
+    "complete": false,
+    "approved": false
+  }
+}

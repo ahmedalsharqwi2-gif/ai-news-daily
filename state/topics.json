@@ -44,7 +44,19 @@
   {
     "topicKey": "nvidia-sc26-ai-agents-science",
     "value": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
-    "status": "reserved",
+    "status": "retired",
     "run": "2026-11-20T01-22-10-139Z"
+  },
+  {
+    "topicKey": "self-rewriting-ai-weights-2026",
+    "value": "https://arxiv.org/abs/2611.21885",
+    "status": "retired",
+    "run": "2026-11-20T01-56-21-257Z"
+  },
+  {
+    "topicKey": "nvidia-microsoft-ignite-2026",
+    "value": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+    "status": "reserved",
+    "run": "2026-11-20T02-01-21-467Z"
   }
 ]
