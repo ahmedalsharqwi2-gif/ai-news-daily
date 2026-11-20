@@ -37,7 +37,8 @@ export async function script(topic,config,history,opts={}){
    if(attempt===2)throw Error(code);
    // Targeted repair: on a claim-gate failure, fix only the failing scenes and
    // keep everything else verbatim, instead of re-rolling the whole script.
-   const targeted=code==='UNSUPPORTED_CLAIM'?' Repair ONLY the failing scenes named above: rewrite each one around a different verbatim sentence copied CHARACTER-FOR-CHARACTER from its source; keep every other scene, the title, hook and cta EXACTLY as they were, unchanged word for word.':'';
+   let targeted=code==='UNSUPPORTED_CLAIM'?' Repair ONLY the failing scenes named above: rewrite each one around a different verbatim sentence copied CHARACTER-FOR-CHARACTER from its source; keep every other scene, the title, hook and cta EXACTLY as they were, unchanged word for word.':'';
+   if(code==='DUPLICATE_TOPIC_IDENTITY'&&e&&e.topicKey)detail=(detail?detail+' ':'')+'covered_identity="'+e.topicKey+'" - this story identity is already covered; do NOT write it or any near-variant, choose a clearly different story from the supplied research data.';
    feedback=' The previous draft failed '+code+(detail?' with these exact field errors: '+detail.slice(0,800)+'. Fix exactly those fields.':'')+targeted+' Rewrite using the exact schema, each scene about 28-40 words, total 250-360 words, minimum 8 scenes, existing source IDs and copied source quotes (not invented translations); when nearest_source is shown, copy the quote CHARACTER-FOR-CHARACTER from it including any repeated words or stutters, or choose a different sentence that appears verbatim in the source; quotes may be reused when explaining the same supported claim. Preserve the required weekly label when applicable.';
   }
  }throw Error('SCRIPT_VALIDATION_EXHAUSTED');
