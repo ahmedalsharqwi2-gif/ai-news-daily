@@ -1,15 +1,15 @@
 {
   "id": "2026-11-20T02-01-21-467Z",
-  "attemptId": "2026-11-20T01-47-50-544Z",
+  "attemptId": "2026-11-20T08-26-13-349Z",
   "mode": "review",
   "published": false,
   "status": "failed",
-  "resumed": false,
+  "resumed": true,
   "stages": [
     {
       "name": "preflight",
       "status": "pass",
-      "seconds": 0.313
+      "seconds": 0.527
     },
     {
       "name": "topics",
@@ -20,72 +20,26 @@
       "status": "resumed_from_hash_verified_script"
     },
     {
-      "name": "roll",
-      "status": "rolled_fresh_topic",
-      "roll": 1,
-      "fromStage": "voice",
-      "code": "STAGE_FAILED_SEE_RUNBOOK"
-    },
-    {
-      "name": "preflight",
+      "name": "voice",
       "status": "pass",
-      "seconds": 0.038
+      "seconds": 248.044
     },
     {
-      "name": "topics",
+      "name": "voice-repair-1",
       "status": "pass",
-      "seconds": 15.371
-    },
-    {
-      "name": "script",
-      "status": "pass",
-      "seconds": 81.291
-    },
-    {
-      "name": "roll",
-      "status": "rolled_fresh_topic",
-      "roll": 2,
-      "fromStage": "voice",
-      "code": "STAGE_FAILED_SEE_RUNBOOK"
-    },
-    {
-      "name": "preflight",
-      "status": "pass",
-      "seconds": 0.038
-    },
-    {
-      "name": "topics",
-      "status": "pass",
-      "seconds": 0.66
-    },
-    {
-      "name": "script",
-      "status": "pass",
-      "seconds": 67.882
+      "seconds": 277.796
     }
   ],
   "limitations": [
-    "Incomplete visual previews never pass narrated-film acceptance. Human pronunciation and art-direction approval are separate."
+    "Incomplete visual previews never pass narrated-film acceptance. Human pronunciation and art-direction approval are separate.",
+    "align failed (ALIGNMENT_INVALID_MEASURED_SPAN); re-narrating once with fresh synthesis",
+    "align repair failed (ALIGNMENT_INVALID_MEASURED_SPAN); repair budget exhausted"
   ],
-  "rolled": [
-    {
-      "id": "2026-11-20T01-22-10-139Z",
-      "stage": "voice",
-      "code": "STAGE_FAILED_SEE_RUNBOOK",
-      "roll": 1
-    },
-    {
-      "id": "2026-11-20T01-56-21-257Z",
-      "stage": "voice",
-      "code": "STAGE_FAILED_SEE_RUNBOOK",
-      "roll": 2
-    }
-  ],
-  "failedStage": "voice",
-  "errorCode": "GEMINI_HTTP_429_EXHAUSTED",
+  "failedStage": "align-repair-1",
+  "errorCode": "ALIGNMENT_INVALID_MEASURED_SPAN",
   "partial": {
     "status": "rendered",
-    "path": "/home/runner/work/ai-news-daily/ai-news-daily/out/2026-11-20T02-01-21-467Z/incomplete/visual-preview-incomplete.mp4",
+    "path": "/home/runner/work/ai-news-daily/ai-news-daily/out/2026-11-20T02-01-21-467Z/incomplete-with-voice/review-with-voice-INCOMPLETE.mp4",
     "incomplete": true
   }
 }

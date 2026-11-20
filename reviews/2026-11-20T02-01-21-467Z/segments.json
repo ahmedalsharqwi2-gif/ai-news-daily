@@ -1,0 +1,186 @@
+[
+  {
+    "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-20T02-01-21-467Z/scene-0.wav",
+    "duration": 17,
+    "text": "إنفيديا ومايكروسوفت بيوسعوا تعاونهم عشان يساعدوا المؤسسات في بناء ونشر تطبيقات ذكية، من البنية التحتية على أزور لحد أنظمة الكمبيوتر الشخصي. ده بيفتح أبواب جديدة للمطورين عشان يبتكروا حلول أسرع وأكثر كفاءة.",
+    "sha256": "badaa5d2366b0f6a6ac022edb6c11235e71058c1a45985a0be23299e6ced2dd0",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 0,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "cab66e5c80b653e4ab0e40ac93b0e2cf60a294721a318074312959b95fe77031",
+        "sha256": "badaa5d2366b0f6a6ac022edb6c11235e71058c1a45985a0be23299e6ced2dd0",
+        "text_sha256": "e6916a971a450db6bdae7ebf23a3bdfeaaf03bf6875bba7e69bc7f5d20546343",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 816078,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-20T02-01-21-467Z/scene-1.wav",
+    "duration": 17.2,
+    "text": "أنظمة فيرا روبين الجديدة بتشتغل دلوقتي في مراكز بيانات أزور، ومصممة خصيصاً للمهام الصعبة وتدريب النماذج الكبيرة. ده بيخلي الشركات تقدر تعالج بياناتها المعقدة بسرعة أكبر بكتير من الأول وبأداء عالي جداً.",
+    "sha256": "d8f80d0b52f250eac68e44c19b68f1fc311f4f24933295b2a9ccdcf59c0ab27b",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 1,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "afe0524a4525a594854c48098caebd56e53c694224ed8c8a52f32a720970c074",
+        "sha256": "d8f80d0b52f250eac68e44c19b68f1fc311f4f24933295b2a9ccdcf59c0ab27b",
+        "text_sha256": "3f6d6e627397bf2f39514be5c9443edfab33371b172c231a99bdabfc1a84fc66",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 825678,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-20T02-01-21-467Z/scene-2.wav",
+    "duration": 17.24,
+    "text": "في اختبارات الأداء الأخيرة، أزور قدرت توصل لعشرة آلاف ومائتين وأربعين وحدة معالجة رسومية. ده رقم ضخم بيثبت إن البنية التحتية الجديدة قادرة على التعامل مع أضخم النماذج العالمية بكفاءة عالية جداً.",
+    "sha256": "39cb06b3a94fd3f15072c0ca9942452aa22f2482d921e5d1011ac75d53100859",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 2,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "c5c876856fb9afe23f92463319fdefc287e2982a73f7e73bb2c9c36baef74f95",
+        "sha256": "39cb06b3a94fd3f15072c0ca9942452aa22f2482d921e5d1011ac75d53100859",
+        "text_sha256": "ee9e7d53ba3eed97042dacf3dc2e8db8e5903761f778878793195cbf09b244bc",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 827598,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-20T02-01-21-467Z/scene-3.wav",
+    "duration": 14.76,
+    "text": "أنظمة جي بي ثلاثمائة تفوقت على كل المنافسين في السحابة بنسبة أكتر من عشرة في المائة في سرعة الاستنتاج التفاعلي. ده بيخلي التطبيقات اللي بتحتاج ردود سريعة تشتغل بسلاسة أكبر بكتير من قبل.",
+    "sha256": "a0b3924705d04887ee6c66def77b9cc837e32c536625459ce1ea08a75d399eb5",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 3,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "714be16598dfacc6634679968507ef9b5365b09b6772a712ae0b499b9d910132",
+        "sha256": "a0b3924705d04887ee6c66def77b9cc837e32c536625459ce1ea08a75d399eb5",
+        "text_sha256": "f5ab04c853294e2cc59fec91a32c842eaedd08cdf97807bd5669561ce8a66d9d",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 708558,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-20T02-01-21-467Z/scene-4.wav",
+    "duration": 16.88,
+    "text": "شركة إي واي استخدمت أدوات التدريب المبرمج عشان تعدل نماذج نيموترون المفتوحة، وده حسن دقة النتائج بنسبة خمسة وخمسين في المائة وقلل التكاليف بشكل كبير جداً مقارنة بالنماذج التانية اللي كانت بتستخدمها قبل كده.",
+    "sha256": "9694bba4f83e5cd1294380f65b0db7be9e4d67ceeb1c3af8a2dcc48394c6e98f",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 4,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "31373dfacb8ec31b9e23f35e33c944c8e9d6364b2cb418365ddeb01ae5af49fd",
+        "sha256": "9694bba4f83e5cd1294380f65b0db7be9e4d67ceeb1c3af8a2dcc48394c6e98f",
+        "text_sha256": "a25b2546c27a47ca4b46eb2874550da08741d9ac247194d4b89b595496c296d7",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 810318,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-20T02-01-21-467Z/scene-5.wav",
+    "duration": 15.76,
+    "text": "مش بس في السحابة، إنفيديا ومايكروسوفت بيخلوا الذكاء الاصطناعي يشتغل مباشرة على أجهزة الكمبيوتر الشخصية اللي بتستخدم كروت آر تي إكس سبارك. ده بيسمح للمطورين بتجربة تطبيقات ذكية محلية وسريعة جداً من غير إنترنت.",
+    "sha256": "f28e6a7153c52649145ba3d1452711aa87592cb879aa5d2d251672aa52ec0f7d",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 5,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "ac28fd631517a23dbc6330ca6b8973b8a1251f6054153732dae261fed19182c1",
+        "sha256": "f28e6a7153c52649145ba3d1452711aa87592cb879aa5d2d251672aa52ec0f7d",
+        "text_sha256": "815b5eb9a3651c8dbe300a8082a8eb012d127aa238abd5bc86d8bf73a644ecdc",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 756558,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-20T02-01-21-467Z/scene-6.wav",
+    "duration": 17.56,
+    "text": "أدوات بيونيمو وألكيمي بتدخل دلوقتي في كتالوج مايكروسوفت ديسكفري عشان تساعد العلماء في أبحاث الأدوية والعلوم الحيوية. ده بيسرع عمليات اكتشاف علاجات جديدة باستخدام لغة طبيعية وأدوات ذكاء اصطناعي متطورة جداً ومبتكرة.",
+    "sha256": "2c1631e298f059bdf0a063747f093d69086417559d2184961c15388d5d234ac4",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 6,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "19a00ffa052a09d80e9a4cf8eb0dacc8924c90655757e60de522da1368db84da",
+        "sha256": "2c1631e298f059bdf0a063747f093d69086417559d2184961c15388d5d234ac4",
+        "text_sha256": "9a59f4add3dc2424c52d6657d0d5bd96624ef0906f405fc004602d26442e1b63",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 842958,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-20T02-01-21-467Z/scene-7.wav",
+    "duration": 16.28,
+    "text": "التعاون ده بيوريك إزاي التكنولوجيا بتتحرك بسرعة عشان تخلي الذكاء الاصطناعي جزء من كل حاجة بنعملها، من الشغل للمصانع للبحث العلمي. المستقبل بيتشكل قدام عينينا بفضل الشراكات القوية دي بين الشركات العملاقة.",
+    "sha256": "f6d601c3d346a9278264e35554f6315cbb93ff8cbddf37ba0201607953665ede",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 7,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "ed667b95190d1bb3fa4c7030906cd834c0d5dffb418ed415a98b63f52a6340fb",
+        "sha256": "f6d601c3d346a9278264e35554f6315cbb93ff8cbddf37ba0201607953665ede",
+        "text_sha256": "d7af0271c74d309841c01bc54f812b88ef1ed985fb8a450d4d9906371a772d0b",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 781518,
+        "reused": false
+      }
+    ]
+  }
+]
