@@ -36427,8 +36427,8 @@
   "scriptSha256": "22e1d8f0452379b3c6332e00456e9ac243b865281f23d15f6e450ea9881fdd48",
   "state": "failed",
   "lastFailure": {
-    "stage": "align-repair-1",
-    "code": "ALIGNMENT_INVALID_MEASURED_SPAN",
+    "stage": "voice-repair-1",
+    "code": "STAGE_FAILED_SEE_RUNBOOK",
     "repeat": 0
   }
 }

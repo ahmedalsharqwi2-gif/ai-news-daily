@@ -1,7 +1,7 @@
 {
   "incomplete": true,
   "published": false,
-  "reason": "ALIGNMENT_INVALID_MEASURED_SPAN",
+  "reason": "STAGE_FAILED_SEE_RUNBOOK",
   "narration": true,
   "voice": "Gemini Charon",
   "wordAlignment": false,
@@ -10,7 +10,7 @@
     "width": 1080,
     "height": 1920,
     "fps": 30,
-    "duration": 127.573,
+    "duration": 127.979,
     "geometryPassed": true,
     "logo": {
       "path": "brand/logo/logo.png",

@@ -1,50 +1,36 @@
 {
   "id": "2026-11-19T23-13-16-305Z",
-  "attemptId": "2026-11-19T23-13-16-305Z",
+  "attemptId": "2026-11-20T00-33-03-589Z",
   "mode": "review",
   "published": false,
   "status": "failed",
-  "resumed": false,
+  "resumed": true,
   "stages": [
     {
       "name": "preflight",
       "status": "pass",
-      "seconds": 0.511
+      "seconds": 0.268
     },
     {
       "name": "topics",
-      "status": "pass",
-      "seconds": 18.545
+      "status": "resumed_from_saved_source_manifest"
     },
     {
       "name": "script",
-      "status": "pass",
-      "seconds": 40.394
+      "status": "resumed_from_hash_verified_script"
     },
     {
       "name": "voice",
       "status": "pass",
-      "seconds": 388.454
-    },
-    {
-      "name": "voice-repair-1",
-      "status": "pass",
-      "seconds": 278.508
+      "seconds": 489.685
     }
   ],
   "limitations": [
     "Incomplete visual previews never pass narrated-film acceptance. Human pronunciation and art-direction approval are separate.",
-    "align failed (ALIGNMENT_INVALID_MEASURED_SPAN); re-narrating once with fresh synthesis",
-    "align repair failed (ALIGNMENT_INVALID_MEASURED_SPAN); repair budget exhausted"
+    "align failed (ALIGNMENT_INVALID_MEASURED_SPAN); re-narrating once with fresh synthesis"
   ],
-  "retiredEpisode": {
-    "id": "2026-11-19T14-30-52-767Z",
-    "stage": "align-repair-1",
-    "code": "ALIGNMENT_SPEECH_MISMATCH",
-    "reason": "Same stage and code failed on consecutive resumed attempts; retained audio and hash-locked script are immutable, so the deterministic failure cannot clear. Episode retired; a fresh episode is rolled through the same gates."
-  },
-  "failedStage": "align-repair-1",
-  "errorCode": "ALIGNMENT_INVALID_MEASURED_SPAN",
+  "failedStage": "voice-repair-1",
+  "errorCode": "STAGE_FAILED_SEE_RUNBOOK",
   "partial": {
     "status": "rendered",
     "path": "/home/runner/work/ai-news-daily/ai-news-daily/out/2026-11-19T23-13-16-305Z/incomplete-with-voice/review-with-voice-INCOMPLETE.mp4",

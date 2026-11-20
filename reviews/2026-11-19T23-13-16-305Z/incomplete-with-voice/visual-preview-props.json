@@ -20,7 +20,7 @@
       "kind": "fact",
       "expression": 5,
       "action": "point",
-      "duration": 14.84,
+      "duration": 14.52,
       "words": []
     },
     {
@@ -43,7 +43,7 @@
       "kind": "fact",
       "expression": 8,
       "action": "walk",
-      "duration": 16.96,
+      "duration": 17.24,
       "words": []
     },
     {
@@ -64,7 +64,7 @@
       "kind": "fact",
       "expression": 4,
       "action": "turn",
-      "duration": 16,
+      "duration": 16.16,
       "words": []
     },
     {
@@ -85,7 +85,7 @@
       "kind": "fact",
       "expression": 6,
       "action": "point",
-      "duration": 18.36,
+      "duration": 17.2,
       "words": []
     },
     {
@@ -106,7 +106,7 @@
       "kind": "fact",
       "expression": 7,
       "action": "jump",
-      "duration": 14.64,
+      "duration": 14.92,
       "words": []
     },
     {
@@ -129,7 +129,7 @@
       "kind": "fact",
       "expression": 9,
       "action": "run",
-      "duration": 15.44,
+      "duration": 17.08,
       "words": []
     },
     {
@@ -150,7 +150,7 @@
       "kind": "fact",
       "expression": 10,
       "action": "point",
-      "duration": 15.88,
+      "duration": 15.6,
       "words": []
     },
     {
@@ -171,11 +171,11 @@
       "kind": "illustration",
       "expression": 11,
       "action": "sleep",
-      "duration": 15.44,
+      "duration": 15.24,
       "words": []
     }
   ],
-  "durationInFrames": 3827,
+  "durationInFrames": 3839,
   "audio": "generated/2026-11-19T23-13-16-305Z/audio.wav",
   "incompleteMode": "unaligned_narration",
   "preview": true,
