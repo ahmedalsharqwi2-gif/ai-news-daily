@@ -77,5 +77,8 @@
       "reddit.com",
       "youtube.com"
     ]
-  }
+  },
+  "paper": true,
+  "paperTheme": "tech-dark",
+  "paperCitations": true
 }
