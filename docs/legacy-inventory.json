@@ -1,0 +1,92 @@
+{
+  "files": 453,
+  "python_syntax_errors": [],
+  "workflows": [
+    ".github/workflows/replace-noon-once.yml",
+    ".github/workflows/checks.yml",
+    ".github/workflows/remotion-cleanup.yml",
+    ".github/workflows/remotion-health.yml",
+    ".github/workflows/remotion-daily.yml"
+  ],
+  "network_publish_modules": [
+    "remotion_factory/publish.py",
+    "scripts/publish_youtube_direct.py",
+    "scripts/reschedule_existing.py",
+    "film_factory/buffer.py",
+    "film_factory/publish.py"
+  ],
+  "secret_names": [
+    "BUFFER_API_KEY",
+    "GEMINI_API_KEY",
+    "GEMINI_TEXT_API_KEY",
+    "GEMINI_TTS_API_KEY"
+  ],
+  "main_sha": "44786094df35de7f9324b4a017b2f48961e4d1a3",
+  "preserved": [
+    {
+      "path": "assets/Noto-Fonts-Copyright.txt",
+      "sha256": "075f91382875da1c4b491f1facf2586f55448705133264d98ce15cab6211b125",
+      "bytes": 5208
+    },
+    {
+      "path": "assets/NotoSansArabic-Bold.ttf",
+      "sha256": "ded6fc7359ca36d15d7aab9ef0c066e21ce48b26a069994d6602fa2cb9a1b952",
+      "bytes": 252940
+    },
+    {
+      "path": "assets/NotoSansArabic-Regular.ttf",
+      "sha256": "504d7407d86875acf7d04dfaa0fd7524d0b8797723bc4aa18022f29db25b0b6e",
+      "bytes": 244072
+    },
+    {
+      "path": "config/channel_identity.json",
+      "sha256": "30095718b48019b759d41260a7619a1ce64c26d49e129a505c96fb8d397bcda0",
+      "bytes": 580
+    },
+    {
+      "path": "state/news_history.json",
+      "sha256": "95d12ea3d3ece214f45da985f9205dd058b24e0e7636bbb5b896f58fd671dfc8",
+      "bytes": 88
+    },
+    {
+      "path": "professional_motion/branding.json",
+      "sha256": "60bb74c7b7497a0953f4b113c49ef96754896ea3fe62c423e1cd9841b90c6a55",
+      "bytes": 280
+    },
+    {
+      "path": "remotion_motion/public/fonts/Arabic-Bold.ttf",
+      "sha256": "ded6fc7359ca36d15d7aab9ef0c066e21ce48b26a069994d6602fa2cb9a1b952",
+      "bytes": 252940
+    },
+    {
+      "path": "remotion_motion/public/fonts/Arabic-Regular.ttf",
+      "sha256": "504d7407d86875acf7d04dfaa0fd7524d0b8797723bc4aa18022f29db25b0b6e",
+      "bytes": 244072
+    },
+    {
+      "path": "professional_motion/fonts/OFL-IBM-Plex.txt",
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "bytes": 4456
+    },
+    {
+      "path": "professional_motion/fonts/Noto-Fonts-Copyright.txt",
+      "sha256": "075f91382875da1c4b491f1facf2586f55448705133264d98ce15cab6211b125",
+      "bytes": 5208
+    },
+    {
+      "path": "professional_motion/fonts/NotoSansArabic-Bold.ttf",
+      "sha256": "ded6fc7359ca36d15d7aab9ef0c066e21ce48b26a069994d6602fa2cb9a1b952",
+      "bytes": 252940
+    },
+    {
+      "path": "professional_motion/fonts/IBMPlexMono-Medium.ttf",
+      "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755",
+      "bytes": 136704
+    },
+    {
+      "path": "professional_motion/assets/brand/logo.png",
+      "sha256": "3c4f8c1d66fa41e6f95e746071956e862cc77ba67951b1807a662197270d01de",
+      "bytes": 10749
+    }
+  ]
+}

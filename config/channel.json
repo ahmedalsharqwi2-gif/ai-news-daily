@@ -1,0 +1,84 @@
+{
+  "profile": "news",
+  "name": "AI على السريع",
+  "accent": "#9083ef",
+  "counter": "الخبر",
+  "maxAgeHours": 72,
+  "feeds": [
+    {
+      "url": "https://openai.com/news/rss.xml",
+      "official": true,
+      "publisher": "openai"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/rss/",
+      "official": true,
+      "publisher": "google"
+    },
+    {
+      "url": "https://blog.google/technology/ai/rss/",
+      "official": true,
+      "publisher": "google"
+    },
+    {
+      "url": "https://huggingface.co/blog/feed.xml",
+      "official": true,
+      "publisher": "huggingface"
+    },
+    {
+      "url": "https://blogs.nvidia.com/feed/",
+      "official": true,
+      "publisher": "nvidia"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/research/feed/",
+      "official": true,
+      "publisher": "microsoft"
+    },
+    {
+      "url": "https://rss.arxiv.org/rss/cs.AI",
+      "official": true,
+      "publisher": "arxiv",
+      "allowFeedAnnouncementDate": true
+    },
+    {
+      "url": "https://rss.arxiv.org/rss/cs.CL",
+      "official": true,
+      "publisher": "arxiv",
+      "allowFeedAnnouncementDate": true
+    },
+    {
+      "url": "https://hnrss.org/frontpage",
+      "official": false,
+      "publisher": "hackernews"
+    }
+  ],
+  "logo": "brand/logo/logo.png",
+  "weeklyFallback": {
+    "enabled": true,
+    "maxAgeHours": 168,
+    "maxStories": 3
+  },
+  "requiredTopicPattern": "\\b(?:AI|artificial intelligence|machine learning|large language models?|LLMs?|GPT[-\\s\\d]|Gemini|Claude|ChatGPT|DeepMind|neural networks?|generative models?)\\b|ذكاء اصطناعي|تعلم آلي|نماذج لغوية",
+  "topicSpecificPublishers": [
+    "arxiv",
+    "huggingface"
+  ],
+  "grounding": {
+    "enabled": true,
+    "useWhen": "fallback",
+    "mode": "strict",
+    "maxCandidates": 6,
+    "blockedDomains": [
+      "facebook.com",
+      "tiktok.com",
+      "pinterest.com",
+      "quora.com",
+      "reddit.com",
+      "youtube.com"
+    ]
+  },
+  "paper": true,
+  "paperTheme": "tech-dark",
+  "paperCitations": true
+}

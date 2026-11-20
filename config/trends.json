@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "mode": "rerank",
+  "googleTrends": { "geo": "EG" },
+  "autocompleteSeeds": ["ذكاء اصطناعي", "ChatGPT", "أدوات AI"],
+  "competitorChannelIds": [],
+  "onThisDay": { "enabled": false },
+  "hackerNews": { "enabled": true, "query": "AI" },
+  "redditSubreddits": [],
+  "weights": { "demand": 1.0, "recency": 0.75 },
+  "excludedTerms": []
+}

@@ -1,0 +1,668 @@
+{
+  "testedAt": "2026-11-15T22:54:20.052Z",
+  "userAgent": "AI-news-daily/2.1 (+https://github.com/ahmedalsharqwi2-gif/ai-news-daily; RSS research; cached)",
+  "minimumRequestDelayMs": 1000,
+  "cacheTtlMs": 1800000,
+  "diagnostics": [
+    {
+      "url": "https://openai.com/news/rss.xml",
+      "items": 1389,
+      "valid": 1223,
+      "invalid": 166,
+      "future": 0,
+      "status": "ok",
+      "cache": "miss"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/rss/",
+      "items": 20,
+      "valid": 18,
+      "invalid": 2,
+      "future": 0,
+      "status": "ok",
+      "cache": "miss"
+    },
+    {
+      "url": "https://blog.google/technology/ai/rss/",
+      "items": 20,
+      "valid": 18,
+      "invalid": 2,
+      "future": 0,
+      "status": "ok",
+      "cache": "miss"
+    },
+    {
+      "url": "https://huggingface.co/blog/feed.xml",
+      "items": 907,
+      "valid": 0,
+      "invalid": 907,
+      "future": 0,
+      "status": "ok",
+      "cache": "miss"
+    },
+    {
+      "url": "https://blogs.nvidia.com/feed/",
+      "items": 18,
+      "valid": 18,
+      "invalid": 0,
+      "future": 0,
+      "status": "ok",
+      "cache": "miss"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/research/feed/",
+      "items": 10,
+      "valid": 10,
+      "invalid": 0,
+      "future": 0,
+      "status": "ok",
+      "cache": "miss"
+    },
+    {
+      "url": "https://rss.arxiv.org/rss/cs.AI",
+      "items": 0,
+      "valid": 0,
+      "invalid": 0,
+      "future": 0,
+      "status": "ok",
+      "cache": "miss"
+    },
+    {
+      "url": "https://rss.arxiv.org/rss/cs.CL",
+      "items": 0,
+      "valid": 0,
+      "invalid": 0,
+      "future": 0,
+      "status": "ok",
+      "cache": "miss"
+    },
+    {
+      "url": "https://hnrss.org/frontpage",
+      "items": 20,
+      "valid": 20,
+      "invalid": 0,
+      "future": 0,
+      "status": "ok",
+      "cache": "miss"
+    }
+  ],
+  "sources": [
+    {
+      "id": "2e8f421d2ee2",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "published": "2026-11-15T22:00:01.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "openai"
+    },
+    {
+      "id": "33b95c2112c4",
+      "title": "Our new blog for science",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "published": "2026-11-15T22:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "openai"
+    },
+    {
+      "id": "7d4d71d056da",
+      "title": "Introducing ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "published": "2026-11-13T15:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "openai"
+    },
+    {
+      "id": "a99dfdd20d85",
+      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "url": "https://openai.com/business/customer-stories/shield",
+      "published": "2026-11-13T08:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "openai"
+    },
+    {
+      "id": "67672a694e38",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "url": "https://openai.com/business/customer-stories/amplitude",
+      "published": "2026-11-12T20:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "openai"
+    },
+    {
+      "id": "b9840fd67063",
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "url": "https://openai.com/business/customer-stories/gondola",
+      "published": "2026-11-12T12:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "openai"
+    },
+    {
+      "id": "4922ca6fb0dd",
+      "title": "Holiday Extras is rethinking what it can build with Codex",
+      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "published": "2026-11-12T09:30:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "openai"
+    },
+    {
+      "id": "d7c1da8cb7dc",
+      "title": "Supporting research on AI and children’s safety",
+      "url": "https://openai.com/index/children-first-declaration",
+      "published": "2026-11-12T00:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "openai"
+    },
+    {
+      "id": "65b96c238445",
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "published": "2026-11-12T00:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "openai"
+    },
+    {
+      "id": "ac94b61a25ad",
+      "title": "ChatGPT Plus for veterans and servicemembers",
+      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+      "published": "2026-11-11T08:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "openai"
+    },
+    {
+      "id": "55ff14dc4213",
+      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+      "url": "https://openai.com/index/jiostar-vijay-seshadri",
+      "published": "2026-11-11T00:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "openai"
+    },
+    {
+      "id": "0f0020abcf73",
+      "title": "Helping caregivers use AI in everyday life",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "published": "2026-11-10T12:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "openai"
+    },
+    {
+      "id": "991ad48e8559",
+      "title": "Introducing Businesses in ChatGPT",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "published": "2026-11-10T10:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "openai"
+    },
+    {
+      "id": "69d4d9d74efa",
+      "title": "Closing the AI guidance gap in education",
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "published": "2026-11-10T09:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "openai"
+    },
+    {
+      "id": "9092d5eb66f2",
+      "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+      "url": "https://openai.com/index/singapore-airlines-travel-work",
+      "published": "2026-11-10T08:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "openai"
+    },
+    {
+      "id": "f3fc54cd1d78",
+      "title": "Work at the Frontier: AI’s effect on freelance work",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "published": "2026-11-10T07:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "openai"
+    },
+    {
+      "id": "37e4452e64c8",
+      "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+      "url": "https://openai.com/index/cogent-security",
+      "published": "2026-11-10T00:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "openai"
+    },
+    {
+      "id": "caa9073cefb4",
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "published": "2026-11-09T19:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "openai"
+    },
+    {
+      "id": "952d2516af2e",
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "url": "https://openai.com/index/control-room",
+      "published": "2026-11-09T13:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "openai"
+    },
+    {
+      "id": "02e9abf47eaf",
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak",
+      "published": "2026-11-09T08:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "openai"
+    },
+    {
+      "id": "2e34e84f0999",
+      "title": "Kuken Industries searches 70 years of drawings in minutes",
+      "url": "https://openai.com/index/kuken",
+      "published": "2026-11-09T08:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "openai"
+    },
+    {
+      "id": "1c0ba4a23c77",
+      "title": "Scientists are using Google AI to help restore giant kelp forests.",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/saving-giant-kelp-australia/",
+      "published": "2026-11-12T17:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "google"
+    },
+    {
+      "id": "dd9d2f50d8fb",
+      "title": "Meet the 2026 Google PhD Fellows",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/phd-fellows-2026/",
+      "published": "2026-11-12T17:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "google"
+    },
+    {
+      "id": "f19cddd04797",
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "published": "2026-11-12T18:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "google"
+    },
+    {
+      "id": "c06fca3b9549",
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "published": "2026-11-11T18:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "google"
+    },
+    {
+      "id": "eac4d84ef949",
+      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+      "published": "2026-11-11T16:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "google"
+    },
+    {
+      "id": "8e8e851f9ac3",
+      "title": "Experience the art and legacy of Dr. Esther Mahlangu",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+      "published": "2026-11-11T09:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "google"
+    },
+    {
+      "id": "c0101f36ad82",
+      "title": "Gemini Intelligence: New features, on more devices",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+      "published": "2026-11-10T19:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "google"
+    },
+    {
+      "id": "59a8a5dd3afc",
+      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "published": "2026-11-10T14:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "google"
+    },
+    {
+      "id": "ef83b8dc18b1",
+      "title": "Google Cloud launches Gemini for healthcare.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "published": "2026-11-10T13:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "google"
+    },
+    {
+      "id": "a0730e6c360a",
+      "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
+      "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
+      "published": "2026-11-13T13:00:42.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "nvidia"
+    },
+    {
+      "id": "ed8dc20742e8",
+      "title": "A New Dawn in the Cloud: ‘Warhammer 40,000: Dawn of War IV’ Is Coming to GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-warhammer-dawn-of-war-iv-coming/",
+      "published": "2026-11-12T14:00:59.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "nvidia"
+    },
+    {
+      "id": "0a9ebdb63db3",
+      "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
+      "url": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
+      "published": "2026-11-11T03:00:20.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "nvidia"
+    },
+    {
+      "id": "9ccf20ad200f",
+      "title": "NVIDIA Expands Open Source Commitment With OpenShell Contribution and New AI Infrastructure",
+      "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+      "published": "2026-11-10T16:00:03.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "nvidia"
+    },
+    {
+      "id": "61e7ac7c7e62",
+      "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
+      "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+      "published": "2026-11-09T14:00:01.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "nvidia"
+    },
+    {
+      "id": "78a38ab1bb2e",
+      "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
+      "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+      "published": "2026-11-09T08:00:53.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "nvidia"
+    },
+    {
+      "id": "59b779471e81",
+      "title": "Korea Advances Physical AI Across Industries With NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
+      "published": "2026-11-09T05:00:40.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "nvidia"
+    },
+    {
+      "id": "d7c73c4b9a79",
+      "title": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
+      "published": "2026-11-09T05:00:39.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "nvidia"
+    },
+    {
+      "id": "51e504680490",
+      "title": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
+      "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
+      "published": "2026-11-09T05:00:04.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "nvidia"
+    },
+    {
+      "id": "1d980cecae4c",
+      "title": "NVIDIA Dynamo Recipes Bring Korea’s Leading Open Models to Production",
+      "url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
+      "published": "2026-11-09T05:00:00.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "nvidia"
+    },
+    {
+      "id": "16dbc3338bdc",
+      "title": "Microsoft Research Focus – Edition #98",
+      "url": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-98/",
+      "published": "2026-11-12T21:31:57.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "microsoft"
+    },
+    {
+      "id": "e1742b0ed40e",
+      "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+      "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+      "published": "2026-11-10T20:52:56.000Z",
+      "official": true,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "microsoft"
+    },
+    {
+      "id": "4a41bfb9fc31",
+      "title": "Old Bitly Links Are Being Hijacked",
+      "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/",
+      "published": "2026-11-15T22:11:43.000Z",
+      "official": false,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "hackernews"
+    },
+    {
+      "id": "3dae350a268c",
+      "title": "Boeing-Lockheed rocket fails mid-flight, destroys payload of Amazon satellites",
+      "url": "https://www.reuters.com/business/aerospace-defense/us-rocket-fails-after-launch-payload-amazon-internet-satellites-destroyed-2026-11-15/",
+      "published": "2026-11-15T21:38:11.000Z",
+      "official": false,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "hackernews"
+    },
+    {
+      "id": "eac411a95019",
+      "title": "Your Agent Will Pick the Hackable One",
+      "url": "https://geoffstearns.com/blog/your-agent-will-pick-the-hackable-one/",
+      "published": "2026-11-15T21:10:39.000Z",
+      "official": false,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "hackernews"
+    },
+    {
+      "id": "fdbabb74a9b6",
+      "title": "Vulcan rocket fails during return-to-flight launch, 40 Amazon satellites lost",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch",
+      "published": "2026-11-15T20:37:28.000Z",
+      "official": false,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "hackernews"
+    },
+    {
+      "id": "54d089d240e3",
+      "title": "WebGL Flight Simulator with seed generated terrain",
+      "url": "https://baron.by.dai.studio/",
+      "published": "2026-11-15T20:20:05.000Z",
+      "official": false,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "hackernews"
+    },
+    {
+      "id": "ee6d659a6ec6",
+      "title": "Do House members' stock trades beat the market? A test of 8,900 trades",
+      "url": "https://arkanumdata.com/research/house-trades",
+      "published": "2026-11-15T19:46:02.000Z",
+      "official": false,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "hackernews"
+    },
+    {
+      "id": "6b4c77709760",
+      "title": "Handwriting, as a Font",
+      "url": "https://ductus.sorenblank.com",
+      "published": "2026-11-15T19:42:13.000Z",
+      "official": false,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "hackernews"
+    },
+    {
+      "id": "56669394d3aa",
+      "title": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
+      "url": "https://bruceroettgers.eu/blog/protomaps/",
+      "published": "2026-11-15T19:26:22.000Z",
+      "official": false,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "hackernews"
+    },
+    {
+      "id": "d65ff10a8650",
+      "title": "Eclipse Mosquitto – An open source MQTT broker",
+      "url": "https://github.com/eclipse-mosquitto/mosquitto",
+      "published": "2026-11-15T18:36:40.000Z",
+      "official": false,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "hackernews"
+    },
+    {
+      "id": "88fe434bf798",
+      "title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
+      "url": "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html",
+      "published": "2026-11-15T18:36:10.000Z",
+      "official": false,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "hackernews"
+    },
+    {
+      "id": "7895a3ff8eb2",
+      "title": "A short explainer on how El Niño works [video]",
+      "url": "https://www.youtube.com/watch?v=7_JF3etiAv8",
+      "published": "2026-11-15T18:23:21.000Z",
+      "official": false,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "hackernews"
+    },
+    {
+      "id": "45d7221487cb",
+      "title": "'Birdbrain' Is a Misnomer. Crows Make Decisions Faster Than We Can",
+      "url": "https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html",
+      "published": "2026-11-15T17:53:31.000Z",
+      "official": false,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "hackernews"
+    },
+    {
+      "id": "2a1718ef6b8f",
+      "title": "Clice v1.0 Released: Welcome to Modern C++",
+      "url": "https://ykiko.me/en/articles/2105384023094834022/",
+      "published": "2026-11-15T17:22:32.000Z",
+      "official": false,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "hackernews"
+    },
+    {
+      "id": "2d856116026b",
+      "title": "Emacs Is My Browser",
+      "url": "https://joshblais.com/blog/emacs-as-my-browser/",
+      "published": "2026-11-15T15:21:21.000Z",
+      "official": false,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "hackernews"
+    },
+    {
+      "id": "8b9fd5e8fcaa",
+      "title": "All AI-generated code should be Open Source",
+      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "published": "2026-11-15T14:46:58.000Z",
+      "official": false,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "hackernews"
+    },
+    {
+      "id": "d27638383af2",
+      "title": "Things That Turbo Pascal Is Smaller Than (2011)",
+      "url": "https://prog21.dadgum.com/116.html",
+      "published": "2026-11-15T13:44:16.000Z",
+      "official": false,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "hackernews"
+    },
+    {
+      "id": "b14335f00a8d",
+      "title": "The MacBook Pro's OLED PWM problem",
+      "url": "https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/",
+      "published": "2026-11-15T13:15:22.000Z",
+      "official": false,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "hackernews"
+    },
+    {
+      "id": "92b19f4c232f",
+      "title": "A NES emulator written in Odin",
+      "url": "https://lucypero.com/lucynes.html",
+      "published": "2026-11-15T12:51:47.000Z",
+      "official": false,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "hackernews"
+    },
+    {
+      "id": "eba8c0480eb8",
+      "title": "Understanding Positional Embeddings in Modern LLMs",
+      "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "published": "2026-11-15T12:14:06.000Z",
+      "official": false,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "hackernews"
+    },
+    {
+      "id": "0cf390e5319b",
+      "title": "Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business",
+      "url": "https://www.nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html",
+      "published": "2026-11-15T11:40:51.000Z",
+      "official": false,
+      "dateBasis": "item_publication_or_update",
+      "publisher": "hackernews"
+    }
+  ],
+  "selection": {
+    "mode": "daily",
+    "label": null,
+    "windowHours": 72,
+    "title": "A step toward defining the Standard Model on a lattice",
+    "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+    "verification": [
+      {
+        "id": "2e8f421d2ee2",
+        "basis": "official_primary_source",
+        "sourceIds": [
+          "2e8f421d2ee2"
+        ]
+      }
+    ]
+  },
+  "parsedSourceCount": 1303,
+  "omittedHistoricalCount": 1241,
+  "sourceListScope": "Only last 168 hours retained here; all per-feed counts above reflect complete actual parsing."
+}
