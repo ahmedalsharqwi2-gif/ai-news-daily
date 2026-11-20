@@ -1,0 +1,185 @@
+{
+  "title": "مستقبل العلم مع وكلاء الذكاء الاصطناعي",
+  "editorialLabel": null,
+  "scenes": [
+    {
+      "title": "بداية عصر الوكلاء",
+      "text": "في مؤتمر سوبر كمبيوتر ستة وعشرين في شيكاغو، أعلنت إنفيديا عن أدوات جديدة للوكلاء الأذكياء، وهي برمجيات قادرة على التخطيط للتجارب وتشغيل الأكواد وفحص النتائج بدقة عالية جداً على أنظمة الباحثين.",
+      "summary": "إعلان إنفيديا عن أدوات وكلاء الذكاء الاصطناعي.",
+      "keyword": "وكلاء الذكاء الاصطناعي",
+      "template": "phenomenon",
+      "labels": [
+        "إنفيديا",
+        "ذكاء اصطناعي",
+        "بحث علمي"
+      ],
+      "values": [],
+      "claim": "إنفيديا تطلق أدوات جديدة للوكلاء الأذكياء.",
+      "sourceId": "49e988fe9449",
+      "evidence": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents",
+      "kind": "fact",
+      "expression": 5,
+      "action": "point",
+      "duration": 15.56,
+      "words": []
+    },
+    {
+      "title": "نموترون للعلوم",
+      "text": "تم الكشف عن نموذج نموترون للعلوم، وهو يجمع بين نموذج نموترون ثلاثة فاصلة خمسة ومجموعة بيانات كيميائية مفتوحة، مما يساعد الباحثين في علوم الحياة والكيمياء على العمل محلياً على أجهزتهم الخاصة.",
+      "summary": "إطلاق نموذج نموترون للعلوم للباحثين.",
+      "keyword": "نموترون",
+      "template": "comparison",
+      "labels": [
+        "كيمياء",
+        "علوم الحياة",
+        "نماذج مفتوحة"
+      ],
+      "values": [],
+      "claim": "نموترون للعلوم يسهل الأبحاث الكيميائية.",
+      "sourceId": "49e988fe9449",
+      "evidence": "Nemotron for Science combines the Nemotron 3.5 Super VL open model with a new open chemistry dataset",
+      "kind": "fact",
+      "expression": 6,
+      "action": "walk",
+      "duration": 16.96,
+      "words": []
+    },
+    {
+      "title": "إنجازات في المختبر",
+      "text": "في مختبر أرغون الوطني، نجح وكيل ذكي في التخطيط واختبار فرضيات علمية، واختار محاكاة معينة أدت لاكتشاف موقعين جديدين للارتباط، مما يثبت قدرة الوكلاء على تسريع وتيرة الاكتشافات العلمية بشكل مذهل.",
+      "summary": "وكيل ذكي يكتشف مواقع ارتباط جديدة.",
+      "keyword": "مختبر أرغون",
+      "template": "steps",
+      "labels": [
+        "اكتشاف",
+        "أرغون",
+        "فرضيات"
+      ],
+      "values": [],
+      "claim": "الوكلاء يسرعون الاكتشافات العلمية.",
+      "sourceId": "49e988fe9449",
+      "evidence": "an agent built with the toolkit took a single prompt, planned and tested hypotheses, chose which simulations to run and identified two new binding sites.",
+      "kind": "fact",
+      "expression": 8,
+      "action": "jump",
+      "duration": 17.64,
+      "words": []
+    },
+    {
+      "title": "إصلاح الأخطاء ذاتياً",
+      "text": "وكيل آخر من المعهد الملكي للتكنولوجيا في السويد أثبت كفاءة عالية في إصلاح إعدادات برمجية معطلة، حيث نجح في إصلاح واحد وثمانين بالمائة من حالات الاختبار خلال تشغيل ليلي واحد فقط.",
+      "summary": "وكيل يصلح الأخطاء البرمجية بكفاءة.",
+      "keyword": "إصلاح ذاتي",
+      "template": "chart",
+      "labels": [
+        "برمجة",
+        "أخطاء",
+        "كفاءة"
+      ],
+      "values": [
+        81
+      ],
+      "claim": "الوكيل أصلح واحد وثمانين بالمائة من الأخطاء.",
+      "sourceId": "49e988fe9449",
+      "evidence": "In one overnight run on a single DGX Spark, it fixed 81% of test cases.",
+      "kind": "fact",
+      "expression": 9,
+      "action": "turn",
+      "duration": 14.8,
+      "words": []
+    },
+    {
+      "title": "تسريع الحوسبة",
+      "text": "وكيل إنفيديا الجديد لنقل الأكواد ساهم في تسريع نموذج التنبؤ بالطقس لأكثر من خمسة أضعاف، باستخدام حوالي مائة وخمسين مليون رمز، مما يوضح القوة الكبيرة لهذه الأدوات في تحسين الأداء.",
+      "summary": "تسريع نماذج الطقس خمسة أضعاف.",
+      "keyword": "تسريع",
+      "template": "comparison",
+      "labels": [
+        "طقس",
+        "تسريع",
+        "أداء"
+      ],
+      "values": [
+        5
+      ],
+      "claim": "الوكيل سرع النموذج خمسة أضعاف.",
+      "sourceId": "49e988fe9449",
+      "evidence": "NVIDIA’s new agent ported a routine from the Weather Research and Forecasting (WRF) model to GPUs, Buck said, speeding it up more than 5x",
+      "kind": "fact",
+      "expression": 7,
+      "action": "run",
+      "duration": 14.48,
+      "words": []
+    },
+    {
+      "title": "ثورة الحوسبة الكمومية",
+      "text": "تم الإعلان عن تعاون مع آي بي إم ومختبر فيرمي لتطوير منصة حوسبة كمومية، حيث نجح خوارزم جديد في تقليل وقت حساب تصحيح الأخطاء من اثني عشر أسبوعاً إلى خمس وأربعين دقيقة فقط.",
+      "summary": "تقليل زمن تصحيح الأخطاء الكمومية.",
+      "keyword": "حوسبة كمومية",
+      "template": "comparison",
+      "labels": [
+        "كمومية",
+        "آي بي إم",
+        "تصحيح أخطاء"
+      ],
+      "values": [],
+      "claim": "تقليل زمن الحساب من أسابيع لدقائق.",
+      "sourceId": "49e988fe9449",
+      "evidence": "A new CUDA-Q decoding algorithm, TCBP-JOBS, cuts error-correction research computation from 12 weeks to 45 minutes, he said.",
+      "kind": "fact",
+      "expression": 10,
+      "action": "point",
+      "duration": 14.6,
+      "words": []
+    },
+    {
+      "title": "مستقبل الأجهزة",
+      "text": "مع معالجات فيرا الجديدة ومعالج الرسوميات روبن، تستعد إنفيديا لعام ألفين وثمانية وعشرين، حيث توفر هذه الأجهزة قوة هائلة لدعم الذكاء الاصطناعي والعلوم، مع زيادة في عدد الأنوية بثلاثة أضعاف.",
+      "summary": "أجهزة جديدة قوية لعام ألفين وثمانية وعشرين.",
+      "keyword": "روبن",
+      "template": "journey",
+      "labels": [
+        "أجهزة",
+        "إنفيديا",
+        "مستقبل"
+      ],
+      "values": [
+        3
+      ],
+      "claim": "روبن لديها ثلاثة أضعاف أنوية هوبر.",
+      "sourceId": "49e988fe9449",
+      "evidence": "With more than 50,000 CUDA cores, it has about three times as many as Hopper, Buck said.",
+      "kind": "fact",
+      "expression": 11,
+      "action": "walk",
+      "duration": 17.96,
+      "words": []
+    },
+    {
+      "title": "خاتمة",
+      "text": "هذا هو العلم في عصر الوكلاء، حيث تتحد المحاكاة مع الذكاء الاصطناعي والحوسبة الكمومية لتغيير كل شيء. لا تنسوا الاشتراك في القناة ليصلكم كل جديد عن هذه التطورات التقنية المذهلة.",
+      "summary": "خاتمة عن مستقبل العلم والذكاء الاصطناعي.",
+      "keyword": "مستقبل",
+      "template": "phenomenon",
+      "labels": [
+        "خاتمة",
+        "تقنية",
+        "اشتراك"
+      ],
+      "values": [],
+      "claim": "الوكلاء يغيرون مستقبل العلم.",
+      "sourceId": "49e988fe9449",
+      "evidence": "The frontier of computing and the new scientific stack is going to be simulation, as always, but combined with AI and the future of quantum",
+      "kind": "illustration",
+      "expression": 5,
+      "action": "point",
+      "duration": 16.48,
+      "words": []
+    }
+  ],
+  "durationInFrames": 3855,
+  "audio": "generated/2026-11-20T01-22-10-139Z/audio.wav",
+  "incompleteMode": "unaligned_narration",
+  "preview": true,
+  "incomplete": true
+}

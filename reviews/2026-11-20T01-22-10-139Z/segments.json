@@ -1,0 +1,186 @@
+[
+  {
+    "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-20T01-22-10-139Z/scene-0.wav",
+    "duration": 15.56,
+    "text": "في مؤتمر سوبر كمبيوتر ستة وعشرين في شيكاغو، أعلنت إنفيديا عن أدوات جديدة للوكلاء الأذكياء، وهي برمجيات قادرة على التخطيط للتجارب وتشغيل الأكواد وفحص النتائج بدقة عالية جداً على أنظمة الباحثين.",
+    "sha256": "580ba7791aa843f0bfac644def5344d3ba5cf0c167b5bab1fea7024b2fe1f50b",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 0,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "3fffc5849a686fdac0a8605955b7c22134af29f6cb4dad0ed0f6557709b0420f",
+        "sha256": "580ba7791aa843f0bfac644def5344d3ba5cf0c167b5bab1fea7024b2fe1f50b",
+        "text_sha256": "073ced6fe9bd8a207ac4e1eb963266b7cd0dec7ce28a82b7fdd0add55893cb4b",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 746958,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-20T01-22-10-139Z/scene-1.wav",
+    "duration": 16.96,
+    "text": "تم الكشف عن نموذج نموترون للعلوم، وهو يجمع بين نموذج نموترون ثلاثة فاصلة خمسة ومجموعة بيانات كيميائية مفتوحة، مما يساعد الباحثين في علوم الحياة والكيمياء على العمل محلياً على أجهزتهم الخاصة.",
+    "sha256": "d931b87a96f745b9196985b30872662ab55a020d43c224626b20cbb6eff047ad",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 1,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "ec18e065843cd7de93edfa1b185530c48a8f2303f3d6023e2e59ba5687012196",
+        "sha256": "d931b87a96f745b9196985b30872662ab55a020d43c224626b20cbb6eff047ad",
+        "text_sha256": "80b87d612cd1ddb10489f3e73127968bcbe7a12ef270429c9cf2e556393b5782",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 814158,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-20T01-22-10-139Z/scene-2.wav",
+    "duration": 17.64,
+    "text": "في مختبر أرغون الوطني، نجح وكيل ذكي في التخطيط واختبار فرضيات علمية، واختار محاكاة معينة أدت لاكتشاف موقعين جديدين للارتباط، مما يثبت قدرة الوكلاء على تسريع وتيرة الاكتشافات العلمية بشكل مذهل.",
+    "sha256": "7e28b77bf3227ab9203c373eb8ad902d73b147d2f4ba775da1b9c49252b2e3b6",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 2,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "c22a5303941ef8868d5ff8a061cb57f3c9897a75d9a3068cde1800cc3e137f46",
+        "sha256": "7e28b77bf3227ab9203c373eb8ad902d73b147d2f4ba775da1b9c49252b2e3b6",
+        "text_sha256": "251bc3523bda86bdcc9aa6c72e0615b272a062efc661cc08a440930c4335ccc8",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 846798,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-20T01-22-10-139Z/scene-3.wav",
+    "duration": 14.8,
+    "text": "وكيل آخر من المعهد الملكي للتكنولوجيا في السويد أثبت كفاءة عالية في إصلاح إعدادات برمجية معطلة، حيث نجح في إصلاح واحد وثمانين بالمائة من حالات الاختبار خلال تشغيل ليلي واحد فقط.",
+    "sha256": "78148a7e4105541dc27e7e484cbb84fa51724c6f64780de7619303026fe4719b",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 3,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "74a6dfc758285a6e8a618ed5fbe874ae3429c0914824b9b063f20ac79c5de099",
+        "sha256": "78148a7e4105541dc27e7e484cbb84fa51724c6f64780de7619303026fe4719b",
+        "text_sha256": "dc65778bdca6a95d17405550423fb6617a94f07719688801d2fa606971396796",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 710478,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-20T01-22-10-139Z/scene-4.wav",
+    "duration": 14.48,
+    "text": "وكيل إنفيديا الجديد لنقل الأكواد ساهم في تسريع نموذج التنبؤ بالطقس لأكثر من خمسة أضعاف، باستخدام حوالي مائة وخمسين مليون رمز، مما يوضح القوة الكبيرة لهذه الأدوات في تحسين الأداء.",
+    "sha256": "91f5b9e870118c49b2778908f8f68edcbae73986d0b0c0878440c3730692c713",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 4,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "07ee633a213d1a48d85327f7418d438d2005a9ee03630f087092cc0f4dfd7676",
+        "sha256": "91f5b9e870118c49b2778908f8f68edcbae73986d0b0c0878440c3730692c713",
+        "text_sha256": "35420a77d3186db3d5206d7a3b11031b9b1fb19baf5b47584b4e65e27c6badd7",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 695118,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-20T01-22-10-139Z/scene-5.wav",
+    "duration": 14.6,
+    "text": "تم الإعلان عن تعاون مع آي بي إم ومختبر فيرمي لتطوير منصة حوسبة كمومية، حيث نجح خوارزم جديد في تقليل وقت حساب تصحيح الأخطاء من اثني عشر أسبوعاً إلى خمس وأربعين دقيقة فقط.",
+    "sha256": "c66646f263603a74e7af185cb6b6045778bfb11163ff4c3053a447770e718f2f",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 5,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "53d6c4a7b6303df095cfff8c052dd331222d4d508dd8960554a1201dec239cf5",
+        "sha256": "c66646f263603a74e7af185cb6b6045778bfb11163ff4c3053a447770e718f2f",
+        "text_sha256": "015f0291a544a8ffc51f28b6f2f542adf3109be594da2257f81b564c7f669092",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 700878,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-20T01-22-10-139Z/scene-6.wav",
+    "duration": 17.96,
+    "text": "مع معالجات فيرا الجديدة ومعالج الرسوميات روبن، تستعد إنفيديا لعام ألفين وثمانية وعشرين، حيث توفر هذه الأجهزة قوة هائلة لدعم الذكاء الاصطناعي والعلوم، مع زيادة في عدد الأنوية بثلاثة أضعاف.",
+    "sha256": "fe2dd46879d29af443c55cdbf852f85a2fc51d1f3d5e846fdf7c5bed2409731b",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 6,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "f8565cf56eedb183df5a3024a70f5f3c0db7a339649f56f013624ed8f15cefef",
+        "sha256": "fe2dd46879d29af443c55cdbf852f85a2fc51d1f3d5e846fdf7c5bed2409731b",
+        "text_sha256": "583e220ce9e9f4b8b3ae58f25584a879caf2a052c7cfbaacc96de9777d735b81",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 862158,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/ai-news-daily/ai-news-daily/public/generated/2026-11-20T01-22-10-139Z/scene-7.wav",
+    "duration": 16.48,
+    "text": "هذا هو العلم في عصر الوكلاء، حيث تتحد المحاكاة مع الذكاء الاصطناعي والحوسبة الكمومية لتغيير كل شيء. لا تنسوا الاشتراك في القناة ليصلكم كل جديد عن هذه التطورات التقنية المذهلة.",
+    "sha256": "8382f64de7e634e24dfe98037c6e400343a6e89fee07de0dfbc738cf74bfd9bb",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 7,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "a4e835eb56f11bd2c6802b7fcc3b7854235e11cc888a796a4e1737b9672c5744",
+        "sha256": "8382f64de7e634e24dfe98037c6e400343a6e89fee07de0dfbc738cf74bfd9bb",
+        "text_sha256": "cf0a4e28c032b4a17cbaeed8f8d90dc9fcdb8ec724fcee144783e244bc721c83",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 791118,
+        "reused": false
+      }
+    ]
+  }
+]
